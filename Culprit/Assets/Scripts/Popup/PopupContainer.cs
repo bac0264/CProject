@@ -33,15 +33,49 @@ public class PopupContainer : MonoBehaviour
     public void GetQuestionPopup()
     {
         GameObject obj = Instantiate(questionPopup.gameObject, container);
+        QuestionPopup popup = obj.GetComponent<QuestionPopup>();
+        if (popup != null) popup.ShowPopup();
     }
 
     //---------------------------------------
-    public void SetupQuestionBtn()
+    public void ShowQuestionPopup()
     {
         if (QuestionPopup.instance == null) GetQuestionPopup();
         if (QuestionPopup.instance != null)
         {
             QuestionPopup.instance.ShowPopup();
+        }
+    }
+    public void ShowCorrectPopup()
+    {
+        if (CorrectPopup.instance == null) GetCorrectPopupPrefab();
+        if (CorrectPopup.instance != null)
+        {
+            CorrectPopup.instance.ShowPopup();
+        }
+    }
+    public void ShowIncorrectPopup()
+    {
+        if (IncorrectPopup.instance == null) GetIncorrectPopup();
+        if (IncorrectPopup.instance != null)
+        {
+            IncorrectPopup.instance.ShowPopup();
+        }
+    }
+    public void ShowWinPopup()
+    {
+        if (WinPopup.instance == null) GetWinPopup();
+        if (WinPopup.instance != null)
+        {
+            WinPopup.instance.ShowPopup();
+        }
+    }
+    public void ShowLosePopup()
+    {
+        if (LosePopup.instance == null) GetLosePopup();
+        if (LosePopup.instance != null)
+        {
+            LosePopup.instance.ShowPopup();
         }
     }
 }

@@ -18,6 +18,7 @@ public class Stage : CellView, IShowStage, IPointerClickHandler, IHide, IOpen
     public BlockUnitStage[] _blockList;
     public Image stageImage;
 
+    public Text type;
     public int index;
     public int amountOfUnitStage;
 
@@ -164,6 +165,7 @@ public class Stage : CellView, IShowStage, IPointerClickHandler, IHide, IOpen
     public Transform unitStageContainer;
     private void OnValidate()
     {
+        if (type == null) type = GetComponentInChildren<Text>();
         if (stageImage == null) stageImage = GetComponent<Image>();
     }
     #endregion

@@ -31,7 +31,7 @@ public class ButtonPickupScene : MonoBehaviour
     {
         for (int i = 0; i < btnScenes.Count; i++)
         {
-            if (i == 0) SetBtnSceneDisplay(unitMode2,i);
+            if (i == 0) SetBtnSceneDisplay(unitMode2, i);
             int z = i;
             btnScenes[z].onClick.AddListener(delegate { SetBtnSceneDisplay(unitMode2, z); });
         }
@@ -60,6 +60,10 @@ public class ButtonPickupScene : MonoBehaviour
                 }
                 else if (i == unitMode2.MaxIndexScene)
                 {
+                    if (unitMode2.MaxIndexScene == (unitMode2.correctAnswerBtns.Count -1)) {
+                        btnScenes[i].GetComponent<Image>().sprite = spriteList[passed];
+                    }
+                    else
                     btnScenes[i].GetComponent<Image>().sprite = spriteList[current];
                 }
                 else

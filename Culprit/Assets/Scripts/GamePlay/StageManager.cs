@@ -12,6 +12,7 @@ public class StageManager : MonoBehaviour
 {
     public static StageManager instance;
     public Sprite[] _spriteList;
+    public string[] titles;
     public Stage[] _stageList;
     public event Action<Stage> OnRightClickStageEvent;
     public Button[] btns;
@@ -124,14 +125,6 @@ public class StageManager : MonoBehaviour
                 btns[i].gameObject.SetActive(false);
         }
     }
-    //public UnitStage GetUnitStage(int Stage, int uniStage)
-    //{
-    //    return _stageList[Stage].GetUnitStage(uniStage);
-    //}
-    //public Stage GetStage(int Stage)
-    //{
-    //    return _stageList[Stage];
-    //}
     // Load Onvalidate
     #region
     // Thread: Enhance Scroller create object attaching Stage Script -> Stage Manager get Stage array.
@@ -146,36 +139,9 @@ public class StageManager : MonoBehaviour
         for(int i = 0; i < _stageList.Length && i < _spriteList.Length; i++)
         {
             _stageList[i].gameObject.GetComponent<Image>().sprite = _spriteList[i];
+            _stageList[i].type.text = titles[i];
         }
-        //List<List<Unit>> list = new List<List<Unit>>();
-        //int amount = LoadUnitOnvalidate.instance.GetAmountStage();
-        //bool check = false;
-        //for (int i = 0; i < amount; i++)
-        //{
-        //    List<Unit> _list = new List<Unit>();
-        //    for (int j = 0; j < unitList.Length; j++)
-        //    {
-        //        if (unitList[j].indexStage == i)
-        //        {
-        //            check = true;
-        //            _list.Add(unitList[j]);
-        //        }
-        //    }
-        //    if (check)
-        //    {
-        //        list.Add(_list);
-        //        check = false;
-        //    }
-        //}
-        //int k = 0;
-        //for (; k < _stageList.Length && k < list.Count; k++)
-        //{
-        //    _stageList[k].LoadUnit(list[k].ToArray());
-        //}
-        //for (; k < _stageList.Length; k++)
-        //{
-        //    _stageList[k].gameObject.SetActive(false);
-        //}
+
         //_stageList = GetComponentsInChildren<Stage>();
     }
     public void SetupEvent()

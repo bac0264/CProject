@@ -42,19 +42,11 @@ public class UnitMode2 : Unit
     // Show popup if incorrect
     public void Incorrect()
     {
-        if (IncorrectPopup.instance == null) PopupContainer.instance.GetIncorrectPopup();
-        if (IncorrectPopup.instance != null)
-        {
-            IncorrectPopup.instance.ShowPopup();
-        }
+        if (PopupContainer.instance != null) PopupContainer.instance.ShowIncorrectPopup();
     }
     public void Correct()
     {
-        if (CorrectPopup.instance == null) PopupContainer.instance.GetCorrectPopupPrefab();
-        if (CorrectPopup.instance != null)
-        {
-            CorrectPopup.instance.ShowPopup();
-        }
+        if (PopupContainer.instance != null) PopupContainer.instance.ShowCorrectPopup();
     }
     public void OpenScene()
     {
@@ -81,6 +73,7 @@ public class UnitMode2 : Unit
             ButtonPickupScene.instance.OpenBtn(MaxIndexScene);
             correctAnswerBtns[MaxIndexScene - 1].gameObject.SetActive(false);
             correctAnswerBtns[MaxIndexScene].gameObject.SetActive(true);
+            if (PopupContainer.instance != null) PopupContainer.instance.ShowQuestionPopup();
         }
     }
     public override void Next()
@@ -89,9 +82,11 @@ public class UnitMode2 : Unit
         {
             CurIndexScene++;
             ButtonPickupScene.instance.SetBtnSceneDisplay(this,CurIndexScene);
+            if (PopupContainer.instance != null) PopupContainer.instance.ShowQuestionPopup();
         }
         else
         {
+            Debug.Log("run");
             MaxIndexScene++;
             CurIndexScene = MaxIndexScene;
             OpenScene();
@@ -125,6 +120,7 @@ public class UnitMode2 : Unit
                         UnitStage unitStage = ButtonStageManager.instance.unitStage;
                         ButtonStageManager.instance.stage.LoadImageForAllUnitStage();
                         StageManager.instance.NextLevel(unitStage);
+                        if (PopupContainer.instance != null) PopupContainer.instance.ShowQuestionPopup();
                     }
                 }
             }

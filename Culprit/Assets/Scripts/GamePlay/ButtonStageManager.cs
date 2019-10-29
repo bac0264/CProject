@@ -44,6 +44,7 @@ public class ButtonStageManager : MonoBehaviour
         {
             Mode2Cotnainer.SetActive(true);
             SetupBtnMode();
+            if (PopupContainer.instance != null) PopupContainer.instance.ShowQuestionPopup();
         }
         subCamm_1.gameObject.SetActive(true);
         mainCam.gameObject.SetActive(false);
@@ -83,19 +84,11 @@ public class ButtonStageManager : MonoBehaviour
     {
         if (unit.isWin)
         {
-            if (WinPopup.instance == null) PopupContainer.instance.GetWinPopup();
-            if (WinPopup.instance != null)
-            {
-                WinPopup.instance.ShowPopup();
-            }
+            if (PopupContainer.instance != null) PopupContainer.instance.ShowWinPopup();
         }
         else
         {
-            if (LosePopup.instance == null) PopupContainer.instance.GetLosePopup();
-            if (LosePopup.instance != null)
-            {
-                LosePopup.instance.ShowPopup();
-            }
+            if (PopupContainer.instance != null) PopupContainer.instance.ShowLosePopup();
         }
     }
     #endregion
