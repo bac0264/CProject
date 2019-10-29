@@ -6,12 +6,16 @@ public class LoadDataHelper : MonoBehaviour
 {
 
     public TextAsset QuestionData;
-    public QuestionDataContainer dataList;
- 
+    public QuestionDataContainer quesList;
+
+    public TextAsset AnswerData;
+    public AnswerDataContainer ansList;
     public void LoadData()
     {
-        var dataLoaded = CSVReader.Read(QuestionData);
-        dataList.LoadQuestionData(dataLoaded);   
+        var dataQues = CSVReader.Read(QuestionData);
+        quesList.LoadQuestionData(dataQues);
+        var dataAns = CSVReader.Read(AnswerData);
+        ansList.LoadQuestionData(dataAns);
     }
 
 }

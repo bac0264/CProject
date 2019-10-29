@@ -13,15 +13,13 @@ public class UnitStage : MonoBehaviour, IShowStage, IPointerClickHandler, IHide,
     private const int PASSED = 0;
     private const int CURRENT = 1;
     private const int HIDE = 2;
-    private Color defaultColor = new Color(1, 1, 1, 1);
-    private Color hide = new Color(1, 1, 1, 100f / 255f);
-
     public int _index;
     public bool _isPass;
     public bool _isOpen;
 
-    public SpriteUnitStageSO unitSprite;
+  //  public SpriteUnitStageSO unitSprite;
     public Unit unit;
+    public GameObject[] spriteList;
 
     public Text level;
     public Image unitImage;
@@ -76,23 +74,20 @@ public class UnitStage : MonoBehaviour, IShowStage, IPointerClickHandler, IHide,
         if (_index < curUnitStage)
         {
             enabled = true;
-            level.color = defaultColor;
-            unitImage.color = defaultColor;
-            unitImage.sprite = unitSprite.GetSprite(PASSED);
+            level.gameObject.SetActive(true);
+            SetupImage(PASSED);
         }
         else if (_index == curUnitStage)
         {
             enabled = true;
-            level.color = defaultColor;
-            unitImage.color = defaultColor;
-            unitImage.sprite = unitSprite.GetSprite(CURRENT);
+            level.gameObject.SetActive(true);
+            SetupImage(CURRENT);
         }
         else
         {
             enabled = false;
-            level.color = hide;
-            unitImage.color = hide;
-            unitImage.sprite = unitSprite.GetSprite(HIDE);
+            level.gameObject.SetActive(false);
+            SetupImage(HIDE);
         }
     }
     public void LoadUnit(Unit unit)
@@ -104,6 +99,17 @@ public class UnitStage : MonoBehaviour, IShowStage, IPointerClickHandler, IHide,
     {
         if (ButtonStageManager.instance != null)
             ButtonStageManager.instance.TurnOn_Subcam(this);
+    }
+    public void SetupImage(int index)
+    {
+        for (int i = 0; i < spriteList.Length; i++)
+        {
+            if(index == i) spriteList[i].SetActive(true);
+            else
+            {
+                spriteList[i].SetActive(false);
+            }
+        }
     }
     // Onvalidate
     #region

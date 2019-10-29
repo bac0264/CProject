@@ -28,9 +28,6 @@ public class QuestionPopup : BasePopup
     }
     public string GetQuestion(int Stage, int UnitStage, int indexScene)
     {
-        Debug.Log(Stage);
-        Debug.Log(UnitStage);
-        Debug.Log(questData.questionList.Count);
         for(int i = 0; i < questData.questionList.Count; i++)
         {
             if(questData.questionList[i].MODE == (Stage+1) && questData.questionList[i].LEVEL == (UnitStage + 1))

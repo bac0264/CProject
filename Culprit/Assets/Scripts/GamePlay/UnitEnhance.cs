@@ -21,49 +21,23 @@ public class UnitEnhance : SimpleDemo
     public override float GetCellViewSize(EnhancedScroller scroller, int dataIndex)
     {
         // in this example, even numbered cells are 30 pixels tall, odd numbered cells are 100 pixels tall
-        return (dataIndex % 2 == 0 ? 1080 : 1080);
+        return (dataIndex % 2 == 0 ? 1070 : 1070);
     }
 
-    //public override void LoadLargeData()
-    //{
-    //    int amount = 20;
-    //    // set up some simple data
-    //    _data = new SmallList<Data>();
-    //    for (var i = 0; i < amount; i++)
-    //    {
-    //        _data.Add(new DataUnitStage() { index = i });
-    //    }
-    //    // tell the scroller to reload now that we have the data
-    //    scroller.ReloadData();
-    //}
-    //public void LoadLargeData(int amount, int indexStage)
-    //{
-    //    _data.Clear();
-    //    // set up some simple data
-    //    for (var i = 0; i < amount; i++)
-    //    {
-    //        _data.Add(new DataUnitStage() { indexStage = indexStage, indexUnitStage = i });
-    //    }
-    //    // tell the scroller to reload now that we have the data
-    //    scroller.ReloadData();
-    //}
     public void LoadData(int amount, int _indexStage)
     {
-        int size = 20;
         _dataList.Clear();
-        int temp = amount / size;
+        int temp = amount / KeySave.SIZE_OF_BLOCK;
         // set up some simple data
         if (temp != 0)
         {
             int j = 0;
-            Debug.Log(j);
             for (var i = 0; i <= temp; i++)
             {
                 List<Data> data = new List<Data>();
 
-                for (; j < amount && j < (size * (i + 1)); j++)
+                for (; j < amount && j < (KeySave.SIZE_OF_BLOCK * (i + 1)); j++)
                 {
-                    Debug.Log(j);
                     DataUnitStage _data = new DataUnitStage() { indexStage = _indexStage, indexUnitStage = j };
                     data.Add(_data);
                 }

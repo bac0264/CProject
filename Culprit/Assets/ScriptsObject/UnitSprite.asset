@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: UnitSprite
   m_EditorClassIdentifier: 
   sprites:
-  - {fileID: 21300000, guid: 19dfe8a7604be5342845ce695fb80518, type: 3}
-  - {fileID: 21300002, guid: 19dfe8a7604be5342845ce695fb80518, type: 3}
-  - {fileID: 21300004, guid: 19dfe8a7604be5342845ce695fb80518, type: 3}
+  - {fileID: 21300004, guid: a7ba8068d7baed14eb85cfc718eca86b, type: 3}
+  - {fileID: 21300008, guid: a7ba8068d7baed14eb85cfc718eca86b, type: 3}
+  - {fileID: 21300006, guid: a7ba8068d7baed14eb85cfc718eca86b, type: 3}

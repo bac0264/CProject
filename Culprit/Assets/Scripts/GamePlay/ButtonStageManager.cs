@@ -6,6 +6,7 @@ public class ButtonStageManager : MonoBehaviour
 {
     public static ButtonStageManager instance;
     public ButtonPickUpAnswer btnPickup;
+    public ButtonPickupScene btnPickupScene;
     public Camera mainCam;
     public Camera subCamm_1;
     public Stage stage;
@@ -14,7 +15,6 @@ public class ButtonStageManager : MonoBehaviour
     private void Awake()
     {
         if (instance == null) instance = this;
-
     }
     private void OnValidate()
     {
@@ -43,6 +43,7 @@ public class ButtonStageManager : MonoBehaviour
         else
         {
             Mode2Cotnainer.SetActive(true);
+            SetupBtnMode();
         }
         subCamm_1.gameObject.SetActive(true);
         mainCam.gameObject.SetActive(false);
@@ -98,4 +99,13 @@ public class ButtonStageManager : MonoBehaviour
         }
     }
     #endregion
+    // Mode 2
+    public void SetupBtnMode()
+    {
+        if (unitStage != null && unitStage.unit != null && unitStage.unit is UnitMode2)
+        {
+            UnitMode2 unit = unitStage.unit as UnitMode2;
+            ButtonPickupScene.instance.SetupBtnDelegate(unit);
+        }
+    }
 }

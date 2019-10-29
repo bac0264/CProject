@@ -21,21 +21,4 @@ public class MenuManager : MonoBehaviour
                 DailyManager.instance.dailyPanel.LoadData();
         }
     }
-    private void Start()
-    {
-        RefreshUI();
-    }
-    private void OnValidate()
-    {
-        if (Menu_Gold_Text == null) Menu_Gold_Text = GameObject.Find("Menu_Gold_Text").GetComponent<Text>();
-        if (Daily_Gold_Text == null) Daily_Gold_Text = GameObject.Find("Daily_Gold_Text").GetComponent<Text>();
-    }
-    public void RefreshUI()
-    {
-        if (ResourceManager.instance != null)
-        {
-            ShowResource.Show(Menu_Gold_Text, ResourceManager.instance.getResourceNeed(TypeOfResource.Type.Gold));
-            ShowResource.Show(Daily_Gold_Text, ResourceManager.instance.getResourceNeed(TypeOfResource.Type.Gold));
-        }
-    }
 }

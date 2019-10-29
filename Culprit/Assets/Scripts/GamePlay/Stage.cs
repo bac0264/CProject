@@ -17,7 +17,6 @@ public class Stage : CellView, IShowStage, IPointerClickHandler, IHide, IOpen
     //  public UnitStage[] _unitList;
     public BlockUnitStage[] _blockList;
     public Image stageImage;
-    public Text stageText;
 
     public int index;
     public int amountOfUnitStage;
@@ -112,13 +111,11 @@ public class Stage : CellView, IShowStage, IPointerClickHandler, IHide, IOpen
     // Hide Stage
     public void Hide()
     {
-        stageText.gameObject.SetActive(false);
         stageImage.enabled = false;
     }
-    // Open Stage
+    // Open Stage   
     public void Open()
     {
-        stageText.gameObject.SetActive(true);
         stageImage.enabled = true;
     }
 
@@ -167,32 +164,7 @@ public class Stage : CellView, IShowStage, IPointerClickHandler, IHide, IOpen
     public Transform unitStageContainer;
     private void OnValidate()
     {
-        if (stageText == null) stageText = transform.GetChild(1).GetComponent<Text>();
         if (stageImage == null) stageImage = GetComponent<Image>();
-    }
-    public void LoadUnit(Unit[] units)
-    {
-        //for(int g = 0; g < unitStageContainer.childCount; g++)
-        //{
-        //    unitStageContainer.GetChild(g).gameObject.SetActive(true);
-        //}
-        //_unitList = GetComponentsInChildren<UnitStage>();
-        //int i = 0;
-        //for (; i < units.Length && i < _unitList.Length; i++)
-        //{
-        //    _unitList[i].LoadUnitOnvalidate();
-        //}
-        //for (; i < _unitList.Length; i++)
-        //{
-        //    _unitList[i].unit = null;
-        //    _unitList[i].gameObject.SetActive(false);
-        //}
-        //_unitList = GetComponentsInChildren<UnitStage>();
-        //for (int k = 0; k < _unitList.Length; k++)
-        //{
-        //    _unitList[k]._index = k;
-        //    _unitList[k].gameObject.SetActive(false);
-        //}
     }
     #endregion
     public void LoadUnit()
@@ -204,11 +176,10 @@ public class Stage : CellView, IShowStage, IPointerClickHandler, IHide, IOpen
             unitStageContainer = unitEnhance.scroller.GetContainer().transform;
             unitStageContainer.gameObject.SetActive(true);
 
-            for (int g = 0; g < unitStageContainer.childCount /*&& g < amountOfUnitStage*/; g++)
+            for (int g = 0; g < unitStageContainer.childCount; g++)
             {
                 unitStageContainer.GetChild(g).gameObject.SetActive(true);
             }
-            //_unitList = unitStageContainer.GetComponentsInChildren<UnitStage>();
             _blockList = unitStageContainer.GetComponentsInChildren<BlockUnitStage>();
             SetupEvent();
         }
@@ -216,10 +187,6 @@ public class Stage : CellView, IShowStage, IPointerClickHandler, IHide, IOpen
     public void SetupEvent()
     {
         OnRightClickEvent += PickUnitStage;
-        //foreach (UnitStage unit in _unitList)
-        //{
-        //    unit.OnRightClickEvent += OnRightClickEvent;
-        //}
         for (int i = 0; i < _blockList.Length; i++)
         {
             for (int j = 0; j < _blockList[i].unitstageList.Length; j++)
@@ -230,10 +197,6 @@ public class Stage : CellView, IShowStage, IPointerClickHandler, IHide, IOpen
     }
     public void RemoveEvents()
     {
-        //foreach (UnitStage unit in _unitList)
-        //{
-        //    unit.OnRightClickEvent -= OnRightClickEvent;
-        //}
         for (int i = 0; i < _blockList.Length; i++)
         {
             for (int j = 0; j < _blockList[i].unitstageList.Length; j++)

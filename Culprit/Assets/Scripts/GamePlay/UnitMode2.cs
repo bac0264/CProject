@@ -6,15 +6,10 @@ using UnityEngine.UI;
 public class UnitMode2 : Unit
 {
     public List<Button> correctAnswerBtns;
-    public List<Button> btnScenes;
     public Transform containerCorrectAnswersBtn;
-    public Transform BtnContainer;
     public bool[] checks;
     public int MaxIndexScene;
     public int CurIndexScene;
-    public Color defaultColor = Color.white;
-    public Color passed = Color.red;
-    public Color current = Color.yellow;
     public override void OnValidate()
     {
         base.OnValidate();
@@ -25,13 +20,6 @@ public class UnitMode2 : Unit
                 correctAnswerBtns.Add(containerCorrectAnswersBtn.GetChild(i).GetComponent<Button>());
             }
         }
-        if (btnScenes.Count == 0)
-        {
-            for (int i = 0; i < BtnContainer.childCount; i++)
-            {
-                btnScenes.Add(BtnContainer.GetChild(i).GetComponent<Button>());
-            }
-        }
         if (checks.Length == 0)
         {
             checks = new bool[4];
@@ -39,12 +27,7 @@ public class UnitMode2 : Unit
     }
     private void Awake()
     {
-        for(int i = 0; i < btnScenes.Count; i++)
-        {
-            if (i == 0) SetBtnSceneDisplay(i);
-            int z = i;
-            btnScenes[z].onClick.AddListener(delegate { SetBtnSceneDisplay(z); });
-        }
+
         for (int i = 0; i < correctAnswerBtns.Count; i++)
         {
             // correctAnswerBtns[i].onClick.RemoveAllListeners();
@@ -55,38 +38,7 @@ public class UnitMode2 : Unit
     {
         Correct();
     }
-    public void SetBtnSceneDisplay(int _index)
-    {
-        CurIndexScene = _index;
-        if (_index <= MaxIndexScene)
-        {
-            for (int i = 0; i < btnScenes.Count; i++)
-            {
-                if (i == _index)
-                {
-                    btnScenes[i].transform.GetChild(0).gameObject.SetActive(true);
-                    correctAnswerBtns[i].gameObject.SetActive(true);
-                }
-                else
-                {
-                    btnScenes[i].transform.GetChild(0).gameObject.SetActive(false);
-                    correctAnswerBtns[i].gameObject.SetActive(false);
-                }
-                if (i < MaxIndexScene)
-                {
-                    btnScenes[i].GetComponent<Image>().color = passed;
-                }
-                else if (i == MaxIndexScene)
-                {
-                    btnScenes[i].GetComponent<Image>().color = current;
-                }
-                else
-                {
-                    btnScenes[i].GetComponent<Image>().color = defaultColor;
-                }
-            }
-        }
-    }
+
     // Show popup if incorrect
     public void Incorrect()
     {
@@ -102,17 +54,19 @@ public class UnitMode2 : Unit
         if (CorrectPopup.instance != null)
         {
             CorrectPopup.instance.ShowPopup();
-            CorrectPopup.instance.container = this;
         }
     }
     public void OpenScene()
     {
         if (MaxIndexScene > correctAnswerBtns.Count - 1)
         {
+            int temp = MaxIndexScene;
             MaxIndexScene = correctAnswerBtns.Count - 1;
-            btnScenes[MaxIndexScene].GetComponent<Image>().color = passed;
+            if (CurIndexScene == temp) CurIndexScene = MaxIndexScene;
+            ButtonPickupScene.instance.CloseBtn(MaxIndexScene);
             checks[MaxIndexScene] = true;
             isWin = true;
+            IsWin();
             return;
         }
         else if (MaxIndexScene <= 0)
@@ -123,10 +77,8 @@ public class UnitMode2 : Unit
         {
             checks[MaxIndexScene - 1] = true;
             checks[MaxIndexScene] = false;
-            btnScenes[MaxIndexScene - 1].GetComponent<Image>().color = passed;
-            btnScenes[MaxIndexScene - 1].transform.GetChild(0).gameObject.SetActive(false);
-            btnScenes[MaxIndexScene].GetComponent<Image>().color = current;
-            btnScenes[MaxIndexScene].transform.GetChild(0).gameObject.SetActive(true);
+            ButtonPickupScene.instance.CloseBtn(MaxIndexScene - 1);
+            ButtonPickupScene.instance.OpenBtn(MaxIndexScene);
             correctAnswerBtns[MaxIndexScene - 1].gameObject.SetActive(false);
             correctAnswerBtns[MaxIndexScene].gameObject.SetActive(true);
         }
@@ -136,7 +88,7 @@ public class UnitMode2 : Unit
         if (CurIndexScene < MaxIndexScene)
         {
             CurIndexScene++;
-            SetBtnSceneDisplay(CurIndexScene);
+            ButtonPickupScene.instance.SetBtnSceneDisplay(this,CurIndexScene);
         }
         else
         {
@@ -158,6 +110,22 @@ public class UnitMode2 : Unit
                     UnitStage unitStage = ButtonStageManager.instance.unitStage;
                     ButtonStageManager.instance.stage.LoadImageForAllUnitStage();
                     StageManager.instance.NextLevel(unitStage);
+                }
+            }
+            else
+            {
+                if (curIndexUnit >= LoadUnitOnvalidate.instance.GetAmountUnitStage(indexStage) && (indexUnit + 1) == curIndexUnit)
+                {
+                    ButtonStageManager.instance.TurnOn_MainCam();
+                }
+                else
+                {
+                    if (ButtonStageManager.instance != null && StageManager.instance != null)
+                    {
+                        UnitStage unitStage = ButtonStageManager.instance.unitStage;
+                        ButtonStageManager.instance.stage.LoadImageForAllUnitStage();
+                        StageManager.instance.NextLevel(unitStage);
+                    }
                 }
             }
         }

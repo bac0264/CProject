@@ -22,7 +22,7 @@ namespace EnhancedScrollerDemos.SuperSimpleDemo
         public virtual void SetData(Data data)
         {
             // update the UI text with the cell data
-            someTextText.text = "Mode " +(data.indexStage + 1).ToString();
+          //  someTextText.text = "Mode " +(data.indexStage + 1).ToString();
         }
         public virtual void SetData(List<Data> data)
         {

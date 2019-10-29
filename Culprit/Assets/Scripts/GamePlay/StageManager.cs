@@ -11,10 +11,12 @@ using EnhancedScrollerDemos.SuperSimpleDemo;
 public class StageManager : MonoBehaviour
 {
     public static StageManager instance;
+    public Sprite[] _spriteList;
     public Stage[] _stageList;
     public event Action<Stage> OnRightClickStageEvent;
     public Button[] btns;
     public Stage curStage;
+    public Image imageOfUnitStageManager;
     private void Awake()
     {
         if (instance == null) instance = this;
@@ -30,6 +32,8 @@ public class StageManager : MonoBehaviour
             {
                 cur.Hide();
                 curUnitStage.ShowStage();
+                ButtonStageManager.instance.unitStage = curUnitStage;
+                ButtonStageManager.instance.stage = curStage;
                 return;
             }
             else
@@ -45,6 +49,8 @@ public class StageManager : MonoBehaviour
                         nextStage.ShowStage();
                         cur.Hide();
                         curUnitStage.ShowStage();
+                        ButtonStageManager.instance.unitStage = curUnitStage;
+                        ButtonStageManager.instance.stage = nextStage;
                         return;
                     }
                     else
@@ -61,6 +67,7 @@ public class StageManager : MonoBehaviour
     #region
     public void PickStage(Stage Stage)
     {
+        imageOfUnitStageManager.enabled = true;
         curStage = Stage;
         Stage.LoadUnit();
         HideAll(Stage);
@@ -92,7 +99,7 @@ public class StageManager : MonoBehaviour
     public void Back()
     {
         OpenAllStage();
-
+        imageOfUnitStageManager.enabled = false;
         btns[0].gameObject.SetActive(true);
         btns[1].gameObject.SetActive(false);
         if (curStage != null) curStage.RemoveEvents();
@@ -136,6 +143,10 @@ public class StageManager : MonoBehaviour
             transform.GetChild(g).gameObject.SetActive(true);
         }
         _stageList = GetComponentsInChildren<Stage>();
+        for(int i = 0; i < _stageList.Length && i < _spriteList.Length; i++)
+        {
+            _stageList[i].gameObject.GetComponent<Image>().sprite = _spriteList[i];
+        }
         //List<List<Unit>> list = new List<List<Unit>>();
         //int amount = LoadUnitOnvalidate.instance.GetAmountStage();
         //bool check = false;

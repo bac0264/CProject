@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c769b65b78c6e3f458f4fe6df018d288, type: 3}
+  m_Name: AnswerData
+  m_EditorClassIdentifier: 
+  answerList:
+  - MODE: 2
+    LEVEL: 1
+    listAnswer:
+    - There's a gunshot wound the side of the victim's head. This must be it.
+    - The window of the car was broken. The bullet shot its way in through this window
+    - The helicopter is hovering at the same height as the Ferris wheel cart. There
+      are sketchy men in the other cart; but they can't be the shooter because it
+      would've shattered the window of their cart.
+    - The victim was killed by the gang members in the next car. The victim became
+      too intimate with their boss's woman. This made the woman to believe her happiness
+      with an ordinary man was a mere fantasy. She decided to live out her life by
+      spending all of the boss's money.
+  - MODE: 2
+    LEVEL: 2
+    listAnswer:
+    - The victim is wearing a jacket which says PARK RANGER; the uniform worn by none
+      other than the park's employees.
+    - There are keys attached to the man's belt. He must have opened the shed and
+      brought it to the pond. But why would he do that after the park had closed?
+    - A feminine glove is floating by the body. The victim is wearing gloves on both
+      of his hands so this can't be his. And the design doesn't seem to match his
+      taste... There may have been someone else with him.
+    - A ring box is floating on the water. Turns out that the victim took his girlfriend
+      out for a boat ride after the park closed. His girlfriend confessed that she
+      had refused his marriage proposal which enraged him. In fear; she jumped off
+      of the boat and swam away; not realizing that the boat had turned over. The
+      victim couldn't swim so he drowned helplessly.
+  - MODE: 2
+    LEVEL: 3
+    listAnswer:
+    - There's a knife stuck in the victim's chest which was visible even from afar.
+      He called the police immediately.
+    - Small boats are required to have vessel ID number displayed. Police tracked
+      down its owner and began investigating on the owner's son as the suspect.
+    - The bicycle by the lake belongs to the fisherman. In fact; some of his fishing
+      gears are still on it. Since it would be difficult to bring the boat to the
+      lake with that bicycle along with the fishing gears; police decided to rule
+      him out as a suspect.
+    - The barnacles covering the bottom of the boat suggest that the boat had been
+      brought from seashore since barnacles don't live in freshwater. It turns out
+      that the owner's son and the victim were colleagues. He murdered her when she
+      rejected his love. He staged the scene by bringing in the boat; but alas; it
+      didn't really help.

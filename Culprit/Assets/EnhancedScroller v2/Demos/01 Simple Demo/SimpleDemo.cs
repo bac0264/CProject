@@ -54,18 +54,18 @@ namespace EnhancedScrollerDemos.SuperSimpleDemo
         /// </summary>
         public virtual void LoadLargeData()
         {
-         //   int amount = LoadUnitOnvalidate.instance.GetAmountStage();
-         ////   amount = 100;
-         //   // set up some simple data
-         //   _data = new SmallList<Data>();
-         //   for (var i = 0; i < amount; i++)
-         //   {   
-         //       int _amountUnitStage = LoadUnitOnvalidate.instance.GetAmountUnitStage(i);
-         //       _data.Add(new Data() { index = i, amountUnitStage = _amountUnitStage });
-         //   }
-         //   // tell the scroller to reload now that we have the data
-         //   scroller.ReloadData();
-         //   StageManager.instance.SetupEvent();
+            //   amount = 100;
+            // set up some simple data
+            _data = new SmallList<Data>();
+            for (var i = 0; i < 1000; i++)
+            {
+                _data.Add(new Data()
+                {
+                    indexStage = i
+                });
+            }
+            // tell the scroller to reload now that we have the data
+            scroller.ReloadData();
         }
 
         /// <summary>
@@ -117,7 +117,7 @@ namespace EnhancedScrollerDemos.SuperSimpleDemo
         public virtual float GetCellViewSize(EnhancedScroller scroller, int dataIndex)
         {
             // in this example, even numbered cells are 30 pixels tall, odd numbered cells are 100 pixels tall
-            return (dataIndex % 2 == 0 ? 200f : 200f);
+            return (dataIndex % 2 == 0 ? 1000 : 1000);
         }
 
         /// <summary>

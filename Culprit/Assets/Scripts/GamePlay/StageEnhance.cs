@@ -2,6 +2,7 @@
 using System.Collections;
 using EnhancedScrollerDemos.SuperSimpleDemo;
 using EnhancedUI;
+using EnhancedUI.EnhancedScroller;
 
 public class StageEnhance : SimpleDemo
 {
@@ -14,6 +15,11 @@ public class StageEnhance : SimpleDemo
     public override void Start()
     {
         base.Start();
+    }
+    public override float GetCellViewSize(EnhancedScroller scroller, int dataIndex)
+    {
+        // in this example, even numbered cells are 30 pixels tall, odd numbered cells are 100 pixels tall
+        return (dataIndex % 2 == 0 ? 401 : 401);
     }
     public override void LoadLargeData()
     {

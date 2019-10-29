@@ -81,7 +81,7 @@ public class DailySlot : MonoBehaviour, IPointerClickHandler
         }
         if(MenuManager.instance != null)
         {
-            MenuManager.instance.RefreshUI();
+          //  MenuManager.instance.RefreshUI();
         }
     }
     public void DailyDisplay(int index)
