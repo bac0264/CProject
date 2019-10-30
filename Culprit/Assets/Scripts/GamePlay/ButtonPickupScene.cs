@@ -12,6 +12,7 @@ public class ButtonPickupScene : MonoBehaviour
     public List<Button> btnScenes;
     public Transform BtnContainer;
     public Sprite[] spriteList;
+    public Animator ani;
     private void Awake()
     {
         if (instance == null) instance = this;
@@ -33,6 +34,7 @@ public class ButtonPickupScene : MonoBehaviour
         {
             if (i == 0) SetBtnSceneDisplay(unitMode2, i);
             int z = i;
+            btnScenes[z].onClick.RemoveAllListeners();
             btnScenes[z].onClick.AddListener(delegate { SetBtnSceneDisplay(unitMode2, z); });
         }
     }
@@ -60,7 +62,7 @@ public class ButtonPickupScene : MonoBehaviour
                 }
                 else if (i == unitMode2.MaxIndexScene)
                 {
-                    if (unitMode2.MaxIndexScene == (unitMode2.correctAnswerBtns.Count -1)) {
+                    if (unitMode2.isWin) {
                         btnScenes[i].GetComponent<Image>().sprite = spriteList[passed];
                     }
                     else
@@ -82,5 +84,9 @@ public class ButtonPickupScene : MonoBehaviour
     {
         btnScenes[index].GetComponent<Image>().sprite = spriteList[passed];
         btnScenes[index].transform.GetChild(0).gameObject.SetActive(false);
+    }
+    public void SetupAnimator()
+    {
+
     }
 }

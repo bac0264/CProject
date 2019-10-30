@@ -25,6 +25,14 @@ public class Unit : MonoBehaviour
     public virtual void Next() { }
     #region
     public virtual void IsWin() { }
+    public virtual void LoadData()
+    {
+
+    }
+    public virtual void SaveData()
+    {
+
+    }
     public virtual void ShowPopup()
     {
         if (ButtonStageManager.instance != null)

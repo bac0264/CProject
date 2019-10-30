@@ -70,7 +70,7 @@ public class UnitStage : MonoBehaviour, IShowStage, IPointerClickHandler, IHide,
     #endregion
     public void LoadImage(int indexStage)
     {
-        int curUnitStage = SaveLoadStageData.LoadDataStage(indexStage);
+        int curUnitStage = SaveLoadData.LoadDataStage(indexStage);
         if (_index < curUnitStage)
         {
             enabled = true;

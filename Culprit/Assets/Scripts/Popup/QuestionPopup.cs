@@ -19,7 +19,6 @@ public class QuestionPopup : BasePopup
     public override void ShowPopup()
     {
         unitStage = ButtonStageManager.instance.unitStage;
-        Debug.Log(unitStage);
         if(unitStage != null && unitStage.unit != null && unitStage.unit is UnitMode2)
         {
             UnitMode2 unitMode2 = unitStage.unit as UnitMode2;

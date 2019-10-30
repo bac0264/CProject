@@ -34,7 +34,8 @@ public class Stage : CellView, IShowStage, IPointerClickHandler, IHide, IOpen
     }
     public UnitStage GetUnitStage(int indexUnitStage)
     {
-        if ((indexUnitStage) < amountOfUnitStage)
+        int temp = KeySave.Get_Index_Block(indexUnitStage);
+        if ((indexUnitStage) < amountOfUnitStage && temp < _blockList.Length)
         {
             UnitStage unitStage = _blockList[KeySave.Get_Index_Block(indexUnitStage)]
                 .unitstageList[KeySave.Get_Index_UnitStage(indexUnitStage)];

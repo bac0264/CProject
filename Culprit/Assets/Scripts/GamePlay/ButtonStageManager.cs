@@ -35,15 +35,17 @@ public class ButtonStageManager : MonoBehaviour
     }
     public void TurnOn_Subcam(UnitStage unit)
     {
-        this.unitStage = unit;
-        if (unit.unit is UnitMode1)
+        unitStage = unit;
+        if (unitStage.unit is UnitMode1)
         {
             Mode2Cotnainer.SetActive(false);
         }
         else
         {
-            Mode2Cotnainer.SetActive(true);
+            // Load Data for UnitMode2 & SetupBtn && Show Question
+            unitStage.unit.LoadData();
             SetupBtnMode();
+            Mode2Cotnainer.SetActive(true);
             if (PopupContainer.instance != null) PopupContainer.instance.ShowQuestionPopup();
         }
         subCamm_1.gameObject.SetActive(true);

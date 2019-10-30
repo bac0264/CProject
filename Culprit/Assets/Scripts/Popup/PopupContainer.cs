@@ -17,18 +17,26 @@ public class PopupContainer : MonoBehaviour
     public void GetIncorrectPopup()
     {
         GameObject obj = Instantiate(incorrectPopupPrefab.gameObject, container);
+        IncorrectPopup popup = obj.GetComponent<IncorrectPopup>();
+        if (popup != null) popup.ShowPopup();
     }
     public void GetCorrectPopupPrefab()
     {
         GameObject obj = Instantiate(correctPopupPrefab.gameObject, container);
+        CorrectPopup popup = obj.GetComponent<CorrectPopup>();
+        if (popup != null) popup.ShowPopup();
     }
     public void GetWinPopup()
     {
         GameObject obj = Instantiate(winPrefab.gameObject, container);
+        WinPopup popup = obj.GetComponent<WinPopup>();
+        if (popup != null) popup.ShowPopup();
     }
     public void GetLosePopup()
     {
         GameObject obj = Instantiate(losePrefab.gameObject, container);
+        LosePopup popup = obj.GetComponent<LosePopup>();
+        if (popup != null) popup.ShowPopup();
     }
     public void GetQuestionPopup()
     {
@@ -41,41 +49,35 @@ public class PopupContainer : MonoBehaviour
     public void ShowQuestionPopup()
     {
         if (QuestionPopup.instance == null) GetQuestionPopup();
-        if (QuestionPopup.instance != null)
-        {
+        else
             QuestionPopup.instance.ShowPopup();
-        }
+
     }
     public void ShowCorrectPopup()
     {
         if (CorrectPopup.instance == null) GetCorrectPopupPrefab();
-        if (CorrectPopup.instance != null)
-        {
+        else
             CorrectPopup.instance.ShowPopup();
-        }
+
     }
     public void ShowIncorrectPopup()
     {
         if (IncorrectPopup.instance == null) GetIncorrectPopup();
-        if (IncorrectPopup.instance != null)
-        {
+        else
             IncorrectPopup.instance.ShowPopup();
-        }
+
     }
     public void ShowWinPopup()
     {
         if (WinPopup.instance == null) GetWinPopup();
-        if (WinPopup.instance != null)
-        {
+        else
             WinPopup.instance.ShowPopup();
-        }
+
     }
     public void ShowLosePopup()
     {
         if (LosePopup.instance == null) GetLosePopup();
-        if (LosePopup.instance != null)
-        {
+        else
             LosePopup.instance.ShowPopup();
-        }
     }
 }
