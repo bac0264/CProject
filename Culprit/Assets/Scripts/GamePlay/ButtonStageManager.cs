@@ -35,15 +35,18 @@ public class ButtonStageManager : MonoBehaviour
     }
     public void TurnOn_Subcam(UnitStage unit)
     {
-        this.unitStage = unit;
-        if (unit.unit is UnitMode1)
+        unitStage = unit;
+        if (unitStage.unit is UnitMode1)
         {
             Mode2Cotnainer.SetActive(false);
         }
         else
         {
-            Mode2Cotnainer.SetActive(true);
+            // Load Data for UnitMode2 & SetupBtn && Show Question
+            unitStage.unit.LoadData();
             SetupBtnMode();
+            Mode2Cotnainer.SetActive(true);
+            if (PopupContainer.instance != null) PopupContainer.instance.ShowQuestionPopup();
         }
         subCamm_1.gameObject.SetActive(true);
         mainCam.gameObject.SetActive(false);
@@ -83,19 +86,11 @@ public class ButtonStageManager : MonoBehaviour
     {
         if (unit.isWin)
         {
-            if (WinPopup.instance == null) PopupContainer.instance.GetWinPopup();
-            if (WinPopup.instance != null)
-            {
-                WinPopup.instance.ShowPopup();
-            }
+            if (PopupContainer.instance != null) PopupContainer.instance.ShowWinPopup();
         }
         else
         {
-            if (LosePopup.instance == null) PopupContainer.instance.GetLosePopup();
-            if (LosePopup.instance != null)
-            {
-                LosePopup.instance.ShowPopup();
-            }
+            if (PopupContainer.instance != null) PopupContainer.instance.ShowLosePopup();
         }
     }
     #endregion

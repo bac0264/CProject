@@ -70,11 +70,13 @@ public class UnitMode1 : Unit
     }
     public void EventWin()
     {
-        int curIndexUnit = SaveLoadStageData.LoadDataStage(indexStage);
+        int curIndexUnit = SaveLoadData.LoadDataStage(indexStage);
+        Debug.Log("cur: " + curIndexUnit);
+        Debug.Log("index: " + indexUnit);
         if (curIndexUnit <= indexUnit)
         {
-            Debug.Log("run");
-            SaveLoadStageData.SaveDataStage(indexStage, indexUnit + 1);
+            Debug.Log(indexUnit);
+            SaveLoadData.SaveDataStage(indexStage, indexUnit + 1);
             ButtonStageManager.instance.stage.LoadImageForAllUnitStage();
         }
     }

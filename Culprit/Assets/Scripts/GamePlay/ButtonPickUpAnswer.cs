@@ -51,6 +51,7 @@ public class ButtonPickUpAnswer : MonoBehaviour
     {
         if (unitStage != null && unitStage.unit != null && unitStage.unit is UnitMode1)
         {
+            Debug.Log("run");
             UnitMode1 unit = unitStage.unit as UnitMode1;
             if (unit.IsWin(result))
             {

@@ -18,6 +18,7 @@ public class Stage : CellView, IShowStage, IPointerClickHandler, IHide, IOpen
     public BlockUnitStage[] _blockList;
     public Image stageImage;
 
+    public Text type;
     public int index;
     public int amountOfUnitStage;
 
@@ -33,7 +34,8 @@ public class Stage : CellView, IShowStage, IPointerClickHandler, IHide, IOpen
     }
     public UnitStage GetUnitStage(int indexUnitStage)
     {
-        if ((indexUnitStage) < amountOfUnitStage)
+        int temp = KeySave.Get_Index_Block(indexUnitStage);
+        if ((indexUnitStage) < amountOfUnitStage && temp < _blockList.Length)
         {
             UnitStage unitStage = _blockList[KeySave.Get_Index_Block(indexUnitStage)]
                 .unitstageList[KeySave.Get_Index_UnitStage(indexUnitStage)];
@@ -164,6 +166,7 @@ public class Stage : CellView, IShowStage, IPointerClickHandler, IHide, IOpen
     public Transform unitStageContainer;
     private void OnValidate()
     {
+        if (type == null) type = GetComponentInChildren<Text>();
         if (stageImage == null) stageImage = GetComponent<Image>();
     }
     #endregion

@@ -7,7 +7,7 @@ public class UnitMode2 : Unit
 {
     public List<Button> correctAnswerBtns;
     public Transform containerCorrectAnswersBtn;
-    public bool[] checks;
+    //  public bool[] checks;
     public int MaxIndexScene;
     public int CurIndexScene;
     public override void OnValidate()
@@ -20,10 +20,19 @@ public class UnitMode2 : Unit
                 correctAnswerBtns.Add(containerCorrectAnswersBtn.GetChild(i).GetComponent<Button>());
             }
         }
-        if (checks.Length == 0)
-        {
-            checks = new bool[4];
-        }
+        //if (checks.Length == 0)
+        //{
+        //    checks = new bool[4];
+        //}
+    }
+    public override void LoadData()
+    {
+        CurIndexScene = 0;
+        SaveLoadData.LoadDataUnitStage(indexStage, indexUnit, ref MaxIndexScene, ref isWin);
+    }
+    public override void SaveData()
+    {
+        SaveLoadData.SaveDataUnitStage(indexStage, indexUnit, MaxIndexScene, isWin);
     }
     private void Awake()
     {
@@ -42,19 +51,13 @@ public class UnitMode2 : Unit
     // Show popup if incorrect
     public void Incorrect()
     {
-        if (IncorrectPopup.instance == null) PopupContainer.instance.GetIncorrectPopup();
-        if (IncorrectPopup.instance != null)
-        {
-            IncorrectPopup.instance.ShowPopup();
-        }
+        if (PopupContainer.instance != null) PopupContainer.instance.ShowIncorrectPopup();
     }
     public void Correct()
     {
-        if (CorrectPopup.instance == null) PopupContainer.instance.GetCorrectPopupPrefab();
-        if (CorrectPopup.instance != null)
-        {
-            CorrectPopup.instance.ShowPopup();
-        }
+        // Run animation -> show popup
+        Debug.Log("run");
+        if (PickupCorrectAns.instance != null) PickupCorrectAns.instance.Run(correctAnswerBtns[CurIndexScene].transform.position);
     }
     public void OpenScene()
     {
@@ -64,10 +67,9 @@ public class UnitMode2 : Unit
             MaxIndexScene = correctAnswerBtns.Count - 1;
             if (CurIndexScene == temp) CurIndexScene = MaxIndexScene;
             ButtonPickupScene.instance.CloseBtn(MaxIndexScene);
-            checks[MaxIndexScene] = true;
+            // checks[MaxIndexScene] = true;
             isWin = true;
             IsWin();
-            return;
         }
         else if (MaxIndexScene <= 0)
         {
@@ -75,20 +77,23 @@ public class UnitMode2 : Unit
         }
         else
         {
-            checks[MaxIndexScene - 1] = true;
-            checks[MaxIndexScene] = false;
+            // checks[MaxIndexScene - 1] = true;
+            // checks[MaxIndexScene] = false;
             ButtonPickupScene.instance.CloseBtn(MaxIndexScene - 1);
             ButtonPickupScene.instance.OpenBtn(MaxIndexScene);
             correctAnswerBtns[MaxIndexScene - 1].gameObject.SetActive(false);
             correctAnswerBtns[MaxIndexScene].gameObject.SetActive(true);
+            if (PopupContainer.instance != null) PopupContainer.instance.ShowQuestionPopup();
         }
+        SaveData();
     }
     public override void Next()
     {
         if (CurIndexScene < MaxIndexScene)
         {
             CurIndexScene++;
-            ButtonPickupScene.instance.SetBtnSceneDisplay(this,CurIndexScene);
+            ButtonPickupScene.instance.SetBtnSceneDisplay(this, CurIndexScene);
+            if (PopupContainer.instance != null) PopupContainer.instance.ShowQuestionPopup();
         }
         else
         {
@@ -101,10 +106,10 @@ public class UnitMode2 : Unit
     {
         if (isWin)
         {
-            int curIndexUnit = SaveLoadStageData.LoadDataStage(indexStage);
+            int curIndexUnit = SaveLoadData.LoadDataStage(indexStage);
             if (curIndexUnit <= indexUnit)
             {
-                SaveLoadStageData.SaveDataStage(indexStage, indexUnit + 1);
+                SaveLoadData.SaveDataStage(indexStage, indexUnit + 1);
                 if (ButtonStageManager.instance != null && StageManager.instance != null)
                 {
                     UnitStage unitStage = ButtonStageManager.instance.unitStage;
@@ -125,6 +130,8 @@ public class UnitMode2 : Unit
                         UnitStage unitStage = ButtonStageManager.instance.unitStage;
                         ButtonStageManager.instance.stage.LoadImageForAllUnitStage();
                         StageManager.instance.NextLevel(unitStage);
+                        ButtonStageManager.instance.SetupBtnMode();
+                        if (PopupContainer.instance != null) PopupContainer.instance.ShowQuestionPopup();
                     }
                 }
             }

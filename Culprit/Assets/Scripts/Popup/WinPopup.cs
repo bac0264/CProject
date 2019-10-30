@@ -23,7 +23,6 @@ public class WinPopup : BasePopup
     public override void Try()
     {
         unitStage = ButtonStageManager.instance.unitStage;
-        Debug.Log(unitStage.unit);
         if (unitStage.unit != null)
         {
             unitStage.unit.Try();
