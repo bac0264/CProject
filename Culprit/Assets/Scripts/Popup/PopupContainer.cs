@@ -7,13 +7,23 @@ public class PopupContainer : MonoBehaviour
     public Transform container;
     private void Awake()
     {
-        if (instance == null) instance = this;
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(instance);
+        }
+        else
+        {
+
+        }
+        container = GameObject.FindGameObjectWithTag(KeySave.CONTAINER_POPUP).transform;
     }
     public IncorrectPopup incorrectPopupPrefab;
     public CorrectPopup correctPopupPrefab;
     public LosePopup losePrefab;
     public WinPopup winPrefab;
     public QuestionPopup questionPopup;
+
     public void GetIncorrectPopup()
     {
         GameObject obj = Instantiate(incorrectPopupPrefab.gameObject, container);
