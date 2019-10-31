@@ -50,11 +50,6 @@ public class UnitMode1 : Unit
         if (btnIndex < 0 || AskBtns.Count == 0 || btnIndex >= AskBtns.Count) return 0;
         return results[btnIndex];
     }
-    //public Transform[] GetAskBtns()
-    //{
-    //    AskBtns = btnContainer.GetComponentsInChildren<Transform>();
-    //    return AskBtns;
-    //}
     // Set Event in animation
     #region
     public void ActiveBtn()
@@ -71,8 +66,6 @@ public class UnitMode1 : Unit
     public void EventWin()
     {
         int curIndexUnit = SaveLoadData.LoadDataStage(indexStage);
-        Debug.Log("cur: " + curIndexUnit);
-        Debug.Log("index: " + indexUnit);
         if (curIndexUnit <= indexUnit)
         {
             Debug.Log(indexUnit);

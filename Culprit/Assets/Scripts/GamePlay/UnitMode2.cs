@@ -56,7 +56,6 @@ public class UnitMode2 : Unit
     public void Correct()
     {
         // Run animation -> show popup
-        Debug.Log("run");
         if (PickupCorrectAns.instance != null) PickupCorrectAns.instance.Run(correctAnswerBtns[CurIndexScene].transform.position);
     }
     public void OpenScene()
@@ -67,7 +66,6 @@ public class UnitMode2 : Unit
             MaxIndexScene = correctAnswerBtns.Count - 1;
             if (CurIndexScene == temp) CurIndexScene = MaxIndexScene;
             ButtonPickupScene.instance.CloseBtn(MaxIndexScene);
-            // checks[MaxIndexScene] = true;
             isWin = true;
             IsWin();
         }
@@ -77,8 +75,6 @@ public class UnitMode2 : Unit
         }
         else
         {
-            // checks[MaxIndexScene - 1] = true;
-            // checks[MaxIndexScene] = false;
             ButtonPickupScene.instance.CloseBtn(MaxIndexScene - 1);
             ButtonPickupScene.instance.OpenBtn(MaxIndexScene);
             correctAnswerBtns[MaxIndexScene - 1].gameObject.SetActive(false);
@@ -119,21 +115,17 @@ public class UnitMode2 : Unit
             }
             else
             {
-                if (curIndexUnit >= LoadUnitOnvalidate.instance.GetAmountUnitStage(indexStage) && (indexUnit + 1) == curIndexUnit)
+                if (ButtonStageManager.instance != null && StageManager.instance != null)
                 {
-                    ButtonStageManager.instance.TurnOn_MainCam();
-                }
-                else
-                {
-                    if (ButtonStageManager.instance != null && StageManager.instance != null)
+                    UnitStage unitStage = ButtonStageManager.instance.unitStage;
+                    ButtonStageManager.instance.stage.LoadImageForAllUnitStage();
+                    if (StageManager.instance.NextLevel(unitStage))
                     {
-                        UnitStage unitStage = ButtonStageManager.instance.unitStage;
-                        ButtonStageManager.instance.stage.LoadImageForAllUnitStage();
-                        StageManager.instance.NextLevel(unitStage);
                         ButtonStageManager.instance.SetupBtnMode();
                         if (PopupContainer.instance != null) PopupContainer.instance.ShowQuestionPopup();
                     }
                 }
+                // }
             }
         }
     }

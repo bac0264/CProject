@@ -5,8 +5,13 @@ public class LevelEvidenceSprites : ScriptableObject
 {
     public Sprite[] spriteEvidences;
 
-    private void OnEnable()
+    public void OnEnable()
     {
+        Debug.Log("run");
         if (spriteEvidences.Length == 0) spriteEvidences = Resources.LoadAll<Sprite>("LevelEvidence");
+    }
+    public Sprite GetSprite(int indexUnit, int indexCurScene)
+    {
+        return spriteEvidences[indexUnit*4 + indexCurScene];
     }
 }

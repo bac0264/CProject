@@ -90,4 +90,8 @@ public class ButtonPickupScene : MonoBehaviour
     {
 
     }
+    public void QuestionBtn()
+    {
+        if (PopupContainer.instance != null) PopupContainer.instance.ShowQuestionPopup();
+    }
 }

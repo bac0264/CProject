@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7288453672057305802
 RectTransform:
   m_ObjectHideFlags: 0
@@ -412,7 +412,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 0
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -440,10 +440,10 @@ MonoBehaviour:
     spaceCount: 1
     wordCount: 2
     linkCount: 0
-    lineCount: 1
+    lineCount: 4
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -622,10 +622,10 @@ RectTransform:
   m_Father: {fileID: 7103157857401698232}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.17658624, y: 0}
-  m_AnchorMax: {x: 0.8258794, y: 0.77827406}
-  m_AnchoredPosition: {x: -72.8, y: 231.1}
-  m_SizeDelta: {x: -96, y: -296.7}
+  m_AnchorMin: {x: 0.257, y: 0.44719765}
+  m_AnchorMax: {x: 0.5965729, y: 0.9463952}
+  m_AnchoredPosition: {x: 0.30000305, y: -0.19999695}
+  m_SizeDelta: {x: -1.8199997, y: 1.0999985}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7103157856047967339
 CanvasRenderer:
@@ -655,7 +655,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300006, guid: 877a07ffd0ce0ac46b6dabe05a38a418, type: 3}
+  m_Sprite: {fileID: 21300000, guid: deec29304252323409a7bb6b589fcd2c, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -886,7 +886,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &7103157857371881574
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1367,7 +1367,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.2830189, g: 0.26833394, b: 0.26833394, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1494,7 +1494,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   container: {fileID: 0}
   Explanation: {fileID: 7103157857619642686}
+  spriteEvidence: {fileID: 7103157856047967336}
   ansData: {fileID: 11400000, guid: e99bb91157bcfd9469b2cd43f2519b56, type: 2}
+  spriteData: {fileID: 11400000, guid: e212cff8336eb9c4f87e64b585ac3fc1, type: 2}
 --- !u!1 &7157044198567275446
 GameObject:
   m_ObjectHideFlags: 0
@@ -1735,7 +1737,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 0
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -1763,10 +1765,10 @@ MonoBehaviour:
     spaceCount: 0
     wordCount: 1
     linkCount: 0
-    lineCount: 1
+    lineCount: 4
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
