@@ -10,4 +10,8 @@ public class UIManager : MonoBehaviour
     {
         SceneManager.LoadScene("Stages");
     }
+    public void ClickSetting()
+    {
+        if (PopupContainer.instance != null) PopupContainer.instance.ShowSettingPopup();
+    }
 }

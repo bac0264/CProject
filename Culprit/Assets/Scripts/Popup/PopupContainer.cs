@@ -14,80 +14,65 @@ public class PopupContainer : MonoBehaviour
         }
         else
         {
-
+            Destroy(this);
         }
-        container = GameObject.FindGameObjectWithTag(KeySave.CONTAINER_POPUP).transform;
     }
     public IncorrectPopup incorrectPopupPrefab;
     public CorrectPopup correctPopupPrefab;
     public LosePopup losePrefab;
     public WinPopup winPrefab;
-    public QuestionPopup questionPopup;
-
-    public void GetIncorrectPopup()
+    public QuestionPopup questionPopupPrefab;
+    public SettingPopup settingPopupPrefab;
+    public void UpdateContainer()
     {
-        GameObject obj = Instantiate(incorrectPopupPrefab.gameObject, container);
-        IncorrectPopup popup = obj.GetComponent<IncorrectPopup>();
+        if(container == null) container = GameObject.FindGameObjectWithTag(KeySave.CONTAINER_POPUP).transform; 
+    }
+    public void GetPopup(BasePopup prefab)
+    {
+        UpdateContainer();
+        GameObject obj = Instantiate(prefab.gameObject, container);
+        BasePopup popup = obj.GetComponent<BasePopup>();
         if (popup != null) popup.ShowPopup();
     }
-    public void GetCorrectPopupPrefab()
-    {
-        GameObject obj = Instantiate(correctPopupPrefab.gameObject, container);
-        CorrectPopup popup = obj.GetComponent<CorrectPopup>();
-        if (popup != null) popup.ShowPopup();
-    }
-    public void GetWinPopup()
-    {
-        GameObject obj = Instantiate(winPrefab.gameObject, container);
-        WinPopup popup = obj.GetComponent<WinPopup>();
-        if (popup != null) popup.ShowPopup();
-    }
-    public void GetLosePopup()
-    {
-        GameObject obj = Instantiate(losePrefab.gameObject, container);
-        LosePopup popup = obj.GetComponent<LosePopup>();
-        if (popup != null) popup.ShowPopup();
-    }
-    public void GetQuestionPopup()
-    {
-        GameObject obj = Instantiate(questionPopup.gameObject, container);
-        QuestionPopup popup = obj.GetComponent<QuestionPopup>();
-        if (popup != null) popup.ShowPopup();
-    }
-
     //---------------------------------------
     public void ShowQuestionPopup()
     {
-        if (QuestionPopup.instance == null) GetQuestionPopup();
+        if (QuestionPopup.instance == null) GetPopup(questionPopupPrefab);
         else
             QuestionPopup.instance.ShowPopup();
 
     }
     public void ShowCorrectPopup()
     {
-        if (CorrectPopup.instance == null) GetCorrectPopupPrefab();
+        if (CorrectPopup.instance == null) GetPopup(correctPopupPrefab);
         else
             CorrectPopup.instance.ShowPopup();
 
     }
     public void ShowIncorrectPopup()
     {
-        if (IncorrectPopup.instance == null) GetIncorrectPopup();
+        if (IncorrectPopup.instance == null) GetPopup(incorrectPopupPrefab);
         else
             IncorrectPopup.instance.ShowPopup();
 
     }
     public void ShowWinPopup()
     {
-        if (WinPopup.instance == null) GetWinPopup();
+        if (WinPopup.instance == null) GetPopup(winPrefab);
         else
             WinPopup.instance.ShowPopup();
 
     }
     public void ShowLosePopup()
     {
-        if (LosePopup.instance == null) GetLosePopup();
+        if (LosePopup.instance == null) GetPopup(losePrefab);
         else
             LosePopup.instance.ShowPopup();
+    }
+    public void ShowSettingPopup()
+    {
+        if (SettingPopup.instance == null) GetPopup(settingPopupPrefab);
+        else
+            SettingPopup.instance.ShowPopup();
     }
 }

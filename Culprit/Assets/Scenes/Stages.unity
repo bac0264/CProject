@@ -221,7 +221,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &183230512
 MonoBehaviour:
@@ -1011,7 +1011,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1923741106}
+      - m_Target: {fileID: 0}
         m_MethodName: ShowQuestionPopup
         m_Mode: 1
         m_Arguments:
@@ -2130,7 +2130,7 @@ GameObject:
   - component: {fileID: 1072343313}
   m_Layer: 5
   m_Name: UI_SubCam1
-  m_TagString: Untagged
+  m_TagString: ContainerPopup
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3929,7 +3929,7 @@ Transform:
   - {fileID: 1968006387}
   - {fileID: 1848289932}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1691492102
 GameObject:
@@ -4162,7 +4162,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1923741106}
+      - m_Target: {fileID: 0}
         m_MethodName: SetupQuestionBtn
         m_Mode: 1
         m_Arguments:
@@ -4336,60 +4336,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1671193906}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1923741105
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1923741107}
-  - component: {fileID: 1923741106}
-  m_Layer: 0
-  m_Name: PopupContainer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1923741106
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1923741105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8d309dcc3ca2dd4f8dd235ab26dd14e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  container: {fileID: 1072343316}
-  incorrectPopupPrefab: {fileID: 4197571382676979556, guid: 749c85442d293cc4e8a865b448c6c62c,
-    type: 3}
-  correctPopupPrefab: {fileID: 4223272927138764423, guid: 2f5a0e3668534e64db1f491e9903f1ee,
-    type: 3}
-  losePrefab: {fileID: 423941765670483584, guid: 55158f4a89313c84bb6d37033abae458,
-    type: 3}
-  winPrefab: {fileID: 2181098754034723542, guid: 05bc75ae3582d3441b4598258a43dfdc,
-    type: 3}
-  questionPopup: {fileID: 3573159168434396476, guid: 3d78b200e7e3d1e4e927367771c8c226,
-    type: 3}
---- !u!4 &1923741107
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1923741105}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.8710418, y: -7.580625, z: 90}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1927256289
 GameObject:
