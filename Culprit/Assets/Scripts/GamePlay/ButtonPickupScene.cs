@@ -73,6 +73,7 @@ public class ButtonPickupScene : MonoBehaviour
                     btnScenes[i].GetComponent<Image>().sprite = spriteList[defaultSprite];
                 }
             }
+            if (PopupContainer.instance != null) PopupContainer.instance.ShowQuestionPopup();
         }
     }
     public void OpenBtn(int index)

@@ -9,6 +9,8 @@ public class KeySave
     public const string STAGE_DATA = "STAGE_DATA";
     public const string INDEX_FREE_REWARD = "FreeReward";
     public const string CONTAINER_POPUP = "ContainerPopup";
+    public const string SOUND = "SOUND";
+    public const string MUSIC = "MUSIC";
     public const int STAGE_AMOUNT = 6;
     public const int SIZE_OF_BLOCK = 12;
     public static int Get_Index_Block(int indexUnitStage)
