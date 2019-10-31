@@ -22,7 +22,7 @@ public class StageManager : MonoBehaviour
     {
         if (instance == null) instance = this;
     }
-    public void NextLevel(UnitStage cur)
+    public bool NextLevel(UnitStage cur)
     {
         if (cur.unit.indexStage < _stageList.Length)
         {
@@ -35,34 +35,15 @@ public class StageManager : MonoBehaviour
                 curUnitStage.ShowStage();
                 ButtonStageManager.instance.unitStage = curUnitStage;
                 ButtonStageManager.instance.stage = curStage;
-                return;
+                return true;
             }
             else
             {
-                // if nextstage exist -> get the first element.
-                if ((cur.unit.indexStage + 1) < _stageList.Length)
-                {
-                    Stage nextStage = _stageList[cur.unit.indexStage + 1];
-                    curUnitStage = nextStage.GetUnitStage(0);
-                    if (curUnitStage != null)
-                    {
-                        HideAll(nextStage);
-                        nextStage.ShowStage();
-                        cur.Hide();
-                        curUnitStage.ShowStage();
-                        ButtonStageManager.instance.unitStage = curUnitStage;
-                        ButtonStageManager.instance.stage = nextStage;
-                        return;
-                    }
-                    else
-                    {
-                        BackMenu();
-                    }
-                }
-                return;
+                ButtonStageManager.instance.TurnOn_MainCam();
+                return false;
             }
         }
-        return;
+        return false;
     }
     // Pickup, Open && Hide All Stage
     #region
@@ -136,7 +117,7 @@ public class StageManager : MonoBehaviour
             transform.GetChild(g).gameObject.SetActive(true);
         }
         _stageList = GetComponentsInChildren<Stage>();
-        for(int i = 0; i < _stageList.Length && i < _spriteList.Length; i++)
+        for (int i = 0; i < _stageList.Length && i < _spriteList.Length; i++)
         {
             _stageList[i].gameObject.GetComponent<Image>().sprite = _spriteList[i];
             _stageList[i].type.text = titles[i];

@@ -248,7 +248,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
-  - time: 10.5
+  - time: 10.6
     functionName: EventWin
     data: 
     objectReferenceParameter: {fileID: 0}

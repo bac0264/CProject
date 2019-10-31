@@ -7,7 +7,9 @@ public class CorrectPopup : BasePopup
     public static CorrectPopup instance;
     public UnitStage container;
     public Text Explanation;
+    public Image spriteEvidence;
     public AnswerDataContainer ansData;
+    public LevelEvidenceSprites spriteData;
 
 
     private void Awake()
@@ -22,6 +24,7 @@ public class CorrectPopup : BasePopup
         {
             UnitMode2 unitMode2 = container.unit as UnitMode2;
             Explanation.text = GetQuestion(unitMode2.indexStage, unitMode2.indexUnit, unitMode2.CurIndexScene);
+            spriteEvidence.sprite = spriteData.GetSprite(unitMode2.indexUnit, unitMode2.CurIndexScene);
         }
         base.ShowPopup();
     }
@@ -49,7 +52,7 @@ public class CorrectPopup : BasePopup
     }
     public override void Try()
     {
-
+        HidePopup();
     }
     public string GetQuestion(int Stage, int UnitStage, int indexScene)
     {

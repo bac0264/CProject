@@ -1120,7 +1120,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -1305,9 +1305,9 @@ MonoBehaviour:
     type: 3}
   correctPopupPrefab: {fileID: 4223272927138764423, guid: 2f5a0e3668534e64db1f491e9903f1ee,
     type: 3}
-  losePrefab: {fileID: 423941765670483584, guid: 55158f4a89313c84bb6d37033abae458,
+  losePrefab: {fileID: 3729996999065193233, guid: 55158f4a89313c84bb6d37033abae458,
     type: 3}
-  winPrefab: {fileID: 2181098754034723542, guid: 05bc75ae3582d3441b4598258a43dfdc,
+  winPrefab: {fileID: 3876139131945660092, guid: 05bc75ae3582d3441b4598258a43dfdc,
     type: 3}
   questionPopupPrefab: {fileID: 3573159168434396476, guid: 3d78b200e7e3d1e4e927367771c8c226,
     type: 3}
