@@ -5,17 +5,12 @@ using UnityEngine;
 public class LoadDataHelper : MonoBehaviour
 {
 
-    public TextAsset QuestionData;
-    public QuestionDataContainer quesList;
-
-    public TextAsset AnswerData;
-    public AnswerDataContainer ansList;
+    public TextAsset LevelDataCSV;
+    public LevelDataContainer levelData;
     public void LoadData()
     {
-        var dataQues = CSVReader.Read(QuestionData);
-        quesList.LoadQuestionData(dataQues);
-        var dataAns = CSVReader.Read(AnswerData);
-        ansList.LoadQuestionData(dataAns);
+        var dataQues = CSVReader.Read(LevelDataCSV);
+        levelData.LoadLevelData(dataQues);
     }
 
 }

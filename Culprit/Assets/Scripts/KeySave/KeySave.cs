@@ -9,6 +9,8 @@ public class KeySave
     public const string STAGE_DATA = "STAGE_DATA";
     public const string INDEX_FREE_REWARD = "FreeReward";
     public const string CONTAINER_POPUP = "ContainerPopup";
+    public const int SCEME_MENU = 0;
+    public const int SCENE_STAGE = 1;
     public const string SOUND = "SOUND";
     public const string MUSIC = "MUSIC";
     public const int STAGE_AMOUNT = 6;

@@ -8,7 +8,6 @@ public class CorrectPopup : BasePopup
     public UnitStage container;
     public Text Explanation;
     public Image spriteEvidence;
-    public AnswerDataContainer ansData;
     public LevelEvidenceSprites spriteData;
 
 
@@ -23,7 +22,7 @@ public class CorrectPopup : BasePopup
         if (container != null && container.unit != null && container.unit is UnitMode2)
         {
             UnitMode2 unitMode2 = container.unit as UnitMode2;
-            Explanation.text = GetQuestion(unitMode2.indexStage, unitMode2.indexUnit, unitMode2.CurIndexScene);
+            Explanation.text = LevelDataManager.instance.GetQuestion(unitMode2.indexStage, unitMode2.indexUnit, unitMode2.CurIndexScene);
             spriteEvidence.sprite = spriteData.GetSprite(unitMode2.indexUnit, unitMode2.CurIndexScene);
         }
         base.ShowPopup();
@@ -53,16 +52,5 @@ public class CorrectPopup : BasePopup
     public override void Try()
     {
         HidePopup();
-    }
-    public string GetQuestion(int Stage, int UnitStage, int indexScene)
-    {
-        for (int i = 0; i < ansData.answerList.Count; i++)
-        {
-            if (ansData.answerList[i].MODE == (Stage + 1) && ansData.answerList[i].LEVEL == (UnitStage + 1))
-            {
-                return ansData.answerList[i].listAnswer[indexScene];
-            }
-        }
-        return " ";
     }
 }
