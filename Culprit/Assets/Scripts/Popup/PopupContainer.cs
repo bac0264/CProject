@@ -23,6 +23,7 @@ public class PopupContainer : MonoBehaviour
     public WinPopup winPrefab;
     public QuestionPopup questionPopupPrefab;
     public SettingPopup settingPopupPrefab;
+    public HintPopup hintPopup;
     public void UpdateContainer()
     {
         if(container == null) container = GameObject.FindGameObjectWithTag(KeySave.CONTAINER_POPUP).transform; 
@@ -74,5 +75,11 @@ public class PopupContainer : MonoBehaviour
         if (SettingPopup.instance == null) GetPopup(settingPopupPrefab);
         else
             SettingPopup.instance.ShowPopup();
+    }
+    public void ShowHintPopup()
+    {
+        if (HintPopup.instance == null) GetPopup(hintPopup);
+        else
+            HintPopup.instance.ShowPopup();
     }
 }

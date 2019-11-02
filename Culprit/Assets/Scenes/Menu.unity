@@ -1359,6 +1359,8 @@ MonoBehaviour:
     type: 3}
   settingPopupPrefab: {fileID: 3473077416586516454, guid: c34d4be4977a8894d8d2646576201c39,
     type: 3}
+  hintPopup: {fileID: 7394155800812057682, guid: 3a71866832caaae41baafa54406c08ed,
+    type: 3}
 --- !u!4 &1493852195
 Transform:
   m_ObjectHideFlags: 0

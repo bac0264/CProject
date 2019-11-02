@@ -6,7 +6,6 @@ public class ButtonStageManager : MonoBehaviour
 {
     public static ButtonStageManager instance;
     public ButtonPickUpAnswer btnPickup;
-    public ButtonPickupScene btnPickupScene;
     public Camera mainCam;
     public Camera subCamm_1;
     public Stage stage;

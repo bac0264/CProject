@@ -66,7 +66,7 @@ public class LevelDataManager : MonoBehaviour
         {
             if (levelData.levelList[i].MODE == (Stage + 1) && levelData.levelList[i].LEVEL == (UnitStage + 1))
             {
-                return levelData.levelList[i].listQues[indexScene];
+                return levelData.levelList[i].listHint[indexScene];
             }
         }
         return " ";

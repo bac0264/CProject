@@ -94,4 +94,8 @@ public class ButtonPickupScene : MonoBehaviour
     {
         if (PopupContainer.instance != null) PopupContainer.instance.ShowQuestionPopup();
     }
+    public void HintBtn()
+    {
+        if (PopupContainer.instance != null) PopupContainer.instance.ShowHintPopup();
+    }
 }
