@@ -26,6 +26,15 @@ public class CorrectPopup : BasePopup
             spriteEvidence.sprite = spriteData.GetSprite(unitMode2.indexUnit, unitMode2.CurIndexScene);
         }
         base.ShowPopup();
+        if(PlayerPrefs.GetInt(KeySave.HINT,0) == 1)
+        {
+            if (AdManager.Ins != null) AdManager.Ins.ShowVideo();
+            PlayerPrefs.SetInt(KeySave.HINT, 0);
+        }
+        else
+        {
+
+        }
     }
     public override void HidePopup()
     {

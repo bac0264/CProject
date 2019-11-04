@@ -5,9 +5,9 @@ using UnityEngine.Networking;
 public class LevelDataManager : MonoBehaviour
 {
     public static LevelDataManager instance;
-    public string URL = "http://localhost/connect/ConnectCSV.php";
+    private const string URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSlGpenyyFcYaFa_zFoY_EXXJstyDiaf12TH_srIw6nlhcDjpVEWFiJUIWYoqVh7KeEme7IAqMT-Fj9/pub?gid=0&single=true&output=csv";
     public LevelDataContainer levelData;
-    public string data;
+    public TextAsset backup;
     private void Awake()
     {
         if (instance == null)
@@ -24,17 +24,23 @@ public class LevelDataManager : MonoBehaviour
     }
     IEnumerator connectServer()
     {
-        WWW www = new WWW(URL);
-        yield return www;
+        UnityWebRequest www = UnityWebRequest.Get(URL);
+        yield return www.SendWebRequest();
         if (www.error != null)
         {
             Debug.Log("Error");
+            var dataQues = CSVReader.Read(backup);
+            levelData.LoadLevelData(dataQues);
         }
         else
         {
+            
             Debug.Log("got the php information");
-            data = www.text;
-            levelData.LoadLevelData(data);
+            //  levelData.LoadLevelData(data);
+            ReadFileCSV.SaveGoogleSheetData("Level", www.downloadHandler.text);
+            ES3Spreadsheet sheet = ReadFileCSV.ReadFileCsv("Level");
+            ReadFileCSV.HandleDataCSV(sheet);
+            levelData.LoadLevelData(sheet);
         }
 
     }

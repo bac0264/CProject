@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class ButtonStageManager : MonoBehaviour
 {
     public static ButtonStageManager instance;
-    public ButtonPickUpAnswer btnPickup;
+    public ButtonPickupMode1 btnPickup;
     public Camera mainCam;
     public Camera subCamm_1;
     public Stage stage;
@@ -17,7 +17,7 @@ public class ButtonStageManager : MonoBehaviour
     }
     private void OnValidate()
     {
-        if (btnPickup == null) btnPickup = FindObjectOfType<ButtonPickUpAnswer>();
+        if (btnPickup == null) btnPickup = FindObjectOfType<ButtonPickupMode1>();
     }
     public void TurnOn_MainCam()
     {
@@ -99,7 +99,7 @@ public class ButtonStageManager : MonoBehaviour
         if (unitStage != null && unitStage.unit != null && unitStage.unit is UnitMode2)
         {
             UnitMode2 unit = unitStage.unit as UnitMode2;
-            ButtonPickupScene.instance.SetupBtnDelegate(unit);
+            ButtonPickupMode2.instance.SetupBtnDelegate(unit);
         }
     }
 }

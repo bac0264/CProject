@@ -16,8 +16,10 @@ public class LevelDataContainer : ScriptableObject
             levelList.Add(_data);
         }
     }
+    // load php
     public void LoadLevelData(string data)
     {
+
         levelList = new List<LevelData>();
         string[] datas = data.Split('|');
         for (int i = 0; i < datas.Length; i++)
@@ -25,6 +27,20 @@ public class LevelDataContainer : ScriptableObject
             string[] unitDatas = datas[i].Split(',');
             LevelData _data = new LevelData(unitDatas);
             levelList.Add(_data);
+        }
+    }
+    // load sheet drive
+    public void LoadLevelData(ES3Spreadsheet sheet2)
+    {
+        levelList = new List<LevelData>();
+        for (int row = 1; row < sheet2.RowCount; row++)
+        {
+            for (int col = 0; col < sheet2.ColumnCount; )
+            {
+                LevelData _data = new LevelData(sheet2,row);
+                levelList.Add(_data);
+                break;
+            }
         }
     }
 }
@@ -94,6 +110,33 @@ public class LevelData
                 listHint.Add(unitDatas[j++]);
             if (j < unitDatas.Length)
                 listHint.Add(unitDatas[j++]);
+            break;
+        }
+    }
+    public LevelData(ES3Spreadsheet sheet2, int row)
+    {
+        listQues = new List<string>();
+        listAnswer = new List<string>();
+        listHint = new List<string>();
+        for (int col = 0; col < sheet2.ColumnCount;)
+        {
+            MODE = int.Parse(sheet2.GetCell<string>(col++, row));
+            LEVEL = int.Parse(sheet2.GetCell<string>(col++, row));
+
+            listQues.Add(sheet2.GetCell<string>(col++, row));
+            listQues.Add(sheet2.GetCell<string>(col++, row));
+            listQues.Add(sheet2.GetCell<string>(col++, row));
+            listQues.Add(sheet2.GetCell<string>(col++, row));
+
+            listAnswer.Add(sheet2.GetCell<string>(col++, row));
+            listAnswer.Add(sheet2.GetCell<string>(col++, row));
+            listAnswer.Add(sheet2.GetCell<string>(col++, row));
+            listAnswer.Add(sheet2.GetCell<string>(col++, row));
+
+            listHint.Add(sheet2.GetCell<string>(col++, row));
+            listHint.Add(sheet2.GetCell<string>(col++, row));
+            listHint.Add(sheet2.GetCell<string>(col++, row));
+            listHint.Add(sheet2.GetCell<string>(col++, row));
             break;
         }
     }

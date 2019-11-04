@@ -9,8 +9,8 @@ public class LoadDataHelper : MonoBehaviour
     public LevelDataContainer levelData;
     public void LoadData()
     {
-        var dataQues = CSVReader.Read(LevelDataCSV);
-        levelData.LoadLevelData(dataQues);
+        //var dataQues = CSVReader.Read(LevelDataCSV);
+        //levelData.LoadLevelData(dataQues);
     }
 
 }
