@@ -6,9 +6,18 @@ using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
+    public Animator ani;
+    private void OnValidate()
+    {
+        if (ani == null) ani = GetComponent<Animator>();
+    }
     public void ClickedStages()
     {
-        SceneManager.LoadScene("Stages");
+        ani.Play("Hide");
+    }
+    public void NextScene()
+    {
+        SceneManager.LoadScene("MenuToStage");
     }
     public void ClickSetting()
     {

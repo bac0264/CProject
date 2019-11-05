@@ -26,7 +26,7 @@ public class AdManager : MonoBehaviour
         else Destroy(this);
         // MobileAds.Initialize("ca-app-pub-1589360682424634~2716163106");
         interstitial = new InterstitialAd(inters);
-        bannerView = new BannerView(banner, AdSize.Banner, AdPosition.Bottom);
+        bannerView = new BannerView(banner, AdSize.Banner, AdPosition.Top);
         rewardBasedVideo = RewardBasedVideoAd.Instance;
 
         rewardBasedVideo.OnAdRewarded += HandleRewardBasedVideoRewarded;
