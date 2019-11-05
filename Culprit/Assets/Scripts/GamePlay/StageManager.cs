@@ -90,10 +90,6 @@ public class StageManager : MonoBehaviour
         if (UnitEnhance.instance != null)
             UnitEnhance.instance.scroller.GetContainer().SetActive(false);
     }
-    public void BackMenu()
-    {
-        SceneManager.LoadScene("Menu");
-    }
     public void SetupBtn(int index)
     {
         for (int i = 0; i < btns.Length; i++)
