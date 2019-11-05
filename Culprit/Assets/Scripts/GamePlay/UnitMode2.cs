@@ -65,7 +65,7 @@ public class UnitMode2 : Unit
             int temp = MaxIndexScene;
             MaxIndexScene = correctAnswerBtns.Count - 1;
             if (CurIndexScene == temp) CurIndexScene = MaxIndexScene;
-            ButtonPickupScene.instance.CloseBtn(MaxIndexScene);
+            ButtonPickupMode2.instance.CloseBtn(MaxIndexScene);
             isWin = true;
             IsWin();
         }
@@ -75,8 +75,8 @@ public class UnitMode2 : Unit
         }
         else
         {
-            ButtonPickupScene.instance.CloseBtn(MaxIndexScene - 1);
-            ButtonPickupScene.instance.OpenBtn(MaxIndexScene);
+            ButtonPickupMode2.instance.CloseBtn(MaxIndexScene - 1);
+            ButtonPickupMode2.instance.OpenBtn(MaxIndexScene);
             correctAnswerBtns[MaxIndexScene - 1].gameObject.SetActive(false);
             correctAnswerBtns[MaxIndexScene].gameObject.SetActive(true);
             if (PopupContainer.instance != null) PopupContainer.instance.ShowQuestionPopup();
@@ -88,7 +88,7 @@ public class UnitMode2 : Unit
         if (CurIndexScene < MaxIndexScene)
         {
             CurIndexScene++;
-            ButtonPickupScene.instance.SetBtnSceneDisplay(this, CurIndexScene);
+            ButtonPickupMode2.instance.SetBtnSceneDisplay(this, CurIndexScene);
             if (PopupContainer.instance != null) PopupContainer.instance.ShowQuestionPopup();
         }
         else

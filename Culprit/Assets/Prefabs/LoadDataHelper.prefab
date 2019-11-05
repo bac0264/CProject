@@ -43,7 +43,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 726889c81e3c7934cbc05725238cdb01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  QuestionData: {fileID: 4900000, guid: bf4aee2e8e294984791f152eccb42cd7, type: 3}
-  quesList: {fileID: 11400000, guid: 9cde15e0994ee454a9133ec884cd1dd8, type: 2}
-  AnswerData: {fileID: 4900000, guid: 5089d2cb0e5009d4694886b745883f69, type: 3}
-  ansList: {fileID: 11400000, guid: e99bb91157bcfd9469b2cd43f2519b56, type: 2}
+  LevelDataCSV: {fileID: 4900000, guid: bf4aee2e8e294984791f152eccb42cd7, type: 3}
+  levelData: {fileID: 11400000, guid: a91c2e2f1f1227748ad1ea141978c0d9, type: 2}

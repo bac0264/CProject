@@ -1,0 +1,409 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c769b65b78c6e3f458f4fe6df018d288, type: 3}
+  m_Name: LevelData
+  m_EditorClassIdentifier: 
+  levelList:
+  - MODE: 2
+    LEVEL: 1
+    listAnswer:
+    - There's a gunshot wound the side of the victim's head. This must be it.
+    - The window of the car was broken. The bullet shot its way in through this window
+    - The helicopter is hovering at the same height as the Ferris wheel cart. There
+      are sketchy men in the other cart; but they can't be the shooter because it
+      would've shattered the window of their cart.
+    - The victim was killed by the gang members in the next car. The victim became
+      too intimate with their boss's woman. This made the woman to believe her happiness
+      with an ordinary man was a mere fantasy. She decided to live out her life by
+      spending all of the boss's money.
+    listQues:
+    - A man had been killed on a Ferris wheel. Where did he receive the fatal wound?
+    - The victim was shot from outside the Ferris wheel car. How did the investigator
+      know that?
+    - Where is the shooter?
+    - The helicopter is hovering at the same height as the Ferris wheel cart. There
+      are sketchy men in the other cart; but they can't be the shooter because it
+      would've shattered the window of their cart?
+    listHint:
+    - Head
+    - The broken window
+    - The helicopter
+    - The gang members in the next car
+  - MODE: 2
+    LEVEL: 2
+    listAnswer:
+    - The victim is wearing a jacket which says PARK RANGER; the uniform worn by none
+      other than the park's employees.
+    - There are keys attached to the man's belt. He must have opened the shed and
+      brought it to the pond. But why would he do that after the park had closed?
+    - A feminine glove is floating by the body. The victim is wearing gloves on both
+      of his hands so this can't be his. And the design doesn't seem to match his
+      taste... There may have been someone else with him.
+    - A ring box is floating on the water. Turns out that the victim took his girlfriend
+      out for a boat ride after the park closed. His girlfriend confessed that she
+      had refused his marriage proposal which enraged him. In fear; she jumped off
+      of the boat and swam away; not realizing that the boat had turned over. The
+      victim couldn't swim so he drowned helplessly.
+    listQues:
+    - Someone phoned the police about a dead body floating on the pond. When they
+      arrived at the scene; they knew that the victim was the park employee. How did
+      they know that?
+    - The boat floating near the body is the one they rent out at this park. Other
+      park rangers are sure that they locked the boat away at the end of the day.
+      How did the boat get out?
+    - Police then found something near the body which led them to believe that someone
+      had been there at the time of the victim's death. What was the item they found?
+    - Something in the scene tells us about the relationship between the victim and
+      the person who accompanied him. Which item is it?
+    listHint:
+    - 'A jacket '
+    - ' Keys '
+    - 'Glove '
+    - 'A ring box '
+  - MODE: 2
+    LEVEL: 3
+    listAnswer:
+    - There's a knife stuck in the victim's chest which was visible even from afar.
+      He called the police immediately.
+    - Small boats are required to have vessel ID number displayed. Police tracked
+      down its owner and began investigating on the owner's son as the suspect.
+    - The bicycle by the lake belongs to the fisherman. In fact; some of his fishing
+      gears are still on it. Since it would be difficult to bring the boat to the
+      lake with that bicycle along with the fishing gears; police decided to rule
+      him out as a suspect.
+    - The barnacles covering the bottom of the boat suggest that the boat had been
+      brought from seashore since barnacles don't live in freshwater. It turns out
+      that the owner's son and the victim were colleagues. He murdered her when she
+      rejected his love. He staged the scene by bringing in the boat; but alas; it
+      didn't really help.
+    listQues:
+    - A fisher found a dead body at the lake. He knew the woman inside of the boat
+      was dead by one glance. How did he know?
+    - Police easily found the owner of the boat. Which part of the scene helped them?
+    - The fisher was the first suspect. However; as soon as they saw that the boat
+      had been brought to the lake from somewhere else; he was ruled out as a suspect.
+      Why?
+    - How did the police know that the boat was brought to the lake from elsewhere?
+      The clue can be seen on the boat itself.
+    listHint:
+    - A knife
+    - ID boat
+    - The bicycle
+    - The barnacles
+  - MODE: 2
+    LEVEL: 4
+    listAnswer:
+    - A bicycle had just passed by the woman; but she's not looking at that direction.
+      She is looking at the red car in front of her.
+    - There was roadwork being held on the sidewalk. This also narrowed the space
+      between pedestrians and vehicles; making it easier for the snatcher to take
+      the woman's purse.
+    - She remembered the license plate on the snatcher's car which helped police to
+      narrow down their list of suspects to 2 which had same numbers for their cars
+    - The snatcher had to be sitting on the right side to snatch the purse; so the
+      answer is B. Further investigation revealed that B was a repeat offender in
+      this area. Although he's rich enough to ride a nice car; he snatched purses
+      to laugh at the look on his victims' faces.
+    listQues:
+    - Someone snatched a women purse on the street. Which vehicle on the street belongs
+      to the snatcher?
+    - Why was the woman walking on the right side of the road with no sidewalk? Find
+      her reason from the picture.
+    - Police easily came up with a list of suspects; thanks to the woman sharing what
+      she remembered about the snatcher. What exactly did she remember?
+    - She also remembered that it was a black motobike and there two person on it.
+      Unfortunately; she doesn't remember the motobike make nor the model. But the
+      scene of the crime reveals which car the snatcher was on. Was the snatcher on
+      A or B?
+    listHint:
+    - 'The red car '
+    - Roadwork
+    - The license plate
+    - B
+  - MODE: 2
+    LEVEL: 5
+    listAnswer:
+    - There was a towel by the girl's side. Maybe the perpetrator used the same scarf
+      to strangle the girl; choking the girl. On the girl's neck there was still a
+      red band.
+    - Letters B.O. are written on the sand. Police suspects that there may be at least
+      2 culprits. One of which must have B in their name.
+    - Without the periods; the letters on the sand would read BO meaning the murderer
+      must have those two letters in their name. Bob is the only one that fits that
+      condition. Police also found out that Bob and the victim had been in a relationship.
+    - Bob was dating the victim and Beth at the same time. When the victim confronted
+      him about it; He used a scarf to try to strangle his girlfriend. He tried justifying
+      his action saying; I just wanted that girl to shut up. I didn't mean to kill
+      her though.
+    listQues:
+    - A woman is found dead on a crowded beach. A woman was found dead on a crowded
+      beach. She seemed to suffocate to death; what at the scene could be a weapon?
+    - Seems like the victim used her last strength to leave a clue on her murderer.
+      Where is it?
+    - The victim was at the beach with 4 friends. Police suspects the one with initials
+      B and 0. But... Oh no! All of them have B in their names. Which one of them
+      should police question?
+    - Why did Bob murder his girlfriend? There is a clue on his motive in the picture?
+    listHint:
+    - ' A towel'
+    - Letters B.O
+    - Bob
+    - The hand of Bob and Beth
+  - MODE: 2
+    LEVEL: 6
+    listAnswer:
+    - The lightning shaped marks in the grass show that the golfer was hit by lightning
+      and died.
+    - The puddle of water next to the body of golfer indicates that the weather was
+      bad during the incident. The ground must have been wet; too.
+    - The lightning specifically struck the golfer; despite the tall trees; because
+      of the golf club planted in the ground next to him. Golf clubs are metal; and
+      metal attracts lightning.
+    - Police conclude that the man was immobilized before the lightning strike by
+      being hit over the head with another golf club; which is laying on the ground
+      bent next to him.
+    listQues:
+    - A burnt body of a gofler was found on a gold course. Police Speculate this man
+      was electrocuted by a lightening. Which part of the scene shows that a lightening
+      had struck near him?
+    - Was the weather bad at the time of the accident? Does anything in the scene
+      indiacte that?
+    - ' Although there are many tall trees on the golf course. The lightening specifically
+      struck the golfer. Why?'
+    - Police said that this was not a simple lightning accident. Instead; Someone
+      immobilized the man earlier and led the light to attack him. What led the police
+      to this conclusion?
+    listHint:
+    - 'The lightning-shaped marks '
+    - The puddle of water
+    - Golf club planted in the ground
+    - The bent golf club
+  - MODE: 2
+    LEVEL: 7
+    listAnswer:
+    - On the girl who had no wounds; she died from poison; there was a used needle
+      next to the female doctor as evidence..
+    - The blood smear on the ground is indication that the assailant was injured;
+      because the victim fought back.
+    - The murderer was injured by the pen that the doctor was holding; and is still
+      holding even after her death.
+    - She was killed by someone working at the hospital; due to the open book on her
+      desk. The book indicates that she was on her break at the time.
+    listQues:
+    - ' Police received a call at night from a nurse reporting on a death of a female
+      doctor. upon arriving the hospital; what did the police find to be the cause
+      of her death?'
+    - The Murderer seems to be injured. How did police know that?
+    - How did the murderer get injured?
+    - She was killed by someone working at the hospital but not by a patient. What
+      item in the room prompted the investigator to think so?
+    listHint:
+    - needle
+    - 'The blood smear '
+    - the pen
+    - the book
+  - MODE: 2
+    LEVEL: 8
+    listAnswer:
+    - "The woman\u2019s fatal wound is on her forehead."
+    - The artist is the sweating; panting guy in the black jacket. His panting makes
+      the investigator wonder if he was exercising.
+    - The woman was murdered outside because of the wet jacket that she was wearing.
+    - The muddy footprints on the wooden floor in front of the house are clearly larger
+      than a woman's; which is why the artist is a prime suspect.
+    listQues:
+    - A young Woman was found dead on a rainny night. The investigator arrived at
+      the scene at midnight. Where is the fatal Wound?
+    - An Artist living in the neighborhood found the body when he visited to return
+      a book he borrowed from the victim. The investigator wonders if the artist had
+      been exercising untill his arrival. What made him think so?
+    - The investigator assumed the woman was murdered outside then brought home. What
+      led him to this thought?
+    - Neighbors said they saw victims go out in the morning before it started to rain.
+      This made investigators suspect the artist for the murder. Where is the proof
+      of it?
+    listHint:
+    - forehead
+    - the wet black jacket
+    - The wet jacket
+    - The muddy footprints
+  - MODE: 2
+    LEVEL: 9
+    listAnswer:
+    - The clock said 8 pm; the staff and office security were all gone; only one female
+      employee stayed overtime
+    - The big safe in the upper right corner of the office made the robber think that
+      there is a lot of cash
+    - The robber was looking through a specific drawer; because of the paper that
+      says 1192; which is the code to the safe.
+    - The phone is the reason that the woman was able to stop the robber. She called
+      emergency and left the phone off the hook.
+    listQues:
+    - The picture shows a robbery taking place in an office. Why could the robber
+      easily sneak into the office like that
+    - Which item made the robber think there was a large amount of cash in here?
+    - "The robber is rummaging through the office chief\u2019s drawer for a particular
+      item. The woman told him the drawer it was placed in. What\u2019s he looking
+      for?"
+    - "Eventually the chief failed to steal the cash and was arrested; thanks to the
+      woman\u2019s smart move. What did she do?"
+    listHint:
+    - 'The clock '
+    - The big safe
+    - the paper
+    - The phone
+  - MODE: 2
+    LEVEL: 10
+    listAnswer:
+    - 
+    - 
+    - 
+    - 
+    listQues:
+    - 
+    - 
+    - 
+    - 
+    listHint:
+    - 
+    - 
+    - 
+    - 
+  - MODE: 2
+    LEVEL: 11
+    listAnswer:
+    - The dinner table had two glasses on it; indicating that there were two people
+      in the room at the time.
+    - The ashtray has the hotel logo on it despite the no smoking sign; indicating
+      that the assailant may have been a staff member.
+    - The lipstick mark on the glass indicates that the girl may have had a glass
+      of wine. Someone poisoned the girl's wine glass.
+    - The love letter on the floor next to the woman would be the most likely item
+      to contain the handwriting of the assailant.
+    listQues:
+    - "A woman was found dead from poisoning in her hotel suite. she had checked in
+      by herself; but it\u2019s obvious there was someone else in the room on the
+      day of her death. How do we know this?"
+    - ' Police found something out of place. What is it?'
+    - The food doesn't seem to be touched yet. So where did the girl get poisoned
+      from?
+    - "The Woman was killed by the hotel manager whom she had been dating. The manager\u2019s
+      handwriting was the key to solving this case. which item in the room might contain
+      his handwriting?"
+    listHint:
+    - ' two glasses'
+    - The ashtray
+    - The lipstick mark
+    - 'The love letter '
+  - MODE: 2
+    LEVEL: 12
+    listAnswer:
+    - "The woman\u2019s bathrobe indicates that she was intimate with the assailant."
+    - the perpetrator might have stood on the table in the girl's room window to bring
+      the girl from the window of the rooftop room to the railing.
+    - The window that is all the way open is the one that the woman was staying in
+      at the time of the crime.
+    - The rope is the tool that allowed the assailant to get the victim to the rooftop.
+    listQues:
+    - A woman was strangled to death on the rooftop of a 10 story hotel. The examination
+      of the scene revealed that the murderer was someone intimate with the victim.
+      What suggests that?
+    - hanging from the roof railing proves that the girl cannot do it herself; but
+      must be done by the perpetrator. How could the perpetrator do so undetected?
+    - According to the hotel staff; the victim was staying in Room 908 and had her
+      window open. Which room is that in the picture?
+    - "The victim\u2019s room is locked from inside and the key seems to be in the
+      room. On her smartphone; there\u2019s a call history of a call she had with
+      the murderer. How did they get her to the rooftop?"
+    listHint:
+    - "The woman\u2019s bathrobe"
+    - "The woman\u2019s bathrobe"
+    - The window that is all the way open
+    - The rope
+  - MODE: 2
+    LEVEL: 13
+    listAnswer:
+    - The needle with a fork in the neck of the victim is the clue to what poisoned
+      her.
+    - The space heater in her office was turned up and used to make the office extra
+      hot.
+    - The teapot on top of the space heater was used to do the crime. The heat expanded
+      the vapors and shot the needle at her.
+    - The tea cup is on the table with lipstick mark of the victim. The perpetrator
+      put anesthetic in it.
+    listQues:
+    - One winter day; the detective is examining a murder scene in a locked room.
+      The victim; an up-and-coming physicist; was poisoned in her own lab. What was
+      used to poison her?
+    - "The victim\u2019s lab was unusually hot inside when the police arrived. Why
+      could that be?"
+    - "The lab was locked when her body was found. you have 3 clues: The unusually
+      warm lab; the needle with a cork at the end; and the victim\u2019s body. What
+      was used to the victim in this locked room?"
+    - Why can the perpetrator calculate the correct position and time of the victim
+      sitting in the chair when the kettle is boiling and needle on the victim's neck?
+    listHint:
+    - 'The needle '
+    - The space heater
+    - The teapot
+    - tea cup
+  - MODE: 2
+    LEVEL: 14
+    listAnswer:
+    - The arrow on the back made the police suspicious of the band members because
+      they were all standing behind the singer
+    - ' The harp player could have shot the arrow by using it as a makeshift bow.'
+    - The timpanist (drummer) on the right is laughing; indicating that he was the
+      accomplice who distracted the conductor.
+    - The singer  was killed due to the lipstick stain on his collar; indicating that
+      he was having an affair.
+    listQues:
+    - There was a panic at the music hall when the opera singer suddenly collapsed.
+      He was taken to ER but unfortunately passed away. Police currently suspect one
+      of the band members. But why?
+    - "Police couldn\u2019t find a device to shoot the arrow from the band member\u2019s
+      belongings. But there is one person who could\u2019ve shot the arrow without
+      such device. Who could that be?"
+    - what item in this room indiacates that the victim may have been intimate with
+      one of the men here?
+    - Why was the singer murdered? A certain item on his body gives a clues.
+    listHint:
+    - The arrow on the back
+    - The harp player
+    - 'The timpanist '
+    - the lipstick stain on his collar
+  - MODE: 2
+    LEVEL: 15
+    listAnswer:
+    - Museum staff set up a satan model to convince visitors that the murder was actually
+      part of the scene.
+    - The dress next to victim that someone else was there with the victim as well.
+    - The dry cleaning box indicates that an outsider could have grabbed the uniform
+      and stolen it.
+    - The victim was bleeding so much that the attacker had to remove from the skirt
+      and cuff of the victim's clothes.
+    listQues:
+    - A body was found in a horror museum. Visitors began to panic; but smart museum
+      staff have this situation. What have museum staff done to convince visitors
+      that the body is only part of the scene?
+    - The body was identified to be a male staff who was in charge of this area. He
+      was found wearing nothing but his underwear. Does this object in the scene belongs
+      to him?
+    - Suspecting that the uniform must belong to one of the female staff members;
+      police questioned them but no one turned out suspicious. Maybe an outsider got
+      a hold of the uniform. Which part in the picture hints at that?
+    - Why should the attacker remove his skirt and cuffs the victim?
+    listHint:
+    - 'satan model '
+    - The dress
+    - The dry cleaning box
+    - 'The blood '

@@ -11,6 +11,9 @@ public class KeySave
     public const string CONTAINER_POPUP = "ContainerPopup";
     public const string SOUND = "SOUND";
     public const string MUSIC = "MUSIC";
+    public const string HINT = "HINT";
+    public const int SCEME_MENU = 0;
+    public const int SCENE_STAGE = 1;
     public const int STAGE_AMOUNT = 6;
     public const int SIZE_OF_BLOCK = 12;
     public static int Get_Index_Block(int indexUnitStage)

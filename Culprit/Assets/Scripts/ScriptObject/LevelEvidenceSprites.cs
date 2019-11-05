@@ -7,7 +7,6 @@ public class LevelEvidenceSprites : ScriptableObject
 
     public void OnEnable()
     {
-        Debug.Log("run");
         if (spriteEvidences.Length == 0) spriteEvidences = Resources.LoadAll<Sprite>("LevelEvidence");
     }
     public Sprite GetSprite(int indexUnit, int indexCurScene)
