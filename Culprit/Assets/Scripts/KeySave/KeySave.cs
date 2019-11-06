@@ -9,6 +9,7 @@ public class KeySave
     public const string STAGE_DATA = "STAGE_DATA";
     public const string INDEX_FREE_REWARD = "FreeReward";
     public const string CONTAINER_POPUP = "ContainerPopup";
+    public const string MENU_UI_OPEN = "MENU_OPEN";
     public const string SOUND = "SOUND";
     public const string MUSIC = "MUSIC";
     public const string HINT = "HINT";
@@ -17,6 +18,8 @@ public class KeySave
     public const int SCENE_STAGE = 1;
     public const int STAGE_AMOUNT = 6;
     public const int SIZE_OF_BLOCK = 12;
+    public const float TIME_TO_NEXT_SCENE = 0.02f;
+    public const float SMOOTH_FILLAMOUNT = 2;
     public static int Get_Index_Block(int indexUnitStage)
     {
         int i = indexUnitStage / SIZE_OF_BLOCK;
