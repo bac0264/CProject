@@ -19,9 +19,9 @@ public class MenuToStage : MonoBehaviour
         int count = 1;
         for (; i <= count && i > 0;)
         {
-            i -= 5*Time.deltaTime;
+            i -= KeySave.SMOOTH_FILLAMOUNT*Time.deltaTime;
             progessBar.fillAmount = i;
-            yield return new WaitForSeconds(0.03f);
+            yield return new WaitForSeconds(KeySave.TIME_TO_NEXT_SCENE);
         }
         SceneManager.LoadScene(scene);
     }

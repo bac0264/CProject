@@ -1,0 +1,55 @@
+
+tap_play.png
+size: 224,288
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+f1/f1
+  rotate: true
+  xy: 179, 7
+  size: 55, 39
+  orig: 134, 135
+  offset: 16, 86
+  index: -1
+f1/f2
+  rotate: true
+  xy: 103, 3
+  size: 59, 74
+  orig: 134, 135
+  offset: 12, 51
+  index: -1
+f1/f3
+  rotate: true
+  xy: 2, 2
+  size: 60, 99
+  orig: 134, 135
+  offset: 11, 26
+  index: -1
+f1/f4
+  rotate: false
+  xy: 115, 177
+  size: 101, 108
+  orig: 134, 135
+  offset: 11, 17
+  index: -1
+f1/f5
+  rotate: true
+  xy: 2, 64
+  size: 111, 108
+  orig: 134, 135
+  offset: 10, 17
+  index: -1
+f1/f6
+  rotate: true
+  xy: 112, 64
+  size: 111, 108
+  orig: 134, 135
+  offset: 11, 17
+  index: -1
+f1/f7
+  rotate: false
+  xy: 2, 177
+  size: 111, 108
+  orig: 134, 135
+  offset: 10, 17
+  index: -1

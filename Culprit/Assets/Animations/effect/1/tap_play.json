@@ -1,0 +1,102 @@
+{
+"skeleton": { "hash": "dtKjpIn3BIfSeu5FNFmIpd+lnbs", "spine": "3.8.75" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "x": -0.29, "y": 0.2 }
+],
+"slots": [
+	{ "name": "f1/f1", "bone": "bone" },
+	{ "name": "f1/f2", "bone": "bone" },
+	{ "name": "f1/f3", "bone": "bone" },
+	{ "name": "f1/f4", "bone": "bone" },
+	{ "name": "f1/f5", "bone": "bone" },
+	{ "name": "f1/f6", "bone": "bone" },
+	{ "name": "f1/f7", "bone": "bone" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"f1/f1": {
+				"f1/f1": { "x": -1.57, "y": -2.74, "width": 134, "height": 135 }
+			},
+			"f1/f2": {
+				"f1/f2": { "x": -1.57, "y": -2.72, "width": 134, "height": 135 }
+			},
+			"f1/f3": {
+				"f1/f3": { "x": -1.56, "y": -2.72, "width": 134, "height": 135 }
+			},
+			"f1/f4": {
+				"f1/f4": { "x": -1.57, "y": -2.72, "width": 134, "height": 135 }
+			},
+			"f1/f5": {
+				"f1/f5": { "x": -0.36, "y": -2.73, "width": 134, "height": 135 }
+			},
+			"f1/f6": {
+				"f1/f6": { "x": -1.55, "y": -2.72, "width": 134, "height": 135 }
+			},
+			"f1/f7": {
+				"f1/f7": { "x": -0.74, "y": -2.72, "width": 134, "height": 135 }
+			}
+		}
+	}
+],
+"events": {
+	"end": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"f1/f2": {
+				"attachment": [
+					{ "time": 0.0667, "name": "f1/f2" },
+					{ "time": 0.1333, "name": null }
+				]
+			},
+			"f1/f1": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"f1/f3": {
+				"attachment": [
+					{ "time": 0.1333, "name": "f1/f3" },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"f1/f6": {
+				"attachment": [
+					{ "time": 0.3333, "name": "f1/f6" },
+					{ "time": 0.4, "name": null },
+					{ "time": 0.7333, "name": null }
+				]
+			},
+			"f1/f4": {
+				"attachment": [
+					{ "time": 0.2, "name": "f1/f4" },
+					{ "time": 0.2667, "name": null }
+				]
+			},
+			"f1/f5": {
+				"attachment": [
+					{ "time": 0.2667, "name": "f1/f5" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"f1/f7": {
+				"color": [
+					{ "time": 0.7333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.4, "name": "f1/f7" },
+					{ "time": 0.7333, "name": "f1/f7" }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.8333, "name": "end" }
+		]
+	}
+}
+}

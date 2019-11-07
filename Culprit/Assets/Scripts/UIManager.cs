@@ -7,6 +7,17 @@ using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviour
 {
     public Animator ani;
+    private void Awake()
+    {
+        //if(PlayerPrefs.GetInt(KeySave.MENU_UI_OPEN, 0) == 1)
+        //{
+        //    ani.Play("Open");
+        //}
+        //else
+        //{
+        //    PlayerPrefs.SetInt(KeySave.MENU_UI_OPEN, 1);
+        //}
+    }
     private void OnValidate()
     {
         if (ani == null) ani = GetComponent<Animator>();

@@ -55,7 +55,7 @@ public class AdManager : MonoBehaviour
     }
     public void ShowBanner()
     {
-        bannerView.Show();
+       // bannerView.Show();
     }
 
     void VideoRequest()
@@ -73,25 +73,26 @@ public class AdManager : MonoBehaviour
         //#if UNITY_EDITOR
         //        StartCoroutine(GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>().giftBoxClickIEnumerator());
         //#endif
-        if (rewardBasedVideo.IsLoaded())
-        {
-            rewardBasedVideo.Show();
-        }
-        else VideoRequest();
+            
+        //if (rewardBasedVideo.IsLoaded())
+        //{
+        //    rewardBasedVideo.Show();
+        //}
+        //else VideoRequest();
 
     }
     public void ShowInterstitial()
     {
-        if (this.interstitial.IsLoaded())
-        {
+        //if (this.interstitial.IsLoaded())
+        //{
 
-            this.interstitial.Show();
-            AdRequest();
-        }
-        else
-        {
-            AdRequest();
-        }
+        //    this.interstitial.Show();
+        //    AdRequest();
+        //}
+        //else
+        //{
+        //    AdRequest();
+        //}
 
     }
 
