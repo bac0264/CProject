@@ -51,12 +51,20 @@ public class UnitMode2 : Unit
     // Show popup if incorrect
     public void Incorrect()
     {
-        if (PopupContainer.instance != null) PopupContainer.instance.ShowIncorrectPopup();
+        if (PickupCorrectAns.instance != null)
+        {
+            PickupCorrectAns.instance.RunPickup();
+            PickupCorrectAns.instance.ISCORRECT = false;
+        }
     }
     public void Correct()
     {
         // Run animation -> show popup
-        if (PickupCorrectAns.instance != null) PickupCorrectAns.instance.Run(correctAnswerBtns[CurIndexScene].transform.position);
+        if (PickupCorrectAns.instance != null)
+        {
+            PickupCorrectAns.instance.RunPickup();
+            PickupCorrectAns.instance.ISCORRECT = true;
+        }
     }
     public void OpenScene()
     {

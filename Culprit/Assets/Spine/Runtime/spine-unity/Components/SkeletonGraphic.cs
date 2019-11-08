@@ -293,8 +293,32 @@ namespace Spine.Unity {
 				}
 			}
 		}
+        protected override void OnEnable()
+        {
+            base.OnEnable();
+            if (!string.IsNullOrEmpty(startingAnimation))
+            {
+                var animationObject = skeletonDataAsset.GetSkeletonData(false).FindAnimation(startingAnimation);
+                if (animationObject != null)
+                {
+                    state.SetAnimation(0, animationObject, startingLoop);
+#if UNITY_EDITOR
+                    if (!Application.isPlaying)
+                        Update(0f);
+#endif
+                    if (freeze)
+                        Update(0f);
+                }
+            }
+        }
+        protected override void OnDisable()
+        {
+            base.OnDisable();
+            state.ClearListenerNotifications();
+            state.ClearTracks();
+        }
 
-		public void UpdateMesh () {
+        public void UpdateMesh () {
 			if (!this.IsValid) return;
 
 			skeleton.SetColor(this.color);
