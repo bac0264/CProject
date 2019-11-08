@@ -8,6 +8,7 @@ public class PickupCorrectAns : MonoBehaviour
 
     public Animator ani;
     public Transform correctPosition;
+    private bool correct;
     private void Awake()
     {
         if (instance == null) instance = this;
