@@ -11,6 +11,7 @@ public class QuestionPopup : BasePopup
     public Text question;
 
     public UnitStage unitStage;
+    public Animator closeBtn;
     private void Awake()
     {
         if (instance == null) instance = this;
@@ -24,5 +25,16 @@ public class QuestionPopup : BasePopup
             question.text = LevelDataManager.instance.GetQuestion(unitMode2.indexStage, unitMode2.indexUnit, unitMode2.CurIndexScene);
         }
         base.ShowPopup();
+    }
+    public override void HidePopup()
+    {
+        //StartCoroutine(_HidePopup());
+        base.HidePopup();
+    }
+    IEnumerator _HidePopup()
+    {
+        closeBtn.Play("Click");
+        yield return new WaitForSeconds(KeySave.TIME_BACK);
+        base.HidePopup();
     }
 }

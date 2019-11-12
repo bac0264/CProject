@@ -18,6 +18,7 @@ public class KeySave
     public const int SCENE_STAGE = 1;
     public const int STAGE_AMOUNT = 6;
     public const int SIZE_OF_BLOCK = 12;
+    public const float TIME_BACK = 0.3f;
     public const float TIME_TO_NEXT_SCENE = 0.02f;
     public const float SMOOTH_FILLAMOUNT = 2;
     public static int Get_Index_Block(int indexUnitStage)

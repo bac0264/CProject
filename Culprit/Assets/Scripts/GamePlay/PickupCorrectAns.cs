@@ -37,9 +37,9 @@ public class PickupCorrectAns : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) && !RUN)
         {
-            Vector3 taget = _camera.ScreenToWorldPoint(Input.mousePosition);
-            taget.z = 0;
-            correctPosition.DOMove(taget, 0);
+            pos = _camera.ScreenToWorldPoint(Input.mousePosition);
+            pos.z = 0;
+            correctPosition.DOMove(pos, 0);
         }
     }
 

@@ -80,10 +80,18 @@ public class StageManager : MonoBehaviour
     #endregion
     public void Back()
     {
+        StartCoroutine(_back());
+    }
+    IEnumerator _back()
+    {
+        Animator aniBtn1 = btns[1].GetComponent<Animator>();
+        aniBtn1.Play("Click");
+        yield return new WaitForSeconds(KeySave.TIME_BACK);
         OpenAllStage();
         imageOfUnitStageManager.enabled = false;
         btns[0].gameObject.SetActive(true);
         btns[1].gameObject.SetActive(false);
+        aniBtn1.Rebind();
         if (curStage != null) curStage.RemoveEvents();
         if (StageEnhance.instance != null)
             StageEnhance.instance.scroller.GetContainer().SetActive(true);
