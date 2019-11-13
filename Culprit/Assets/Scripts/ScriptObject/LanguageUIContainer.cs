@@ -18,7 +18,7 @@ public class LanguageUIContainer : ScriptableObject
     // load sheet drive
     public void LoadUIData(ES3Spreadsheet sheet2)
     {
-        dataList = new List<UIData>();
+        dataList = new List<UIData>(); 
         for (int row = 1; row < sheet2.RowCount; row++)
         {
             for (int col = 0; col < sheet2.ColumnCount;)

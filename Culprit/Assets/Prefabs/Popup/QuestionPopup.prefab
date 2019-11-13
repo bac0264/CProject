@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 7561179315438601901}
   - component: {fileID: 4551119458301330500}
   - component: {fileID: 5709596808720920047}
+  - component: {fileID: 6245783246224128059}
   m_Layer: 5
-  m_Name: TextMeshPro Text
+  m_Name: Popup_Close
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -161,6 +162,20 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &6245783246224128059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 26607894595798679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1762ec5b6e4decc4c93fe38f830a2362, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 5709596808720920047}
+  type: 1
 --- !u!1 &866973174925016623
 GameObject:
   m_ObjectHideFlags: 0
@@ -173,8 +188,9 @@ GameObject:
   - component: {fileID: 5959521487610463630}
   - component: {fileID: 1623162224843623053}
   - component: {fileID: 784805405523271610}
+  - component: {fileID: 5949758195823515024}
   m_Layer: 5
-  m_Name: Question-Title
+  m_Name: PopupQuestion_Question
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -256,6 +272,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
+--- !u!114 &5949758195823515024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866973174925016623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716b39d6cca0d204ab349da5cc10dbbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 1623162224843623053}
 --- !u!1 &3553674886904099652
 GameObject:
   m_ObjectHideFlags: 0

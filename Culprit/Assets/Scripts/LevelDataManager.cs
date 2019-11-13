@@ -17,6 +17,9 @@ public class LevelDataManager : MonoBehaviour
     public LevelDataContainer levelData;
     public LanguageUIContainer languageUIContainer;
     public TextAsset backup;
+
+
+
     private void Awake()
     {
         if (instance == null)
@@ -26,8 +29,7 @@ public class LevelDataManager : MonoBehaviour
         }
         else { Destroy(this); }
         GetDataFromServer();
-        textScripts = FindObjectsOfType<TextScript>();
-        textmeshScripts = FindObjectsOfType<TextmeshScript>();
+        UpdateAllText();
     }
     public void GetDataFromServer()
     {
@@ -153,6 +155,8 @@ public class LevelDataManager : MonoBehaviour
     }
     public void UpdateAllText()
     {
+        textScripts = FindObjectsOfType<TextScript>();
+        textmeshScripts = FindObjectsOfType<TextmeshScript>();
         for (int i = 0; i < textScripts.Length; i++)
         {
             textScripts[i].UpdateText();

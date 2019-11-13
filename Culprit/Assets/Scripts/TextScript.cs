@@ -17,5 +17,6 @@ public class TextScript : MonoBehaviour
     public void UpdateText()
     {
         if (LevelDataManager.instance != null) text.text = LevelDataManager.instance.GetStringFromDictionary(name);
+        if (FontsManager.instance != null) text.font = FontsManager.instance.GetFontText(PlayerPrefs.GetInt(KeySave.LANGUAGE).ToString());
     }
 }

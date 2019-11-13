@@ -263,8 +263,9 @@ GameObject:
   - component: {fileID: 902273028427456026}
   - component: {fileID: 1949159271469022729}
   - component: {fileID: 7102329574333934616}
+  - component: {fileID: 1350168882673712844}
   m_Layer: 5
-  m_Name: TextMeshPro Text (2)
+  m_Name: Popup_Try
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -413,6 +414,20 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &1350168882673712844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2484168257070479128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1762ec5b6e4decc4c93fe38f830a2362, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 7102329574333934616}
+  type: 1
 --- !u!1 &2678739998625346333
 GameObject:
   m_ObjectHideFlags: 0
@@ -425,8 +440,9 @@ GameObject:
   - component: {fileID: 763510952606038591}
   - component: {fileID: 1038357263670673544}
   - component: {fileID: 4978317186404938117}
+  - component: {fileID: 4653139485185547582}
   m_Layer: 5
-  m_Name: Answer&Logic
+  m_Name: Popup_AnsAndLogic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -508,6 +524,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
+--- !u!114 &4653139485185547582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2678739998625346333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716b39d6cca0d204ab349da5cc10dbbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 1038357263670673544}
 --- !u!1 &2962480436127973678
 GameObject:
   m_ObjectHideFlags: 0
@@ -519,8 +548,9 @@ GameObject:
   - component: {fileID: 132755145980682536}
   - component: {fileID: 6474405410605135311}
   - component: {fileID: 4195092600709272049}
+  - component: {fileID: 3940431789868990663}
   m_Layer: 5
-  m_Name: TextMeshPro Text
+  m_Name: Popup_Next
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -669,6 +699,20 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &3940431789868990663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2962480436127973678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1762ec5b6e4decc4c93fe38f830a2362, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 4195092600709272049}
+  type: 1
 --- !u!1 &3318043906121746542
 GameObject:
   m_ObjectHideFlags: 0
@@ -770,8 +814,9 @@ GameObject:
   - component: {fileID: 8662899646517553642}
   - component: {fileID: 2403509061539513713}
   - component: {fileID: 7895619558055498246}
+  - component: {fileID: 4983945077417918935}
   m_Layer: 5
-  m_Name: TextMeshPro Text
+  m_Name: Popup_Next
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -899,14 +944,14 @@ MonoBehaviour:
     spaceCount: 0
     wordCount: 1
     linkCount: 0
-    lineCount: 2
+    lineCount: 4
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 1
+  m_isInputParsingRequired: 0
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -920,6 +965,20 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &4983945077417918935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3414486578070375910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1762ec5b6e4decc4c93fe38f830a2362, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 7895619558055498246}
+  type: 1
 --- !u!1 &3514277235899400262
 GameObject:
   m_ObjectHideFlags: 0
@@ -1174,7 +1233,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7921564475998581090
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1192,7 +1251,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.037, y: 0.02488317}
   m_AnchorMax: {x: 0.33259258, y: 0.13900001}
-  m_AnchoredPosition: {x: 0.5000038, y: 0.5185547}
+  m_AnchoredPosition: {x: 0.5, y: 0.5185547}
   m_SizeDelta: {x: 1, y: -1}
   m_Pivot: {x: 0.5, y: 0.56422025}
 --- !u!222 &2086159557788413046
@@ -1296,8 +1355,9 @@ GameObject:
   - component: {fileID: 1613815512909617664}
   - component: {fileID: 3707791430264290971}
   - component: {fileID: 224852169740509602}
+  - component: {fileID: 3602926081938418181}
   m_Layer: 5
-  m_Name: Correct-Text
+  m_Name: PopupCorrect_Correct
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1425,14 +1485,14 @@ MonoBehaviour:
     spaceCount: 0
     wordCount: 1
     linkCount: 0
-    lineCount: 4
+    lineCount: 8
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 1
+  m_isInputParsingRequired: 0
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -1446,6 +1506,20 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &3602926081938418181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5295172983135681238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1762ec5b6e4decc4c93fe38f830a2362, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 224852169740509602}
+  type: 2
 --- !u!1 &6117046886292664877
 GameObject:
   m_ObjectHideFlags: 0
@@ -2077,8 +2151,9 @@ GameObject:
   - component: {fileID: 3048907970083444671}
   - component: {fileID: 479328621836480338}
   - component: {fileID: 6812276478319175324}
+  - component: {fileID: 2336044648105849368}
   m_Layer: 5
-  m_Name: WellDone
+  m_Name: PopupCorrect_WellDone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2206,14 +2281,14 @@ MonoBehaviour:
     spaceCount: 1
     wordCount: 2
     linkCount: 0
-    lineCount: 3
+    lineCount: 5
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 1
+  m_isInputParsingRequired: 0
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -2227,3 +2302,17 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &2336044648105849368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9150379790808273810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1762ec5b6e4decc4c93fe38f830a2362, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 6812276478319175324}
+  type: 2

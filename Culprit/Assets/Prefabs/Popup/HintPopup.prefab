@@ -273,8 +273,9 @@ GameObject:
   - component: {fileID: 6674404693727763699}
   - component: {fileID: 5935820097407870100}
   - component: {fileID: 4151819870889597352}
+  - component: {fileID: 6643256344040053330}
   m_Layer: 5
-  m_Name: TextMeshPro Text
+  m_Name: Popup_Close
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -423,6 +424,20 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &6643256344040053330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5280592309386107607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1762ec5b6e4decc4c93fe38f830a2362, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 4151819870889597352}
+  type: 1
 --- !u!1 &6641439680573942179
 GameObject:
   m_ObjectHideFlags: 0
@@ -435,8 +450,9 @@ GameObject:
   - component: {fileID: 186688854108787202}
   - component: {fileID: 5090642905628581121}
   - component: {fileID: 6541207886335100982}
+  - component: {fileID: 7777780195014350561}
   m_Layer: 5
-  m_Name: Hint-Title
+  m_Name: PopupHint_Suggest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -518,6 +534,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
+--- !u!114 &7777780195014350561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6641439680573942179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716b39d6cca0d204ab349da5cc10dbbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 5090642905628581121}
 --- !u!1 &7021685534457898184
 GameObject:
   m_ObjectHideFlags: 0

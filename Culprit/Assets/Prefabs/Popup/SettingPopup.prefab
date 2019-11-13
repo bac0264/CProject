@@ -87,8 +87,9 @@ GameObject:
   - component: {fileID: 2123514207396606580}
   - component: {fileID: 169131190974562132}
   - component: {fileID: 5924983476900462645}
+  - component: {fileID: 8217310959604056222}
   m_Layer: 5
-  m_Name: MusicTitle
+  m_Name: Setting_Music
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -155,6 +156,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: MUSIC
+--- !u!114 &8217310959604056222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375506018389403197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716b39d6cca0d204ab349da5cc10dbbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 5924983476900462645}
 --- !u!1 &950133072014552040
 GameObject:
   m_ObjectHideFlags: 0
@@ -166,8 +180,9 @@ GameObject:
   - component: {fileID: 8961701589520068941}
   - component: {fileID: 2548069284878973035}
   - component: {fileID: 2520721991978927488}
+  - component: {fileID: 6470322512303498801}
   m_Layer: 5
-  m_Name: TextMeshPro Text
+  m_Name: Setting_Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -267,7 +282,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 0
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -295,7 +310,7 @@ MonoBehaviour:
     spaceCount: 0
     wordCount: 1
     linkCount: 0
-    lineCount: 1
+    lineCount: 7
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -316,6 +331,20 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &6470322512303498801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 950133072014552040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1762ec5b6e4decc4c93fe38f830a2362, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 2520721991978927488}
+  type: 2
 --- !u!1 &1171030783818771763
 GameObject:
   m_ObjectHideFlags: 0
@@ -531,8 +560,9 @@ GameObject:
   - component: {fileID: 917349505946986747}
   - component: {fileID: 5535801661857310324}
   - component: {fileID: 5102217445527077353}
+  - component: {fileID: 4799084562477699369}
   m_Layer: 5
-  m_Name: Language_Title
+  m_Name: Setting_Language
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -599,6 +629,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: LANGUAGE
+--- !u!114 &4799084562477699369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2190941475058012431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716b39d6cca0d204ab349da5cc10dbbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 5102217445527077353}
 --- !u!1 &2868004698964652544
 GameObject:
   m_ObjectHideFlags: 0
@@ -1299,8 +1342,9 @@ GameObject:
   - component: {fileID: 1242666115490553983}
   - component: {fileID: 2819041178051756907}
   - component: {fileID: 2238849103477444512}
+  - component: {fileID: 4298506213890356986}
   m_Layer: 5
-  m_Name: Sound_Title
+  m_Name: Setting_Sound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1367,6 +1411,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: SOUND
+--- !u!114 &4298506213890356986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8019109877911065034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716b39d6cca0d204ab349da5cc10dbbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 2238849103477444512}
 --- !u!1 &8275123656346729515
 GameObject:
   m_ObjectHideFlags: 0
