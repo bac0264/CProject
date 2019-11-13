@@ -2815,6 +2815,7 @@ GameObject:
   - component: {fileID: 5507113352992486202}
   - component: {fileID: 484804532831043355}
   - component: {fileID: 5314017277103235105}
+  - component: {fileID: 3201388755990344706}
   m_Layer: 0
   m_Name: 0_5
   m_TagString: Untagged
@@ -2973,6 +2974,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boneRoot: {fileID: 2972142033118679424}
   skeletonRenderer: {fileID: 5507113352992486202}
+--- !u!114 &3201388755990344706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2341046330829774437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbec050ed5ca6347bf9efc96572fd57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2360348736761923918
 GameObject:
   m_ObjectHideFlags: 0
