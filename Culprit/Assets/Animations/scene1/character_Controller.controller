@@ -103,7 +103,35 @@ AnimationClip:
     m_KeepOriginalPositionXZ: 0
     m_HeightFromFeet: 0
     m_Mirror: 0
-  m_EditorCurves: []
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: dummy
+    path: 
+    classID: 1
+    script: {fileID: 0}
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
@@ -123,35 +151,35 @@ AnimationClip:
     intParameter: 0
     messageOptions: 1
   - time: 0.3333
-    functionName: footstep1_room
+    functionName: _Footstep1_room
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 0.6667
-    functionName: footstep1_room
+    functionName: _Footstep1_room
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 1
-    functionName: footstep1_room
+    functionName: _Footstep1_room
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 1.3333
-    functionName: footstep1_room
+    functionName: _Footstep1_room
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 1.6667
-    functionName: footstep1_room
+    functionName: _Footstep1_room
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -300,70 +328,70 @@ AnimationClip:
     intParameter: 0
     messageOptions: 1
   - time: 0.3333
-    functionName: bottle_fly
+    functionName: _BottleFly
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
-  - time: 0.6667
-    functionName: male_scream
+  - time: 0.6666667
+    functionName: _BottlePop
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
-  - time: 0.6667
-    functionName: bottle_fall
+  - time: 0.6666667
+    functionName: _BottleFall
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
-  - time: 0.6667
-    functionName: bottle_pop
+  - time: 0.6666667
+    functionName: _MaleScream
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 0.8333
-    functionName: hit
+    functionName: _Hit
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 2.6667
-    functionName: bottle_fly
+    functionName: _BottleFly
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 2.6667
-    functionName: whoosch
+    functionName: _Whoosch
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 2.8333
-    functionName: bottle_crash
+    functionName: _BottleCrash
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 2.9667
-    functionName: bottle_ting
+    functionName: _BottleCrash
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 3.1667
-    functionName: hit
+    functionName: _Hit
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -567,106 +595,106 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
-  - time: 0.5333
-    functionName: footstep_room
+  - time: 0.56666666
+    functionName: _Footstep_room
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 1.0333
-    functionName: footstep_room
+    functionName: _Footstep_room
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 1.8333
-    functionName: gasp
+    functionName: _Gasp
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 3.5
-    functionName: fidge_open
+    functionName: _Fidge_Open
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 3.6667
-    functionName: glass_bottles
+    functionName: _Glass_bottle
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 4.1667
-    functionName: female_angry
+    functionName: _Female_Angry
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 6.1667
-    functionName: swoosh_slash
+    functionName: _Swoosh_slash
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 6.6667
-    functionName: footstep1_room
+    functionName: _Footstep1_room
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 7
-    functionName: footstep1_room
+    functionName: _Footstep1_room
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 7.3333
-    functionName: footstep1_room
+    functionName: _Footstep1_room
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 7.6667
-    functionName: footstep1_room
+    functionName: _Footstep1_room
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 8
-    functionName: footstep1_room
+    functionName: _Footstep1_room
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 8.3333
-    functionName: footstep1_room
+    functionName: _Footstep1_room
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
-  - time: 8.6667
+  - time: 8.65
     functionName: ActiveBtn
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
-  - time: 8.6667
-    functionName: footstep1_room
+  - time: 8.666667
+    functionName: _Footstep1_room
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -794,42 +822,42 @@ AnimationClip:
     intParameter: 0
     messageOptions: 1
   - time: 0.3333
-    functionName: female_angry
+    functionName: _Female_Angry
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 1.1667
-    functionName: whoosch
+    functionName: _Whoosch
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 1.4
-    functionName: kick
+    functionName: _Kick
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 1.6667
-    functionName: Ough
+    functionName: _Ough
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 1.6667
-    functionName: kick1
+    functionName: _Kick1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 2
-    functionName: laugh
+    functionName: _Laugh
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

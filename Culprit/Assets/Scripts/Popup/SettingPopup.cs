@@ -41,7 +41,7 @@ public class SettingPopup : BasePopup
     }
     public void SoundBtn()
     {
-        if(PlayerPrefs.GetInt(KeySave.SOUND) == 1)
+        if (PlayerPrefs.GetInt(KeySave.SOUND) == 1)
         {
             TurnOnSound();
             PlayerPrefs.SetInt(KeySave.SOUND, 0);
@@ -87,6 +87,13 @@ public class SettingPopup : BasePopup
     }
     public void Language()
     {
-
+        if (PlayerPrefs.GetInt(KeySave.LANGUAGE) == 0) {
+            PlayerPrefs.SetInt(KeySave.LANGUAGE, 1);
+        }
+        else
+        {
+            PlayerPrefs.SetInt(KeySave.LANGUAGE, 0);
+        }
+        if(LevelDataManager.instance != null) LevelDataManager.instance.GetDataFromServer();
     }
 }

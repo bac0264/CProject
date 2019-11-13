@@ -502,7 +502,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0
-  m_Text: QUESTION
+  m_Text: Suggestion
 --- !u!114 &6541207886335100982
 MonoBehaviour:
   m_ObjectHideFlags: 0

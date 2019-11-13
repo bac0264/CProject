@@ -75,7 +75,6 @@ public class SoundManager : MonoBehaviour
         foreach (AudioClip clip in _audioClips)
         {
             audioClips.Add(clip.name, clip);
-            Debug.Log("clip.name: " + clip.name);
         }
     }
     public void BigCrash()
@@ -165,6 +164,7 @@ public class SoundManager : MonoBehaviour
     }
     public void Footstep_room()
     {
+        Debug.Log(audioClips[FOOTSTEP_ROOM]);
         audioFX.PlayOneShot(audioClips[FOOTSTEP_ROOM], 1f);
     }
     public void Footstep_stone()
