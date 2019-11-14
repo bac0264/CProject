@@ -46,7 +46,11 @@ public class SoundManager : MonoBehaviour
     private const string OUGH = "Ough";
     private const string SWOOSH_SLASH = "swoosh_slash";
     private const string WHOOSCH = "whoosch";
-
+    private const string RAIN = "rain";
+    private const string WATER_SPLASH = "water_splash";
+    private const string DOG_GOES = "dog_goes";
+    private const string DOG_JUMP = "dog_jump";
+    private const string DOG_ANGRY = "dog_angry";
 
     public AudioSource audioFX;
 
@@ -246,6 +250,26 @@ public class SoundManager : MonoBehaviour
     public void Whoosch()
     {
         audioFX.PlayOneShot(audioClips[WHOOSCH], 1f);
+    }
+    public void Rain()
+    {
+        audioFX.PlayOneShot(audioClips[RAIN], 1f);
+    }
+    public void Water_Splash()
+    {
+        audioFX.PlayOneShot(audioClips[WATER_SPLASH], 1f);
+    }
+    public void DogGoes()
+    {
+        audioFX.PlayOneShot(audioClips[DOG_GOES], 1f);
+    }
+    public void DogJump()
+    {
+        audioFX.PlayOneShot(audioClips[DOG_JUMP], 1f);
+    }
+    public void DogAngry()
+    {
+        audioFX.PlayOneShot(audioClips[DOG_ANGRY], 1f);
     }
     //--------------------------------------------
 

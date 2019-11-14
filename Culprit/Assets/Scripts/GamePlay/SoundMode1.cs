@@ -173,4 +173,24 @@ public class SoundMode1 : MonoBehaviour
     {
         if (SoundManager.instance != null) SoundManager.instance.Whoosch();
     }
+    public void _Rain()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.Rain();
+    }
+    public void _WaterSplash()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.Water_Splash();
+    }
+    public void _DogGoes()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.DogGoes();
+    }
+    public void _DogJump()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.DogJump();
+    }
+    public void _DogAngry()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.DogAngry();
+    }
 }

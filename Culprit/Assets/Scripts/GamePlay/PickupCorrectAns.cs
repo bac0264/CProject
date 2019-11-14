@@ -33,7 +33,7 @@ public class PickupCorrectAns : MonoBehaviour
         get
         { return isCorrect; }
     }
-    private void FixedUpdate()
+    public void Update()
     {
         if (Input.GetMouseButtonDown(0) && !RUN)
         {

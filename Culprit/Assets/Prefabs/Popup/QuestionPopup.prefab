@@ -110,7 +110,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_firstOverflowCharacterIndex: -1
@@ -285,6 +285,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 1623162224843623053}
+  type: 0
 --- !u!1 &3553674886904099652
 GameObject:
   m_ObjectHideFlags: 0
@@ -614,6 +615,7 @@ GameObject:
   - component: {fileID: 4387621093461424962}
   - component: {fileID: 7879597619070741853}
   - component: {fileID: 2991385842293328268}
+  - component: {fileID: 4516185107414327830}
   m_Layer: 5
   m_Name: Question-Text
   m_TagString: Untagged
@@ -697,3 +699,17 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
+--- !u!114 &4516185107414327830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9142440379972370467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716b39d6cca0d204ab349da5cc10dbbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 7879597619070741853}
+  type: 1

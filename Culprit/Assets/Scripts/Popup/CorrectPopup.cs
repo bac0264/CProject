@@ -19,9 +19,11 @@ public class CorrectPopup : BasePopup
     {
         Refresh();
         container = ButtonStageManager.instance.unitStage;
+        Debug.Log(container);
         if (container != null && container.unit != null && container.unit is UnitMode2)
         {
             UnitMode2 unitMode2 = container.unit as UnitMode2;
+            Debug.Log(Explanation.text);
             Explanation.text = LevelDataManager.instance.GetAnswer(unitMode2.indexStage, unitMode2.indexUnit, unitMode2.CurIndexScene);
             spriteEvidence.sprite = spriteData.GetSprite(unitMode2.indexUnit, unitMode2.CurIndexScene);
         }

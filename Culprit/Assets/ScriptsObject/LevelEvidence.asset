@@ -12,24 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab482ddb1c16f54fa76b1f615cb6664, type: 3}
   m_Name: LevelEvidence
   m_EditorClassIdentifier: 
-  spriteEvidences:
-  - {fileID: 21300000, guid: 094dbb21fade7944d81a86c07848ef65, type: 3}
-  - {fileID: 21300000, guid: 09e49bf8e497b2e4db6077d46b7e9898, type: 3}
-  - {fileID: 21300000, guid: a5dae7f280a4d064786ee11259ddc5d1, type: 3}
-  - {fileID: 21300000, guid: 0d425ab944ecbcc4dba8b87d63f6972a, type: 3}
-  - {fileID: 21300000, guid: 863b645efc0027149905e76cfcd2dbf7, type: 3}
-  - {fileID: 21300000, guid: a036f0b001fcb204c8ec845e47ff95e2, type: 3}
-  - {fileID: 21300000, guid: 0f224cd064136884d954c03bec6a6bd7, type: 3}
-  - {fileID: 21300000, guid: 5a4a98a13fdcfe646a1fd731c4e50a23, type: 3}
-  - {fileID: 21300000, guid: bba1be2ea07038c46b9fd300d6fa9635, type: 3}
-  - {fileID: 21300000, guid: 565b8e7fbd9bb164f864af5df22d5b36, type: 3}
-  - {fileID: 21300000, guid: 0ec8677d64f17f9418d80fb9e162afc5, type: 3}
-  - {fileID: 21300000, guid: a581ec1f56237764597b10695ac06691, type: 3}
-  - {fileID: 21300000, guid: a2eaddbee6fa46c4fa399f6680516ec7, type: 3}
-  - {fileID: 21300000, guid: d77bbc6259ef90746b56155978ef1698, type: 3}
-  - {fileID: 21300000, guid: efbd97cdec41c3a46874aee50aff3c7b, type: 3}
-  - {fileID: 21300000, guid: bb7646e71c94c734d964715b48c560b2, type: 3}
-  - {fileID: 21300000, guid: c2359b28ba5e8934dae0fb75f738d750, type: 3}
-  - {fileID: 21300000, guid: 25b7c7e23a019fe4895d30d39d511bf7, type: 3}
-  - {fileID: 21300000, guid: 990ad6697a9e0d747ac0a5ae9d31e990, type: 3}
-  - {fileID: 21300000, guid: c2559360eeba51e4183e9e9675d6b805, type: 3}
+  spriteEvidences: []
