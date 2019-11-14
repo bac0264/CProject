@@ -19,10 +19,12 @@ public class CorrectPopup : BasePopup
     {
         Refresh();
         container = ButtonStageManager.instance.unitStage;
+        Debug.Log(container);
         if (container != null && container.unit != null && container.unit is UnitMode2)
         {
             UnitMode2 unitMode2 = container.unit as UnitMode2;
-            Explanation.text = LevelDataManager.instance.GetQuestion(unitMode2.indexStage, unitMode2.indexUnit, unitMode2.CurIndexScene);
+            Debug.Log(Explanation.text);
+            Explanation.text = LevelDataManager.instance.GetAnswer(unitMode2.indexStage, unitMode2.indexUnit, unitMode2.CurIndexScene);
             spriteEvidence.sprite = spriteData.GetSprite(unitMode2.indexUnit, unitMode2.CurIndexScene);
         }
         base.ShowPopup();
@@ -46,6 +48,7 @@ public class CorrectPopup : BasePopup
         {
             container.unit.Next();
             gameObject.SetActive(false);
+            if (PickupCorrectAns.instance != null) PickupCorrectAns.instance.RUN = false;
         }
     }
     public void NextToExplanation()

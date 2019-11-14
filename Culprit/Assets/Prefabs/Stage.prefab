@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6799179808458495741}
   - component: {fileID: 6514055534860900517}
   - component: {fileID: 2866687423672585974}
+  - component: {fileID: 3458438239902585313}
   m_Layer: 0
   m_Name: Text
   m_TagString: StageText
@@ -76,8 +77,8 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 1
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Challenge
 --- !u!114 &2866687423672585974
@@ -95,6 +96,20 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 2, y: -2}
   m_UseGraphicAlpha: 1
+--- !u!114 &3458438239902585313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2866687423672585973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716b39d6cca0d204ab349da5cc10dbbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 6514055534860900517}
+  type: 1
 --- !u!1 &7085140941210089867
 GameObject:
   m_ObjectHideFlags: 0

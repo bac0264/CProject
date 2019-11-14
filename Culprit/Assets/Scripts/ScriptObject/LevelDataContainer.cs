@@ -120,8 +120,8 @@ public class LevelData
         listHint = new List<string>();
         for (int col = 0; col < sheet2.ColumnCount;)
         {
-            MODE = int.Parse(sheet2.GetCell<string>(col++, row));
-            LEVEL = int.Parse(sheet2.GetCell<string>(col++, row));
+            int.TryParse(sheet2.GetCell<string>(col++, row), out MODE);
+            int.TryParse(sheet2.GetCell<string>(col++, row), out LEVEL);
 
             listQues.Add(sheet2.GetCell<string>(col++, row));
             listQues.Add(sheet2.GetCell<string>(col++, row));

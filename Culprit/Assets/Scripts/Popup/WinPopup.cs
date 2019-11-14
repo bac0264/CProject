@@ -32,8 +32,9 @@ public class WinPopup : BasePopup
     public override void Next()
     {
         unitStage = ButtonStageManager.instance.unitStage;
+        Stage curStage = ButtonStageManager.instance.stage;
         if (StageManager.instance != null && unitStage.unit != null)
-            StageManager.instance.NextLevel(unitStage);
+            StageManager.instance.NextLevel(unitStage,curStage);
         HidePopup();
     }
 }

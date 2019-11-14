@@ -11,6 +11,7 @@ public class ButtonStageManager : MonoBehaviour
     public Stage stage;
     public UnitStage unitStage;
     public GameObject Mode2Cotnainer;
+    public Animator backAnimator;
     private void Awake()
     {
         if (instance == null) instance = this;
@@ -21,6 +22,12 @@ public class ButtonStageManager : MonoBehaviour
     }
     public void TurnOn_MainCam()
     {
+        StartCoroutine(_TurnOn_MainCam());
+    }
+    IEnumerator _TurnOn_MainCam()
+    {
+        backAnimator.Play("Click");
+        yield return new WaitForSeconds(KeySave.TIME_BACK);
         TurnOffAllPopup();
         mainCam.gameObject.SetActive(true);
         subCamm_1.gameObject.SetActive(false);
@@ -31,6 +38,7 @@ public class ButtonStageManager : MonoBehaviour
             //unitStage. = null;
         }
         UnactiveBtn();
+        backAnimator.Rebind();
     }
     public void TurnOn_Subcam(UnitStage unit)
     {

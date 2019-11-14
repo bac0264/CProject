@@ -51,12 +51,20 @@ public class UnitMode2 : Unit
     // Show popup if incorrect
     public void Incorrect()
     {
-        if (PopupContainer.instance != null) PopupContainer.instance.ShowIncorrectPopup();
+        if (PickupCorrectAns.instance != null)
+        {
+            PickupCorrectAns.instance.RunPickup();
+            PickupCorrectAns.instance.ISCORRECT = false;
+        }
     }
     public void Correct()
     {
         // Run animation -> show popup
-        if (PickupCorrectAns.instance != null) PickupCorrectAns.instance.Run(correctAnswerBtns[CurIndexScene].transform.position);
+        if (PickupCorrectAns.instance != null)
+        {
+            PickupCorrectAns.instance.RunPickup();
+            PickupCorrectAns.instance.ISCORRECT = true;
+        }
     }
     public void OpenScene()
     {
@@ -103,23 +111,21 @@ public class UnitMode2 : Unit
         if (isWin)
         {
             int curIndexUnit = SaveLoadData.LoadDataStage(indexStage);
+            UnitStage unitStage = ButtonStageManager.instance.unitStage;
+            Stage curStage = ButtonStageManager.instance.stage;
             if (curIndexUnit <= indexUnit)
             {
                 SaveLoadData.SaveDataStage(indexStage, indexUnit + 1);
                 if (ButtonStageManager.instance != null && StageManager.instance != null)
                 {
-                    UnitStage unitStage = ButtonStageManager.instance.unitStage;
-                    ButtonStageManager.instance.stage.LoadImageForAllUnitStage();
-                    StageManager.instance.NextLevel(unitStage);
+                    StageManager.instance.NextLevel(unitStage, curStage);
                 }
             }
             else
             {
                 if (ButtonStageManager.instance != null && StageManager.instance != null)
                 {
-                    UnitStage unitStage = ButtonStageManager.instance.unitStage;
-                    ButtonStageManager.instance.stage.LoadImageForAllUnitStage();
-                    if (StageManager.instance.NextLevel(unitStage))
+                    if (StageManager.instance.NextLevel(unitStage, curStage))
                     {
                         ButtonStageManager.instance.SetupBtnMode();
                         if (PopupContainer.instance != null) PopupContainer.instance.ShowQuestionPopup();
@@ -127,6 +133,7 @@ public class UnitMode2 : Unit
                 }
                 // }
             }
+            curStage.LoadImageForAllUnitStage();
         }
     }
     public override void Try()

@@ -15,6 +15,7 @@ public class IncorrectPopup : BasePopup
     public override void HidePopup()
     {
         base.HidePopup();
+        if (PickupCorrectAns.instance != null) PickupCorrectAns.instance.RUN = false;
     }
     public override void Try()
     {

@@ -103,7 +103,35 @@ AnimationClip:
     m_KeepOriginalPositionXZ: 0
     m_HeightFromFeet: 0
     m_Mirror: 0
-  m_EditorCurves: []
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 2.3333
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: dummy
+    path: 
+    classID: 1
+    script: {fileID: 0}
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
@@ -116,42 +144,42 @@ AnimationClip:
     intParameter: 0
     messageOptions: 1
   - time: 0.3333
-    functionName: footstep1_room
+    functionName: _Footstep1_room
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 0.6667
-    functionName: footstep1_room
+    functionName: _Footstep1_room
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 1
-    functionName: footstep1_room
+    functionName: _Footstep1_room
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 1.3333
-    functionName: footstep1_room
+    functionName: _Footstep1_room
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 1.6667
-    functionName: footstep1_room
+    functionName: _Footstep1_room
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 2
-    functionName: footstep1_room
+    functionName: _Footstep1_room
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -293,119 +321,119 @@ AnimationClip:
     intParameter: 0
     messageOptions: 1
   - time: 0.1667
-    functionName: male_fight
+    functionName: _MaleFight
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 2.3333
-    functionName: hiya
+    functionName: _Hiya
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 4
-    functionName: fighting1
+    functionName: _Fighting1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 4
-    functionName: kick2
+    functionName: _Kick2
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 4.3333
-    functionName: fight_hurt
+    functionName: _Fight_Hurt
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 4.5
-    functionName: crash
+    functionName: _Crash
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 4.6667
-    functionName: fist_punch
+    functionName: _Fist_Punch
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 4.9333
-    functionName: fight_hurt2
+    functionName: _Fight_Hurt2
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 5.1667
-    functionName: crash1
+    functionName: _Crash1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 5.5
-    functionName: fist_punch
+    functionName: _Fist_Punch
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 5.7333
-    functionName: fight_hurt
+    functionName: _Fight_Hurt
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 6
-    functionName: big_crash
+    functionName: _BigCrash
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 6.5
-    functionName: fist_punch
+    functionName: _Fist_Punch
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 6.7667
-    functionName: fight_hurt2
+    functionName: _Fight_Hurt2
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 8
-    functionName: crash
+    functionName: _Crash
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 8.6667
-    functionName: fist_punch
+    functionName: _Fist_Punch
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 8.9333
-    functionName: fight_hurt2
+    functionName: _Fight_Hurt2
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -540,28 +568,28 @@ AnimationClip:
     intParameter: 0
     messageOptions: 1
   - time: 0.1667
-    functionName: male_angry
+    functionName: _MaleAngry
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 1.1667
-    functionName: whoosch
+    functionName: _Whoosch
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 2.6667
-    functionName: male_scream
+    functionName: _MaleScream
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 3.8333
-    functionName: male_scream1
+    functionName: _MaleScream1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -703,84 +731,84 @@ AnimationClip:
     intParameter: 0
     messageOptions: 1
   - time: 0.5333
-    functionName: footstep_room
+    functionName: _Footstep_room
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 1.0333
-    functionName: footstep_room
+    functionName: _Footstep1_room
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 2.3333
-    functionName: fidge_open
+    functionName: _Fidge_Open
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 2.5
-    functionName: glass_bottles
+    functionName: _Glass_bottle
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 4.3333
-    functionName: male_angry1
+    functionName: _MaleAngry_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 6.1667
-    functionName: swoosh_slash
+    functionName: _Swoosh_slash
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 6.6667
-    functionName: footstep1_room
+    functionName: _Footstep1_room
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 7
-    functionName: footstep1_room
+    functionName: _Footstep1_room
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 7.3333
-    functionName: footstep1_room
+    functionName: _Footstep1_room
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 7.6667
-    functionName: footstep1_room
+    functionName: _Footstep1_room
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 8
-    functionName: footstep1_room
+    functionName: _Footstep1_room
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 8.3333
-    functionName: footstep1_room
+    functionName: _Footstep1_room
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -794,7 +822,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 1
   - time: 8.6667
-    functionName: footstep1_room
+    functionName: _Footstep1_room
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

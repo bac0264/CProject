@@ -21,12 +21,17 @@ public class StageManager : MonoBehaviour
     private void Awake()
     {
         if (instance == null) instance = this;
+        if (titles.Length >= 2 && LevelDataManager.instance != null)
+        {
+            titles[0] = LevelDataManager.instance.GetStringFromDictionary("Basic");
+            titles[1] = LevelDataManager.instance.GetStringFromDictionary("Challenge");
+        }
     }
-    public bool NextLevel(UnitStage cur)
+    public bool NextLevel(UnitStage cur, Stage curStage)
     {
         if (cur.unit.indexStage < _stageList.Length)
         {
-            Stage curStage = _stageList[cur.unit.indexStage];
+          //  Stage curStage = _stageList[cur.unit.indexStage];
             UnitStage curUnitStage = curStage.GetNextUnitStage(cur.unit.indexUnit);
             // if unitstage belong to curStage -> show, else -> next stage
             if (curUnitStage != null)
@@ -80,10 +85,18 @@ public class StageManager : MonoBehaviour
     #endregion
     public void Back()
     {
+        StartCoroutine(_back());
+    }
+    IEnumerator _back()
+    {
+        Animator aniBtn1 = btns[1].GetComponent<Animator>();
+        aniBtn1.Play("Click");
+        yield return new WaitForSeconds(KeySave.TIME_BACK);
         OpenAllStage();
         imageOfUnitStageManager.enabled = false;
         btns[0].gameObject.SetActive(true);
         btns[1].gameObject.SetActive(false);
+        aniBtn1.Rebind();
         if (curStage != null) curStage.RemoveEvents();
         if (StageEnhance.instance != null)
             StageEnhance.instance.scroller.GetContainer().SetActive(true);
