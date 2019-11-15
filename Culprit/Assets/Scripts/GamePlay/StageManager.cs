@@ -23,8 +23,8 @@ public class StageManager : MonoBehaviour
         if (instance == null) instance = this;
         if (titles.Length >= 2 && LevelDataManager.instance != null)
         {
-            titles[0] = LevelDataManager.instance.GetStringFromDictionary("Basic");
-            titles[1] = LevelDataManager.instance.GetStringFromDictionary("Challenge");
+            titles[0] = LevelDataManager.instance.GetStringFromDictionaryUI("Basic");
+            titles[1] = LevelDataManager.instance.GetStringFromDictionaryUI("Challenge");
         }
     }
     public bool NextLevel(UnitStage cur, Stage curStage)

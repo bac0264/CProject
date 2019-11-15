@@ -24,7 +24,7 @@ public class TextmeshScript : MonoBehaviour
     }
     public void UpdateText()
     {
-        if (LevelDataManager.instance != null) text.text = LevelDataManager.instance.GetStringFromDictionary(gameObject.name);
+        if (LevelDataManager.instance != null) text.text = LevelDataManager.instance.GetStringFromDictionaryUI(gameObject.name);
         if (FontsManager.instance != null)text.font = FontsManager.instance.GetFontTextMesh(PlayerPrefs.GetInt(KeySave.LANGUAGE).ToString(), type.ToString());
     }
 }

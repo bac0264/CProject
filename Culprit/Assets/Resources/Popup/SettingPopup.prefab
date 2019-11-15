@@ -169,6 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 5924983476900462645}
+  type: 0
 --- !u!1 &950133072014552040
 GameObject:
   m_ObjectHideFlags: 0
@@ -642,6 +643,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 5102217445527077353}
+  type: 0
 --- !u!1 &2868004698964652544
 GameObject:
   m_ObjectHideFlags: 0
@@ -1424,6 +1426,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 2238849103477444512}
+  type: 0
 --- !u!1 &8275123656346729515
 GameObject:
   m_ObjectHideFlags: 0
@@ -1568,6 +1571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9644cbc036706db4b98c812058921640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  type: 7
   turnOnMusic: {fileID: 1206472211552860277}
   turnOffMusic: {fileID: 8275123656346729515}
   turnOnSound: {fileID: 8525289045873697049}

@@ -4,7 +4,18 @@ using UnityEngine.SceneManagement;
 
 public class BasePopup : MonoBehaviour
 {
-
+    public enum TypeOfPopup
+    {
+        Correct,
+        Incorrect,
+        Win,
+        Lose,
+        Question,
+        Hint,
+        QuestionMode1,
+        Setting
+    }
+    public TypeOfPopup type;
     public virtual void ShowPopup()
     {
         gameObject.SetActive(true);

@@ -600,6 +600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6b70e596289cc146988eef700754e19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  type: 4
   question: {fileID: 7879597619070741853}
   unitStage: {fileID: 0}
   closeBtn: {fileID: 2222057641892292503}

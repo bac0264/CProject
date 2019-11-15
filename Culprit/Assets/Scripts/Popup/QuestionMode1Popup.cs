@@ -3,9 +3,9 @@ using System.Collections;
 using UnityEngine.UI;
 using System.Collections.Generic;
 
-public class QuestionPopup : BasePopup
+public class QuestionMode1Popup : BasePopup
 {
-    public static QuestionPopup instance;
+    public static QuestionMode1Popup instance;
 
 
     public Text question;
@@ -19,12 +19,10 @@ public class QuestionPopup : BasePopup
     public override void ShowPopup()
     {
         unitStage = ButtonStageManager.instance.unitStage;
-
-        Debug.Log(unitStage);
-        if (unitStage != null && unitStage.unit != null && unitStage.unit is UnitMode2)
+        if (unitStage != null && unitStage.unit != null && unitStage.unit is UnitMode1)
         {
-            UnitMode2 unitMode2 = unitStage.unit as UnitMode2;
-            question.text = LevelDataManager.instance.GetQuestion(unitMode2.indexStage, unitMode2.indexUnit, unitMode2.CurIndexScene);
+            UnitMode1 unitMode1 = unitStage.unit as UnitMode1;
+            question.text = LevelDataManager.instance.GetQuestion(unitMode1.indexStage, unitMode1.indexUnit, 0);
             Debug.Log(question.text);
         }
         base.ShowPopup();
