@@ -144,224 +144,112 @@ AnimationClip:
     intParameter: 0
     messageOptions: 1
   - time: 0
-    functionName: humming_women
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 0
-    functionName: lap rap
+    functionName: H_LAP_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 0.3667
-    functionName: lap rap
+    functionName: H_LAP_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 1.1667
-    functionName: lap rap
+    functionName: H_LAP_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 1.6333
-    functionName: lap rap
+    functionName: H_LAP_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 2.0667
-    functionName: lap rap
+    functionName: H_LAP_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 2.5333
-    functionName: lap rap
+    functionName: H_LAP_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 3
-    functionName: lap rap
+    functionName: H_LAP_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 3.2333
-    functionName: Carmel_Shades _nhac_nen
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 3.5667
-    functionName: tang_bong2
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 4.0333
-    functionName: tang_bong2
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 4.4333
-    functionName: tang_bong2
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 4.8333
-    functionName: tang_bong2
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 5.2333
-    functionName: tang_bong2
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 5.6333
-    functionName: tang_bong2
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 6.0333
-    functionName: tang_bong2
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 6.0667
-    functionName: buoc_chan
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 6.2333
-    functionName: wow_girl_03
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 6.4
-    functionName: stop_soccer ball
+    functionName: H_MUSIC_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 7.5333
-    functionName: Button Push 1
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 7.7667
-    functionName: wow_boy
+    functionName: H_GIAM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 8.5667
-    functionName: lap_lanh_ngan
+    functionName: H_LIGHT_2
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 9.4333
-    functionName: hm_nu_vui
+    functionName: H_HM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 10.9667
-    functionName: Carmel_Shades _02
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 10.9667
-    functionName: tang_bong2
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 11.4333
-    functionName: tang_bong2
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 11.8667
-    functionName: tang_bong2
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 12.3333
-    functionName: tang_bong2
+    functionName: H_MUSIC_2
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 12.9333
-    functionName: glass_bottle
+    functionName: H_VO_2
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 13.6
-    functionName: ngac_nhien_nu
+    functionName: H_OH_NU
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 14.5667
-    functionName: BAT NGO 2
+    functionName: H_BAT_NGO
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 15.9333
-    functionName: female_angry
+    functionName: H_NU_GIAN_2
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -496,196 +384,154 @@ AnimationClip:
     intParameter: 0
     messageOptions: 1
   - time: 0
-    functionName: hm_nu_vui
+    functionName: hm
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 0.0667
-    functionName: Button Push 1
+    functionName: H_GIAM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 0.2667
-    functionName: Button Push 1
+    functionName: H_GIAM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 0.4667
-    functionName: Button Push 1
+    functionName: H_GIAM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 0.6667
-    functionName: Button Push 1
+    functionName: H_GIAM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 0.9
-    functionName: Button Push 1
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 1.5
-    functionName: hm_girl _2
+    functionName: H_GIAM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 2
-    functionName: lap rap
+    functionName: H_LAP_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 2.4667
-    functionName: female_angry
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 2.4667
-    functionName: ngac_nhien_nu - Copy
+    functionName: H_NU_GIAN_2
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 2.5
-    functionName: lap rap
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 3.1
-    functionName: run_so_chay_nhanh
+    functionName: H_LAP_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 3.1667
-    functionName: nhon_chan
+    functionName: H_NHON_CHAN
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 5.1
-    functionName: hu_ha_ha.mp3
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 5.1
-    functionName: oh no-fe
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 6.0333
-    functionName: be_vo
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 6.4333
-    functionName: comedy_swipe_001
+    functionName: H_HU_HA
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 7.1
-    functionName: hu_ha_ha.mp3
+    functionName: H_HU_HA
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 9.5667
-    functionName: 1218148_SOUNDDOGS__hu
+    functionName: H_NU_HET
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 10.0667
-    functionName: Dam bao luc (7)
+    functionName: H_DAM_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 10.0667
-    functionName: Dam bao luc (8)
+    functionName: H_DAM_2
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 10.2667
-    functionName: Dam bao luc (7)
+    functionName: H_DAM_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 10.4667
-    functionName: 1218148_SOUNDDOGS__hu
+    functionName: H_DAM_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 10.4667
-    functionName: Dam bao luc (7)
+    functionName: H_NU_HET
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 10.6667
-    functionName: Dam bao luc (7)
+    functionName: H_DAM_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 10.8667
-    functionName: Dam bao luc (7)
+    functionName: H_DAM_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 11.0667
-    functionName: Dam bao luc (7)
+    functionName: H_DAM_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 11.2667
-    functionName: Dam bao luc (7)
+    functionName: H_DAM_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -820,76 +666,62 @@ AnimationClip:
     intParameter: 0
     messageOptions: 1
   - time: 0
-    functionName: female_angry
+    functionName: H_NU_GIAN_2
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 0.1
-    functionName: Button Push 1
+    functionName: H_GIAM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 0.6667
-    functionName: Button Push 1
+    functionName: H_GIAM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 1.1667
-    functionName: Button Push 1
+    functionName: H_GIAM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 2.1333
-    functionName: 1218148_SOUNDDOGS__hu
+    functionName: H_NU_HET
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 2.2667
-    functionName: Dam bao luc (7)
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 2.4333
-    functionName: run_so_chay_nhanh
+    functionName: H_DAM_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 3.6333
-    functionName: Dam bao luc (7)
+    functionName: H_DAM_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 3.7667
-    functionName: 1218148_SOUNDDOGS__hu
+    functionName: H_NU_HET
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
-  - time: 4.7333
-    functionName: Man sobbing
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 7.6833334
+  - time: 7.5833335
     functionName: EventWin
     data: 
     objectReferenceParameter: {fileID: 0}
@@ -1059,7 +891,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: result_win
-  m_Speed: 1
+  m_Speed: 1.2
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -1085,7 +917,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: result_lose
-  m_Speed: 1
+  m_Speed: 1.2
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -1111,7 +943,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: animation
-  m_Speed: 1
+  m_Speed: 1.2
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101122844535120540}

@@ -143,106 +143,57 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
-  - time: 0
-    functionName: smoke
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
   - time: 2.5333
-    functionName: Swirl 04
+    functionName: H_NEM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
-  - time: 3.8667
-    functionName: Bullet Whiz By 01
+  - time: 2.5667
+    functionName: H_SWIRL
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
-  - time: 4
-    functionName: meo_gao
+  - time: 4.0333
+    functionName: H_MEO_2
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 4.3667
-    functionName: smile_1
+    functionName: H_SMILE_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
-  - time: 4.4667
-    functionName: Arm Whoosh Multiple 02
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 4.6333
-    functionName: Bullet Whiz By 01
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 4.8
-    functionName: Arm Whoosh Multiple 02
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 5.1
-    functionName: electricity-001
+  - time: 5.0667
+    functionName: H_MEO_2
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 5.3333
-    functionName: meo_gao
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 5.3333
-    functionName: smile_1
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 6
-    functionName: tho_dai_nam
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 6.3333
-    functionName: electricity-001
+    functionName: H_SMILE_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 6.4667
-    functionName: smile_1
+    functionName: H_SMILE_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
-  - time: 6.6667
-    functionName: meo_gao
+  - time: 6.55
+    functionName: H_MEO_2
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -336,27 +287,41 @@ AnimationClip:
     m_KeepOriginalPositionXZ: 0
     m_HeightFromFeet: 0
     m_Mirror: 0
-  m_EditorCurves: []
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 6.1667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: dummy
+    path: 
+    classID: 1
+    script: {fileID: 0}
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0
     functionName: bg_ngoaiduong
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 0.0667
-    functionName: cat_meo
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 2.3
-    functionName: smoke
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -491,84 +456,35 @@ AnimationClip:
     intParameter: 0
     messageOptions: 1
   - time: 0
-    functionName: foot_step_lightly_3
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 0
-    functionName: humming
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 0.3333
-    functionName: ball_3
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 1.1333
-    functionName: ball_3
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 1.9333
-    functionName: ball_3
+    functionName: H_WALK_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 2.0667
-    functionName: drop1.mp3.mp3
+    functionName: H_DROP_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 2.1667
-    functionName: smile_1
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 2.6
-    functionName: drop_2
+    functionName: H_SMILE_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 3
-    functionName: a_a
+    functionName: H_A_A
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 3
-    functionName: break_1
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 4.5667
-    functionName: cat_meo
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 6.8
-    functionName: smoke
+    functionName: H_VO_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -702,77 +618,28 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
-  - time: 0
-    functionName: cat_fight_2
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 0.2
-    functionName: cat_fight_2
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 0.2667
-    functionName: cat_fight_2
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 0.5333
-    functionName: cat_fight_2
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 0.8667
-    functionName: plate-down-1
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 1.2
-    functionName: plate-down-1
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 1.5333
-    functionName: plate-down-1
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 2
-    functionName: plate-down-1
+  - time: 1.3667
+    functionName: H_MEO_3
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 2.5333
-    functionName: break_1
+    functionName: H_VO_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 4.0333
-    functionName: QUAY CUON 3
+    functionName: H_TROLL
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
-  - time: 4.9666667
+  - time: 4.95
     functionName: EventWin
     data: 
     objectReferenceParameter: {fileID: 0}
@@ -842,7 +709,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: result_lose
-  m_Speed: 1
+  m_Speed: 1.2
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -868,7 +735,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: result_win
-  m_Speed: 1
+  m_Speed: 1.2
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -894,7 +761,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: animation
-  m_Speed: 1
+  m_Speed: 1.2
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101961823905283996}

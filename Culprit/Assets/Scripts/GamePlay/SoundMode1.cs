@@ -193,4 +193,249 @@ public class SoundMode1 : MonoBehaviour
     {
         if (SoundManager.instance != null) SoundManager.instance.DogAngry();
     }
+    public void H_A_A()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_A_a();
+    }
+    public void H_A_NU()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_A_Nu();
+    }
+    public void H_BAT_NGO()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_BAT_NGO();
+    }
+    public void H_BODY_DROP()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_Body_Drop();
+    }
+    public void H_CHI_TAY()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_Chi_Tay();
+    }
+    public void H_CHUP()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_CHUP();
+    }
+    public void H_CRASH()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_CRASH();
+    }
+    public void H_CRY()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_CRY();
+    }
+    public void H_CUOI_GIAN()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_CUOI_GIAN();
+    }
+    public void H_DAM_1()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_DAM_1();
+    }
+    public void H_DAM_2()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_DAM_2();
+    }
+    public void H_DING()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_DING();
+    }
+    public void H_DONG()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_DONG();
+    }
+    public void H_DROP_1()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_DROP_1();
+    }
+    public void H_GAM()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_GAM();
+    }
+    public void H_GIAM()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_GIAM();
+    }
+    public void H_HA()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_HA();
+    }
+    public void H_HA_2()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_HA_2();
+    }
+    public void H_HET_3()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_HET_3();
+    }
+    public void H_HIT()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_HIT();
+    }
+    public void H_HM()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_HM();
+    }
+    public void H_HO()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_HO();
+    }
+    public void H_HU_HA()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_HU_HA();
+    }
+    public void H_HU_NAM()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_HU_NAM();
+    }
+    public void H_KISS_1()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_KISS_1();
+    }
+    public void H_KISS_2()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_KISS_2();
+    }
+    public void H_LAP_1()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_LAP_1();
+    }
+    public void H_LIGHT()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_LIGHT();
+    }
+    public void H_LIGHT_2()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_LIGHT_2();
+    }
+    public void H_MAN_HET()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_MAN_HET();
+    }
+    public void H_MAN_HET_2()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_MAN_HET_2();
+    }
+    public void H_MAN_THO()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_MAN_THO();
+    }
+    public void H_MEO_2()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_MEO_2();
+    }
+    public void H_MEO_3()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_MEO_3();
+    }
+    public void H_MUSIC_1()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_MUSIC_1();
+    }
+    public void H_MUSIC_2()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_MUSIC_2();
+    }
+    public void H_NEM()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_NEM();
+    }
+    public void H_NHON_CHAN()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_NHON_CHAN();
+    }
+    public void H_NU_CUOI()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_NU_CUOI();
+    }
+    public void H_NU_GIAN()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_NU_GIAN();
+    }
+    public void H_NU_GIAN_2()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_NU_GIAN_2();
+    }
+    public void H_NU_HET()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_NU_HET();
+    }
+    public void H_OH_NU()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_OH_NU();
+    }
+    public void H_ON()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_ON();
+    }
+    public void H_OPEN()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_OPEN();
+    }
+    public void H_SCREAM()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_SCREAM();
+    }
+    public void H_SMILE_1()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_SMILE_1();
+    }
+    public void H_SWIRL()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_SWIRL();
+    }
+    public void H_TAT()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_TAT();
+    }
+    public void H_THANKS()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_THANKS();
+    }
+    public void H_TROLL()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_TROLL();
+    }
+    public void H_TRONG()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_TRONG();
+    }
+    public void H_UHU()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_UHU();
+    }
+    public void H_VEO()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_VEO();
+    }
+    public void H_VO()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_VO();
+    }
+    public void H_VO_1()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_VO_1();
+    }
+    public void H_VO_2()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_VO_2();
+    }
+    public void H_WALK_1()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_WALK_1();
+    }
+    public void H_WALK_2()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_WALK_2();
+    }
+    public void H_WATER()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_WATER();
+    }
+    public void H_WHOOSCH()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.H_WHOOSCH();
+    }
+
 }

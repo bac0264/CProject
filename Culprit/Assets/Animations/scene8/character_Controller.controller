@@ -137,167 +137,160 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0
-    functionName: 1218176_SOUNDDOGS__hu
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 0
-    functionName: Button Push 1
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 0
     functionName: bg_quan_tra_sua
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
+  - time: 0
+    functionName: giam
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 1
+  - time: 0
+    functionName: H_NU_GIAN
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 1
   - time: 0.1667
-    functionName: Button Push 1
+    functionName: H_GIAM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 0.3333
-    functionName: Button Push 1
+    functionName: H_GIAM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 0.5
-    functionName: Button Push 1
+    functionName: H_GIAM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 0.6667
-    functionName: Button Push 1
+    functionName: H_GIAM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 0.8333
-    functionName: Button Push 1
+    functionName: H_GIAM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 1
-    functionName: Button Push 1
+    functionName: H_GIAM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 1.1667
-    functionName: Button Push 1
+    functionName: H_GIAM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 1.3333
-    functionName: Button Push 1
+    functionName: H_GIAM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 1.5
-    functionName: Button Push 1
+    functionName: H_GIAM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 1.6667
-    functionName: Button Push 1
+    functionName: H_GIAM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 1.8333
-    functionName: Button Push 1
+    functionName: H_GIAM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 2
-    functionName: Button Push 1
+    functionName: H_GIAM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 2.6667
-    functionName: smartsound_CARTOON_FX_Ricochet_Western
+    functionName: H_VEO
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 3.2667
-    functionName: female_angry
+    functionName: H_NU_GIAN_2
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 4
-    functionName: dan ong ha
+    functionName: H_HA
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 5.4
-    functionName: tat
+    functionName: H_TAT
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 5.4667
-    functionName: 1218174_SOUNDDOGS__hu
+    functionName: H_NU_GIAN
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 5.7333
-    functionName: hu_ha_ha.mp3
+    functionName: H_HU_HA
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 5.8333
-    functionName: vo
+    functionName: H_VO
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
-  - time: 6.0333
-    functionName: chay
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 8.05
+  - time: 8.033334
     functionName: EventWin
     data: 
     objectReferenceParameter: {fileID: 0}
@@ -433,140 +426,126 @@ AnimationClip:
     intParameter: 0
     messageOptions: 1
   - time: 0
-    functionName: cuoi_gian
+    functionName: H_CUOI_GIAN
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 3.0667
-    functionName: female_angry
+    functionName: H_NU_GIAN_2
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 3.1
-    functionName: Button Push 1
+    functionName: H_GIAM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 3.5333
-    functionName: Button Push 1
+    functionName: H_GIAM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 3.9667
-    functionName: Button Push 1
+    functionName: H_GIAM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 4.4667
-    functionName: Button Push 1
+    functionName: H_GIAM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 4.9333
-    functionName: Button Push 1
+    functionName: H_GIAM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 5.3333
-    functionName: nhon_chan
+    functionName: H_NHON_CHAN
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 5.4333
-    functionName: Button Push 1
+    functionName: H_GIAM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 6.1
-    functionName: chi_tay
+    functionName: H_CHI_TAY
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 7.6
-    functionName: dan ong ha
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 8
-    functionName: Drip
+    functionName: H_HA
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 8.0667
-    functionName: cuoi_deu
+    functionName: H_SMILE_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 8.2667
-    functionName: 1218148_SOUNDDOGS__hu
+    functionName: H_NU_HET
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 8.5
-    functionName: tat
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 8.9667
-    functionName: dan_ong_het
+    functionName: H_TAT
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 9.3333
-    functionName: cuoi_deu
+    functionName: H_SMILE_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 11.0333
-    functionName: 1210117_SOUNDDOGS__hu
+    functionName: H_HU_NAM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 11.1333
-    functionName: Dam bao luc (7)
+    functionName: H_DAM_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 11.7333
-    functionName: Dam bao luc (7)
+    functionName: H_DAM_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -701,91 +680,56 @@ AnimationClip:
     intParameter: 0
     messageOptions: 1
   - time: 0
-    functionName: water
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 1.8667
-    functionName: plate-down-1
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 3.4
-    functionName: ok male
+    functionName: H_WATER
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 3.4667
-    functionName: THANK YOU
+    functionName: H_THANKS
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 4.6333
-    functionName: on_ao.mp3
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 5.3333
-    functionName: buoc_chan
+    functionName: H_ON
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 6.1333
-    functionName: u hu
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 7.6667
-    functionName: buoc_chan
+    functionName: H_UHU
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 9.7333
-    functionName: Long Female Gasp Sound Effect
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 1
-  - time: 9.7333
-    functionName: cuoi_deu
+    functionName: H_SMILE_1
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 11.1667
-    functionName: dan ong ha
+    functionName: H_HA
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 11.6
-    functionName: Woman Scream
+    functionName: H_A_NU
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 1
   - time: 14.1
-    functionName: female_angry
+    functionName: H_NU_GIAN_2
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -954,7 +898,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: result_win
-  m_Speed: 1
+  m_Speed: 1.2
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -980,7 +924,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: animation
-  m_Speed: 1
+  m_Speed: 1.2
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101022790238397452}
@@ -1007,7 +951,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: result_lose
-  m_Speed: 1
+  m_Speed: 1.2
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
