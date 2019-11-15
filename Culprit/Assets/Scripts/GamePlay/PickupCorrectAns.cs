@@ -67,11 +67,11 @@ public class PickupCorrectAns : MonoBehaviour
         Debug.Log("run");
         if (isCorrect == false)
         {
-            if (PopupContainer.instance != null) PopupContainer.instance.ShowIncorrectPopup();
+            if (PopupFactory.instance != null) PopupFactory.instance.GetPopup(BasePopup.TypeOfPopup.PO_Incorrect);
         }
         else
         {
-            if (PopupContainer.instance != null) PopupContainer.instance.ShowCorrectPopup();
+            if (PopupFactory.instance != null) PopupFactory.instance.GetPopup(BasePopup.TypeOfPopup.PO_Correct);
         }
         isCorrect = false;
     }

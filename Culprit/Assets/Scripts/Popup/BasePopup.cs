@@ -6,14 +6,14 @@ public class BasePopup : MonoBehaviour
 {
     public enum TypeOfPopup
     {
-        Correct,
-        Incorrect,
-        Win,
-        Lose,
-        Question,
-        Hint,
-        QuestionMode1,
-        Setting
+        PO_Correct,
+        PO_Incorrect,
+        PO_Win,
+        PO_Lose,
+        PO_Question,
+        PO_Hint,
+        PO_QuestionMode1,
+        PO_Setting
     }
     public TypeOfPopup type;
     public virtual void ShowPopup()

@@ -19,11 +19,11 @@ public class ConnectServerManager : MonoBehaviour
     {
         UnityWebRequest www = null;
         // 0 is Vietnamese, 1 is English and else ...
-        if (PlayerPrefs.GetInt(KeySave.LANGUAGE, 0) == 1)
+        if (PlayerPrefs.GetInt(KeySave.LANGUAGE, 1) == 1)
         {
             www = UnityWebRequest.Get(URL_EnglishLevel);
         }
-        else if (PlayerPrefs.GetInt(KeySave.LANGUAGE, 0) == 0)
+        else if (PlayerPrefs.GetInt(KeySave.LANGUAGE, 1) == 0)
         {
             www = UnityWebRequest.Get(URL_VietnameseLevel);
         }
@@ -56,11 +56,11 @@ public class ConnectServerManager : MonoBehaviour
         {
             UnityWebRequest www = null;
             // 0 is Vietnamese, 1 is English and else ...
-            if (PlayerPrefs.GetInt(KeySave.LANGUAGE, 0) == 1)
+            if (PlayerPrefs.GetInt(KeySave.LANGUAGE, 1) == 1)
             {
                 www = UnityWebRequest.Get(URL_EnglishUI);
             }
-            else if (PlayerPrefs.GetInt(KeySave.LANGUAGE, 0) == 0)
+            else if (PlayerPrefs.GetInt(KeySave.LANGUAGE, 1) == 0)
             {
                 www = UnityWebRequest.Get(URL_VietnameseUI);
             }

@@ -87,7 +87,7 @@ public class UnitMode2 : Unit
             ButtonPickupMode2.instance.OpenBtn(MaxIndexScene);
             correctAnswerBtns[MaxIndexScene - 1].gameObject.SetActive(false);
             correctAnswerBtns[MaxIndexScene].gameObject.SetActive(true);
-            if (PopupContainer.instance != null) PopupContainer.instance.ShowQuestionPopup();
+            if (PopupFactory.instance != null) PopupFactory.instance.GetPopup(BasePopup.TypeOfPopup.PO_Question);
         }
         SaveData();
     }
@@ -97,7 +97,7 @@ public class UnitMode2 : Unit
         {
             CurIndexScene++;
             ButtonPickupMode2.instance.SetBtnSceneDisplay(this, CurIndexScene);
-            if (PopupContainer.instance != null) PopupContainer.instance.ShowQuestionPopup();
+            if (PopupFactory.instance != null) PopupFactory.instance.GetPopup(BasePopup.TypeOfPopup.PO_Question);
         }
         else
         {
@@ -128,7 +128,7 @@ public class UnitMode2 : Unit
                     if (StageManager.instance.NextLevel(unitStage, curStage))
                     {
                         ButtonStageManager.instance.SetupBtnMode();
-                        if (PopupContainer.instance != null) PopupContainer.instance.ShowQuestionPopup();
+                        if (PopupFactory.instance != null) PopupFactory.instance.GetPopup(BasePopup.TypeOfPopup.PO_Question);
                     }
                 }
                 // }

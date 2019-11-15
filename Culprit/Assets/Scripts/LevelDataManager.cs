@@ -29,7 +29,6 @@ public class LevelDataManager : MonoBehaviour
         }
         else { Destroy(this); }
         GetDataFromServer();
-        UpdateAllTextUI();
     }
     public void GetDataFromServer()
     {
@@ -71,7 +70,7 @@ public class LevelDataManager : MonoBehaviour
 
     public string GetStringFromDictionaryUI(string key)
     {
-        if (dictionaryUI == null) return null;
+        if (dictionaryUI == null) return " ";
         return dictionaryUI[key];
     }
     public void SetDictionaryUI()
