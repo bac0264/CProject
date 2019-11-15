@@ -4,53 +4,6 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-    private const string BIG_CRASH = "big_crash";
-    private const string BOTTLE_CRASH = "bottle_crash";
-    private const string BOTTLE_DROP = "bottle_drop";
-    private const string BOTTLE_DROP_1 = "bottle_drop1";
-    private const string BOTTLE_FALL = "bottle_fall";
-    private const string BOTTLE_FLY = "bottle_fly";
-    private const string BOTTLE_HIT = "bottle_hit";
-    private const string BOTTLE_POP = "bottle_pop";
-    private const string BOTTLE_TING = "bottle_ting";
-    private const string BOTTLE_TING_1 = "bottle_ting1";
-    private const string CRASH = "crash";
-    private const string CRASH_1 = "crash1";
-    private const string FALL = "fall";
-    private const string FEMALE_ANGRY = "female_angry";
-    private const string FIDGE_OPEN = "fidge_open";
-    private const string FIGHT_HURT = "fight_hurt";
-    private const string FIGHT_HURT_2 = "fight_hurt2";
-    private const string FIGHTING = "fighting";
-    private const string FIGHTING_1 = "fighting1";
-    private const string FIST_PUNCH = "fist_punch";
-    private const string FOOTSTEP1_ROOM = "footstep1_room";
-    private const string FOOTSTEP_ROOM = "footstep_room";
-    private const string FOOTSTEP_STONE = "footstep_stone";
-    private const string FOOTSTEPS_ROAD = "footsteps_road";
-    private const string GASP = "gasp";
-    private const string GLASS_BOTTLES = "glass_bottles";
-    private const string HIT = "hit";
-    private const string HIYA = "hiya";
-    private const string KICK = "kick";
-    private const string KICK_1 = "kick1";
-    private const string KICK_2 = "kick2";
-    private const string LAUGH = "laugh";
-    private const string LAUGH_1 = "laugh1";
-    private const string MALE_ANGRY = "male_angry";
-    private const string MALE_ANGRY_1 = "male_angry1";
-    private const string MALE_FIGHT = "male_fight";
-    private const string MALE_SCREAM = "male_scream";
-    private const string MALE_SCREAM_1 = "male_scream1";
-    private const string MEOW = "meow";
-    private const string OUGH = "Ough";
-    private const string SWOOSH_SLASH = "swoosh_slash";
-    private const string WHOOSCH = "whoosch";
-    private const string RAIN = "rain";
-    private const string WATER_SPLASH = "water_splash";
-    private const string DOG_GOES = "dog_goes";
-    private const string DOG_JUMP = "dog_jump";
-    private const string DOG_ANGRY = "dog_angry";
 
     public AudioSource audioFX;
 
@@ -81,196 +34,444 @@ public class SoundManager : MonoBehaviour
             audioClips.Add(clip.name, clip);
         }
     }
+    // Audio Mode 1
+    #region
+
     public void BigCrash()
     {
-        audioFX.PlayOneShot(audioClips[BIG_CRASH], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.BIG_CRASH], 1f);
     }
     public void BottleCrash()
     {
-        audioFX.PlayOneShot(audioClips[BOTTLE_CRASH], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.BOTTLE_CRASH], 1f);
     }
 
     public void BottleDrop()
     {
-        audioFX.PlayOneShot(audioClips[BOTTLE_DROP], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.BOTTLE_DROP], 1f);
     }
     public void BottleDrop1()
     {
-        audioFX.PlayOneShot(audioClips[BOTTLE_DROP_1], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.BOTTLE_DROP_1], 1f);
     }
     public void BottleFall()
     {
-        audioFX.PlayOneShot(audioClips[BOTTLE_FALL], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.BOTTLE_FALL], 1f);
     }
     public void BottleFly()
     {
-        audioFX.PlayOneShot(audioClips[BOTTLE_FLY], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.BOTTLE_FLY], 1f);
     }
     public void BottleHit()
     {
-        audioFX.PlayOneShot(audioClips[BOTTLE_HIT], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.BOTTLE_HIT], 1f);
     }
     public void BottlePop()
     {
-        audioFX.PlayOneShot(audioClips[BOTTLE_POP], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.BOTTLE_POP], 1f);
     }
     public void BottleTing()
     {
-        audioFX.PlayOneShot(audioClips[BOTTLE_TING], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.BOTTLE_TING], 1f);
     }
     public void BottleTing1()
     {
-        audioFX.PlayOneShot(audioClips[BOTTLE_TING_1], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.BOTTLE_TING_1], 1f);
     }
     public void Crash()
     {
-        audioFX.PlayOneShot(audioClips[CRASH], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.CRASH], 1f);
     }
     public void Crash1()
     {
-        audioFX.PlayOneShot(audioClips[CRASH_1], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.CRASH_1], 1f);
     }
     public void Fall()
     {
-        audioFX.PlayOneShot(audioClips[FALL], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.FALL], 1f);
     }
     public void Female_Angry()
     {
-        audioFX.PlayOneShot(audioClips[FEMALE_ANGRY], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.FEMALE_ANGRY], 1f);
     }
     public void Fidge_Open()
     {
-        audioFX.PlayOneShot(audioClips[FIDGE_OPEN], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.FIDGE_OPEN], 1f);
     }
     public void Fight_Hurt()
     {
-        audioFX.PlayOneShot(audioClips[FIGHT_HURT], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.FIGHT_HURT], 1f);
     }
     public void Fight_Hurt2()
     {
-        audioFX.PlayOneShot(audioClips[FIGHT_HURT_2], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.FIGHT_HURT_2], 1f);
     }
     public void Fighting()
     {
-        audioFX.PlayOneShot(audioClips[FIGHTING], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.FIGHTING], 1f);
     }
     public void Fighting1()
     {
-        audioFX.PlayOneShot(audioClips[FIGHTING_1], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.FIGHTING_1], 1f);
     }
     public void Fist_Punch()
     {
-        audioFX.PlayOneShot(audioClips[FIST_PUNCH], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.FIST_PUNCH], 1f);
     }
     public void Footstep1_room()
     {
-        audioFX.PlayOneShot(audioClips[FOOTSTEP1_ROOM], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.FOOTSTEP1_ROOM], 1f);
     }
     public void Footstep_room()
     {
-        Debug.Log(audioClips[FOOTSTEP_ROOM]);
-        audioFX.PlayOneShot(audioClips[FOOTSTEP_ROOM], 1f);
+        Debug.Log(audioClips[SoundKey.FOOTSTEP_ROOM]);
+        audioFX.PlayOneShot(audioClips[SoundKey.FOOTSTEP_ROOM], 1f);
     }
     public void Footstep_stone()
     {
-        audioFX.PlayOneShot(audioClips[FOOTSTEP_STONE], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.FOOTSTEP_STONE], 1f);
     }
     public void Footstep_Road()
     {
-        audioFX.PlayOneShot(audioClips[FOOTSTEPS_ROAD], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.FOOTSTEPS_ROAD], 1f);
     }
     public void Gasp()
     {
-        audioFX.PlayOneShot(audioClips[GASP], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.GASP], 1f);
     }
     public void Glass_bottle()
     {
-        audioFX.PlayOneShot(audioClips[GLASS_BOTTLES], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.GLASS_BOTTLES], 1f);
     }
     public void Hit()
     {
-        audioFX.PlayOneShot(audioClips[HIT], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.HIT], 1f);
     }
     public void Hiya()
     {
-        audioFX.PlayOneShot(audioClips[HIYA], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.HIYA], 1f);
     }
     public void Kick()
     {
-        audioFX.PlayOneShot(audioClips[KICK], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.KICK], 1f);
     }
     public void Kick1()
     {
-        audioFX.PlayOneShot(audioClips[KICK_1], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.KICK_1], 1f);
     }
     public void Kick2()
     {
-        audioFX.PlayOneShot(audioClips[KICK_2], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.KICK_2], 1f);
     }
     public void Laugh()
     {
-        audioFX.PlayOneShot(audioClips[LAUGH], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.LAUGH], 1f);
     }
     public void Laugh1()
     {
-        audioFX.PlayOneShot(audioClips[LAUGH_1], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.LAUGH_1], 1f);
     }
     public void MaleAngry()
     {
-        audioFX.PlayOneShot(audioClips[MALE_ANGRY], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.MALE_ANGRY], 1f);
     }
     public void MaleAngry_1()
     {
-        audioFX.PlayOneShot(audioClips[MALE_ANGRY_1], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.MALE_ANGRY_1], 1f);
     }
     public void MaleFight()
     {
-        audioFX.PlayOneShot(audioClips[MALE_FIGHT], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.MALE_FIGHT], 1f);
     }
     public void MaleScream()
     {
-        audioFX.PlayOneShot(audioClips[MALE_SCREAM], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.MALE_SCREAM], 1f);
     }
     public void MaleScream1()
     {
-        audioFX.PlayOneShot(audioClips[MALE_SCREAM_1], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.MALE_SCREAM_1], 1f);
     }
     public void Meow()
     {
-        audioFX.PlayOneShot(audioClips[MEOW], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.MEOW], 1f);
     }
     public void Ough()
     {
-        audioFX.PlayOneShot(audioClips[OUGH], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.OUGH], 1f);
     }
     public void Swoosh_slash()
     {
-        audioFX.PlayOneShot(audioClips[SWOOSH_SLASH], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.SWOOSH_SLASH], 1f);
     }
     public void Whoosch()
     {
-        audioFX.PlayOneShot(audioClips[WHOOSCH], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.WHOOSCH], 1f);
     }
     public void Rain()
     {
-        audioFX.PlayOneShot(audioClips[RAIN], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.RAIN], 1f);
     }
     public void Water_Splash()
     {
-        audioFX.PlayOneShot(audioClips[WATER_SPLASH], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.WATER_SPLASH], 1f);
     }
     public void DogGoes()
     {
-        audioFX.PlayOneShot(audioClips[DOG_GOES], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.DOG_GOES], 1f);
     }
     public void DogJump()
     {
-        audioFX.PlayOneShot(audioClips[DOG_JUMP], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.DOG_JUMP], 1f);
     }
     public void DogAngry()
     {
-        audioFX.PlayOneShot(audioClips[DOG_ANGRY], 1f);
+        audioFX.PlayOneShot(audioClips[SoundKey.DOG_ANGRY], 1f);
     }
+    public void H_A_a()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_A_A], 1f);
+    }
+    public void H_A_Nu()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_A_NU], 1f);
+    }
+    public void H_Body_Drop()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_BODY_DROP], 1f);
+    }
+    public void H_Chi_Tay()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_CHI_TAY], 1f);
+    }
+    public void H_CHUP()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_CHUP], 1f);
+    }
+    public void H_CRASH()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_CRASH], 1f);
+    }
+    public void H_CRY()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_CRY], 1f);
+    }
+    public void H_CUOI_GIAN()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_CUOI_GIAN], 1f);
+    }
+    public void H_DAM_1()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_DAM_1], 1f);
+    }
+    public void H_DAM_2()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_DAM_2], 1f);
+    }
+    public void H_DING()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_DING], 1f);
+    }
+    public void H_DONG()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_DONG], 1f);
+    }
+    public void H_DROP_1()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_DROP_1], 1f);
+    }
+    public void H_GAM()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_GAM], 1f);
+    }
+    public void H_GIAM()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_GIAM], 1f);
+    }
+    public void H_HA()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_HA], 1f);
+    }
+    public void H_HA_2()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_HA_2], 1f);
+    }
+    public void H_HET_3()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_HET_3], 1f);
+    }
+    public void H_HIT()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_HIT], 1f);
+    }
+    public void H_HM()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_HM], 1f);
+    }
+    public void H_HO()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_HO], 1f);
+    }
+    public void H_HU_HA()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_HU_HA], 1f);
+    }
+    public void H_HU_NAM()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_HU_NAM], 1f);
+    }
+    public void H_KISS_1()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_KISS_1], 1f);
+    }
+    public void H_KISS_2()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_KISS_2], 1f);
+    }
+    public void H_LAP_1()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_LAP_1], 1f);
+    }
+    public void H_LIGHT()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_LIGHT], 1f);
+    }
+    public void H_LIGHT_2()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_LIGHT_2], 1f);
+    }
+    public void H_MAN_HET()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_MAN_HET], 1f);
+    }
+    public void H_MAN_HET_2()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_MAN_HET_2], 1f);
+    }
+    public void H_MAN_THO()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_MAN_THO], 1f);
+    }
+    public void H_MEO_2()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_MEO_2], 1f);
+    }
+    public void H_MEO_3()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_MEO_3], 1f);
+    }
+    public void H_MUSIC_1()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_MUSIC_1], 1f);
+    }
+    public void H_MUSIC_2()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_MUSIC_2], 1f);
+    }
+    public void H_NEM()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_NEM], 1f);
+    }
+    public void H_NHON_CHAN()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_NHON_CHAN], 1f);
+    }
+    public void H_NU_GIAN()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_NU_GIAN], 1f);
+    }
+    public void H_NU_GIAN_2()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_NU_GIAN_2], 1f);
+    }
+    public void H_NU_HET()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_NU_HET], 1f);
+    }
+    public void H_OH_NU()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_OH_NU], 1f);
+    }
+    public void H_ON()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_ON], 1f);
+    }
+    public void H_OPEN()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_OPEN], 1f);
+    }
+    public void H_SCREAM()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_SCREAM], 1f);
+    }
+    public void H_SMILE_1()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_SMILE_1], 1f);
+    }
+    public void H_SWIRL()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_SWIRL], 1f);
+    }
+    public void H_TAT()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_TAT], 1f);
+    }
+    public void H_THANKS()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_THANKS], 1f);
+    }
+    public void H_TROLL()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_TROLL], 1f);
+    }
+    public void H_TRONG()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_TRONG], 1f);
+    }
+    public void H_UHU()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_UHU], 1f);
+    }
+    public void H_VEO()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_VEO], 1f);
+    }
+    public void H_VO()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_VO], 1f);
+    }
+    public void H_VO_1()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_VO_1], 1f);
+    }
+    public void H_VO_2()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_VO_2], 1f);
+    }
+    public void H_WALK_1()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_WALK_1], 1f);
+    }
+    public void H_WALK_2()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_WALK_2], 1f);
+    }
+    public void H_WATER()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_WATER], 1f);
+    }
+    public void H_WHOOSCH()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_WHOOSCH], 1f);
+    }
+    public void H_BAT_NGO()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_BAT_NGO], 1f);
+    }
+    public void H_NU_CUOI()
+    {
+        audioFX.PlayOneShot(audioClips[SoundKey.H_NU_CUOI], 1f);
+    }
+    #endregion
     //--------------------------------------------
 
 
