@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 
 public class PopupFactory : MonoBehaviour
 {
@@ -36,7 +37,7 @@ public class PopupFactory : MonoBehaviour
         if (container == null) container = GameObject.FindGameObjectWithTag(KeySave.CONTAINER_POPUP).transform;
     }
 
-    public void GetPopup(BasePopup.TypeOfPopup type)
+    public void ShowPopup(BasePopup.TypeOfPopup type)
     {
         switch (type)
         {
@@ -100,6 +101,62 @@ public class PopupFactory : MonoBehaviour
         }
         InitPopup(type);
     }
+    public BasePopup GetPopup(BasePopup.TypeOfPopup type)
+    {
+        switch (type)
+        {
+            case BasePopup.TypeOfPopup.PO_Question:
+                if (QuestionPopup.instance != null)
+                {
+                    return QuestionPopup.instance;
+                }
+                break;
+            case BasePopup.TypeOfPopup.PO_QuestionMode1:
+                if (QuestionMode1Popup.instance != null)
+                {
+                    return QuestionMode1Popup.instance;
+                }
+                break;
+            case BasePopup.TypeOfPopup.PO_Hint:
+                if (HintPopup.instance != null)
+                {
+                    return HintPopup.instance;
+                }
+                break;
+            case BasePopup.TypeOfPopup.PO_Lose:
+                if (LosePopup.instance != null)
+                {
+                    return LosePopup.instance;
+                }
+                break;
+            case BasePopup.TypeOfPopup.PO_Setting:
+                if (SettingPopup.instance != null)
+                {
+                    return SettingPopup.instance;
+                }
+
+                break;
+            case BasePopup.TypeOfPopup.PO_Win:
+                if (WinPopup.instance != null)
+                {
+                    return WinPopup.instance;
+                }
+                break;
+            case BasePopup.TypeOfPopup.PO_Correct:
+                if (CorrectPopup.instance != null)
+                {
+                    return CorrectPopup.instance;
+                }
+                break;
+            case BasePopup.TypeOfPopup.PO_Incorrect:
+                if (IncorrectPopup.instance != null)
+                {
+                    return IncorrectPopup.instance;
+                }
+                break;
+        }
+        return null;
+    }
     public void InitPopup(BasePopup.TypeOfPopup type)
     {
         UpdateContainer();
@@ -111,10 +168,13 @@ public class PopupFactory : MonoBehaviour
     }
     public void HideAllPopup()
     {
-        foreach (BasePopup _element in popupDictionaries.Values)
+        int count = Enum.GetValues(typeof(BasePopup.TypeOfPopup)).Length;
+        for (int i = 0; i < count; i++)
         {
-            _element.HidePopup();
+            BasePopup.TypeOfPopup type = (BasePopup.TypeOfPopup)i;
+            BasePopup _popup = GetPopup(type);
+            if (_popup != null) _popup.HidePopup();
         }
     }
- 
+
 }

@@ -40,7 +40,6 @@ public class ConnectServerManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("got the php information");
             //  levelData.LoadLevelData(data);
             ReadFileCSV.SaveGoogleSheetData("Level", www.downloadHandler.text);
             ES3Spreadsheet sheet = ReadFileCSV.ReadFileCsv("Level");
@@ -77,8 +76,6 @@ public class ConnectServerManager : MonoBehaviour
             }
             else
             {
-                Debug.Log("got the php information");
-                //  levelData.LoadLevelData(data);
                 ReadFileCSV.SaveGoogleSheetData("UILanguage", www.downloadHandler.text);
                 ES3Spreadsheet sheet = ReadFileCSV.ReadFileCsv("UILanguage");
                 ReadFileCSV.HandleDataCSV(sheet);

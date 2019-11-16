@@ -31,7 +31,7 @@ public class StageManager : MonoBehaviour
     {
         if (cur.unit.indexStage < _stageList.Length)
         {
-          //  Stage curStage = _stageList[cur.unit.indexStage];
+            //  Stage curStage = _stageList[cur.unit.indexStage];
             UnitStage curUnitStage = curStage.GetNextUnitStage(cur.unit.indexUnit);
             // if unitstage belong to curStage -> show, else -> next stage
             if (curUnitStage != null)
@@ -83,6 +83,35 @@ public class StageManager : MonoBehaviour
         }
     }
     #endregion
+    // Load Onvalidate
+    #region
+    // Thread: Enhance Scroller create object attaching Stage Script -> Stage Manager get Stage array.
+    // Thread: When picking up Stage -> Show all unitStage ( get recycled ) -> Picking unitstage to load unit 
+    public void LoadUnit(Unit[] unitList)
+    {
+        for (int g = 0; g < transform.childCount; g++)
+        {
+            transform.GetChild(g).gameObject.SetActive(true);
+        }
+        _stageList = GetComponentsInChildren<Stage>();
+        for (int i = 0; i < _stageList.Length && i < _spriteList.Length; i++)
+        {
+            _stageList[i].gameObject.GetComponent<Image>().sprite = _spriteList[_stageList.Length - i - 1];
+            _stageList[i].type.text = titles[_stageList.Length - i - 1];
+        }
+
+        //_stageList = GetComponentsInChildren<Stage>();
+    }
+    public void SetupEvent()
+    {
+        LoadUnit(LoadUnitOnvalidate.instance.unitList);
+        OnRightClickStageEvent += PickStage;
+        foreach (Stage stage in _stageList)
+        {
+            stage.OnRightClickStageEvent += OnRightClickStageEvent;
+        }
+    }
+    #endregion
     public void Back()
     {
         StartCoroutine(_back());
@@ -115,34 +144,15 @@ public class StageManager : MonoBehaviour
                 btns[i].gameObject.SetActive(false);
         }
     }
-    // Load Onvalidate
+    //Tutorial
     #region
-    // Thread: Enhance Scroller create object attaching Stage Script -> Stage Manager get Stage array.
-    // Thread: When picking up Stage -> Show all unitStage ( get recycled ) -> Picking unitstage to load unit 
-    public void LoadUnit(Unit[] unitList)
+    public void Step_1_PickupTutorial()
     {
-        for (int g = 0; g < transform.childCount; g++)
+        if (_stageList[0] != null)
         {
-            transform.GetChild(g).gameObject.SetActive(true);
-        }
-        _stageList = GetComponentsInChildren<Stage>();
-        for (int i = 0; i < _stageList.Length && i < _spriteList.Length; i++)
-        {
-            _stageList[i].gameObject.GetComponent<Image>().sprite = _spriteList[i];
-            _stageList[i].type.text = titles[i];
-        }
-
-        //_stageList = GetComponentsInChildren<Stage>();
-    }
-    public void SetupEvent()
-    {
-        LoadUnit(LoadUnitOnvalidate.instance.unitList);
-        OnRightClickStageEvent += PickStage;
-        foreach (Stage stage in _stageList)
-        {
-            stage.OnRightClickStageEvent += OnRightClickStageEvent;
+            if (MenuTutorialManager.Instance != null) MenuTutorialManager.Instance.stage = _stageList[0];
+            PickStage(_stageList[0]);
         }
     }
     #endregion
-
 }

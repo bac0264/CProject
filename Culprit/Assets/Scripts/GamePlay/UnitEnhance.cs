@@ -8,6 +8,7 @@ using System.Collections.Generic;
 public class UnitEnhance : SimpleDemo
 {
     public static UnitEnhance instance;
+    public bool isDOMoveTutorialPosition;
     private void Awake()
     {
         _dataList = new SmallList<List<Data>>();
@@ -17,6 +18,7 @@ public class UnitEnhance : SimpleDemo
     {
         scroller.GetContainer().SetActive(false);
         base.Start();
+        isDOMoveTutorialPosition = true;
     }
     public override float GetCellViewSize(EnhancedScroller scroller, int dataIndex)
     {

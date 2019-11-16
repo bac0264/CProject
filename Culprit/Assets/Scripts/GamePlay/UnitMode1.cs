@@ -58,7 +58,7 @@ public class UnitMode1 : Unit
         {
             ButtonStageManager.instance.ActivePickupBtn();
         }
-        if (PopupFactory.instance != null) PopupFactory.instance.GetPopup(BasePopup.TypeOfPopup.PO_QuestionMode1);
+        if (PopupFactory.instance != null) PopupFactory.instance.ShowPopup(BasePopup.TypeOfPopup.PO_QuestionMode1);
     }
     public override void ShowPopup()
     {

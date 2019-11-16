@@ -32,6 +32,6 @@ public class UIManager : MonoBehaviour
     }
     public void ClickSetting()
     {
-        if (PopupFactory.instance != null) PopupFactory.instance.GetPopup(BasePopup.TypeOfPopup.PO_Setting);
+        if (PopupFactory.instance != null) PopupFactory.instance.ShowPopup(BasePopup.TypeOfPopup.PO_Setting);
     }
 }

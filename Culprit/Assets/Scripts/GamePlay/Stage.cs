@@ -209,4 +209,10 @@ public class Stage : CellView, IShowStage, IPointerClickHandler, IHide, IOpen
             }
         }
     }
+
+    // Tutorial
+    public void Step_2_TutorialUnitStagePickup()
+    {
+        PickUnitStage(GetUnitStage(0));
+    }
 }
