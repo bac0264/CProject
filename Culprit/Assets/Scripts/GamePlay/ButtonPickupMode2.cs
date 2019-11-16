@@ -73,7 +73,7 @@ public class ButtonPickupMode2 : MonoBehaviour
                     btnScenes[i].GetComponent<Image>().sprite = spriteList[defaultSprite];
                 }
             }
-            if (PopupContainer.instance != null) PopupContainer.instance.ShowQuestionPopup();
+            if (PopupFactory.instance != null) PopupFactory.instance.ShowPopup(BasePopup.TypeOfPopup.PO_Question );
         }
     }
     public void OpenBtn(int index)
@@ -92,13 +92,13 @@ public class ButtonPickupMode2 : MonoBehaviour
     }
     public void QuestionBtn()
     {
-        if (PopupContainer.instance != null) PopupContainer.instance.ShowQuestionPopup();
+        if (PopupFactory.instance != null) PopupFactory.instance.ShowPopup(BasePopup.TypeOfPopup.PO_Question);
     }
     public void HintBtn()
     {
-        if (PopupContainer.instance != null)
+        if (PopupFactory.instance != null)
         {
-            PopupContainer.instance.ShowHintPopup();
+            PopupFactory.instance.ShowPopup(BasePopup.TypeOfPopup.PO_Hint);
             PlayerPrefs.SetInt(KeySave.HINT, 1);
         }
     }

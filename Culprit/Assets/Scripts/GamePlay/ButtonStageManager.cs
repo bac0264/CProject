@@ -27,8 +27,8 @@ public class ButtonStageManager : MonoBehaviour
     IEnumerator _TurnOn_MainCam()
     {
         backAnimator.Play("Click");
+        HideAllPopup();
         yield return new WaitForSeconds(KeySave.TIME_BACK);
-        TurnOffAllPopup();
         mainCam.gameObject.SetActive(true);
         subCamm_1.gameObject.SetActive(false);
         if (unitStage != null)
@@ -55,7 +55,7 @@ public class ButtonStageManager : MonoBehaviour
             unitStage.unit.LoadData();
             SetupBtnMode();
             Mode2Cotnainer.SetActive(true);
-            if (PopupContainer.instance != null) PopupContainer.instance.ShowQuestionPopup();
+            if (PopupFactory.instance != null) PopupFactory.instance.ShowPopup(BasePopup.TypeOfPopup.PO_Question);
         }
         btnPickup.AddBtns(unitStage);
     }
@@ -78,12 +78,9 @@ public class ButtonStageManager : MonoBehaviour
     #endregion
     // Button Next Try of Popup
     #region
-    public void TurnOffAllPopup()
+    public void HideAllPopup()
     {
-        if (WinPopup.instance != null) WinPopup.instance.HidePopup();
-        if (LosePopup.instance != null) LosePopup.instance.HidePopup();
-        if (CorrectPopup.instance != null) CorrectPopup.instance.HidePopup();
-        if (IncorrectPopup.instance != null) IncorrectPopup.instance.HidePopup();
+        if (PopupFactory.instance != null) PopupFactory.instance.HideAllPopup();
     }
 
     #endregion
@@ -93,11 +90,11 @@ public class ButtonStageManager : MonoBehaviour
     {
         if (unit.isWin)
         {
-            if (PopupContainer.instance != null) PopupContainer.instance.ShowWinPopup();
+            if (PopupFactory.instance != null) PopupFactory.instance.ShowPopup(BasePopup.TypeOfPopup.PO_Win);
         }
         else
         {
-            if (PopupContainer.instance != null) PopupContainer.instance.ShowLosePopup();
+            if (PopupFactory.instance != null) PopupFactory.instance.ShowPopup(BasePopup.TypeOfPopup.PO_Lose);
         }
     }
     #endregion

@@ -7,6 +7,7 @@ using EnhancedUI.EnhancedScroller;
 public class StageEnhance : SimpleDemo
 {
     public static StageEnhance instance;
+    public bool isDOMoveTutorialPosition;
     private void Awake()
     {
         _data = new SmallList<Data>();
@@ -26,7 +27,7 @@ public class StageEnhance : SimpleDemo
         int amount = LoadUnitOnvalidate.instance.GetAmountStage();
         //   amount = 100;
         // set up some simple data
-        for (var i = 0; i < amount; i++)
+        for (var i = amount - 1; i >= 0; i--)
         {
             int _amountUnitStage = LoadUnitOnvalidate.instance.GetAmountUnitStage(i);
             _data.Add(new DataStage() { indexStage = i, amountUnitStage = _amountUnitStage });

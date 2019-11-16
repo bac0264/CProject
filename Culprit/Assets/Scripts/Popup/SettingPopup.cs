@@ -36,6 +36,16 @@ public class SettingPopup : BasePopup
     }
     public override void ShowPopup()
     {
+        TextScript[] texts = GetComponentsInChildren<TextScript>();
+        TextmeshScript[] textmeshs = GetComponentsInChildren<TextmeshScript>();
+        if (texts.Length > 0)
+        {
+            foreach (TextScript _text in texts) _text.UpdateText();
+        }
+        if (textmeshs.Length > 0)
+        {
+            foreach (TextmeshScript _text in textmeshs) _text.UpdateText();
+        }
         base.ShowPopup();
         ani.Play("FadeIn");
     }

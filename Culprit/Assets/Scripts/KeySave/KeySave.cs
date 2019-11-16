@@ -15,6 +15,7 @@ public class KeySave
     public const string HINT = "HINT";
     public const string CURRENT_SCENE = "CURRENT_SCENE";
     public const string LANGUAGE = "LANGUAGE";
+    public const string TUTORIAL = "TUTORIAL";
     public const int SCEME_MENU = 0;
     public const int SCENE_STAGE = 1;
     public const int STAGE_AMOUNT = 6;

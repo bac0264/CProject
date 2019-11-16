@@ -19,7 +19,6 @@ public class CorrectPopup : BasePopup
     {
         Refresh();
         container = ButtonStageManager.instance.unitStage;
-        Debug.Log(container);
         if (container != null && container.unit != null && container.unit is UnitMode2)
         {
             UnitMode2 unitMode2 = container.unit as UnitMode2;

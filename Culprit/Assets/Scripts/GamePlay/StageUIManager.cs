@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class StageUIManager : MonoBehaviour
 {
     public Animator ani;
+    public MenuTutorialManager tutorialManager;
     private void OnValidate()
     {
         if (ani == null) ani = GetComponent<Animator>();
@@ -22,5 +23,16 @@ public class StageUIManager : MonoBehaviour
     public void NextScene()
     {
         SceneManager.LoadScene("StageToMenu");
+    }
+    public void Step_1_DOMoveTutorialPosition() {
+        if (PlayerPrefs.GetInt(KeySave.TUTORIAL, 0) == 1)
+        {
+            tutorialManager.gameObject.SetActive(false);
+        }
+        else
+        {
+            tutorialManager.gameObject.SetActive(true);
+            PlayerPrefs.SetInt(KeySave.TUTORIAL, 1);
+        }
     }
 }

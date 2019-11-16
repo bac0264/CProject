@@ -8,12 +8,9 @@ public class SetupSubCam : MonoBehaviour
     private void Awake()
     {
         float aspect = (float)Screen.height / (float)Screen.width; // Portrait
-                                                     //aspect = (float)Screen.width / (float)Screen.height; // Landscape
-        Debug.Log("Aspect Ratio:" + aspect);
         if (aspect >= 1.74)  // 16:9
         {
             _camera.orthographicSize = 9.6f;
-            Debug.Log("16:9");
         }
         else if (aspect > 1.61)// 5:3
             _camera.orthographicSize = 9.12f;
