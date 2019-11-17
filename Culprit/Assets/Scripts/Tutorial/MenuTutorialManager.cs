@@ -7,6 +7,7 @@ public class MenuTutorialManager : MonoBehaviour
     public List<MenuTutorial> Tutorials;
     public MenuTutorial currentTutorial;
     public Stage stage;
+
     private static MenuTutorialManager instance;
     public static MenuTutorialManager Instance
     {
