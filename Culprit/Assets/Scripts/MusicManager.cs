@@ -5,10 +5,9 @@ using UnityEngine;
 public class MusicManager : MonoBehaviour
 {
     public AudioSource[] audioBG;
-
+    public MusicMode2Container musicMode2;
+    public Dictionary<string, AudioClip> AudioMode2 = new Dictionary<string, AudioClip>();
     [Header("---------------------BG Music Menu----------------------")]
-    public AudioClip MenuStartGame_1;
-    public AudioClip MenuStartGame_2;
 
     public bool muteBGMusic;
     public static MusicManager instance;
@@ -24,33 +23,43 @@ public class MusicManager : MonoBehaviour
             Destroy(gameObject);
         }
         DontDestroyOnLoad(gameObject);
+        LoadData();
 
+        MenuStartGameMusic();
+    }
+    public void LoadData()
+    {
+        AudioClip[] _AudioMode2 = Resources.LoadAll<AudioClip>("AudioMode2");
+        foreach (AudioClip clip in _AudioMode2)
+        {
+            AudioMode2.Add(clip.name, clip);
+        }
     }
     public void MenuStartGameMusic()
     {
-        audioBG[0].Stop();
-        if (!audioBG[0].isPlaying && muteBGMusic == false)
+        FadeSoundOff(audioBG[1], 1.5f, 0f, 0.5f);
+        if ( muteBGMusic == false)
         {
             FadeSoundOn(audioBG[0], 1.5f, 0f, 0.5f);
-            audioBG[0].clip = MenuStartGame_1;
+            audioBG[0].clip = AudioMode2["0"];
             audioBG[0].PlayDelayed(1f);
             audioBG[0].loop = true;
             audioBG[0].Play();
         }
     }
-    public void InGameMusic()
+    public void InGameMusic(string Level)
     {
-        audioBG[0].Stop();
-        if (!audioBG[0].isPlaying && muteBGMusic == false)
+        string soundCode = musicMode2.GetMusicMode2((int.Parse(Level) + 1).ToString()).SoundCode;
+        FadeSoundOff(audioBG[0], 1.5f, 0f, 0.5f);
+        if ( muteBGMusic == false)
         {
-            FadeSoundOn(audioBG[0], 1.5f, 0f, 0.5f);
-            audioBG[0].clip = MenuStartGame_2;
-            audioBG[0].PlayDelayed(1f);
-            audioBG[0].loop = true;
-            audioBG[0].Play();
+            FadeSoundOn(audioBG[1], 1.5f, 0f, 0.5f);
+            audioBG[1].clip = AudioMode2[soundCode];
+            audioBG[1].PlayDelayed(1f);
+            audioBG[1].loop = true;
+            audioBG[1].Play();
         }
     }
-
 
     //------------------------------------------------------------------------------------------------
     public void StopBGMusic()

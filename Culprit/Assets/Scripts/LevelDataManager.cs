@@ -13,7 +13,6 @@ public class LevelDataManager : MonoBehaviour
     public TextmeshScript[] textmeshScripts;
     public LevelDataContainer levelData;
     public LanguageUIContainer languageUIContainer;
-    public TextAsset backup;
 
 
     private void OnValidate()

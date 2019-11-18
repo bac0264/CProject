@@ -148,7 +148,7 @@ public class StageManager : MonoBehaviour
     #region
     public void Step_1_PickupTutorial()
     {
-        if (_stageList[0] != null)
+        if (_stageList != null)
         {
             if (MenuTutorialManager.Instance != null) MenuTutorialManager.Instance.stage = _stageList[0];
             PickStage(_stageList[0]);

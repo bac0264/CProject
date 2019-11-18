@@ -43,5 +43,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 726889c81e3c7934cbc05725238cdb01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelDataCSV: {fileID: 4900000, guid: bf4aee2e8e294984791f152eccb42cd7, type: 3}
+  LevelDataCSV: {fileID: 4900000, guid: 5144b37d4266f1a4da0cc047cb0ca857, type: 3}
   levelData: {fileID: 11400000, guid: a91c2e2f1f1227748ad1ea141978c0d9, type: 2}
+  UIDataCSV: {fileID: 4900000, guid: a7c6898f3d16df74ab21216b9dca34cb, type: 3}
+  languageUIData: {fileID: 11400000, guid: 73ecc762b378781409a8141114f207f4, type: 2}
+  MusicCSV: {fileID: 4900000, guid: 848c7b0b6649bd24d992f0ffaf1923bb, type: 3}
+  musicData: {fileID: 11400000, guid: ed910c84f8b71c64bbdb47adc1f05eae, type: 2}

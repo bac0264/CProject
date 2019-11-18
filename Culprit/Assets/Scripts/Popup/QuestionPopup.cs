@@ -30,7 +30,7 @@ public class QuestionPopup : BasePopup
     public override void HidePopup()
     {
         //StartCoroutine(_HidePopup());
-        if (PickupCorrectAns.instance != null) PickupCorrectAns.instance.Show_Tutorial();
+        if (PickupCorrectAns.instance != null && PickupCorrectAns.instance.gameObject.activeInHierarchy) PickupCorrectAns.instance.Show_Tutorial();
         base.HidePopup();
     }
     IEnumerator _HidePopup()
