@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 458e50290b95c344a96b8e0ef9c7bca0, type: 3}
+  m_Name: MusicMode2Data
+  m_EditorClassIdentifier: 
+  musicDataList:
+  - Level: 1
+    SoundCode: 7
+  - Level: 2
+    SoundCode: 3
+  - Level: 3
+    SoundCode: 3
+  - Level: 4
+    SoundCode: 4
+  - Level: 5
+    SoundCode: 1
+  - Level: 6
+    SoundCode: 6
+  - Level: 7
+    SoundCode: 5
+  - Level: 8
+    SoundCode: 7
+  - Level: 9
+    SoundCode: 1
+  - Level: 10
+    SoundCode: 6
+  - Level: 11
+    SoundCode: 7
+  - Level: 12
+    SoundCode: 6
+  - Level: 13
+    SoundCode: 6
+  - Level: 14
+    SoundCode: 3
+  - Level: 15
+    SoundCode: 6
+  - Level: 16
+    SoundCode: 7
+  - Level: 17
+    SoundCode: 6
+  - Level: 18
+    SoundCode: 9
+  - Level: 19
+    SoundCode: 2
+  - Level: 20
+    SoundCode: 6

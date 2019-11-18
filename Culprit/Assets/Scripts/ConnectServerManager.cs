@@ -9,6 +9,11 @@ public class ConnectServerManager : MonoBehaviour
     private const string URL_VietnameseUI = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTxgAhB3kCr3KiR8l_PLReZNiJzSbeSJPpHmkYy7gY5JrO344KrLmGDXroW_CBQ-HnQk7alz3_K96BV/pub?output=csv";
     private const string URL_EnglishUI = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTcfHmf3jbCT7gk-C7OOtM70KxGPQ_XnMnCxU5TDHiba0rfnmTYycLZHjgmDIWFzdeCZ8g8q9t0pVXt/pub?output=csv";
 
+    public TextAsset backupLevelEnglish;
+    public TextAsset backupLevelVietnamese;
+
+    public TextAsset backupUIEnglish;
+    public TextAsset backupUIVietnamese;
 
     public void GetDataFromServer()
     {
@@ -35,7 +40,15 @@ public class ConnectServerManager : MonoBehaviour
         if (www.error != null)
         {
             Debug.Log("Error");
-            var dataQues = CSVReader.Read(LevelDataManager.instance.backup);
+            var dataQues = CSVReader.Read(backupLevelEnglish);
+            if (PlayerPrefs.GetInt(KeySave.LANGUAGE, 1) == 1)
+            {
+                dataQues = CSVReader.Read(backupLevelEnglish);
+            }
+            else if (PlayerPrefs.GetInt(KeySave.LANGUAGE, 1) == 0)
+            {
+                dataQues = CSVReader.Read(backupLevelVietnamese);
+            }
             LevelDataManager.instance.levelData.LoadLevelData(dataQues);
         }
         else
@@ -71,8 +84,16 @@ public class ConnectServerManager : MonoBehaviour
             if (www.error != null)
             {
                 Debug.Log("Error");
-                //var dataQues = CSVReader.Read(backup);
-                //levelData.LoadLevelData(dataQues);
+                var dataQues = CSVReader.Read(backupLevelEnglish);
+                if (PlayerPrefs.GetInt(KeySave.LANGUAGE, 1) == 1)
+                {
+                    dataQues = CSVReader.Read(backupUIEnglish);
+                }
+                else if (PlayerPrefs.GetInt(KeySave.LANGUAGE, 1) == 0)
+                {
+                    dataQues = CSVReader.Read(backupUIVietnamese);
+                }
+                LevelDataManager.instance.languageUIContainer.LoadUIData(dataQues);
             }
             else
             {

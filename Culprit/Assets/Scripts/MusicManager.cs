@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class MusicManager : MonoBehaviour
 {
-    public AudioSource audioBG;
-
+    public AudioSource[] audioBG;
+    public MusicMode2Container musicMode2;
     public Dictionary<string, AudioClip> AudioMode2 = new Dictionary<string, AudioClip>();
     [Header("---------------------BG Music Menu----------------------")]
 
@@ -37,43 +37,52 @@ public class MusicManager : MonoBehaviour
     }
     public void MenuStartGameMusic()
     {
-        audioBG.Stop();
-        if (!audioBG.isPlaying && muteBGMusic == false)
+        FadeSoundOff(audioBG[1], 1.5f, 0f, 0.5f);
+        if ( muteBGMusic == false)
         {
-            FadeSoundOn(audioBG, 1.5f, 0f, 0.5f);
-            audioBG.clip = AudioMode2["0"];
-            audioBG.PlayDelayed(1f);
-            audioBG.loop = true;
-            audioBG.Play();
+            FadeSoundOn(audioBG[0], 1.5f, 0f, 0.5f);
+            audioBG[0].clip = AudioMode2["0"];
+            audioBG[0].PlayDelayed(1f);
+            audioBG[0].loop = true;
+            audioBG[0].Play();
         }
     }
     public void InGameMusic(string Level)
     {
-        audioBG.Stop();
-        if (!audioBG.isPlaying && muteBGMusic == false)
+        string soundCode = musicMode2.GetMusicMode2((int.Parse(Level) + 1).ToString()).SoundCode;
+        FadeSoundOff(audioBG[0], 1.5f, 0f, 0.5f);
+        if ( muteBGMusic == false)
         {
-            FadeSoundOn(audioBG, 1.5f, 0f, 0.5f);
-            audioBG.clip = AudioMode2[Level];
-            audioBG.PlayDelayed(1f);
-            audioBG.loop = true;
-            audioBG.Play();
+            FadeSoundOn(audioBG[1], 1.5f, 0f, 0.5f);
+            audioBG[1].clip = AudioMode2[soundCode];
+            audioBG[1].PlayDelayed(1f);
+            audioBG[1].loop = true;
+            audioBG[1].Play();
         }
     }
-
 
     //------------------------------------------------------------------------------------------------
     public void StopBGMusic()
     {
-        audioBG.Stop();
+        for (int i = 0; i < audioBG.Length; i++)
+        {
+            audioBG[i].Stop();
+        }
     }
     public void PauseBGMusic()
     {
-        audioBG.Pause();
+        for (int i = 0; i < audioBG.Length; i++)
+        {
+            audioBG[i].Pause();
+        }
     }
 
     public void UnPauseBGMusic()
     {
-        audioBG.UnPause();
+        for (int i = 0; i < audioBG.Length; i++)
+        {
+            audioBG[i].UnPause();
+        }
     }
 
     public void FadeSoundOn(AudioSource audioSrc, float fadeTime, float minVolume, float maxVolume)
@@ -114,11 +123,17 @@ public class MusicManager : MonoBehaviour
 
     public void MuteAllMusic()
     {
-        audioBG.mute = true;
+        for (int i = 0; i < audioBG.Length; i++)
+        {
+            audioBG[i].mute = true;
+        }
     }
 
     public void UnMuteAllMusic()
     {
-        audioBG.mute = false;
+        for (int i = 0; i < audioBG.Length; i++)
+        {
+            audioBG[i].mute = false;
+        }
     }
 }
