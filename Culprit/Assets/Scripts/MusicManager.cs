@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -37,27 +38,40 @@ public class MusicManager : MonoBehaviour
     }
     public void MenuStartGameMusic()
     {
-        FadeSoundOff(audioBG[1], 1.5f, 0f, 0.5f);
-        if ( muteBGMusic == false)
+        try
         {
-            FadeSoundOn(audioBG[0], 1.5f, 0f, 0.5f);
-            audioBG[0].clip = AudioMode2["0"];
-            audioBG[0].PlayDelayed(1f);
-            audioBG[0].loop = true;
-            audioBG[0].Play();
+            FadeSoundOff(audioBG[1], 1.5f, 0f, 0.5f);
+            if (muteBGMusic == false)
+            {
+                FadeSoundOn(audioBG[0], 1.5f, 0f, 0.5f);
+                audioBG[0].clip = AudioMode2["0"];
+                audioBG[0].PlayDelayed(1f);
+                audioBG[0].loop = true;
+                audioBG[0].Play();
+            }
+        }
+        catch (Exception e)
+        {
+            print(e);
         }
     }
     public void InGameMusic(string Level)
     {
-        string soundCode = musicMode2.GetMusicMode2((int.Parse(Level) + 1).ToString()).SoundCode;
-        FadeSoundOff(audioBG[0], 1.5f, 0f, 0.5f);
-        if ( muteBGMusic == false)
+        try
         {
-            FadeSoundOn(audioBG[1], 1.5f, 0f, 0.5f);
-            audioBG[1].clip = AudioMode2[soundCode];
-            audioBG[1].PlayDelayed(1f);
-            audioBG[1].loop = true;
-            audioBG[1].Play();
+            string soundCode = musicMode2.GetMusicMode2((int.Parse(Level) + 1).ToString()).SoundCode;
+            FadeSoundOff(audioBG[0], 1.5f, 0f, 0.5f);
+            if (muteBGMusic == false)
+            {
+                FadeSoundOn(audioBG[1], 1.5f, 0f, 0.5f);
+                audioBG[1].clip = AudioMode2[soundCode];
+                audioBG[1].PlayDelayed(1f);
+                audioBG[1].loop = true;
+                audioBG[1].Play();
+            }
+        }catch(Exception e)
+        {
+            print(e);
         }
     }
 
