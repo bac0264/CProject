@@ -20,6 +20,29 @@ public class ConnectServerManager : MonoBehaviour
         StartCoroutine(LevelLanguageConnectServer());
         StartCoroutine(UILanguageConnectServer());
     }
+    public void SetupForTheFirst()
+    {
+        var dataQues = CSVReader.Read(backupLevelEnglish);
+        var dataQues_2 = CSVReader.Read(backupUIEnglish);
+        if (Application.systemLanguage == SystemLanguage.Vietnamese)
+        {
+            dataQues = CSVReader.Read(backupLevelVietnamese);
+            dataQues_2 = CSVReader.Read(backupUIVietnamese);
+        }
+        else if(Application.systemLanguage == SystemLanguage.English)
+        {
+            dataQues = CSVReader.Read(backupLevelEnglish);
+            dataQues_2 = CSVReader.Read(backupUIEnglish);
+        }
+        else
+        {
+
+        }
+        LevelDataManager.instance.levelData.LoadLevelData(dataQues);
+        LevelDataManager.instance.languageUIContainer.LoadUIData(dataQues_2);
+        LevelDataManager.instance.SetDictionaryUI();
+        LevelDataManager.instance.UpdateAllTextUI();
+    }
     IEnumerator LevelLanguageConnectServer()
     {
         UnityWebRequest www = null;
@@ -84,7 +107,7 @@ public class ConnectServerManager : MonoBehaviour
             if (www.error != null)
             {
                 Debug.Log("Error");
-                var dataQues = CSVReader.Read(backupLevelEnglish);
+                var dataQues = CSVReader.Read(backupUIEnglish);
                 if (PlayerPrefs.GetInt(KeySave.LANGUAGE, 1) == 1)
                 {
                     dataQues = CSVReader.Read(backupUIEnglish);
@@ -94,6 +117,8 @@ public class ConnectServerManager : MonoBehaviour
                     dataQues = CSVReader.Read(backupUIVietnamese);
                 }
                 LevelDataManager.instance.languageUIContainer.LoadUIData(dataQues);
+                LevelDataManager.instance.SetDictionaryUI();
+                LevelDataManager.instance.UpdateAllTextUI();
             }
             else
             {

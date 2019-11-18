@@ -27,7 +27,12 @@ public class LevelDataManager : MonoBehaviour
             DontDestroyOnLoad(this);
         }
         else { Destroy(this); }
-        GetDataFromServer();
+        if (PlayerPrefs.GetInt(KeySave.LANGUAGE_IS_THE_FIRST_TIME, 0) == 0)
+        {
+            connect.SetupForTheFirst();
+        }
+        else
+            GetDataFromServer();
     }
     public void GetDataFromServer()
     {
@@ -75,7 +80,7 @@ public class LevelDataManager : MonoBehaviour
     public void SetDictionaryUI()
     {
         dictionaryUI = new Dictionary<string, string>();
-        foreach(UIData data in languageUIContainer.dataList)
+        foreach (UIData data in languageUIContainer.dataList)
         {
             dictionaryUI.Add(data.NAME, data.DATA);
         }
