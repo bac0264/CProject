@@ -46,7 +46,6 @@ public class Stage : CellView, IShowStage, IPointerClickHandler, IHide, IOpen
     }
     public UnitStage GetNextUnitStage(int indexUnitStage)
     {
-        Debug.Log(this.name);
         int next = indexUnitStage + 1;
         if (next < amountOfUnitStage)
         {

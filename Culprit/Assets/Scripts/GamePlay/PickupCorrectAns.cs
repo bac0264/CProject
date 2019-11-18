@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 using System;
+using Spine.Unity;
 
 public class PickupCorrectAns : MonoBehaviour
 {
@@ -51,6 +52,7 @@ public class PickupCorrectAns : MonoBehaviour
     public void RunPickup()
     {
         //correctPosition.localPosition = pos;
+        Hide_Tutorial();
         RUN = true;
         ani.Play("Run");
     }
@@ -64,7 +66,6 @@ public class PickupCorrectAns : MonoBehaviour
     }
     public void EventShowCorrectPopup()
     {
-        Debug.Log("run");
         if (isCorrect == false)
         {
             if (PopupFactory.instance != null) PopupFactory.instance.ShowPopup(BasePopup.TypeOfPopup.PO_Incorrect);
@@ -78,5 +79,40 @@ public class PickupCorrectAns : MonoBehaviour
     public void Rebind()
     {
         ani.Rebind();
+    }
+
+    public SkeletonGraphic pickup_Tutorial;
+
+    public void Show_Tutorial()
+    {
+        StartCoroutine(show_Tutorial());
+    }
+    IEnumerator show_Tutorial()
+    {
+        if (PlayerPrefs.GetInt(KeySave.TUTORIAL_PICKUP, 0) == 0)
+        {
+            PlayerPrefs.SetInt(KeySave.TUTORIAL_PICKUP, 1);
+            if (StageManager.instance != null)
+            {
+                Unit unit = ButtonStageManager.instance.stage.GetUnitStage(0).unit;
+                if (unit is UnitMode2)
+                {
+                    UnitMode2 _unitMode2 = unit as UnitMode2;
+                    Vector3 _pos = _unitMode2.correctAnswerBtns[0].transform.position;
+                    pickup_Tutorial.transform.position = _pos;
+                    pickup_Tutorial.gameObject.SetActive(true);
+                    yield return new WaitForSeconds(2f); ;
+                    pickup_Tutorial.gameObject.SetActive(false);
+                }
+            }
+        }
+        else
+        {
+            pickup_Tutorial.gameObject.SetActive(false);
+        }
+    }
+    public void Hide_Tutorial()
+    {
+        pickup_Tutorial.gameObject.SetActive(false);
     }
 }

@@ -37,7 +37,6 @@ public class SaveLoadData
     }
     public static string GetKeyUnitStage(int indexStage, int indexUnitStage)
     {
-        Debug.Log(GetKeyStage(indexStage) + "_" + indexUnitStage.ToString());
         return (GetKeyStage(indexStage) + "_" + indexUnitStage.ToString());
     }
 
