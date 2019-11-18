@@ -26,6 +26,8 @@ public class ButtonStageManager : MonoBehaviour
     }
     IEnumerator _TurnOn_MainCam()
     {
+        if (SoundManager.instance != null) SoundManager.instance.StopAllSound();
+        if (MusicManager.instance != null) MusicManager.instance.MenuStartGameMusic();
         backAnimator.Play("Click");
         HideAllPopup();
         yield return new WaitForSeconds(KeySave.TIME_BACK);
@@ -42,6 +44,7 @@ public class ButtonStageManager : MonoBehaviour
     }
     public void TurnOn_Subcam(UnitStage unit)
     {
+        if (MusicManager.instance != null) MusicManager.instance.InGameMusic((unit._index + 1).ToString());
         subCamm_1.gameObject.SetActive(true);
         mainCam.gameObject.SetActive(false);
         unitStage = unit;
