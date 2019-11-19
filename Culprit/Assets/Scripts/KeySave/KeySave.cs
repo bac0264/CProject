@@ -15,7 +15,7 @@ public class KeySave
     public const string MUSIC = "MUSIC";
     public const string HINT = "HINT";
     public const string CURRENT_SCENE = "CURRENT_SCENE";
-    public const string LANGUAGE = "LANGUAGE";
+    public const string LANGUAGE = "LANGUAGE"; // 1 is English, 0 is Vietnamese
     public const string TUTORIAL = "TUTORIAL";
     public const string TUTORIAL_PICKUP = "TUTORIAL_PICKUP";
     public const int SCEME_MENU = 0;

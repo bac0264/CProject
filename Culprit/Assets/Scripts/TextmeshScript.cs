@@ -28,7 +28,13 @@ public class TextmeshScript : MonoBehaviour
         {
             string data = LevelDataManager.instance.GetStringFromDictionaryUI(name);
             if (!data.Equals(" "))
+            {
+                string x = "'";
+                char _x = x[0];
+                data = data.Replace(';', ',');
+                data = data.Replace('\\',_x);
                 text.text = data;
+            }
         }
         if (FontsManager.instance != null)text.font = FontsManager.instance.GetFontTextMesh(PlayerPrefs.GetInt(KeySave.LANGUAGE).ToString(), type.ToString());
     }

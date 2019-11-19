@@ -34,6 +34,7 @@ public class BasePopup : MonoBehaviour
     }
     public virtual void Home()
     {
-        SceneManager.LoadScene("Menu");
+        if (StageManager.instance != null) StageManager.instance.Home();
+        if (ButtonStageManager.instance != null) ButtonStageManager.instance.Home();
     }
 }

@@ -9,6 +9,11 @@ public class SettingPopup : BasePopup
     public GameObject turnOnSound;
     public GameObject turnOffSound;
     public Animator ani;
+    public Snap snap;
+    private void OnValidate()
+    {
+        if (snap == null) snap = FindObjectOfType<Snap>();
+    }
     private void Awake()
     {
         if (instance == null) instance = this;
@@ -16,26 +21,32 @@ public class SettingPopup : BasePopup
         if (PlayerPrefs.GetInt(KeySave.SOUND, 0) == 0)
         {
             TurnOnSound();
+            if (SoundManager.instance != null) SoundManager.instance.UnMuteAllSound();
         }
         else
         {
             TurnOffSound();
+            if (SoundManager.instance != null) SoundManager.instance.MuteAllSound();
         }
         if (PlayerPrefs.GetInt(KeySave.MUSIC, 0) == 0)
         {
             TurnOnMusic();
+            if (MusicManager.instance != null) MusicManager.instance.UnMuteAllMusic();
         }
         else
         {
             TurnOffMusic();
+            if (MusicManager.instance != null) MusicManager.instance.MuteAllMusic();
         }
     }
     public void RunAniFadeOut()
     {
+        if (SoundManager.instance != null) SoundManager.instance.UI_button_Click();
         ani.Play("FadeOut");
     }
     public override void ShowPopup()
     {
+        if (SoundManager.instance != null) SoundManager.instance.UI_button_Click();
         TextScript[] texts = GetComponentsInChildren<TextScript>();
         TextmeshScript[] textmeshs = GetComponentsInChildren<TextmeshScript>();
         if (texts.Length > 0)
@@ -51,27 +62,41 @@ public class SettingPopup : BasePopup
     }
     public void SoundBtn()
     {
+        if (SoundManager.instance != null) SoundManager.instance.UI_effect_Pick();
         if (PlayerPrefs.GetInt(KeySave.SOUND) == 1)
         {
             TurnOnSound();
+            if (SoundManager.instance != null) SoundManager.instance.UnMuteAllSound();
             PlayerPrefs.SetInt(KeySave.SOUND, 0);
         }
         else
         {
+            if (FireBaseEventManager.instance != null)
+            {
+                FireBaseEventManager.instance.MENU_OffSound();
+            }
             TurnOffSound();
+            if (SoundManager.instance != null) SoundManager.instance.MuteAllSound();
             PlayerPrefs.SetInt(KeySave.SOUND, 1);
         }
     }
     public void MusicBtn()
     {
+        if (SoundManager.instance != null) SoundManager.instance.UI_effect_Pick();
         if (PlayerPrefs.GetInt(KeySave.MUSIC) == 1)
         {
             TurnOnMusic();
+            if (MusicManager.instance != null) MusicManager.instance.UnMuteAllMusic();
             PlayerPrefs.SetInt(KeySave.MUSIC, 0);
         }
         else
         {
+            if (FireBaseEventManager.instance != null)
+            {
+                FireBaseEventManager.instance.MENU_OffMuic();
+            }
             TurnOffMusic();
+            if (MusicManager.instance != null) MusicManager.instance.MuteAllMusic();
             PlayerPrefs.SetInt(KeySave.MUSIC, 1);
         }
     }
@@ -97,13 +122,37 @@ public class SettingPopup : BasePopup
     }
     public void Language()
     {
-        if (PlayerPrefs.GetInt(KeySave.LANGUAGE) == 0) {
+        if (PlayerPrefs.GetInt(KeySave.LANGUAGE) == 0)
+        {
             PlayerPrefs.SetInt(KeySave.LANGUAGE, 1);
         }
         else
         {
             PlayerPrefs.SetInt(KeySave.LANGUAGE, 0);
         }
-        if(LevelDataManager.instance != null) LevelDataManager.instance.GetDataFromServer();
+        if (LevelDataManager.instance != null) LevelDataManager.instance.GetDataFromServer();
+    }
+    public void Vietnamese()
+    {
+        if (FireBaseEventManager.instance != null)
+        {
+            FireBaseEventManager.instance.MENU_Language();
+        }
+        if (SoundManager.instance != null) SoundManager.instance.UI_effect_Pick();
+        PlayerPrefs.SetInt(KeySave.LANGUAGE, 0);
+        if (LevelDataManager.instance != null) LevelDataManager.instance.GetDataFromServer();
+        snap.UpdateBtn();
+
+    }
+    public void English()
+    {
+        if (FireBaseEventManager.instance != null)
+        {
+            FireBaseEventManager.instance.MENU_Language();
+        }
+        if (SoundManager.instance != null) SoundManager.instance.UI_effect_Pick();
+        PlayerPrefs.SetInt(KeySave.LANGUAGE, 1);
+        if (LevelDataManager.instance != null) LevelDataManager.instance.GetDataFromServer();
+        snap.UpdateBtn();
     }
 }

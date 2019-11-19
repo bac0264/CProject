@@ -54,6 +54,11 @@ public class StageManager : MonoBehaviour
     #region
     public void PickStage(Stage Stage)
     {
+        if (FireBaseEventManager.instance != null)
+        {
+            FireBaseEventManager.instance.NAME_MODE(titles[Stage.index]);
+        }
+        if (SoundManager.instance != null) SoundManager.instance.UI_effect_Pick();
         imageOfUnitStageManager.enabled = true;
         curStage = Stage;
         Stage.LoadUnit();
@@ -114,6 +119,7 @@ public class StageManager : MonoBehaviour
     #endregion
     public void Back()
     {
+        if (SoundManager.instance != null) SoundManager.instance.UI_button_Click();
         StartCoroutine(_back());
     }
     IEnumerator _back()
@@ -126,6 +132,18 @@ public class StageManager : MonoBehaviour
         btns[0].gameObject.SetActive(true);
         btns[1].gameObject.SetActive(false);
         aniBtn1.Rebind();
+        if (curStage != null) curStage.RemoveEvents();
+        if (StageEnhance.instance != null)
+            StageEnhance.instance.scroller.GetContainer().SetActive(true);
+        if (UnitEnhance.instance != null)
+            UnitEnhance.instance.scroller.GetContainer().SetActive(false);
+    }
+    public void Home()
+    {
+        OpenAllStage();
+        imageOfUnitStageManager.enabled = false;
+        btns[0].gameObject.SetActive(true);
+        btns[1].gameObject.SetActive(false);
         if (curStage != null) curStage.RemoveEvents();
         if (StageEnhance.instance != null)
             StageEnhance.instance.scroller.GetContainer().SetActive(true);

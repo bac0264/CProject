@@ -29,6 +29,10 @@ public class UnitMode2 : Unit
     {
         CurIndexScene = 0;
         SaveLoadData.LoadDataUnitStage(indexStage, indexUnit, ref MaxIndexScene, ref isWin);
+        if (FireBaseEventManager.instance != null)
+        {
+            FireBaseEventManager.instance.GP_Play_Level(indexUnit, MaxIndexScene);
+        }
     }
     public override void SaveData()
     {
@@ -53,6 +57,10 @@ public class UnitMode2 : Unit
     {
         if (PickupCorrectAns.instance != null)
         {
+            if (FireBaseEventManager.instance != null)
+            {
+                FireBaseEventManager.instance.GP_Lose_Level(indexUnit, CurIndexScene);
+            }
             PickupCorrectAns.instance.RunPickup();
             PickupCorrectAns.instance.ISCORRECT = false;
         }
@@ -62,6 +70,10 @@ public class UnitMode2 : Unit
         // Run animation -> show popup
         if (PickupCorrectAns.instance != null)
         {
+            if (FireBaseEventManager.instance != null)
+            {
+                FireBaseEventManager.instance.GP_Win_Level(indexUnit, CurIndexScene);
+            }
             PickupCorrectAns.instance.RunPickup();
             PickupCorrectAns.instance.ISCORRECT = true;
         }

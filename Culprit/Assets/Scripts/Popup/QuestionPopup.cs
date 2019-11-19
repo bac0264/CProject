@@ -18,6 +18,7 @@ public class QuestionPopup : BasePopup
     }
     public override void ShowPopup()
     {
+        if (SoundManager.instance != null) SoundManager.instance.UI_effect_Pick();
         unitStage = ButtonStageManager.instance.unitStage;
 
         if (unitStage != null && unitStage.unit != null && unitStage.unit is UnitMode2)
@@ -29,6 +30,7 @@ public class QuestionPopup : BasePopup
     }
     public override void HidePopup()
     {
+        if (SoundManager.instance != null) SoundManager.instance.UI_button_Click();
         //StartCoroutine(_HidePopup());
         if (PickupCorrectAns.instance != null && PickupCorrectAns.instance.gameObject.activeInHierarchy) PickupCorrectAns.instance.Show_Tutorial();
         base.HidePopup();

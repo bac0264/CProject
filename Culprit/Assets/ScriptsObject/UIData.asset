@@ -14,38 +14,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dataList:
   - NAME: Menu_Title
-    DATA: "WHO IS THE CULPRIT\r"
+    DATA: WHO IS THE CULPRIT
   - NAME: Menu_Taptoplay
-    DATA: "TAP TO PLAY\r"
+    DATA: TAP TO PLAY
   - NAME: Setting_Title
-    DATA: "Setting\r"
+    DATA: Setting
   - NAME: Setting_Sound
-    DATA: "Sound\r"
+    DATA: Sound
   - NAME: Setting_Music
-    DATA: "Music\r"
+    DATA: Music
   - NAME: Setting_Language
-    DATA: "Language\r"
+    DATA: Language
   - NAME: PopupIncorrect_Oops
-    DATA: "Oops!\r"
+    DATA: Oops!
   - NAME: PopupIncorrect_Incorrect
-    DATA: "incorrect!\r"
+    DATA: incorrect!
   - NAME: Popup_Next
-    DATA: "Next\r"
+    DATA: next
   - NAME: Popup_Close
-    DATA: "Close\r"
+    DATA: close
   - NAME: PopupCorrect_Correct
-    DATA: "CORRECT\r"
+    DATA: CORRECT
   - NAME: PopupCorrect_WellDone
-    DATA: "WELL DONE!!!\r"
+    DATA: WELL DONE!!!
   - NAME: PopupHint_Suggest
-    DATA: "Suggestion\r"
+    DATA: Suggestion
   - NAME: PopupQuestion_Question
-    DATA: "Question\r"
+    DATA: Question
   - NAME: Popup_AnsAndLogic
-    DATA: "Answer and Logic\r"
+    DATA: Answer and Logic
   - NAME: Popup_Try
-    DATA: "Try\r"
+    DATA: try
   - NAME: Basic
-    DATA: "Basic\r"
+    DATA: Basic
   - NAME: Challenge
     DATA: Challenge
+  - NAME: Popup_Home
+    DATA: home

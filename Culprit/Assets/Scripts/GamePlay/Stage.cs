@@ -65,6 +65,10 @@ public class Stage : CellView, IShowStage, IPointerClickHandler, IHide, IOpen
         if (unitstage != null)
         {
             Unit unit = LoadUnitOnvalidate.instance.GetUnitFromResources(index, unitstage._index);
+            if (FireBaseEventManager.instance != null)
+            {
+                FireBaseEventManager.instance.LEVEL_SELECT(unitstage._index);
+            }
             if (unit != null)
             {
                 unitstage.LoadUnit(unit);

@@ -443,6 +443,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0.55
+    functionName: Stickman_Whoosh
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 1.1333333
     functionName: EventShowCorrectPopup
     data: 

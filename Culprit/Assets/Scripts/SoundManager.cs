@@ -29,7 +29,7 @@ public class SoundManager : MonoBehaviour
     }
     public void LoadData()
     {
-        AudioClip[] _AudioMode1 = Resources.LoadAll<AudioClip>("AudioMode1");     
+        AudioClip[] _AudioMode1 = Resources.LoadAll<AudioClip>("AudioMode1");
 
         foreach (AudioClip clip in _AudioMode1)
         {
@@ -475,7 +475,33 @@ public class SoundManager : MonoBehaviour
         audioFX.PlayOneShot(AudioMode1[SoundKey.H_NU_CUOI], 1f);
     }
     #endregion
-    //--------------------------------------------
+
+
+    // UI Sound
+
+    #region
+    public void UI_button_Click()
+    {
+        audioFX.PlayOneShot(AudioMode1[SoundKey.UI_button_Click], 1f);
+    }
+    public void UI_effect_Correct()
+    {
+        audioFX.PlayOneShot(AudioMode1[SoundKey.UI_effect_Correct], 1f);
+    }
+    public void UI_effect_Pick()
+    {
+        audioFX.PlayOneShot(AudioMode1[SoundKey.UI_effect_Pick], 1f);
+    }
+    public void UI_effect_Whoosh()
+    {
+        audioFX.PlayOneShot(AudioMode1[SoundKey.UI_effect_Whoosh], 1f);
+    }
+    public void UI_effect_Wrong()
+    {
+        audioFX.PlayOneShot(AudioMode1[SoundKey.UI_effect_Wrong], 1f);
+    }
+    #endregion
+
     public void Sound_Level(string Level)
     {
         audioFX.PlayOneShot(AudioMode1[Level], 1f);

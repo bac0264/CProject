@@ -22,6 +22,7 @@ public class ButtonStageManager : MonoBehaviour
     }
     public void TurnOn_MainCam()
     {
+        if (SoundManager.instance != null) SoundManager.instance.UI_button_Click();
         StartCoroutine(_TurnOn_MainCam());
     }
     IEnumerator _TurnOn_MainCam()
@@ -42,18 +43,34 @@ public class ButtonStageManager : MonoBehaviour
         UnactiveBtn();
         backAnimator.Rebind();
     }
+    public void Home()
+    {
+        if (MusicManager.instance != null) MusicManager.instance.MenuStartGameMusic();
+        HideAllPopup();
+        if (unitStage != null)
+        {
+            unitStage.Hide();
+            //unitStage.unit = null;
+            //unitStage. = null;
+        }
+        UnactiveBtn();
+        mainCam.gameObject.SetActive(true);
+        subCamm_1.gameObject.SetActive(false);
+    }
     public void TurnOn_Subcam(UnitStage unit)
     {
-        if (MusicManager.instance != null) MusicManager.instance.InGameMusic((unit._index + 1).ToString());
+        if (SoundManager.instance != null) SoundManager.instance.UI_effect_Pick();
         subCamm_1.gameObject.SetActive(true);
         mainCam.gameObject.SetActive(false);
         unitStage = unit;
         if (unitStage.unit is UnitMode1)
         {
+            if (MusicManager.instance != null) MusicManager.instance.StopBGMusic();
             Mode2Cotnainer.SetActive(false);
         }
         else
         {
+            if (MusicManager.instance != null) MusicManager.instance.InGameMusic((unit._index + 1).ToString());
             // Load Data for UnitMode2 & SetupBtn && Show Question
             unitStage.unit.LoadData();
             SetupBtnMode();

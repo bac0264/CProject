@@ -14,6 +14,7 @@ public class WinPopup : BasePopup
     }
     public override void ShowPopup()
     {
+        if (SoundManager.instance != null) SoundManager.instance.UI_effect_Correct();
         base.ShowPopup();
     }
     public override void HidePopup()
@@ -22,6 +23,7 @@ public class WinPopup : BasePopup
     }
     public override void Try()
     {
+        if (SoundManager.instance != null) SoundManager.instance.UI_button_Click();
         unitStage = ButtonStageManager.instance.unitStage;
         if (unitStage.unit != null)
         {
@@ -31,6 +33,7 @@ public class WinPopup : BasePopup
     }
     public override void Next()
     {
+        if (SoundManager.instance != null) SoundManager.instance.UI_button_Click();
         unitStage = ButtonStageManager.instance.unitStage;
         Stage curStage = ButtonStageManager.instance.stage;
         if (StageManager.instance != null && unitStage.unit != null)

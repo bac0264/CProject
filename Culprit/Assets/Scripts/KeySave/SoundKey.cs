@@ -111,4 +111,9 @@ public class SoundKey
     public const string H_WHOOSCH = "h_whoosch";
     public const string H_BAT_NGO = "h_bat_ngo";
     public const string H_NU_CUOI = "h_nu_cuoi";
+    public const string UI_button_Click = "UI_button_Click";
+    public const string UI_effect_Correct = "UI_effect_Correct";
+    public const string UI_effect_Pick = "UI_effect_Pick";
+    public const string UI_effect_Whoosh = "UI_effect_Whoosh";
+    public const string UI_effect_Wrong = "UI_effect_Wrong";
 }

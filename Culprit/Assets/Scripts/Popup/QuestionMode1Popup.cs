@@ -18,6 +18,7 @@ public class QuestionMode1Popup : BasePopup
     }
     public override void ShowPopup()
     {
+        if (SoundManager.instance != null) SoundManager.instance.UI_effect_Pick();
         unitStage = ButtonStageManager.instance.unitStage;
         if (unitStage != null && unitStage.unit != null && unitStage.unit is UnitMode1)
         {
@@ -30,6 +31,7 @@ public class QuestionMode1Popup : BasePopup
     public override void HidePopup()
     {
         //StartCoroutine(_HidePopup());
+        if (SoundManager.instance != null) SoundManager.instance.UI_button_Click();
         base.HidePopup();
     }
     IEnumerator _HidePopup()

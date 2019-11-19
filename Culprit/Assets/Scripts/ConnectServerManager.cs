@@ -24,15 +24,18 @@ public class ConnectServerManager : MonoBehaviour
     {
         var dataQues = CSVReader.Read(backupLevelEnglish);
         var dataQues_2 = CSVReader.Read(backupUIEnglish);
+        PlayerPrefs.SetInt(KeySave.LANGUAGE, 1);
         if (Application.systemLanguage == SystemLanguage.Vietnamese)
         {
             dataQues = CSVReader.Read(backupLevelVietnamese);
             dataQues_2 = CSVReader.Read(backupUIVietnamese);
+            PlayerPrefs.SetInt(KeySave.LANGUAGE, 0);
         }
         else if(Application.systemLanguage == SystemLanguage.English)
         {
             dataQues = CSVReader.Read(backupLevelEnglish);
             dataQues_2 = CSVReader.Read(backupUIEnglish);
+            PlayerPrefs.SetInt(KeySave.LANGUAGE, 1);
         }
         else
         {
