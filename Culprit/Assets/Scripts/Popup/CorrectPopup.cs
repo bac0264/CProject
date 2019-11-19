@@ -15,8 +15,13 @@ public class CorrectPopup : BasePopup
     {
         if (instance == null) instance = this;
     }
+    public override void Home()
+    {
+        base.Home();
+    }
     public override void ShowPopup()
     {
+        if (SoundManager.instance != null) SoundManager.instance.UI_effect_Correct();
         Refresh();
         container = ButtonStageManager.instance.unitStage;
         if (container != null && container.unit != null && container.unit is UnitMode2)
@@ -42,8 +47,17 @@ public class CorrectPopup : BasePopup
     }
     public override void Next()
     {
+        if (SoundManager.instance != null) SoundManager.instance.UI_button_Click();
         if (container != null)
         {
+            if (container.unit is UnitMode2)
+            {
+                UnitMode2 mode2 = container.unit as UnitMode2;
+                if (FireBaseEventManager.instance != null)
+                {
+                    FireBaseEventManager.instance.P_Answer_BTT_Next_Level(mode2.indexUnit, mode2.CurIndexScene);
+                }
+            }
             container.unit.Next();
             gameObject.SetActive(false);
             if (PickupCorrectAns.instance != null) PickupCorrectAns.instance.RUN = false;
@@ -51,6 +65,19 @@ public class CorrectPopup : BasePopup
     }
     public void NextToExplanation()
     {
+        if (SoundManager.instance != null) SoundManager.instance.UI_button_Click();
+        container = ButtonStageManager.instance.unitStage;
+        if (container != null && container.unit != null)
+        {
+            if (container.unit is UnitMode2)
+            {
+                UnitMode2 mode2 = container.unit as UnitMode2;
+                if (FireBaseEventManager.instance != null)
+                {
+                    FireBaseEventManager.instance.P_Win_BTT_Next_Level(mode2.indexUnit, mode2.CurIndexScene);
+                }
+            }
+        }
         transform.GetChild(0).gameObject.SetActive(false);
         transform.GetChild(1).gameObject.SetActive(true);
     }
@@ -61,6 +88,15 @@ public class CorrectPopup : BasePopup
     }
     public override void Try()
     {
+        if (SoundManager.instance != null) SoundManager.instance.UI_button_Click();
+        if (container.unit is UnitMode2)
+        {
+            UnitMode2 mode2 = container.unit as UnitMode2;
+            if (FireBaseEventManager.instance != null)
+            {
+                FireBaseEventManager.instance.P_Answer_BTT_Try_Level(mode2.indexUnit, mode2.CurIndexScene);
+            }
+        }
         HidePopup();
     }
 }

@@ -29,7 +29,13 @@ public class TextScript : MonoBehaviour
                 string data = LevelDataManager.instance.GetStringFromDictionaryUI(name);
                 if (data.Equals(" ")) return;
                 else
+                {
+                    string x = "'";
+                    char _x = x[0];
+                    data = data.Replace(';', ',');
+                    data = data.Replace('\\', _x);
                     text.text = data;
+                }
             }
             if (FontsManager.instance != null) text.font = FontsManager.instance.GetFontText(PlayerPrefs.GetInt(KeySave.LANGUAGE).ToString());
         }

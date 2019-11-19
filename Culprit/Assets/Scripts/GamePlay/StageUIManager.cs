@@ -12,6 +12,7 @@ public class StageUIManager : MonoBehaviour
     }
     public void BackMenu()
     {
+        if (SoundManager.instance != null) SoundManager.instance.UI_button_Click();
         StartCoroutine(_BackMenu());
     }
     IEnumerator _BackMenu()

@@ -30,6 +30,7 @@ public class LevelDataManager : MonoBehaviour
         if (PlayerPrefs.GetInt(KeySave.LANGUAGE_IS_THE_FIRST_TIME, 0) == 0)
         {
             connect.SetupForTheFirst();
+            PlayerPrefs.SetInt(KeySave.LANGUAGE_IS_THE_FIRST_TIME, 1);
         }
         else
             GetDataFromServer();

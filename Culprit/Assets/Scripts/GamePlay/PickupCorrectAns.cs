@@ -52,6 +52,7 @@ public class PickupCorrectAns : MonoBehaviour
     public void RunPickup()
     {
         //correctPosition.localPosition = pos;
+        if (SoundManager.instance != null) SoundManager.instance.UI_effect_Pick();
         Hide_Tutorial();
         RUN = true;
         ani.Play("Run");
@@ -59,6 +60,10 @@ public class PickupCorrectAns : MonoBehaviour
     public void StartAnima()
     {
         correctPosition.gameObject.SetActive(true);
+    }
+    public void Stickman_Whoosh()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.UI_effect_Whoosh();
     }
     public void FinishAnima()
     {
