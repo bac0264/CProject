@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 
 [CreateAssetMenu(fileName = "LevelData", menuName = "Stages/LevelData", order = 1)]
 public class LevelDataContainer : ScriptableObject
@@ -35,9 +36,9 @@ public class LevelDataContainer : ScriptableObject
         levelList = new List<LevelData>();
         for (int row = 1; row < sheet2.RowCount; row++)
         {
-            for (int col = 0; col < sheet2.ColumnCount; )
+            for (int col = 0; col < sheet2.ColumnCount;)
             {
-                LevelData _data = new LevelData(sheet2,row);
+                LevelData _data = new LevelData(sheet2, row);
                 levelList.Add(_data);
                 break;
             }
@@ -54,24 +55,42 @@ public class LevelData
     public List<string> listHint;
     public LevelData(Dictionary<string, string> data)
     {
-
+        //try
+        //{
         listQues = new List<string>();
         listAnswer = new List<string>();
         listHint = new List<string>();
         MODE = int.Parse(data["MODE"]);
         LEVEL = int.Parse(data["LEVEL"]);
-        listQues.Add(data["QUES_1"]);
-        listQues.Add(data["QUES_2"]);
-        listQues.Add(data["QUES_3"]);
-        listQues.Add(data["QUES_4"]);
-        listAnswer.Add(data["ANS_1"]);
-        listAnswer.Add(data["ANS_2"]);
-        listAnswer.Add(data["ANS_3"]);
-        listAnswer.Add(data["ANS_4"]);
-        listHint.Add(data["HINT_1"]);
-        listHint.Add(data["HINT_2"]);
-        listHint.Add(data["HINT_3"]);
-        listHint.Add(data["HINT_4"]);
+        listQues.Add(ReplaceText.replaceText(data["QUES_1"]));
+        listQues.Add(ReplaceText.replaceText(data["QUES_2"]));
+        listQues.Add(ReplaceText.replaceText(data["QUES_3"]));
+        listQues.Add(ReplaceText.replaceText(data["QUES_4"]));
+        listAnswer.Add(ReplaceText.replaceText(data["ANS_1"]));
+        listAnswer.Add(ReplaceText.replaceText(data["ANS_2"]));
+        listAnswer.Add(ReplaceText.replaceText(data["ANS_3"]));
+        listAnswer.Add(ReplaceText.replaceText(data["ANS_4"]));
+        listHint.Add(ReplaceText.replaceText(data["HINT_1"]));
+        listHint.Add(ReplaceText.replaceText(data["HINT_2"]));
+        listHint.Add(ReplaceText.replaceText(data["HINT_3"]));
+        listHint.Add(ReplaceText.replaceText(data["HINT_4"]));
+        //listQues.Add(data["QUES_1"]);
+        //listQues.Add(data["QUES_2"]);
+        //listQues.Add(data["QUES_3"]);
+        //listQues.Add(data["QUES_4"]);
+        //listAnswer.Add(data["ANS_1"]);
+        //listAnswer.Add(data["ANS_2"]);
+        //listAnswer.Add(data["ANS_3"]);
+        //listAnswer.Add(data["ANS_4"]);
+        //listHint.Add(data["HINT_1"]);
+        //listHint.Add(data["HINT_2"]);
+        //listHint.Add(data["HINT_3"]);
+        //listHint.Add(data["HINT_4"]);
+        //}
+        //catch(Exception e)
+        //{
+        //    Debug.Log(e);
+        //}
     }
     public LevelData(string[] unitDatas)
     {
@@ -123,22 +142,22 @@ public class LevelData
             int.TryParse(sheet2.GetCell<string>(col++, row), out MODE);
             int.TryParse(sheet2.GetCell<string>(col++, row), out LEVEL);
 
-            listQues.Add(sheet2.GetCell<string>(col++, row));
-            listQues.Add(sheet2.GetCell<string>(col++, row));
-            listQues.Add(sheet2.GetCell<string>(col++, row));
-            listQues.Add(sheet2.GetCell<string>(col++, row));
+            listQues.Add(ReplaceText.replaceText(sheet2.GetCell<string>(col++, row)));
+            listQues.Add(ReplaceText.replaceText(sheet2.GetCell<string>(col++, row)));
+            listQues.Add(ReplaceText.replaceText(sheet2.GetCell<string>(col++, row)));
+            listQues.Add(ReplaceText.replaceText(sheet2.GetCell<string>(col++, row)));
 
-            listAnswer.Add(sheet2.GetCell<string>(col++, row));
-            listAnswer.Add(sheet2.GetCell<string>(col++, row));
-            listAnswer.Add(sheet2.GetCell<string>(col++, row));
-            listAnswer.Add(sheet2.GetCell<string>(col++, row));
+            listAnswer.Add(ReplaceText.replaceText(sheet2.GetCell<string>(col++, row)));
+            listAnswer.Add(ReplaceText.replaceText(sheet2.GetCell<string>(col++, row)));
+            listAnswer.Add(ReplaceText.replaceText(sheet2.GetCell<string>(col++, row)));
+            listAnswer.Add(ReplaceText.replaceText(sheet2.GetCell<string>(col++, row)));
 
-            listHint.Add(sheet2.GetCell<string>(col++, row));
-            listHint.Add(sheet2.GetCell<string>(col++, row));
-            listHint.Add(sheet2.GetCell<string>(col++, row));
-            listHint.Add(sheet2.GetCell<string>(col++, row));
+            listHint.Add(ReplaceText.replaceText(sheet2.GetCell<string>(col++, row)));
+            listHint.Add(ReplaceText.replaceText(sheet2.GetCell<string>(col++, row)));
+            listHint.Add(ReplaceText.replaceText(sheet2.GetCell<string>(col++, row)));
+            listHint.Add(ReplaceText.replaceText(sheet2.GetCell<string>(col++, row)));
             break;
         }
     }
-    public LevelData(){}
+    public LevelData() { }
 }

@@ -436,15 +436,15 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.55
-    functionName: FinishAnima
+  - time: 0.28333333
+    functionName: Stickman_Whoosh
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
   - time: 0.55
-    functionName: Stickman_Whoosh
+    functionName: FinishAnima
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

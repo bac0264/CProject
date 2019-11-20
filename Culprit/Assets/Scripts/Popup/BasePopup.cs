@@ -13,7 +13,8 @@ public class BasePopup : MonoBehaviour
         PO_Question,
         PO_Hint,
         PO_QuestionMode1,
-        PO_Setting
+        PO_Setting,
+        PO_LevelCMS
     }
     public TypeOfPopup type;
     public virtual void ShowPopup()

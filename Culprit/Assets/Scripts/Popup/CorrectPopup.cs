@@ -8,7 +8,6 @@ public class CorrectPopup : BasePopup
     public UnitStage container;
     public Text Explanation;
     public Image spriteEvidence;
-    public LevelEvidenceSprites spriteData;
 
 
     private void Awake()
@@ -28,7 +27,7 @@ public class CorrectPopup : BasePopup
         {
             UnitMode2 unitMode2 = container.unit as UnitMode2;
             Explanation.text = LevelDataManager.instance.GetAnswer(unitMode2.indexStage, unitMode2.indexUnit, unitMode2.CurIndexScene);
-            spriteEvidence.sprite = spriteData.GetSprite(unitMode2.indexUnit, unitMode2.CurIndexScene);
+            spriteEvidence.sprite = EvidenceSpriteManager.instance.GetSprite(unitMode2.indexUnit, unitMode2.CurIndexScene);
         }
         base.ShowPopup();
         if(PlayerPrefs.GetInt(KeySave.HINT,0) == 1)

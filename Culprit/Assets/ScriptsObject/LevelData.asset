@@ -16,1221 +16,846 @@ MonoBehaviour:
   - MODE: 1
     LEVEL: 1
     listAnswer:
-    - "S\u1EEFa v\u1EABn c\xF2n d\xEDnh tr\xEAn ng\u1EF1c c\u1EE7a th\u1EE7 ph\u1EA1m.
-      Trong khi kh\xF4ng c\u1EA9n th\u1EADn; th\u1EE7 ph\u1EA1m \u0111\xE3 v\xF4 t\xECnh
-      \u0111\u1EC3 s\u1EEFa d\xEDnh tr\xEAn \xE1o."
-    - 
-    - 
-    - 
+    - ' Milk is still on the chest of the culprit. While not careful, the culprit
+      has sticky milk on his shirt'
+    - ' '
+    - ' '
+    - ' '
     listQues:
-    - "Ng\u01B0\u1EDDi m\u1EB9 ph\xE1t hi\u1EC7n c\xF3 ai \u0111\xF3 \u0111\xE3 u\u1ED1ng
-      v\xE0 sau \u0111\xF3 \u0111\xE3 l\xE0m \u0111\u1ED5 s\u1EEFa ra t\u1EE7 l\u1EA1nh.
-      T\xECm xem \u0111\xF3 l\xE0 ai?"
-    - 
-    - 
-    - 
+    - The mother discovered that someone had drank and then spilled milk into the
+      refrigerator. Find out who it is?
+    - ' '
+    - ' '
+    - ' '
     listHint:
-    - 
-    - 
-    - 
-    - 
+    - ' '
+    - ' '
+    - ' '
+    - "\r"
   - MODE: 1
     LEVEL: 2
     listAnswer:
-    - "V\u1EE5n b\xE1nh quy v\xE0 chi\u1EBFc b\xE1nh quy \u0103n d\u1EDF v\u1EABn
-      c\xF2n tr\xEAn tay c\u1EE7a anh ta. \u0110i\u1EC1u n\xE0y ch\u1EE9ng t\u1ECF
-      anh ta l\xE0 ng\u01B0\u1EDDi \u0111\xE3  l\u1EA5y nh\u1EEFng chi\u1EBFc b\xE1nh
-      quy trong t\u1EE7 l\u1EA1nh"
-    - 
-    - 
-    - 
+    - Crumbs of biscuits and unfinished cookies are still in his hands. This proves
+      he is the one who took the cookies in the fridge
+    - ' '
+    - ' '
+    - ' '
     listQues:
-    - "V\u1EADy ai l\xE0 ng\u01B0\u1EDDi \u0111\xE3 l\u1EA5y tr\u1ED9m nh\u1EEFng
-      c\xE1i b\xE1nh quy trong t\u1EE7 l\u1EA1nh?"
-    - 
-    - 
-    - 
+    - So who stole the cookies in the fridge?
+    - ' '
+    - ' '
+    - ' '
     listHint:
-    - 
-    - 
-    - 
-    - 
+    - ' '
+    - ' '
+    - ' '
+    - "\r"
   - MODE: 1
     LEVEL: 3
     listAnswer:
-    - "K\u1EBB ch\u01A1i x\u1EA5u \u0111\u1EE9ng tr\xEAn ban c\xF4ng tr\xEAn l\u1EA7u
-      u\u1ED1ng r\u01B0\u1EE3u v\xE0 t\xE1n g\u1EABu v\u1EDBi b\u1EA1n c\u1EE7a anh
-      ta. Nh\u01B0ng th\u1EADt v\xF4 l\xFD b\xEAn c\u1EA1nh anh ta kh\xF4ng c\xF3
-      b\u1EA5t k\u1EF3 chai r\u01B0\u1EE3u n\xE0o"
-    - 
-    - 
-    - 
+    - The bad guy stood on the balcony upstairs drinking and chatting with his friends.
+      But it's ridiculous that he doesn't have any bottles of wine
+    - ' '
+    - ' '
+    - ' '
     listQues:
-    - "M\u1ED9t ng\u01B0\u1EDDi \u0111\xE0n \xF4ng \u0111ang \u0111i b\u1ED9 trong
-      khu chung c\u01B0; anh ta b\u1ECB m\u1ED9t c\xE1i chai r\u01A1i v\xE0o \u0111\u1EA7u.
-      T\xECm ng\u01B0\u1EDDi \u0111\xE3 ng\u01B0\u1EDDi g\xE2y ra s\u1EF1 c\u1ED1
-      n\xE0y?"
-    - 
-    - 
-    - 
+    - A man was walking in an apartment building, he was hit by a bottle in the head.
+      Find someone who was causing this problem?
+    - ' '
+    - ' '
+    - ' '
     listHint:
-    - 
-    - 
-    - 
-    - 
+    - ' '
+    - ' '
+    - ' '
+    - "\r"
   - MODE: 1
     LEVEL: 4
     listAnswer:
-    - "C\xF3 m\u1ED9t ng\u01B0\u1EDDi ph\u1EE5 n\u1EEF \u0111ang ph\u01A1i \u0111\u1ED3
-      \u1EDF ban c\xF4ng v\xE0 m\u1ED9t thanh ni\xEAn \u0111ang t\u01B0\u1EDBi hoa.
-      Tr\xEAn th\u1EF1c t\u1EBF \u0111\u1ED3 \u0111\xE3 gi\u1EB7t b\u1EB1ng m\xE1y
-      gi\u1EB7t th\xEC kh\xF4ng th\u1EC3 t\u1EA1o ra m\u1ED9t l\u01B0\u1EE3ng n\u01B0\u1EDBc
-      l\u1EDBn nh\u01B0 v\u1EADy; th\u1EE7 ph\u1EA1m ch\u1EC9 c\xF3 th\u1EC3 l\xE0
-      ng\u01B0\u1EDDi \u0111ang c\u1EA7m b\xECnh t\u01B0\u1EDBi hoa."
-    - 
-    - 
-    - 
+    - There was a woman drying clothes on a balcony and a young man watering flowers.
+      In fact, clothes that have been washed in a washing machine cannot produce such
+      a large amount of water, the culprit can only be a person holding a watering
+      can.
+    - ' '
+    - ' '
+    - ' '
     listQues:
-    - "Ai \u0111\xF3 \u0111\xE3 ch\u01A1i kh\u0103m; c\u1ED1 t\xECnh \u0111\u1ED5
-      n\u01B0\u1EDBc v\xE0o nh\u1EEFng ng\u01B0\u1EDDi \u0111i b\u1ED9 trong khu chung
-      c\u01B0. T\xECm ra ai l\xE0 th\u1EE7 ph\u1EA1m c\u1EE7a tr\xF2 ch\u01A1i kh\u0103m
-      n\xE0y?"
-    - 
-    - 
-    - 
+    - Someone had played a prank, deliberately pouring water on the people walking
+      in the apartment complex. Find out who is the culprit of this hoax?
+    - ' '
+    - ' '
+    - ' '
     listHint:
-    - 
-    - 
-    - 
-    - 
+    - ' '
+    - ' '
+    - ' '
+    - "\r"
   - MODE: 1
     LEVEL: 5
     listAnswer:
-    - "Hai ng\u01B0\u1EDDi \u0111ang ch\u01A1i b\xF3ng ch\xE0y ng\xE2y g\u1EA7n \u0111\xF3
-      bao g\u1ED3m m\u1ED9t ng\u01B0\u1EDDi n\xE9m b\xF3ng v\xE0 m\u1ED9t ng\u01B0\u1EDDi
-      \u0111\xE1nh b\xF3ng. Ng\u01B0\u1EDDi n\xE9m b\xF3ng \u0111ang quay l\u01B0ng
-      v\u1EC1 ph\xEDa c\u1EEDa k\xEDnh b\u1ECB v\u1EE1; c\xF2n ng\u01B0\u1EDDi \u0111\xE1nh
-      b\xF3ng \u0111ang \u0111\u1EE9ng \u0111\u1ED1i di\u1EC7n \u0111\xF3. H\u01B0\u1EDBng
-      \u0111\xE1nh b\xF3ng c\u1EE7a anh ta ho\xE0n to\xE0n ph\xF9 h\u1EE3p khi l\xE0m
-      v\u1EE1 c\u1EEDa k\xEDnh."
-    - 
-    - 
-    - 
+    - The two people playing baseball nearby were a pitcher and a batter. The pitcher
+      was facing away from the broken glass door, and the batter was standing opposite
+      it. His polish is perfectly suited when breaking the glass.
+    - ' '
+    - ' '
+    - ' '
     listQues:
-    - "C\u1EEDa k\xEDnh c\u1EE7a m\u1ED9t c\u0103n h\u1ED9 b\u1ECB l\xE0m v\u1EE1
-      b\u1EDFi m\u1ED9t qu\u1EA3 b\xF3ng ch\xE0y. T\xECm xem ai \u0111\xE3 g\xE2y
-      ra s\u1EF1 c\u1ED1 n\xE0y?"
-    - 
-    - 
-    - 
+    - The glass door of an apartment is broken by a baseball. Find out who caused
+      this problem?
+    - ' '
+    - ' '
+    - ' '
     listHint:
-    - 
-    - 
-    - 
-    - 
+    - ' '
+    - ' '
+    - ' '
+    - "\r"
   - MODE: 1
     LEVEL: 6
     listAnswer:
-    - "Con m\xE8o \u0111\xE3 nh\u1EA3y ra ban c\xF4ng v\xE0 l\xE0m ch\u1EADu hoa r\u01A1i
-      xu\u1ED1ng; v\xF4 t\xECnh g\xE2y tai n\u1EA1n cho ng\u01B0\u1EDDi \u0111i \u0111\u01B0\u1EDDng
-      \u0111i qua \u0111\xF3."
-    - 
-    - 
-    - 
+    - The cat jumped on the balcony and dropped the flower pot, accidentally causing
+      an accident for pedestrians passing through
+    - ' '
+    - ' '
+    - ' '
     listQues:
-    - "T\xECm nguy\xEAn nh\xE2n l\xE0m ch\u1EADu hoa r\u01A1i v\xE0o m\u1ED9t ng\u01B0\u1EDDi
-      \u0111i \u0111\u01B0\u1EDDng v\xF4 t\u1ED9i?"
-    - 
-    - 
-    - 
+    - Find the cause of a flower pot falling into an innocent bystander?
+    - ' '
+    - ' '
+    - ' '
     listHint:
-    - 
-    - 
-    - 
-    - 
+    - ' '
+    - ' '
+    - ' '
+    - "\r"
   - MODE: 1
     LEVEL: 7
     listAnswer:
-    - "H\xF4m nay anh ta d\u1EABn m\u1ED9t ng\u01B0\u1EDDi b\u1EA1n c\xF9ng l\u1EDBp
-      \u0111\u1EBFn c\xF4ng vi\xEAn ch\u01A1i; 2 ng\u01B0\u1EDDi kh\xE1 h\u1EE3p nhau;
-      anh ta n\u1EA3y ra \xFD t\u01B0\u1EDFng s\u1EBD t\u1EA1o ra m\u1ED9t bu\u1ED5i
-      t\u1ECF t\xECnh l\xE3ng m\u1EA1n v\u1EDBi c\xF4 ta. Nh\u1EEFng b\xF4ng hoa \u1EDF
-      c\xF4ng vi\xEAn \u0111\xE3 tr\u1EDF th\xE0nh c\xF4ng c\u1EE5 t\u1ECF t\xECnh
-      c\u1EE7a anh ta."
-    - 
-    - 
-    - 
+    - Today he took a classmate to the park, the two of them got along well, he came
+      up with an idea to create a romantic confession with her. The flowers in the
+      park became his confession tool
+    - ' '
+    - ' '
+    - ' '
     listQues:
-    - "Trong khi \u0111i tu\u1EA7n tra; b\u1EA3o v\u1EC7 c\u1EE7a khu c\xF4ng vi\xEAn
-      ph\xE1t hi\u1EC7n ra nh\u1EEFng b\xF4ng hoa \u0111\xE3 b\u1ECB h\xE1i tr\u1ED9m
-      b\u1EDFi m\u1ED9t ai \u0111\xF3. T\xECm ra th\u1EE7 ph\u1EA1m \u0111\xE3 ph\xE1
-      ho\u1EA1i v\u01B0\u1EDDn hoa c\u1EE7a c\xF4ng vi\xEAn?"
-    - 
-    - 
-    - 
+    - While on patrol, the guards of the park discovered that the flowers had been
+      stolen by someone. Find the culprit who ruined the park's flower garden?
+    - ' '
+    - ' '
+    - ' '
     listHint:
-    - 
-    - 
-    - 
-    - 
+    - ' '
+    - ' '
+    - ' '
+    - "\r"
   - MODE: 1
     LEVEL: 8
     listAnswer:
-    - "\u0110\u1EC3 c\xF3 th\u1EC3 d\u1EC5 d\xE0ng h\xE0nh \u0111\u1ED9ng nh\u01B0
-      v\u1EADy. th\u1EE7 ph\u1EA1m ph\u1EA3i l\xE0 ng\u01B0\u1EDDi \u0111\u1EE9ng
-      ngay sau c\xF4 g\xE1i."
-    - 
-    - 
-    - 
+    - To be able to easily act like that. The culprit is right behind the girl.
+    - ' '
+    - ' '
+    - ' '
     listQues:
-    - "Trong m\u1ED9t c\u1EEDa h\xE0ng \u0111\u1ED3 u\u1ED1ng; m\u1ED9t kh\xE1ch h\xE0ng
-      n\u1EEF \u0111\xE3 b\u1ECB qu\u1EA5y r\u1ED1i b\u1EDFi m\u1ED9t kh\xE1ch h\xE0ng
-      x\u1EA5u t\xEDnh kh\xE1c. T\xECm ra th\u1EE7 ph\u1EA1m?"
-    - 
-    - 
-    - 
+    - In a beverage shop, a female customer was harassed by another mean customer.
+      Find the culprit?
+    - ' '
+    - ' '
+    - ' '
     listHint:
-    - 
-    - 
-    - 
-    - 
+    - ' '
+    - ' '
+    - ' '
+    - "\r"
   - MODE: 1
     LEVEL: 9
     listAnswer:
-    - "Tr\xEAn tay c\u1EE7a con trai c\xF4 \u0111ang c\u1EA7m \u0111\xF4i gi\u1EA7y.
-      Ch\xEDnh c\u1EADu ta \u0111\xE3 l\xE0m b\u1EA7n s\xE0n nh\xE0; sau \u0111\xF3
-      t\xECm c\xE1ch che gi\u1EA5u b\u1EB1ng mi\u1EBFng soap"
-    - 
-    - 
-    - 
+    - In her son's hand holding shoes. He himself dirty the floor, then tried to hide
+      it with soap
+    - ' '
+    - ' '
+    - ' '
     listQues:
-    - "Ng\u01B0\u1EDDi m\u1EB9 \u0111\xE3 d\xE0nh ra c\u1EA3 bu\u1ED5i s\xE1ng \u0111\u1EC3
-      d\u1ECDn d\u1EB9p ng\xF4i nh\xE0; tuy nhi\xEAn m\u1ED9t trong hai ng\u01B0\u1EDDi
-      con c\u1EE7a c\xF4 \u0111\xE3 g\xE2y ch\xFA \xFD b\u1EB1ng c\xE1ch c\u1ED1 t\xECnh
-      b\xE0y b\u1EEBa ra ng\xF4i nh\xE0. Con trai hay con g\xE1i c\u1EE7a c\xF4 \u0111\xE3
-      b\xE0y ra tr\xF2 ngh\u1ECBch ng\u1EE3m n\xE0y?"
-    - 
-    - 
-    - 
+    - The mother spent the whole morning cleaning the house, but one of her two children
+      caught the attention of the house. Did your son or daughter play this trick?
+    - ' '
+    - ' '
+    - ' '
     listHint:
-    - 
-    - 
-    - 
-    - 
+    - ' '
+    - ' '
+    - ' '
+    - "\r"
   - MODE: 1
     LEVEL: 10
     listAnswer:
-    - "Ng\u01B0\u1EDDi con trai \u0111\xE3 v\xF4 t\xECnh \u0111\xE1 qu\u1EA3 b\xF3ng
-      v\xE0o chi\u1EBFc b\xECnh hoa m\xE0 m\u1EB9 c\u1EADu ta m\u1EDBi mua."
-    - 
-    - 
-    - 
+    - The son accidentally kicked the ball into the vase his mother had just bought.
+    - ' '
+    - ' '
+    - ' '
     listQues:
-    - "Ai l\xE0 ng\u01B0\u1EDDi \u0111\xE3 l\xE0m v\u1EE1 chi\u1EBFc b\xECnh hoa?"
-    - 
-    - 
-    - 
+    - Who broke the vase?
+    - ' '
+    - ' '
+    - ' '
     listHint:
-    - 
-    - 
-    - 
-    - 
+    - ' '
+    - ' '
+    - ' '
+    - "\r"
   - MODE: 1
     LEVEL: 11
     listAnswer:
-    - "Ng\u01B0\u1EDDi ph\u1EE5 n\u1EEF l\xE0 ng\u01B0\u1EDDi \u0111\u1EE9ng g\u1EA7n
-      v\xE0 c\xF9ng ph\xEDa v\u1EDBi ng\u01B0\u1EDDi ch\u1EE5p \u1EA3nh. th\u1EADt
-      d\u1EC5 d\xE0ng \u0111\u1EC3 c\xF4 ta c\xF3 th\u1EC3 \u0111\xE1 anh ta xu\u1ED1ng!"
-    - 
-    - 
-    - 
+    - The woman is the one standing near and on the same side as the photographer.
+      It's easy for her to kick him down!
+    - ' '
+    - ' '
+    - ' '
     listQues:
-    - "M\u1ED9t photographer c\xF3 bu\u1ED5i ch\u1EE5p ngo\u1EA1i c\u1EA3nh \u1EDF
-      tr\xEAn m\u1ED9t chi\u1EBFc c\u1EA7u c\u1ED5. Tuy nhi\xEAn; trong khi anh ta
-      \u0111ang t\u1EADp trung ch\u1EE5p h\xECnh th\xEC c\xF3 ai \u0111\xF3 \u0111\xE3
-      ch\u01A1i x\u1EA5u v\xE0 \u0111\u1EA9y anh ta t\u1EEB tr\xEAn c\u1EA7u xu\u1ED1ng.
-      T\xECm ra ng\u01B0\u1EDDi \u0111\xE3 ch\u01A1i x\u1EA5u  anh ta?"
-    - 
-    - 
-    - 
+    - A photographer takes a photo shoot outside on an old bridge. However, while
+      he was focusing on taking photos, someone was playing bad and pushing him down
+      from the bridge. Find out who played him badly?
+    - ' '
+    - ' '
+    - ' '
     listHint:
-    - 
-    - 
-    - 
-    - 
+    - ' '
+    - ' '
+    - ' '
+    - "\r"
   - MODE: 2
     LEVEL: 1
     listAnswer:
-    - "C\xF3 ti\u1EBFng s\xFAng b\u1EAFn v\xE0o \u0111\u1EA7u n\u1EA1n nh\xE2n. N\u1EA1n
-      nh\xE2n \u0111\xE3 b\u1ECB b\u1EAFn ngay \u1EDF ph\u1EA7n \u0111\u1EA7u d\u1EABn
-      \u0111\u1EBFn t\u1EED vong t\u1EA1i ch\u1ED7."
-    - "C\u1EEDa s\u1ED5 xe b\u1ECB v\u1EE1. Vi\xEAn \u0111\u1EA1n \u0111\xE3 b\u1EAFn
-      t\u1EEB ngo\xE0i v\xE0o v\xE0 b\u1EAFn xuy\xEAn qua c\u1EEDa s\u1ED5 n\xE0y."
-    - "Chi\u1EBFc tr\u1EF1c th\u0103ng \u0111ang bay l\u01B0\u1EE3n \u1EDF c\xF9ng
-      \u0111\u1ED9 cao v\u1EDBi chi\u1EBFc c\xE1p treo m\xE0 n\u1EA1n nh\xE2n \u0111ang
-      \u1EDF trong \u0111\xF3. C\xF3 nh\u1EEFng ng\u01B0\u1EDDi \u0111\xE0n \xF4ng
-      ng\u1ED3i ngay trong chi\u1EBFc c\xE1p treo b\xEAn c\u1EA1nh; nh\u01B0ng h\u1ECD
-      kh\xF4ng th\u1EC3 l\xE0 ng\u01B0\u1EDDi b\u1EAFn s\xFAng v\xEC n\u1EBFu h\u1ECD
-      l\xE0m th\u1EBF n\xF3 s\u1EBD ph\xE1 v\u1EE1 c\u1EEDa k\xEDnh trong chi\u1EBFc
-      c\xE1p treo c\u1EE7a h\u1ECD."
-    - "Ng\u01B0\u1EDDi ra hi\u1EC7u gi\u1EBFt n\u1EA1n nh\xE2n l\xE0 c\xE1c th\xE0nh
-      vi\xEAn b\u0103ng \u0111\u1EA3ng trong chi\u1EBFc c\xE1p treo ti\u1EBFp theo.
-      N\u1EA1n nh\xE2n tr\u1EDF n\xEAn qu\xE1 th\xE2n m\u1EADt v\u1EDBi ng\u01B0\u1EDDi
-      ph\u1EE5 n\u1EEF c\u1EE7a \xF4ng ch\u1EE7. \u0110i\u1EC1u n\xE0y khi\u1EBFn
-      ng\u01B0\u1EDDi ph\u1EE5 n\u1EEF tin r\u1EB1ng h\u1EA1nh ph\xFAc c\u1EE7a m\xECnh
-      v\u1EDBi m\u1ED9t ng\u01B0\u1EDDi \u0111\xE0n \xF4ng b\xECnh th\u01B0\u1EDDng
-      ch\u1EC9 l\xE0 m\u1ED9t \u1EA3o m\u1ED9ng. C\xF4 quy\u1EBFt \u0111\u1ECBnh s\u1ED1ng
-      h\u1EBFt m\xECnh b\u1EB1ng c\xE1ch ti\xEAu h\u1EBFt ti\u1EC1n c\u1EE7a \xF4ng
-      ch\u1EE7 v\xE0o ng\u01B0\u1EDDi \u0111\xE0n \xF4ng \u0111\xF3."
+    - There's a gunshot wound the side of the victim's head. This must be it.
+    - The window of the car was broken. The bullet shot its way in through this window
+    - The helicopter is hovering at the same height as the Ferris wheel cart. There
+      are sketchy men in the other cart, but they can't be the shooter because it
+      would've shattered the window of their cart.
+    - The victim was killed by the gang members in the next car. The victim became
+      too intimate with their boss's woman. This made the woman to believe her happiness
+      with an ordinary man was a mere fantasy. She decided to live out her life by
+      spending all of the boss's money.
     listQues:
-    - "M\u1ED9t ng\u01B0\u1EDDi \u0111\xE0n \xF4ng \u0111\xE3 b\u1ECB gi\u1EBFt tr\xEAn
-      m\u1ED9t v\xF2ng \u0111u quay. N\u01A1i m\xE0 anh ta nh\u1EADn \u0111\u01B0\u1EE3c
-      v\u1EBFt th\u01B0\u01A1ng ch\xED m\u1EA1ng?"
-    - "N\u1EA1n nh\xE2n b\u1ECB b\u1EAFn t\u1EEB b\xEAn ngo\xE0i chi\u1EBFc xe Ferris.
-      L\xE0m th\u1EBF n\xE0o m\xE0 \u0111i\u1EC1u tra vi\xEAn bi\u1EBFt \u0111i\u1EC1u
-      \u0111\xF3?"
-    - " Ng\u01B0\u1EDDi b\u1EAFn s\xFAng \u1EDF \u0111\xE2u?"
-    - "Ai \u0111\xE3 ra hi\u1EC7u cho ng\u01B0\u1EDDi n\u1ED5 s\xFAng v\xE0o n\u1EA1n
-      nh\xE2n?"
+    - A man had been killed on a Ferris wheel. Where did he receive the fatal wound?
+    - The victim was shot from outside the Ferris wheel car. How did the investigator
+      know that?
+    - Where is the shooter?
+    - The helicopter is hovering at the same height as the Ferris wheel cart. There
+      are sketchy men in the other cart, but they can't be the shooter because it
+      would've shattered the window of their cart?
     listHint:
-    - "Ph\u1EA7n \u0111\u1EA7u c\u1EE7a n\u1EA1n nh\xE2n."
-    - "C\u1EEDa k\xEDnh \u0111\xE3 b\u1ECB v\u1EE1"
-    - "Chi\u1EBFc tr\u1EF1c th\u0103ng."
-    - "Nh\u1EEFng ng\u01B0\u1EDDi \u0111\xE0n \xF4ng trong chi\u1EBFc c\xE1p treo
-      ti\u1EBFp theo"
+    - Head
+    - The broken window
+    - The helicopter
+    - "The gang members in the next car\r"
   - MODE: 2
     LEVEL: 2
     listAnswer:
-    - "N\u1EA1n nh\xE2n \u0111ang m\u1EB7c m\u1ED9t chi\u1EBFc \xE1o kho\xE1c c\xF3
-      ch\u1EEF C\xD4NG VI\xCAN RANGER; \u0111\xE2y l\xE0 \u0111\u1ED3ng ph\u1EE5c
-      c\u1EE7a nh\xE2n vi\xEAn c\xF4ng vi\xEAn."
-    - "C\xF3 ch\xECa kh\xF3a g\u1EAFn v\xE0o th\u1EAFt l\u01B0ng c\u1EE7a ng\u01B0\u1EDDi
-      \u0111\xE0n \xF4ng. Anh ta \u0111\xE3 l\u1EA5y ch\xECa kh\xF3a t\u1EEB nh\xE0
-      kho sau \u0111\xF3 \u0111i thuy\u1EC1n ra gi\u1EEFa h\u1ED3. Nh\u01B0ng t\u1EA1i
-      sao anh ta l\u1EA1i l\xE0m \u0111i\u1EC1u \u0111\xF3 khi c\xF4ng vi\xEAn \u0111\xE3
-      \u0111\xF3ng c\u1EEDa?"
-    - "M\u1ED9t chi\u1EBFc g\u0103ng tay n\u1EEF \u0111\u01B0\u1EE3c t\xECm th\u1EA5y
-      ngay g\u1EA7n x\xE1c c\u1EE7a n\u1EA1n nh\xE2n N\u1EA1n nh\xE2n \u0111ang \u0111eo
-      g\u0103ng tay tr\xEAn c\u1EA3 hai tay n\xEAn \u0111\xE2y kh\xF4ng th\u1EC3 l\xE0
-      c\u1EE7a anh ta. V\xE0 thi\u1EBFt k\u1EBF d\u01B0\u1EDDng nh\u01B0 kh\xF4ng
-      ph\xF9 h\u1EE3p v\u1EDBi s\u1EDF th\xEDch c\u1EE7a anh \u1EA5y ...C\xF3 th\u1EC3
-      \u0111\xE3 c\xF3 ng\u01B0\u1EDDi kh\xE1c \u1EDF v\u1EDBi anh ta trong th\u1EDDi
-      \u0111i\u1EC3m \u0111\xF3."
-    - "M\u1ED9t h\u1ED9p nh\u1EABn \u0111ang n\u1ED5i tr\xEAn m\u1EB7t n\u01B0\u1EDBc.
-      H\xF3a ra n\u1EA1n nh\xE2n \u0111\xE3 \u0111\u01B0a b\u1EA1n g\xE1i ra ngo\xE0i
-      \u0111i thuy\u1EC1n sau khi c\xF4ng vi\xEAn \u0111\xF3ng c\u1EEDa. B\u1EA1n
-      g\xE1i c\u1EE7a anh th\xFA nh\u1EADn r\u1EB1ng c\xF4 \u0111\xE3 t\u1EEB ch\u1ED1i
-      l\u1EDDi c\u1EA7u h\xF4n c\u1EE7a anh khi\u1EBFn anh t\u1EE9c gi\u1EADn. Trong
-      n\u1ED7i s\u1EE3 h\xE3i; c\xF4 nh\u1EA3y kh\u1ECFi thuy\u1EC1n v\xE0 b\u01A1i
-      \u0111i v\xE0 kh\xF4ng nh\u1EADn ra r\u1EB1ng chi\u1EBFc thuy\u1EC1n \u0111\xE3
-      b\u1ECB l\u1EADt.N\u1EA1n nh\xE2n kh\xF4ng th\u1EC3 b\u01A1i n\xEAn anh ta \u0111\xE3
-      b\u1ECB ch\u1EBFt \u0111u\u1ED1i."
+    - The victim is wearing a jacket which says PARK RANGER, the uniform worn by none
+      other than the park's employees.
+    - There are keys attached to the man's belt. He must have opened the shed and
+      brought it to the pond. But why would he do that after the park had closed?
+    - A feminine glove is floating by the body. The victim is wearing gloves on both
+      of his hands so this can't be his. And the design doesn't seem to match his
+      taste... There may have been someone else with him.
+    - A ring box is floating on the water. Turns out that the victim took his girlfriend
+      out for a boat ride after the park closed. His girlfriend confessed that she
+      had refused his marriage proposal which enraged him. In fear, she jumped off
+      of the boat and swam away, not realizing that the boat had turned over. The
+      victim couldn't swim so he drowned helplessly.
     listQues:
-    - "Ai \u0111\xF3 \u0111\xE3 g\u1ECDi \u0111i\u1EC7n cho c\u1EA3nh s\xE1t v\xE0
-      b\xE1o c\xE1o r\u1EB1ng h\u1ECD \u0111\xE3 ph\xE1t hi\u1EC7n ra m\u1ED9t x\xE1c
-      ch\u1EBFt tr\xF4i n\u1ED5i gi\u1EEF h\u1ED3.Khi c\u1EA3nh s\xE1t \u0111\u1EBFn
-      hi\u1EC7n tr\u01B0\u1EDDng;c\u1EA3nh s\xE1t kh\u1EB3ng \u0111\u1ECBnh r\u1EB1ng
-      n\u1EA1n nh\xE2n l\xE0 nh\xE2n vi\xEAn c\u1EE7a c\xF4ng vi\xEAn. L\xE0m sao
-      h\u1ECD bi\u1EBFt \u0111i\u1EC1u \u0111\xF3?"
-    - "Chi\u1EBFc thuy\u1EC1n tr\xF4i n\u1ED5i g\u1EA7n x\xE1c l\xE0 chi\u1EBFc thuy\u1EC1n
-      m\xE0 c\xF4ng vi\xEAn th\u01B0\u1EDDng cho kh\xE1ch tham quan thu\xEA. C\xE1c
-      nh\xE2n vi\xEAn kh\xE1c c\u1EE7a c\xF4ng vi\xEAn ch\u1EAFc ch\u1EAFn r\u1EB1ng
-      h\u1ECD \u0111\xE3 kh\xF3a chi\u1EBFc thuy\u1EC1n v\xE0o cu\u1ED1i ng\xE0y.
-      L\xE0m th\u1EBF n\xE0o m\xE0 thuy\u1EC1n l\u1EA1i \u0111ang \u1EDF gi\u1EEFa
-      h\u1ED3 g\u1EA7n x\xE1c c\u1EE7a n\u1EA1n nh\xE2n?"
-    - "C\u1EA3nh s\xE1t sau \u0111\xF3 t\xECm th\u1EA5y th\u1EE9 g\xEC \u0111\xF3
-      g\u1EA7n thi th\u1EC3 khi\u1EBFn h\u1ECD tin r\u1EB1ng c\xF3 ai \u0111\xF3 \u0111\xE3
-      \u0111\xE3 \u1EDF c\xF9ng v\xE0o l\xFAc n\u1EA1n nh\xE2n ch\u1EBFt. \u0110\u1ED3
-      v\u1EADt h\u1ECD t\xECm th\u1EA5y l\xE0 g\xEC?"
-    - "M\u1ED9t c\xE1i g\xEC \u0111\xF3 trong c\u1EA3nh cho ch\xFAng ta bi\u1EBFt
-      v\u1EC1 m\u1ED1i quan h\u1EC7 gi\u1EEFa n\u1EA1n nh\xE2n v\xE0 ng\u01B0\u1EDDi
-      \u0111i c\xF9ng anh ta. \u0110\xF3 l\xE0 \u0111\u1ED3 v\u1EADt n\xE0o?"
+    - Someone phoned the police about a dead body floating on the pond. When they
+      arrived at the scene, they knew that the victim was the park employee. How did
+      they know that?
+    - The boat floating near the body is the one they rent out at this park. Other
+      park rangers are sure that they locked the boat away at the end of the day.
+      How did the boat get out?
+    - Police then found something near the body which led them to believe that someone
+      had been there at the time of the victim's death. What was the item they found?
+    - Something in the scene tells us about the relationship between the victim and
+      the person who accompanied him. Which item is it?
     listHint:
-    - "Chi\u1EBFc \xE1o \u0111\u1ED3ng ph\u1EE5c c\u1EE7a n\u1EA1n nh\xE2n."
-    - "Chi\u1EBFc ch\xECa kh\xF3a \u0111ang treo \u1EDF th\u1EAFt l\u01B0ng n\u1EA1n
-      nh\xE2n."
-    - "Chi\u1EBFc g\u0103ng tay n\u1EEF tr\xF4i n\u1ED5i c\u1EA1nh thi th\u1EC3 n\u1EA1n
-      nh\xE2n."
-    - "M\u1ED9t h\u1ED9p nh\u1EABn \u0111ang tr\xF4i n\u1ED5i tr\xEAn m\u1EB7t n\u01B0\u1EDBc."
+    - 'A jacket '
+    - ' Keys '
+    - 'Glove '
+    - "A ring box \r"
   - MODE: 2
     LEVEL: 3
     listAnswer:
-    - "C\xF3 m\u1ED9t con dao b\u1ECB k\u1EB9t trong ng\u1EF1c n\u1EA1n nh\xE2n c\xF3
-      th\u1EC3 nh\xECn th\u1EA5y t\u1EEB xa. Anh ta \u0111\xE3 g\u1ECDi c\u1EA3nh
-      s\xE1t ngay l\u1EADp t\u1EE9c."
-    - "Thuy\u1EC1n nh\u1ECF \u0111\u01B0\u1EE3c y\xEAu c\u1EA7u ph\u1EA3i c\xF3 s\u1ED1
-      ID t\xE0u \u0111\u01B0\u1EE3c hi\u1EC3n th\u1ECB. C\u1EA3nh s\xE1t \u0111\xE3
-      theo d\xF5i ch\u1EE7 nh\xE2n c\u1EE7a n\xF3 v\xE0 b\u1EAFt \u0111\u1EA7u \u0111i\u1EC1u
-      tra v\xE0 con trai c\u1EE7a ch\u1EE7 s\u1EDF h\u1EEFu l\xE0 ng\u01B0\u1EDDi
-      duy nh\u1EA5t c\xF3 d\xEDnh l\xEDu \u0111\u1EBFn n\u1EA1n nh\xE2n."
-    - "Chi\u1EBFc xe \u0111\u1EA1p b\xEAn h\u1ED3 l\xE0 c\u1EE7a ng\u01B0\u1EDDi ng\u01B0
-      d\xE2n. C\xF3 th\u1EC3 th\u1EA5y; m\u1ED9t s\u1ED1 ng\u01B0 c\u1EE5 c\u1EE7a
-      anh ta v\u1EABn c\xF2n tr\xEAn \u0111\xF3. Anh ta s\u1EBD kh\xF3 mang c\u1EA3
-      thuy\u1EC1n v\xE0 chi\u1EBFc xe \u0111\u1EA1p c\xF9ng v\u1EDBi ng\u01B0 c\u1EE5
-      \u0111\u1EBFn h\u1ED3 c\xF9ng l\xFAc; c\u1EA3nh s\xE1t quy\u1EBFt \u0111\u1ECBnh
-      lo\u1EA1i tr\u1EEB anh ta nh\u01B0 m\u1ED9t nghi ph\u1EA1m."
-    - "L\u1EDBp x\xE0 c\u1EEB bao ph\u1EE7 d\u01B0\u1EDBi \u0111\xE1y thuy\u1EC1n
-      cho th\u1EA5y r\u1EB1ng chi\u1EBFc thuy\u1EC1n \u0111\xE3 \u0111\u01B0\u1EE3c
-      \u0111\u01B0a t\u1EEB b\u1EDD bi\u1EC3n k\u1EC3 t\u1EEB khi nh\u1EEFng con x\xE0
-      c\u1EEB kh\xF4ng s\u1ED1ng \u1EDF n\u01B0\u1EDBc ng\u1ECDt. H\xF3a ra con trai
-      c\u1EE7a ch\u1EE7 s\u1EDF h\u1EEFu v\xE0 n\u1EA1n nh\xE2n l\xE0 \u0111\u1ED3ng
-      nghi\u1EC7p. Anh ta gi\u1EBFt c\xF4 v\xEC c\xF4 t\u1EEB ch\u1ED1i t\xECnh y\xEAu
-      c\u1EE7a anh. Anh \u1EA5y d\xE0n d\u1EF1ng b\u1EB1ng c\xE1ch \u0111\u01B0a l\xEAn
-      thuy\u1EC1n; nh\u01B0ng than \xF4i; n\xF3 kh\xF4ng th\u1EF1c s\u1EF1 gi\xFAp
-      \xEDch."
+    - There's a knife stuck in the victim's chest which was visible even from afar.
+      He called the police immediately.
+    - Small boats are required to have vessel ID number displayed. Police tracked
+      down its owner and began investigating on the owner's son as the suspect.
+    - The bicycle by the lake belongs to the fisherman. In fact, some of his fishing
+      gears are still on it. Since it would be difficult to bring the boat to the
+      lake with that bicycle along with the fishing gears, police decided to rule
+      him out as a suspect.
+    - The barnacles covering the bottom of the boat suggest that the boat had been
+      brought from seashore since barnacles don't live in freshwater. It turns out
+      that the owner's son and the victim were colleagues. He murdered her when she
+      rejected his love. He staged the scene by bringing in the boat, but alas, it
+      didn't really help.
     listQues:
-    - "M\u1ED9t ng\u01B0 d\xE2n \u0111\xE3 t\xECm th\u1EA5y x\xE1c ch\u1EBFt \u1EDF
-      b\xEAn h\u1ED3. Nh\xECn t\u1EEB xa anh ta \u0111\xE3 kh\u1EB3ng \u0111\u1ECBnh
-      ng\u01B0\u1EDDi ph\u1EE5 n\u1EEF n\xE0y \u0111\xE3 ch\u1EBFt. T\u1EA1i sao anh
-      ta l\u1EA1i bi\u1EBFt \u0111i\u1EC1u \u0111\xF3?"
-    - "C\xF3 m\u1ED9t chi ti\u1EBFt \u1EDF hi\u1EC7n tr\u01B0\u1EDDng gi\xFAp cho
-      c\u1EA3nh s\xE1t c\xF3 th\u1EC3 t\xECm th\u1EA5y ch\u1EE7 thuy\u1EC1n m\u1ED9t
-      c\xE1ch d\u1EC5 d\xE0ng. t\xECm xem \u0111\xF3 l\xE0 c\xE1i g\xEC?"
-    - "Ng\u01B0\u1EDDi ng\u01B0 d\xE2n ph\xE1t hi\u1EC7n ra thi th\u1EC3 l\xE0 nghi
-      ph\u1EA1m \u0111\u1EA7u ti\xEAn. Tuy nhi\xEAn; ngay khi h\u1ECD ph\xE1t hi\u1EC7n
-      chi\u1EBFc thuy\u1EC1n \u0111\xE3 \u0111\u01B0\u1EE3c \u0111\u01B0a \u0111\u1EBFn
-      h\u1ED3 t\u1EEB m\u1ED9t n\u01A1i kh\xE1c; anh ta \u0111\xE3 b\u1ECB lo\u1EA1i
-      tr\u1EEB kh\u1ECFi di\u1EC7n t\xECnh nghi. T\u1EA1i sao?"
-    - "L\xE0m th\u1EBF n\xE0o c\u1EA3nh s\xE1t bi\u1EBFt r\u1EB1ng chi\u1EBFc thuy\u1EC1n
-      \u0111\u01B0\u1EE3c \u0111\u01B0a \u0111\u1EBFn h\u1ED3 t\u1EEB n\u01A1i kh\xE1c?
-      Manh m\u1ED1i c\xF3 th\u1EC3 \u0111\u01B0\u1EE3c nh\xECn th\u1EA5y tr\xEAn ch\xEDnh
-      chi\u1EBFc thuy\u1EC1n."
+    - A fisher found a dead body at the lake. He knew the woman inside of the boat
+      was dead by one glance. How did he know?
+    - Police easily found the owner of the boat. Which part of the scene helped them?
+    - The fisher was the first suspect. However, as soon as they saw that the boat
+      had been brought to the lake from somewhere else, he was ruled out as a suspect.
+      Why?
+    - How did the police know that the boat was brought to the lake from elsewhere?
+      The clue can be seen on the boat itself.
     listHint:
-    - "C\xF3 m\u1ED9t con dao b\u1ECB k\u1EB9t trong ng\u1EF1c n\u1EA1n nh\xE2n"
-    - " ID c\u1EE7a thuy\u1EC1n"
-    - "Chi\u1EBFc xe \u0111\u1EA1p b\xEAn h\u1ED3"
-    - "L\u1EDBp x\xE0 c\u1EEB bao ph\u1EE7 d\u01B0\u1EDBi \u0111\xE1y thuy\u1EC1n"
+    - A knife
+    - ID boat
+    - The bicycle
+    - "The barnacles\r"
   - MODE: 2
     LEVEL: 4
     listAnswer:
-    - 
-    - 
-    - 
-    - 
+    - A bicycle had just passed by the woman, but she's not looking at that direction.
+      She is looking at the motobike in front of her.
+    - An opening event is being held on the left side of the road that encroaches
+      on the sidewalk
+    - She remembered the license plate on the snatcher's car which helped police to
+      narrow down their list of suspects to 2 which had same numbers for their cars.
+    - The snatcher had to be sitting on the behind of the motobike, so the answer
+      is B. Further investigation revealed that It is a group of professional robbers
+      who have been operating for many years throughout the city.
     listQues:
-    - 
-    - 
-    - 
-    - 
+    - Someone snatched a women purse on the street. Which vehicle on the street belongs
+      to the snatcher?
+    - Why was the woman walking on the right side of the road with no sidewalk? Find
+      her reason from the picture.
+    - Police easily came up with a list of suspects, thanks to the woman sharing what
+      she remembered about the snatcher. What exactly did she remember?
+    - She also remembered that it was a black motobike and there two person on it.
+      Unfortunately, she doesn't remember the motobike make nor the model. But the
+      scene of the crime reveals which car the snatcher was on. Was the snatcher on
+      A or B?
     listHint:
-    - 
-    - 
-    - 
-    - 
+    - The motobike in front of her.
+    - An opening event
+    - She remembered the license plate
+    - "The answer is B.\r"
   - MODE: 2
     LEVEL: 5
     listAnswer:
-    - "C\xF3 m\u1ED9t c\xE1i kh\u0103n \u1EDF b\xEAn c\u1EA1nh c\xF4 g\xE1i. C\xF3
-      th\u1EC3 hung th\u1EE7 \u0111\xE3 d\xF9ng ch\xEDnh c\xE1i kh\u0103n \u0111\u1EC3
-      th\u1EAFt c\u1ED5 c\xF4 g\xE1i l\xE0m cho c\xF4 g\xE1i b\u1ECB ng\u1EA1t th\u1EDF.
-      Tr\xEAn c\u1ED5 c\u1EE7a c\xF4 g\xE1i v\u1EABn c\xF2n m\u1ED9t v\u1EBFt l\u1EB1n
-      m\xE0u \u0111\u1ECF."
-    - "Ch\u1EEF B.O. \u0111\u01B0\u1EE3c vi\u1EBFt tr\xEAn c\xE1t. C\u1EA3nh s\xE1t
-      nghi ng\u1EDD r\u1EB1ng c\xF3 th\u1EC3 c\xF3 \xEDt nh\u1EA5t 2 th\u1EE7 ph\u1EA1m.
-      M\u1ED9t trong s\u1ED1 \u0111\xF3 ph\u1EA3i c\xF3 B trong t\xEAn c\u1EE7a h\u1ECD."
-    - "N\u1EBFu kh\xF4ng c\xF3 d\u1EA5u ch\u1EA5m; c\xE1c ch\u1EEF c\xE1i tr\xEAn
-      c\xE1t s\u1EBD \u0111\u1ECDc BO c\xF3 ngh\u0129a l\xE0 k\u1EBB gi\u1EBFt ng\u01B0\u1EDDi
-      ph\u1EA3i c\xF3 hai ch\u1EEF c\xE1i \u0111\xF3 trong t\xEAn c\u1EE7a ch\xFAng.
-      Bob l\xE0 ng\u01B0\u1EDDi duy nh\u1EA5t ph\xF9 h\u1EE3p v\u1EDBi \u0111i\u1EC1u
-      ki\u1EC7n \u0111\xF3. C\u1EA3nh s\xE1t c\u0169ng ph\xE1t hi\u1EC7n ra r\u1EB1ng
-      Bob v\xE0 n\u1EA1n nh\xE2n \u0111\xE3 c\xF3 m\u1ED1i quan h\u1EC7."
-    - "Bob \u0111\xE3 h\u1EB9n h\xF2 v\u1EDBi n\u1EA1n nh\xE2n v\xE0 Beth c\xF9ng
-      m\u1ED9t l\xFAc. Khi n\u1EA1n nh\xE2n \u0111\u1ED1i ch\u1EA5t v\u1EDBi anh ta
-      v\u1EC1 \u0111i\u1EC1u \u0111\xF3; anh ta \u0111\xE3 d\xF9ng chi\u1EBFc kh\u0103n
-      c\u1ED1 th\u1EAFt c\u1ED5 n\u1EA1n nh\xE2n. Anh ta c\u1ED1 g\u1EAFng bi\u1EC7n
-      minh cho h\xE0nh \u0111\u1ED9ng c\u1EE7a m\xECnh; T\xF4i ch\u1EC9 mu\u1ED1n
-      c\xF4 g\xE1i \u0111\xF3 im l\u1EB7ng. T\xF4i kh\xF4ng h\u1EC1 c\xF3 \xFD gi\u1EBFt
-      c\xF4 ta."
+    - There was a towel by the girl's side. Maybe the perpetrator used the same scarf
+      to strangle the girl, choking the girl. On the girl's neck there was still a
+      red band.
+    - Letters B.O. are written on the sand. Police suspects that there may be at least
+      2 culprits. One of which must have B in their name.
+    - Without the periods, the letters on the sand would read BO meaning the murderer
+      must have those two letters in their name. Bob is the only one that fits that
+      condition. Police also found out that Bob and the victim had been in a relationship.
+    - Bob was dating the victim and Beth at the same time. When the victim confronted
+      him about it, He used a scarf to try to strangle his girlfriend. He tried justifying
+      his action saying, I just wanted that girl to shut up. I didn't mean to kill
+      her though.
     listQues:
-    - "M\u1ED9t ng\u01B0\u1EDDi ph\u1EE5 n\u1EEF \u0111\u01B0\u1EE3c t\xECm th\u1EA5y
-      \u0111\xE3 ch\u1EBFt tr\xEAn m\u1ED9t b\xE3i bi\u1EC3n \u0111\xF4ng ng\u01B0\u1EDDi.
-      C\xF4 \u1EA5y d\u01B0\u1EDDng nh\u01B0 b\u1ECB ng\u1EA1t th\u1EDF d\u1EABn \u0111\u1EBFn
-      ch\u1EBFt; th\u1EE9 g\xEC \u1EDF hi\u1EC7n tr\u01B0\u1EDDng c\xF3 th\u1EC3 l\xE0
-      hung kh\xED?"
-    - "C\xF3 v\u1EBB nh\u01B0 n\u1EA1n nh\xE2n \u0111\xE3 s\u1EED d\u1EE5ng s\u1EE9c
-      m\u1EA1nh cu\u1ED1i c\xF9ng c\u1EE7a m\xECnh \u0111\u1EC3 l\u1EA1i manh m\u1ED1i
-      v\u1EC1 k\u1EBB gi\u1EBFt ng\u01B0\u1EDDi. N\xF3 \u0111\xE2u r\u1ED3i?"
-    - "N\u1EA1n nh\xE2n \u0111ang \u1EDF b\xE3i bi\u1EC3n v\u1EDBi 4 ng\u01B0\u1EDDi
-      b\u1EA1n. C\u1EA3nh s\xE1t nghi ng\u1EDD m\u1ED9t v\u1EDBi t\xEAn vi\u1EBFt
-      t\u1EAFt B v\xE0 0. Nh\u01B0ng ... \u1ED2 kh\xF4ng! T\u1EA5t c\u1EA3 b\u1ECDn
-      h\u1ECD c\xF3 B trong t\xEAn c\u1EE7a h\u1ECD.C\xE2u h\u1ECFi c\u1EE7a c\u1EA3nh
-      s\xE1t l\xE0 n\u1EA1n nh\xE2n \u0111ang nh\u1EAFc \u0111\u1EBFn ai?"
-    - "T\u1EA1i sao Bob gi\u1EBFt b\u1EA1n g\xE1i c\u1EE7a m\xECnh? C\xF3 m\u1ED9t
-      manh m\u1ED1i v\u1EC1 \u0111\u1ED9ng c\u01A1 c\u1EE7a anh ta trong b\u1EE9c
-      tranh."
+    - A woman is found dead on a crowded beach. A woman was found dead on a crowded
+      beach. She seemed to suffocate to death, what at the scene could be a weapon?
+    - Seems like the victim used her last strength to leave a clue on her murderer.
+      Where is it?
+    - The victim was at the beach with 4 friends. Police suspects the one with initials
+      B and 0. But... Oh no! All of them have B in their names. Which one of them
+      should police question?
+    - Why did Bob murder his girlfriend? There is a clue on his motive in the picture?
     listHint:
-    - "C\xE1i kh\u0103n \u1EDF b\xEAn c\u1EA1nh c\xF4 g\xE1i"
-    - "Ch\u1EEF B.O. \u0111\u01B0\u1EE3c vi\u1EBFt tr\xEAn c\xE1t"
-    - " Bob l\xE0 ng\u01B0\u1EDDi duy nh\u1EA5t ph\xF9 h\u1EE3p v\u1EDBi \u0111i\u1EC1u
-      ki\u1EC7n \u0111\xF3"
-    - "Bob \u0111ang n\u0103m tay Beth"
+    - ' A towel'
+    - Letters B.O
+    - Bob
+    - "The hand of Bob and Beth\r"
   - MODE: 2
     LEVEL: 6
     listAnswer:
-    - "C\xE1c d\u1EA5u hi\u1EC7u h\xECnh tia s\xE9t tr\xEAn c\u1ECF cho th\u1EA5y
-      ng\u01B0\u1EDDi ch\u01A1i g\xF4n b\u1ECB s\xE9t \u0111\xE1nh v\xE0 ch\u1EBFt."
-    - "Nh\u1EEFng v\u0169ng n\u01B0\u1EDBc b\xEAn c\u1EA1nh c\u01A1 th\u1EC3 ng\u01B0\u1EDDi
-      ch\u01A1i g\xF4n cho th\u1EA5y th\u1EDDi ti\u1EBFt x\u1EA5u \u1EDF th\u1EDDi
-      \u0111i\u1EC3m \u0111\xF3. M\u1EB7t \u0111\u1EA5t ch\u1EAFc c\u0169ng \u01B0\u1EDBt."
-    - "Tia s\xE9t \u0111\u1EB7c bi\u1EC7t \u0111\xE1nh v\xE0o ng\u01B0\u1EDDi ch\u01A1i
-      g\xF4n; b\u1EA5t ch\u1EA5p nh\u1EEFng c\xE1i c\xE2y cao; v\xEC m\u1ED9t c\xE2y
-      g\u1EADy golf \u0111\u01B0\u1EE3c tr\u1ED3ng tr\xEAn m\u1EB7t \u0111\u1EA5t
-      b\xEAn c\u1EA1nh anh ta.  C\xE2y g\u1EADy \u0111\xE1nh golf l\xE0 kim lo\u1EA1i
-      v\xE0 m\u1EE5c \u0111\xEDch l\xE0 thu h\xFAt s\xE9t \u0111\xE1nh xu\u1ED1ng
-      \u0111\xFAng v\u1ECB tr\xED c\u1EE7a n\u1EA1n nh\xE2n."
-    - "C\u1EA3nh s\xE1t k\u1EBFt lu\u1EADn r\u1EB1ng ng\u01B0\u1EDDi \u0111\xE0n \xF4ng
-      \u0111\xE3 b\u1EA5t t\u1EC9nh tr\u01B0\u1EDBc v\u1EE5 s\xE9t \u0111\xE1nh v\xEC
-      b\u1ECB \u0111\xE1nh v\xE0o \u0111\u1EA7u b\u1EDFi m\u1ED9t c\xE2y g\u1EADy
-      golf kh\xE1c; C\xE2y g\u1EADy \u0111\xF3 n\u1EB1m tr\xEAn m\u1EB7t \u0111\u1EA5t
-      v\xE0 b\u1ECB u\u1ED1n cong b\xEAn c\u1EA1nh anh ta."
+    - The lightning shaped marks in the grass show that the golfer was hit by lightning
+      and died.
+    - The puddle of water next to the body of golfer indicates that the weather was
+      bad during the incident. The ground must have been wet, too.
+    - The lightning specifically struck the golfer, despite the tall trees, because
+      of the golf club planted in the ground next to him. Golf clubs are metal, and
+      metal attracts lightning.
+    - Police conclude that the man was immobilized before the lightning strike by
+      being hit over the head with another golf club, which is laying on the ground
+      bent next to him.
     listQues:
-    - "M\u1ED9t x\xE1c ch\u1EBFt c\u1EE7a m\u1ED9t ng\u01B0\u1EDDi ch\u01A1i g\xF4n
-      \u0111\xE3 \u0111\u01B0\u1EE3c t\xECm th\u1EA5y tr\xEAn m\u1ED9t s\xE2n g\xF4n.
-      C\u1EA3nh s\xE1t suy \u0111o\xE1n ng\u01B0\u1EDDi \u0111\xE0n \xF4ng n\xE0y
-      \u0111\xE3 b\u1ECB \u0111i\u1EC7n gi\u1EADt b\u1EDFi m\u1ED9t \xE1nh s\xE1ng.
-      Ph\u1EA7n n\xE0o c\u1EE7a c\u1EA3nh quay cho th\u1EA5y m\u1ED9t \xE1nh s\xE1ng
-      \u0111\xE3 chi\u1EBFu g\u1EA7n anh ta?"
-    - "Th\u1EDDi ti\u1EBFt c\xF3 x\u1EA5u v\xE0o th\u1EDDi \u0111i\u1EC3m x\u1EA3y
-      ra tai n\u1EA1n kh\xF4ng? C\xF3 b\u1EA5t c\u1EE9 \u0111i\u1EC1u g\xEC trong
-      c\u1EA3nh ch\u1EC9 ra \u0111i\u1EC1u \u0111\xF3?"
-    - "M\u1EB7c d\xF9 c\xF3 nhi\u1EC1u c\xE2y cao tr\xEAn s\xE2n g\xF4n nh\u01B0ng
-      s\xE9t l\u1EA1i \u0111\u1EB7c bi\u1EC7t \u0111\xE1nh ng\u01B0\u1EDDi choi golf.
-      T\u1EA1i sao?"
-    - "C\u1EA3nh s\xE1t cho r\u1EB1ng \u0111\xE2y kh\xF4ng ph\u1EA3i l\xE0 m\u1ED9t
-      tai n\u1EA1n do s\xE9t \u0111\xE1nh \u0111\u01A1n gi\u1EA3n. Thay v\xE0o \u0111\xF3;
-      m\u1ED9t ng\u01B0\u1EDDi n\xE0o \u0111\xF3 \u0111\xE3 \u0111\xE1nh ng\u01B0\u1EDDi
-      \u0111\xE0n \xF4ng ng\u1EA5t \u0111i tr\u01B0\u1EDBc \u0111\xF3 v\xE0 sau \u0111\xF3
-      t\u1EA1o hi\u1EC7n tr\u01B0\u1EDDng gi\u1EA3 th\xE0nh m\u1ED9t v\u1EE5 tai n\u1EA1n
-      do s\xE9t \u0111\xE1nh. \u0110i\u1EC1u g\xEC \u0111\xE3 d\u1EABn c\u1EA3nh s\xE1t
-      \u0111\u1EBFn k\u1EBFt lu\u1EADn n\xE0y?"
+    - A burnt body of a gofler was found on a gold course. Police Speculate this man
+      was electrocuted by a lightening. Which part of the scene shows that a lightening
+      had struck near him?
+    - Was the weather bad at the time of the accident? Does anything in the scene
+      indiacte that?
+    - ' Although there are many tall trees on the golf course. The lightening specifically
+      struck the golfer. Why?'
+    - Police said that this was not a simple lightning accident. Instead, Someone
+      immobilized the man earlier and led the light to attack him. What led the police
+      to this conclusion?
     listHint:
-    - "C\xE1c d\u1EA5u hi\u1EC7u h\xECnh tia s\xE9t tr\xEAn c\u1ECF"
-    - "Nh\u1EEFng v\u0169ng n\u01B0\u1EDBc "
-    - "c\xE2y g\u1EADy golf \u0111\u01B0\u1EE3c tr\u1ED3ng tr\xEAn m\u1EB7t \u0111\u1EA5t
-      b\xEAn c\u1EA1nh anh ta"
-    - "C\xE2y g\u1EADy n\u1EB1m tr\xEAn m\u1EB7t \u0111\u1EA5t v\xE0 b\u1ECB u\u1ED1n
-      cong b\xEAn c\u1EA1nh anh ta."
+    - 'The lightning-shaped marks '
+    - The puddle of water
+    - Golf club planted in the ground
+    - "The bent golf club\r"
   - MODE: 2
     LEVEL: 7
     listAnswer:
-    - "Tr\xEAn ng\u01B0\u1EDDi c\xF4 g\xE1i kh\xF4ng c\xF3 v\u1EBFt th\u01B0\u01A1ng;
-      c\xF4 \u1EA5y \u0111\xE3 ch\u1EBFt b\u1EDFi thu\u1ED1c \u0111\u1ED9c; c\xF3
-      m\u1ED9t c\xE2y kim ti\xEAm \u0111\xE3 s\u1EED d\u1EE5ng b\xEAn c\u1EA1nh n\u1EEF
-      b\xE1c s\u1EF9 l\xE0 b\u1EB1ng ch\u1EE9ng."
-    - "V\u1EBFt m\xE1u tr\xEAn m\u1EB7t \u0111\u1EA5t l\xE0 d\u1EA5u hi\u1EC7u cho
-      th\u1EA5y k\u1EBB t\u1EA5n c\xF4ng b\u1ECB th\u01B0\u01A1ng; v\xEC n\u1EA1n
-      nh\xE2n \u0111\xE3 ch\u1ED1ng tr\u1EA3."
-    - "K\u1EBB gi\u1EBFt ng\u01B0\u1EDDi \u0111\xE3 b\u1ECB th\u01B0\u01A1ng b\u1EDFi
-      c\xE2y b\xFAt m\xE0 b\xE1c s\u0129 \u0111ang c\u1EA7m c\xF4 v\u1EABn \u0111ang
-      gi\u1EEF ngay c\u1EA3 sau khi c\xF4 ta ch\u1EBFt."
-    - "C\xF4 \u0111\xE3 b\u1ECB gi\u1EBFt b\u1EDFi m\u1ED9t ng\u01B0\u1EDDi l\xE0m
-      vi\u1EC7c t\u1EA1i b\u1EC7nh vi\u1EC7n; do cu\u1ED1n s\xE1ch m\u1EDF tr\xEAn
-      b\xE0n. Cu\u1ED1n s\xE1ch ch\u1EC9 ra r\u1EB1ng c\xF4 \u1EA5y \u0111ang ngh\u1EC9
-      ng\u01A1i v\xE0o th\u1EDDi \u0111i\u1EC3m \u0111\xF3."
+    - On the girl who had no wounds, she died from poison, there was a used needle
+      next to the female doctor as evidence..
+    - The blood smear on the ground is indication that the assailant was injured,
+      because the victim fought back.
+    - The murderer was injured by the pen that the doctor was holding, and is still
+      holding even after her death.
+    - She was killed by someone working at the hospital, due to the open book on her
+      desk. The book indicates that she was on her break at the time.
     listQues:
-    - "C\u1EA3nh s\xE1t nh\u1EADn \u0111\u01B0\u1EE3c m\u1ED9t cu\u1ED9c g\u1ECDi
-      v\xE0o ban \u0111\xEAm t\u1EEB m\u1ED9t y t\xE1 b\xE1o c\xE1o v\u1EC1 c\xE1i
-      ch\u1EBFt c\u1EE7a m\u1ED9t n\u1EEF b\xE1c s\u0129. Khi \u0111\u1EBFn b\u1EC7nh
-      vi\u1EC7n; c\u1EA3nh s\xE1t \u0111\xE3 t\xECm ra nguy\xEAn nh\xE2n c\xE1i ch\u1EBFt
-      c\u1EE7a c\xF4 l\xE0 g\xEC?"
-    - "K\u1EBB gi\u1EBFt ng\u01B0\u1EDDi d\u01B0\u1EDDng nh\u01B0 b\u1ECB th\u01B0\u01A1ng.
-      L\xE0m th\u1EBF n\xE0o c\u1EA3nh s\xE1t bi\u1EBFt \u0111i\u1EC1u \u0111\xF3?"
-    - "K\u1EBB gi\u1EBFt ng\u01B0\u1EDDi b\u1ECB th\u01B0\u01A1ng nh\u01B0 th\u1EBF
-      n\xE0o?"
-    - "C\xF4 \u0111\xE3 b\u1ECB gi\u1EBFt b\u1EDFi m\u1ED9t ng\u01B0\u1EDDi l\xE0m
-      vi\u1EC7c t\u1EA1i b\u1EC7nh vi\u1EC7n nh\u01B0ng kh\xF4ng ph\u1EA3i b\u1EDFi
-      m\u1ED9t b\u1EC7nh nh\xE2n. V\u1EADt ph\u1EA9m n\xE0o trong ph\xF2ng khi\u1EBFn
-      \u0111i\u1EC1u tra vi\xEAn ngh\u0129 v\u1EADy?"
+    - ' Police received a call at night from a nurse reporting on a death of a female
+      doctor. upon arriving the hospital, what did the police find to be the cause
+      of her death?'
+    - The Murderer seems to be injured. How did police know that?
+    - How did the murderer get injured?
+    - She was killed by someone working at the hospital but not by a patient. What
+      item in the room prompted the investigator to think so?
     listHint:
-    - "C\xE2y kim ti\xEAm \u0111\xE3 s\u1EED d\u1EE5ng b\u1ECB v\u1EE9t l\u1EA1i b\xEAn
-      c\u1EA1nh n\u1EEF b\xE1c s\u0129"
-    - "V\u1EBFt m\xE1u tr\xEAn m\u1EB7t \u0111\u1EA5t"
-    - "C\xE2y b\xFAt m\xE0 b\xE1c s\u0129 \u0111ang c\u1EA7m"
-    - "Cu\u1ED1n s\xE1ch m\u1EDF tr\xEAn b\xE0n"
+    - needle
+    - 'The blood smear '
+    - the pen
+    - "the book\r"
   - MODE: 2
     LEVEL: 8
     listAnswer:
-    - "V\u1EBFt th\u01B0\u01A1ng ch\xED m\u1EA1ng c\u1EE7a ng\u01B0\u1EDDi ph\u1EE5
-      n\u1EEF tr\xEAn tr\xE1n."
-    - "Ng\u01B0\u1EDDi ngh\u1EC7 s\u0129 l\xE0 ch\xE0ng trai to\xE1t m\u1ED3 h\xF4i;
-      \u0111ang th\u1EDF h\u1ED5n h\u1EC3n v\xE0 m\u1EB7c chi\u1EBFc \xE1o kho\xE1c
-      \u0111en \u01B0\u1EDBt. \u0110i\u1EC1u n\xE0y l\xE0m cho \u0111i\u1EC1u tra
-      vi\xEAn ngh\u0129 r\u1EB1ng anh ta \u0111ang t\u1EADp th\u1EC3 d\u1EE5c hay
-      v\u1EEBa l\xE0m v\u1EC7c n\u1EB7ng."
-    - "Chi\u1EBFc \xE1o kho\xE1c \u01B0\u1EDBt m\xE0 c\xF4 \u0111ang m\u1EB7c ch\u1EE9ng
-      minh cho vi\u1EC7c c\xF4 \u0111\xE3 b\u1ECB s\xE1t h\u1EA1i \u1EDF b\xEAn ngo\xE0i
-      khi tr\u1EDDi m\u01B0a r\u1ED3i \u0111\u01B0\u1EE3c mang v\u1EC1 nh\xE0 sau
-      \u0111\xF3. "
-    - "C\xE1c d\u1EA5u ch\xE2n d\xEDnh b\xF9n \u1EDF s\xE0n g\u1ED7 ph\xEDa tr\u01B0\u1EDBc
-      nh\xE0 r\xF5 r\xE0ng l\u1EDBn h\u01A1n so v\u1EDBi d\u1EA5u ch\xE2n c\u1EE7a
-      m\u1ED9t ng\u01B0\u1EDDi ph\u1EE5 n\u1EEF; \u0111\xF3 l\xE0 l\xFD do t\u1EA1i
-      sao ngh\u1EC7 s\u0129 b\u1ECB coi l\xE0 m\u1ED9t nghi ph\u1EA1m ch\xEDnh."
+    - The fatal wound of women is on her forehead.
+    - The artist is the sweating, panting guy in the black jacket. His panting makes
+      the investigator wonder if he was exercising.
+    - The woman was murdered outside because of the wet jacket that she was wearing.
+    - The muddy footprints on the wooden floor in front of the house are clearly larger
+      than a woman, which is why the artist is a prime suspect.
     listQues:
-    - "M\u1ED9t ph\u1EE5 n\u1EEF tr\u1EBB \u0111\u01B0\u1EE3c t\xECm th\u1EA5y \u0111\xE3
-      ch\u1EBFt trong m\u1ED9t \u0111\xEAm m\u01B0a. \u0110i\u1EC1u tra vi\xEAn \u0111\u1EBFn
-      hi\u1EC7n tr\u01B0\u1EDDng l\xFAc n\u1EEDa \u0111\xEAm. V\u1EBFt th\u01B0\u01A1ng
-      ch\xED m\u1EA1ng \u1EDF \u0111\xE2u?"
-    - "M\u1ED9t ngh\u1EC7 s\u0129 s\u1ED1ng trong khu ph\u1ED1 \u0111\xE3 t\xECm th\u1EA5y
-      thi th\u1EC3 khi anh ta \u0111\u1EBFn th\u0103m \u0111\u1EC3 tr\u1EA3 l\u1EA1i
-      m\u1ED9t cu\u1ED1n s\xE1ch m\xE0 anh ta m\u01B0\u1EE3n c\u1EE7a n\u1EA1n nh\xE2n.
-      \u0110i\u1EC1u tra vi\xEAn t\u1EF1 h\u1ECFi li\u1EC7u tr\u01B0\u1EDBc khi tr\u1EA3
-      cu\u1ED1n s\xE1ch li\u1EC7u anh ta \u0111\xE3 \u0111i t\u1EADp th\u1EC3 d\u1EE5c
-      hay ch\u0103ng?. \u0110i\u1EC1u g\xEC khi\u1EBFn \u0111i\u1EC1u tra vi\xEAn
-      ngh\u0129 nh\u01B0 v\u1EADy?"
-    - "\u0110i\u1EC1u tra vi\xEAn cho r\u1EB1ng ng\u01B0\u1EDDi ph\u1EE5 n\u1EEF b\u1ECB
-      s\xE1t h\u1EA1i b\xEAn ngo\xE0i sau \u0111\xF3 m\u1EDBi \u0111\u01B0\u1EE3c
-      mang v\u1EC1 nh\xE0. \u0110i\u1EC1u g\xEC \u0111\xE3 d\u1EABn anh ta \u0111\u1EBFn
-      suy ngh\u0129 n\xE0y?"
-    - "H\xE0ng x\xF3m n\xF3i r\u1EB1ng h\u1ECD th\u1EA5y n\u1EA1n nh\xE2n \u0111i
-      ra ngo\xE0i v\xE0o bu\u1ED5i s\xE1ng tr\u01B0\u1EDBc khi tr\u1EDDi b\u1EAFt
-      \u0111\u1EA7u m\u01B0a. \u0110i\u1EC1u n\xE0y khi\u1EBFn \u0111i\u1EC1u tra
-      vi\xEAn nghi ng\u1EDD ng\u01B0\u1EDDi ngh\u1EC7 s\u0129 ch\xEDnh l\xE0 k\u1EBB
-      gi\u1EBFt ng\u01B0\u1EDDi. \u0110i\u1EC1u g\xEC ch\u1EE9ng minh cho suy \u0111o\xE1n
-      n\xE0y c\u1EE7a \u0111i\u1EC1u tra vi\xEAn"
+    - A young Woman was found dead on a rainny night. The investigator arrived at
+      the scene at midnight. Where is the fatal wound?
+    - An Artist living in the neighborhood found the body when he visited to return
+      a book he borrowed from the victim. The investigator wonders if the artist had
+      been exercising untill his arrival. What made him think so?
+    - The investigator assumed the woman was murdered outside then brought home. What
+      led him to this thought?
+    - Neighbors said they saw victims go out in the morning before it started to rain.
+      This made investigators suspect the artist for the murder. Where is the proof
+      of it?
     listHint:
-    - "Tr\xE1n c\u1EE7a ng\u01B0\u1EDDi ph\u1EE5 n\u1EEF."
-    - "Nam ngh\u1EC7 s\u0129 \u0111ang m\u1EB7c chi\u1EBFc \xE1o kho\xE1c \u0111en."
-    - "Chi\u1EBFc \xE1o kho\xE1c \u01B0\u1EDBt c\xF4 g\xE1i \u0111ang m\u1EB7c."
-    - "C\xE1c d\u1EA5u ch\xE2n d\xEDnh b\xF9n \u1EDF s\xE0n g\u1ED7 ph\xEDa tr\u01B0\u1EDBc
-      nh\xE0"
+    - Forehead
+    - The wet black jacket
+    - The wet jacket
+    - "The muddy footprints\r"
   - MODE: 2
     LEVEL: 9
     listAnswer:
-    - "\u0110\u1ED3ng h\u1ED3 \u0111ang ch\u1EC9 8h t\u1ED1i; c\xE1c nh\xE2n vi\xEAn
-      kh\xE1c v\xE0 b\u1EA3o v\u1EC7 c\u1EE7a v\u0103n ph\xF2ng \u0111\xE3 v\u1EC1
-      h\u1EBFt; ch\u1EC9 c\xF2n l\u1EA1i 1 nh\xE2n vi\xEAn n\u1EEF \u1EDF l\u1EA1i
-      t\u0103ng ca. N\xEAn t\xEAn c\u01B0\u1EDBp c\xF3 th\u1EC3 d\u1EC5 d\xE0ng th\u1EF1c
-      hi\u1EC7n k\u1EBF ho\u1EA1ch \u0111\u1ED9t nh\u1EADp v\xE0o v\u0103n ph\xF2ng."
-    - "K\xE9t s\u1EAFt l\u1EDBn \u1EDF g\xF3c tr\xEAn b\xEAn ph\u1EA3i c\u1EE7a v\u0103n
-      ph\xF2ng khi\u1EBFn t\xEAn c\u01B0\u1EDBp ngh\u0129 r\u1EB1ng c\xF3 r\u1EA5t
-      nhi\u1EC1u ti\u1EC1n m\u1EB7t trong \u0111\xF3."
-    - "Trong ng\u0103n k\xE9o t\xEAn c\u01B0\u1EDBp \u0111ang l\u1EE5c l\u1ECDi c\xF3
-      m\u1ED9t t\u1EDD gi\u1EA5y c\xF3 ghi 1192; \u0111\xE2y l\xE0 m\u1EADt m\xE3
-      c\u1EE7a k\xE9t an to\xE0n."
-    - "\u0110i\u1EC7n tho\u1EA1i l\xE0 l\xFD do m\xE0 ng\u01B0\u1EDDi ph\u1EE5 n\u1EEF
-      \u0111\xE3 c\xF3 th\u1EC3 ng\u0103n ch\u1EB7n t\xEAn c\u01B0\u1EDBp. C\xF4 \u0111\xE3
-      \u1EA5n g\u1ECDi kh\u1EA9n c\u1EA5p n\xEAn c\u1EA3nh s\xE1t c\xF3 th\u1EC3 nghe
-      v\xE0 theo d\xF5i to\xE0n b\u1ED9 qu\xE1 tr\xECnh v\u1EE5 c\u01B0\u1EDBp."
+    - The clock said 8 pm, the staff and office security were all gone, only one female
+      employee stayed overtime.
+    - The big safe in the upper right corner of the office made the robber think that
+      there is a lot of cash.
+    - The robber was looking through a specific drawer, because of the paper that
+      says 1192, which is the code to the safe.
+    - The phone is the reason that the woman was able to stop the robber. She called
+      emergency and left the phone off the hook.
     listQues:
-    - "H\xECnh \u1EA3nh cho th\u1EA5y m\u1ED9t v\u1EE5 c\u01B0\u1EDBp \u0111ang di\u1EC5n
-      ra trong m\u1ED9t v\u0103n ph\xF2ng. T\u1EA1i sao t\xEAn c\u01B0\u1EDBp c\xF3
-      th\u1EC3 d\u1EC5 d\xE0ng l\u1EBBn v\xE0o v\u0103n ph\xF2ng nh\u01B0 th\u1EBF?"
-    - "M\xF3n \u0111\u1ED3 n\xE0o khi\u1EBFn t\xEAn c\u01B0\u1EDBp ngh\u0129 r\u1EB1ng
-      v\u0103n ph\xF2ng c\xF3 m\u1ED9t l\u01B0\u1EE3ng ti\u1EC1n m\u1EB7t l\u1EDBn"
-    - "T\xEAn c\u01B0\u1EDBp \u0111ang l\u1EE5c l\u1ECDi ng\u0103n k\xE9o tr\u01B0\u1EDFng
-      v\u0103n ph\xF2ng \u0111\u1EC3 t\xECm m\u1ED9t c\xE1i g\xEC \u0111\xF3.N\u1EEF
-      nh\xE2n vi\xEAn \u0111\xE3 n\xF3i v\u1EDBi anh ta trong \u0111\xF3 c\xF3 \u0111\u1EC3
-      m\u1ED9t s\u1ED1 v\u1EADt quan tr\u1ECDng. \u0110o\xE1n xem anh ta \u0111ang
-      t\xECm g\xEC?"
-    - "Cu\u1ED1i c\xF9ng; t\xEAn c\u01B0\u1EDBp \u0111\xE3 th\u1EA5t b\u1EA1i trong
-      vi\u1EC7c c\u01B0\u1EDBp ti\u1EC1n m\u1EB7t t\u1EA1i v\u0103n ph\xF2ng v\xE0
-      b\u1ECB b\u1EAFt ngay sau \u0111\xF3 nh\u1EDD v\xE0o s\u1EF1 th\xF4ng minh c\u1EE7a
-      ng\u01B0\u1EDDi ph\u1EE5 n\u1EEF. C\xF4 \u1EA5y \u0111\xE3 l\xE0m g\xEC?"
+    - The picture shows a robbery taking place in an office. Why could the robber
+      easily sneak into the office like that
+    - Which item made the robber think there was a large amount of cash in here?
+    - The robber is rummaging through the office drawer of chief for a particular
+      item. The woman told him the drawer it was placed in. What is he looking for?
+    - Eventually the chief failed to steal the cash and was arrested, thanks to the
+      smart action of woman. What did she do?
     listHint:
-    - "\u0110\u1ED3ng h\u1ED3 \u0111ang ch\u1EC9 8h t\u1ED1i"
-    - "C\xF3 m\u1ED9t k\xE9t s\u1EAFt l\u1EDBn \u1EDF g\xF3c ph\u1EA3i."
-    - "Ng\u0103n k\xE9o ch\u1EE9a m\u1ED9t t\u1EDD gi\u1EA5y c\xF3 ghi 1192;"
-    - "\u0110i\u1EC7n tho\u1EA1i"
+    - 'The clock '
+    - The big safe
+    - the paper
+    - "The phone\r"
   - MODE: 2
     LEVEL: 10
     listAnswer:
-    - "Th\u1EF1c t\u1EBF l\xE0 c\xF4 \u1EA5y \u0111i d\xE9p \u0111i trong nh\xE0 cho
-      th\u1EA5y r\u1EB1ng c\xF4 \u1EA5y \u0111\xE3 \u0111\u01B0\u1EE3c \u0111\u01B0a
-      \u0111\u1EBFn c\xF4ng vi\xEAn tr\xE1i v\u1EDBi \xFD mu\u1ED1n c\u1EE7a c\xF4
-      \u1EA5y."
-    - "C\xF3 m\u1ED9t chai soda d\xEDnh m\xE1u \u1EDF mi\u1EC7ng chai \u0111\u01B0\u1EE3c
-      v\u1EA5t l\u1EA1i trong th\xF9ng r\xE1c. Nan nh\xE2n \u0111\xE3 tr\xFAng \u0111\u1ED9c
-      sau khi u\u1ED1ng n\u01B0\u1EDBc t\u1EEB chai soda \u0111\xF3."
-    - "C\xE1c v\u1EBFt th\u01B0\u01A1ng b\u1EA7m t\xEDm tr\xEAn ng\u01B0\u1EDDi n\u1EA1n
-      nh\xE2n l\xE0 b\u1EB1ng ch\u1EE9ng cho vi\u1EC7c c\xF4 \u0111\xE3 b\u1ECB \u0111\xE1nh
-      \u0111\u1EADp trong m\u1ED9t th\u1EDDi gian d\xE0i."
-    - "H\u1ECD \u0111ang tranh c\xE3i v\u1EC1 t\u1EDD gi\u1EA5y trong tay anh ta;
-      n\u01A1i c\xF3 t\u1EF7 l\u1EC7 c\u01B0\u1EE3c \u0111ua ng\u1EF1a tr\xEAn \u0111\xF3.
-      Ng\u01B0\u1EDDi ch\u1ED3ng nghi\u1EC7n c\u1EDD b\u1EA1c. H\xF3a ra v\u1EE3 anh
-      ta c\xF3 m\u1ED9t kho\u1EA3n b\u1EA3o hi\u1EC3m l\u1EDBn; anh ta \u0111\xE3
-      l\xEAn k\u1EBF ho\u1EA1ch gi\u1EBFt v\u1EE3 m\xECnh \u0111\u1EC3 c\xF3 th\u1EC3
-      h\u01B0\u1EDFng kho\u1EA3n \u0111\u1EC1n b\xF9 \u0111\xF3."
+    - The fact that she wears slippers indicates that she was brought to the park
+      against her will.
+    - There was a bloody soda can at the top of the bottle that was left in the trash.
+      The victim was poisoned after drinking from that soda bottle.
+    - The bruises on the victim are evidence that she has been beaten for a long time.
+    - They were arguing about the paper in his hand, which had horse racing odds on
+      it. The husband is addicted to gambling. It turned out that his wife had a large
+      insurance sum, and he planned to kill his wife so that he could get that compensation.
     listQues:
-    - "M\u1ED9t ng\u01B0\u1EDDi ph\u1EE5 n\u1EEF \u0111\u01B0\u1EE3c t\xECm th\u1EA5y
-      \u0111\xE3 ch\u1EBFt trong c\xF4ng vi\xEAn v\xE0o kho\u1EA3ng 7 gi\u1EDD t\u1ED1i.
-      Ch\u1ED3ng c\xF4 (b\xEAn tr\xE1i) than th\u1EDF trong khi th\xE1m t\u1EED (b\xEAn
-      ph\u1EA3i) ngh\u0129 r\u1EB1ng c\xF4 c\xF3 th\u1EC3 b\u1ECB bu\u1ED9c ph\u1EA3i
-      \u0111\u1EBFn \u0111\xE2y. \u0110i\u1EC1u g\xEC khi\u1EBFn anh \u1EA5y ngh\u0129
-      nh\u01B0 v\u1EADy?"
-    - "Sau khi \u0111i\u1EC1u tra; c\u1EA3nh s\xE1t ph\xE1t hi\u1EC7n ra nguy\xEAn
-      nh\xE2n c\xE1i ch\u1EBFt l\xE0 n\u1EA1n nh\xE2n \u0111\xE3 b\u1ECB tr\xFAng
-      \u0111\u1ED9c xyanua. Hung th\u1EE7 \u0111\xE3 h\u1EA1 \u0111\u1ED9c v\xE0o
-      \u0111\xE2u?"
-    - "\u0110i\u1EC1u tra s\xE2u h\u01A1n; c\u1EA3nh s\xE1t ph\xE1t hi\u1EC7n ra n\u1EA1n
-      nh\xE2n \u0111\xE3 b\u1ECB b\u1EA1o h\xE0nh trong m\u1ED9t th\u1EDDi gian d\xE0i;
-      \u0111i\u1EC1u g\xEC \u0111\xE3 ch\u1EE9ng minh cho \u0111i\u1EC1u \u0111\xF3?"
-    - "Cu\u1ED1i c\xF9ng \u0111\xE3 ti\u1EBFt l\u1ED9 r\u1EB1ng ng\u01B0\u1EDDi ch\u1ED3ng
-      l\xE0 hung th\u1EE7 \u0111\xE3 s\xE1t h\u1EA1i ch\xEDnh v\u1EE3 c\u1EE7a m\xECnh.
-      H\u1ECD \u0111\xE3 kh\xF4ng h\xF2a thu\u1EADn trong th\u1EDDi gian d\xE0i. Tuy
-      nhi\u1EC1n \u0111i\u1EC1u g\xEC \u0111\xE3 khi\u1EBFn ng\u01B0\u1EDDi ch\u1ED3ng
-      n\u1EA3y sinh \xFD \u0111\u1ECBnh gi\u1EBFt ch\u1EBFt n\u1EA1n nh\xE2n?"
+    - A woman was found dead in a park around 7PM. Her husband(on left) laments while
+      the detective(on right) thinks she may have been forced to come here. What makes
+      him think so?
+    - After investigating, police discovered the cause of death was the victim was
+      cyanide poisoned. Where did the perpetrator have poisoned?
+    - Further investigation, the police discovered that the victim had been abused
+      for a long time, what proved it?
+    - Finally revealed that the husband is the killer. They did not get along for
+      a long time. However, what made the intention of husband to kill the victim?
     listHint:
-    - "Ch\xE2n c\xF4 \u1EA5y \u0111ang ang d\xE9p \u0111i trong nh\xE0."
-    - "Chai soda b\u1ECB d\xEDnh m\xE1u \u1EDF mi\u1EC7ng chai."
-    - "C\xE1c v\u1EBFt b\u1EA7m t\xEDm tr\xEAn ng\u01B0\u1EDDi n\u1EA1n nh\xE2n."
-    - "T\u1EDD gi\u1EA5y c\xE1 c\u01B0\u1EE3c \u0111ua ng\u1EF1a trong tay ng\u01B0\u1EDDi
-      ch\u1ED3ng."
+    - Barefoot
+    - A bloody soda
+    - The bruises
+    - "The paper in his hand\r"
   - MODE: 2
     LEVEL: 11
     listAnswer:
-    - "C\u1EEDa ph\xF2ng \u0111ang b\u1ECB kh\xF3a; chi\u1EBFc ch\xECa kh\xF3a b\u1ECB
-      v\u1EE9t l\u1EA1i ngay c\u1EA1nh c\u1EEDa; hung th\u1EE7 \u0111\xE3 c\u1ED1
-      t\xECnh ng\u1EE5y t\u1EA1o kh\xF4ng c\xF3 ai trong ph\xF2ng ngo\xE0i n\u1EA1n
-      nh\xE2n"
-    - "C\xE1i g\u1EA1t t\xE0n c\xF3 logo kh\xE1ch s\u1EA1n tr\xEAn \u0111\xF3 m\u1EB7c
-      d\xF9 c\xF3 d\u1EA5u hi\u1EC7u c\u1EA5m h\xFAt thu\u1ED1c; cho th\u1EA5y k\u1EBB
-      t\u1EA5n c\xF4ng c\xF3 th\u1EC3 l\xE0 nh\xE2n vi\xEAn."
-    - "D\u1EA5u son m\xF4i \u1EDF tr\xEAn chi\u1EBFc ly cho th\u1EA5y c\xF3 th\u1EC3
-      c\xF4 g\xE1i \u0111\xE3 u\u1ED1ng ly r\u01B0\u1EE3u. C\xF3 ng\u01B0\u1EDDi n\xE0o
-      \u0111\xF3 \u0111\xE3 h\u1EA1 \u0111\u1ED9c v\xE0o ly r\u01B0\u1EE3u c\u1EE7a
-      c\xF4 g\xE1i."
-    - "B\u1EE9c th\u01B0 t\xECnh tr\xEAn s\xE0n nh\xE0 b\xEAn c\u1EA1nh ng\u01B0\u1EDDi
-      ph\u1EE5 n\u1EEF s\u1EBD l\xE0 v\u1EADt ph\u1EA9m c\xF3 kh\u1EA3 n\u0103ng nh\u1EA5t
-      ch\u1EE9a ch\u1EEF vi\u1EBFt tay c\u1EE7a k\u1EBB t\u1EA5n c\xF4ng."
+    - The door was locked, the key was left right next to the door. The perpetrator
+      has deliberately fabricated no one in the room but the victim.
+    - The ashtray has the hotel logo on it despite the no smoking sign, indicating
+      that the assailant may have been a staff member.
+    - The lipstick mark on the glass indicates that the girl may have had a glass
+      of wine. Someone poisoned the wine glass of girl.
+    - The love letter on the floor next to the woman would be the most likely item
+      to contain the handwriting of the assailant.
     listQues:
-    - "M\u1ED9t ng\u01B0\u1EDDi ph\u1EE5 n\u1EEF \u0111\u01B0\u1EE3c t\xECm th\u1EA5y
-      \u0111\xE3 ch\u1EBFt v\xEC ng\u1ED9 \u0111\u1ED9c trong kh\xE1ch s\u1EA1n c\u1EE7a
-      m\xECnh; \u0111\xE2y l\xE0 m\u1ED9t v\u1EE5 gi\u1EBFt ng\u01B0\u1EDDi trong
-      ph\xF2ng k\xEDn; l\xE0m sao ch\xFAng ta c\xF3 th\u1EC3 bi\u1EBFt nh\u1EEFng
-      \u0111i\u1EC1u \u0111\xF3?"
-    - "C\u1EA3nh s\xE1t t\xECm th\u1EA5y m\u1ED9t c\xE1i g\xEC \u0111\xF3 r\u1EA5t
-      l\u1EA1 \u0111\u01B0\u1EE3c \u0111\u1EB7t trong ph\xF2ng. N\xF3 l\xE0 g\xEC?"
-    - "Th\u1EE9c \u0103n d\u01B0\u1EDDng nh\u01B0 ch\u01B0a \u0111\u01B0\u1EE3c \u0111\u1ED9ng
-      \u0111\u1EBFn. V\u1EADy c\xF4 g\xE1i b\u1ECB tr\xFAng \u0111\u1ED9c t\u1EEB
-      \u0111\xE2u?"
-    - "Ng\u01B0\u1EDDi ph\u1EE5 n\u1EEF b\u1ECB gi\u1EBFt b\u1EDFi ng\u01B0\u1EDDi
-      qu\u1EA3n l\xFD kh\xE1ch s\u1EA1n; ng\u01B0\u1EDDi m\xE0 c\xF4 \u0111\xE3 h\u1EB9n
-      h\xF2. Ch\u1EEF vi\u1EBFt tay c\u1EE7a ng\u01B0\u1EDDi qu\u1EA3n l\xFD l\xE0
-      ch\xECa kh\xF3a \u0111\u1EC3 gi\u1EA3i quy\u1EBFt tr\u01B0\u1EDDng h\u1EE3p
-      n\xE0y. V\u1EADt ph\u1EA9m n\xE0o trong ph\xF2ng c\xF3 th\u1EC3 c\xF3 ch\u1EEF
-      vi\u1EBFt tay c\u1EE7a anh \u1EA5y?"
+    - A woman was found dead from poisoning in her hotel, this is a murder in a closed
+      room, how can we know such things?
+    - ' Police found something out of place. What is it?'
+    - The food doesn't seem to be touched yet. So where did the girl get poisoned
+      from?
+    - The Woman was killed by the hotel manager whom she had been dating. The handwriting
+      of manager was the key to solving this case. which item in the room might contain
+      his handwriting?
     listHint:
-    - "Chi\u1EBFc ch\xECa kh\xF3a b\u1ECB v\u1EE9t l\u1EA1i ngay c\u1EA1nh c\u1EEDa"
-    - "C\xE1i g\u1EA1t t\xE0n c\xF3 logo kh\xE1ch s\u1EA1n tr\xEAn \u0111\xF3"
-    - "D\u1EA5u son m\xF4i \u1EDF tr\xEAn chi\u1EBFc ly"
-    - "B\u1EE9c th\u01B0 t\xECnh tr\xEAn s\xE0n nh\xE0"
+    - The key
+    - The ashtray
+    - The lipstick mark
+    - "The love letter \r"
   - MODE: 2
     LEVEL: 12
     listAnswer:
-    - "Chi\u1EBFc \xE1o cho\xE0ng t\u1EAFm c\u1EE7a ng\u01B0\u1EDDi ph\u1EE5 n\u1EEF
-      ch\u1EC9 ra r\u1EB1ng c\xF4 \u1EA5y r\u1EA5t th\xE2n m\u1EADt v\u1EDBi k\u1EBB
-      t\u1EA5n c\xF4ng. Ng\u01B0\u1EDDi m\xE0 c\xF4 c\xF3 th\u1EC3 m\u1EB7c \xE1o
-      cho\xE0ng t\u1EAFm \u0111\u1EC3 g\u1EB7p m\u1EB7t."
-    - "Hung th\u1EE7 c\xF3 th\u1EC3 \u0111\xE3 \u0111\u1EE9ng l\xEAn chi\u1EBFc b\xE0n
-      \u1EDF c\u1EEDa s\u1ED5 ph\xF2ng ngay tr\xEAn ph\xF2ng c\u1EE7a c\xF4 g\xE1i
-      \u0111\u1EC3 \u0111\u01B0a c\xF4 g\xE1i t\u1EEB c\u1EEDa s\u1ED5 ph\xF2ng s\xE1t
-      t\u1EA7ng th\u01B0\u1EE3ng l\xEAn \u0111\u1EBFn lan can."
-    - "C\u1EEDa s\u1ED5 m\u1EDF h\u1EBFt c\u1EE1 l\xE0 c\u1EEDa s\u1ED5 m\xE0 ng\u01B0\u1EDDi
-      ph\u1EE5 n\u1EEF \u0111ang \u1EDF t\u1EA1i th\u1EDDi \u0111i\u1EC3m x\u1EA3y
-      ra v\u1EE5 \xE1n"
-    - "S\u1EE3i d\xE2y l\xE0 c\xF4ng c\u1EE5 cho ph\xE9p k\u1EBB t\u1EA5n c\xF4ng
-      \u0111\u01B0a n\u1EA1n nh\xE2n l\xEAn s\xE2n th\u01B0\u1EE3ng."
+    - The bathrobe of women indicates that she was intimate with the assailant.
+    - The perpetrator might have stood on the table in the window of room just above
+      the room of girl to take the girl from the window of the rooftop room to the
+      railing.
+    - The window that is all the way open is the one that the woman was staying in
+      at the time of the crime.
+    - The rope is the tool that allowed the assailant to get the victim to the rooftop.
     listQues:
-    - "M\u1ED9t ng\u01B0\u1EDDi ph\u1EE5 n\u1EEF b\u1ECB si\u1EBFt c\u1ED5 \u0111\u1EBFn
-      ch\u1EBFt tr\xEAn t\u1EA7ng th\u01B0\u1EE3ng c\u1EE7a m\u1ED9t kh\xE1ch s\u1EA1n
-      10 t\u1EA7ng. Kh\xE1m nghi\u1EC7m hi\u1EC7n tr\u01B0\u1EDDng cho th\u1EA5y k\u1EBB
-      gi\u1EBFt ng\u01B0\u1EDDi l\xE0 ng\u01B0\u1EDDi th\xE2n m\u1EADt v\u1EDBi n\u1EA1n
-      nh\xE2n. \u0110i\u1EC1u g\xEC cho th\u1EA5y \u0111i\u1EC1u \u0111\xF3?"
-    - "Vi\u1EC7c treo c\u1ED5 \u1EDF lan can t\u1EA7ng th\u01B0\u1EE3ng ch\u1EE9ng
-      t\u1ECF c\xF4 g\xE1i kh\xF4ng th\u1EC3 t\u1EF1 l\xE0m vi\u1EC7c \u0111\xF3 \u0111\u01B0\u1EE3c
-      m\xE0 ph\u1EA3i do hung th\u1EE7 th\u1EF1c hi\u1EC7n. l\xE0m c\xE1ch n\xE0o
-      hung th\u1EE7 c\xF3 th\u1EC3 l\xE0m vi\u1EC7c \u0111\xF3 m\xE0 kh\xF4ng b\u1ECB
-      ph\xE1t hi\u1EC7n?"
-    - "Theo nh\xE2n vi\xEAn kh\xE1ch s\u1EA1n; n\u1EA1n nh\xE2n \u0111ang \u1EDF trong
-      ph\xF2ng 908 v\xE0 m\u1EDF c\u1EEDa s\u1ED5. Ph\xF2ng n\xE0o trong h\xECnh l\xE0
-      ph\xF2ng m\xE0 n\u1EA1n nh\xE2n \u0111\xE3 thu\xEA?"
-    - "Ph\xF2ng n\u1EA1n nh\xE2n b\u1ECB kh\xF3a t\u1EEB b\xEAn trong v\xE0 ch\xECa
-      kh\xF3a d\u01B0\u1EDDng nh\u01B0 \u1EDF trong ph\xF2ng. Tr\xEAn \u0111i\u1EC7n
-      tho\u1EA1i th\xF4ng minh c\u1EE7a c\xF4; c\xF3 m\u1ED9t l\u1ECBch s\u1EED cu\u1ED9c
-      g\u1ECDi c\u1EE7a m\u1ED9t cu\u1ED9c g\u1ECDi m\xE0 c\xF4 c\xF3 v\u1EDBi k\u1EBB
-      gi\u1EBFt ng\u01B0\u1EDDi. L\xE0m th\u1EBF n\xE0o m\xE0 h\u1ECD \u0111\u01B0a
-      c\xF4 l\xEAn s\xE2n th\u01B0\u1EE3ng?"
+    - A woman was strangled to death on the rooftop of a 10 story hotel. The examination
+      of the scene revealed that the murderer was someone intimate with the victim.
+      What suggests that?
+    - hanging from the roof railing proves that the girl cannot do it herself, but
+      must be done by the perpetrator. How could the perpetrator do so undetected?
+    - According to the hotel staff, the victim was staying in Room 908 and had her
+      window open. Which room is that in the picture?
+    - The room of victim is locked from inside and the key seems to be in the room.
+      On her smartphone, there is a call history of a call she had with the murderer.
+      How did they get her to the rooftop?
     listHint:
-    - "Chi\u1EBFc \xE1o cho\xE0ng t\u1EAFm ng\u01B0\u1EDDi ph\u1EE5 n\u1EEF \u0111ang
-      m\u1EB7c."
-    - "Chi\u1EBFc b\xE0n \u1EDF ph\xF2ng ngay tr\xEAn ph\xF2ng c\xF4 g\xE1i."
-    - "Ph\xF2ng c\xF3 c\u1EEDa s\u1ED5 m\u1EDF h\u1EBFt c\u1EE1."
-    - "S\u1EE3i d\xE2y \u0111ang treo c\u1ED5 c\xF4 g\xE1i."
+    - The bathrobe of woman
+    - The woman's bathrobe
+    - The window that is all the way open
+    - "The rope\r"
   - MODE: 2
     LEVEL: 13
     listAnswer:
-    - "C\xE2y kim \u0111\xE3 \u0111\xE2m v\xE0o c\u1ED5 n\u1EA1n nh\xE2n l\xE0 manh
-      m\u1ED1i cho nh\u1EEFng g\xEC \u0111\xE3 \u0111\u1EA7u \u0111\u1ED9c c\xF4."
-    - "M\xE1y s\u01B0\u1EDFi trong v\u0103n ph\xF2ng c\u1EE7a c\xF4 \u0111\xE3 \u0111\u01B0\u1EE3c
-      b\u1EADt l\xEAn v\xE0 \u0111\u01B0\u1EE3c s\u1EED d\u1EE5ng \u0111\u1EC3 l\xE0m
-      cho v\u0103n ph\xF2ng th\xEAm n\xF3ng."
-    - "\u1EA4m tr\xE0 tr\xEAn \u0111\u1EC9nh l\xF2 s\u01B0\u1EDFi kh\xF4ng gian \u0111\xE3
-      \u0111\u01B0\u1EE3c s\u1EED d\u1EE5ng \u0111\u1EC3 th\u1EF1c hi\u1EC7n t\u1ED9i
-      \xE1c. \xC2m n\u01B0\u1EDBc s\xF4i l\xEAn v\xE0 bay h\u01A1i \u0111\xE3 t\u1EA1o
-      ra n\u1ED9t l\u1EF1c \u0111\u1EA9y; \u0111\u1EA9y n\xFAt chai c\xF3 g\u1EAFn
-      c\xE2y kim t\u1EA9m \u0111\u1ED9c bay \u0111\u1EBFn v\xE0 c\u1EAFm v\xE0o c\u1ED5
-      n\u1EA1n nh\xE2n."
-    - "C\u1ED1c tr\xE0 \u1EDF tr\xEAn b\xE0n c\xF3 d\u1EA5u son c\u1EE7a n\u1EA1n
-      nh\xE2n. Hung th\u1EE7 \u0111\xE3 b\u1ECF thu\u1ED1c m\xEA v\xE0o \u0111\xF3."
+    - The needle with a fork in the forehead of the victim is the clue to what poisoned
+      her.
+    - The space heater in her office was turned up and used to make the office extra
+      hot.
+    - The teapot on top of the space heater was used to do the crime. The heat expanded
+      the vapors and shot the needle at her.
+    - The tea cup is on the table with lipstick mark of the victim. The perpetrator
+      put anesthetic in it.
     listQues:
-    - "M\u1ED9t ng\xE0y m\xF9a \u0111\xF4ng;c\xF3 m\u1ED9t v\u1EE5 gi\u1EBFt ng\u01B0\u1EDDi
-      \u0111\xE3 x\u1EA3y ra trong m\u1ED9t c\u0103n ph\xF2ng b\u1ECB kh\xF3a. N\u1EA1n
-      nh\xE2n; m\u1ED9t nh\xE0 v\u1EADt l\xFD m\u1EDBi n\u1ED5i; \u0111\xE3 b\u1ECB
-      \u0111\u1EA7u \u0111\u1ED9c trong ph\xF2ng th\xED nghi\u1EC7m c\u1EE7a ch\xEDnh
-      m\xECnh. C\xE1i g\xEC \u0111\xE3 \u0111\u01B0\u1EE3c s\u1EED d\u1EE5ng \u0111\u1EC3
-      \u0111\u1EA7u \u0111\u1ED9c c\xF4 \u1EA5y?"
-    - "Ph\xF2ng th\xED nghi\u1EC7m c\u1EE7a n\u1EA1n nh\xE2n b\xEAn trong n\xF3ng
-      b\u1EA5t th\u01B0\u1EDDng khi c\u1EA3nh s\xE1t \u0111\u1EBFn. T\u1EA1i sao l\u1EA1i
-      c\xF3 \u0111i\u1EC3m b\u1EA5t th\u01B0\u1EDDng \u0111\xF3?"
-    - "Ph\xF2ng th\xED nghi\u1EC7m \u0111\xE3 b\u1ECB kh\xF3a khi x\xE1c c\u1EE7a
-      c\xF4 \u0111\u01B0\u1EE3c t\xECm th\u1EA5y. b\u1EA1n c\xF3 3 manh m\u1ED1i:
-      Ph\xF2ng th\xED nghi\u1EC7m \u1EA5m \xE1p kh\xE1c th\u01B0\u1EDDng; c\xE2y kim
-      g\u1EAFn v\xE0o n\xFAt chai v\xE0 c\u01A1 th\u1EC3 n\u1EA1n nh\xE2n. Nh\u1EEFng
-      g\xEC \u0111\xE3 \u0111\u01B0\u1EE3c s\u1EED d\u1EE5ng \u0111\u1EC3 gi\u1EBFt
-      n\u1EA1n nh\xE2n trong c\u0103n ph\xF2ng b\u1ECB kh\xF3a n\xE0y?"
-    - "T\u1EA1i sao hung th\u1EE7 c\xF3 th\u1EC3 t\xEDnh to\xE1n \u0111\xFAng v\u1ECB
-      tr\xED v\xE0 th\u1EDDi \u0111i\u1EC3m n\u1EA1n nh\xE2n ng\u1ED3i \u1EDF gh\u1EBF
-      khi \u1EA5m n\u01B0\u1EDBc s\xF4i v\xE0 b\u1EAFn kim v\xE0o c\u1ED5 n\u1EA1n
-      nh\xE2n? "
+    - One winter day, the detective is examining a murder scene in a locked room.
+      The victim, an up-and-coming physicist, was poisoned in her own lab. What was
+      used to poison her?
+    - The victim's lab was unusually hot inside when the police arrived. Why could
+      that be?
+    - 'The lab was locked when her body was found. you have 3 clues: The unusually
+      warm lab, the needle with a cork at the end, and the victim''s body. What was
+      used to the victim in this locked room?'
+    - Why can the perpetrator calculate the correct position and time of the victim
+      sitting in the chair when the kettle is boiling and needle on the neck of victim?
     listHint:
-    - "C\xE2y kim tr\xEAn c\u1ED5 n\u1EA1n nh\xE2n"
-    - "M\xE1y s\u1EEDi trong ph\xF2ng n\u1EA1n nh\xE2n."
-    - "\u1EA4m tr\xE0 tr\xEAn \u0111\u1EC9ng l\xF2 s\u01B0\u1EDFi"
-    - "C\u1ED1c tr\xE0 tr\xEAn b\xE0n c\xF3 d\u1EA5u son c\u1EE7a n\u1EA1n nh\xE2n."
+    - 'The needle '
+    - The space heater
+    - The teapot
+    - "Tea cup\r"
   - MODE: 2
     LEVEL: 14
     listAnswer:
-    - "M\u0169i t\xEAn \u1EDF l\u01B0ng khi\u1EBFn c\u1EA3nh s\xE1t nghi ng\u1EDD
-      c\xE1c th\xE0nh vi\xEAn ban nh\u1EA1c v\xEC t\u1EA5t c\u1EA3 b\u1ECDn h\u1ECD
-      \u0111\u1EC1u \u0111ang \u0111\u1EE9ng ngay sau ca s\u0129."
-    - "Ng\u01B0\u1EDDi ch\u01A1i \u0111\xE0n h\u1EA1c c\xF3 th\u1EC3 \u0111\xE3 b\u1EAFn
-      m\u0169i t\xEAn b\u1EB1ng c\xE1ch s\u1EED d\u1EE5ng d\xE2y \u0111\xE0n nh\u01B0
-      m\u1ED9t chi\u1EBFc cung t\u1EA1m th\u1EDDi."
-    - "Ng\u01B0\u1EDDi ch\u01A1i tr\u1ED1ng b\xEAn ph\u1EA3i \u0111ang c\u01B0\u1EDDi;
-      cho th\u1EA5y anh ta l\xE0 \u0111\u1ED3ng ph\u1EA1m v\xE0 c\u0169ng l\xE0 ng\u01B0\u1EDDi
-      \u0111\xE3 \u0111\xE1nh l\u1EA1c h\u01B0\u1EDBng ca s\u0129."
-    - "Ca s\u0129 \u0111\xE3 b\u1ECB gi\u1EBFt do v\u1EBFt son m\xF4i tr\xEAn c\u1ED5
-      \xE1o; cho th\u1EA5y anh ta \u0111ang ngo\u1EA1i t\xECnh."
+    - The arrow on the back made the police suspicious of the band members because
+      they were all standing behind the singer
+    - The harp player could have shot the arrow by using it as a makeshift bow.
+    - The timpanist (drummer) on the right is laughing, indicating that he was the
+      accomplice who distracted the conductor.
+    - The singer was killed due to the lipstick stain on his neck, indicating that
+      he was having an affair.
     listQues:
-    - "C\xF3 m\u1ED9t s\u1EF1 ho\u1EA3ng lo\u1EA1n t\u1EA1i h\u1ED9i tr\u01B0\u1EDDng
-      \xE2m nh\u1EA1c khi ca s\u0129 \u0111\u1ED9t nhi\xEAn ng\u1EA5t \u0111i. Anh
-      \u0111\u01B0\u1EE3c \u0111\u01B0a \u0111\u1EBFn ER nh\u01B0ng kh\xF4ng may qua
-      \u0111\u1EDDi. C\u1EA3nh s\xE1t hi\u1EC7n nghi ng\u1EDD m\u1ED9t trong nh\u1EEFng
-      th\xE0nh vi\xEAn c\u1EE7a ban nh\u1EA1c. Nh\u01B0ng t\u1EA1i sao?"
-    - "C\u1EA3nh s\xE1t kh\xF4ng th\u1EC3 t\xECm th\u1EA5y m\u1ED9t thi\u1EBFt b\u1ECB
-      \u0111\u1EC3 b\u1EAFn m\u0169i t\xEAn t\u1EEB \u0111\u1ED3 \u0111\u1EA1c c\u1EE7a
-      c\xE1c th\xE0nh vi\xEAn trong ban nh\u1EA1c. Nh\u01B0ng c\xF3 m\u1ED9t ng\u01B0\u1EDDi
-      c\xF3 th\u1EC3 b\u1EAFn m\u0169i t\xEAn m\xE0 kh\xF4ng c\u1EA7n cung t\xEAn.
-      Ai c\xF3 th\u1EC3 nh\u01B0 v\u1EADy?"
-    - "T\xECm m\u1ED9t chi ti\u1EBFt cho th\u1EA5y n\u1EA1n nh\xE2n c\xF3 th\u1EC3
-      \u0111\xE3 th\xE2n thi\u1EBFt v\u1EDBi m\u1ED9t trong nh\u1EEFng ng\u01B0\u1EDDi
-      \u0111\xE0n \xF4ng \u1EDF \u0111\xE2y?"
-    - "T\u1EA1i sao ca s\u0129 b\u1ECB s\xE1t h\u1EA1i? T\xECm ra manh m\u1ED1i ngay
-      tr\xEAn ng\u01B0\u1EDDi c\u1EE7a anh ta?"
+    - There was a panic at the music hall when the opera singer suddenly collapsed.
+      He was taken to ER but unfortunately passed away. Police currently suspect one
+      of the band members. But why?
+    - Police couldn't find a device to shoot the arrow from the band member's belongings.
+      But there is one person who could've shot the arrow without such device. Who
+      could that be?
+    - What item in this room indiacates that the victim may have been intimate with
+      one of the men here?
+    - Why was the singer murdered? A certain item on his body gives a clues.
     listHint:
-    - "M\u0169i t\xEAn \u1EDF l\u01B0ng c\u1EE7a ca s\u0129"
-    - "Ng\u01B0\u1EDDi ch\u01A1i \u0111\xE0n h\u1EA1c"
-    - "Ng\u01B0\u1EDDi ch\u01A1i tr\u1ED1ng"
-    - "V\u1EBFt son m\xF4i tr\xEAn c\u1ED5 \xE1o n\u1EA1n nh\xE2n"
+    - The arrow on the back
+    - The harp player
+    - 'The timpanist '
+    - "The lipstick stain on his neck \r"
   - MODE: 2
     LEVEL: 15
     listAnswer:
-    - "Nh\xE2n vi\xEAn b\u1EA3o t\xE0ng \u0111\xE3 \u0111\u1EB7t m\xF4 h\xECnh qu\u1EF7
-      satan \u0111\u1EC3 thuy\u1EBFt ph\u1EE5c du kh\xE1ch r\u1EB1ng v\u1EE5 gi\u1EBFt
-      ng\u01B0\u1EDDi th\u1EF1c s\u1EF1 l\xE0 m\u1ED9t ph\u1EA7n c\u1EE7a khung c\u1EA3nh."
-    - "Chi\u1EBFc v\xE1y b\xEAn c\u1EA1nh n\u1EA1n nh\xE2n cho th\u1EA5y c\u0169ng
-      c\xF3 ng\u01B0\u1EDDi kh\xE1c \u1EDF \u0111\xF3 v\u1EDBi n\u1EA1n nh\xE2n."
-    - "H\u1ED9p gi\u1EB7t kh\xF4 ch\u1EC9 ra r\u1EB1ng ng\u01B0\u1EDDi ngo\xE0i c\xF3
-      th\u1EC3 \u0111\xE3 l\u1EA5y \u0111\u1ED3ng ph\u1EE5c v\xE0 \u0111\xE1nh c\u1EAFp
-      n\xF3."
-    - "N\u1EA1n nh\xE2n ch\u1EA3y qu\xE1 nhi\u1EC1u m\xE1u l\xE0 l\xFD do khi\u1EBFn
-      k\u1EBB t\u1EA5n c\xF4ng ph\u1EA3i thay ra kh\u1ECFi v\xE1y v\xE0 qu\u1EA7n
-      \xE1o c\u1EE7a n\u1EA1n nh\xE2n."
+    - Museum staff set up a satan model to convince visitors that the murder was actually
+      part of the scene.
+    - The dress next to victim that someone else was there with the victim as well
+    - The dry cleaning box indicates that an outsider could have grabbed the uniform
+      and stolen it.
+    - The victim was bleeding so much that the attacker had to remove from the skirt
+      and cuff of the clothes of victim.
     listQues:
-    - "M\u1ED9t thi th\u1EC3 \u0111\u01B0\u1EE3c t\xECm th\u1EA5y t\u1EA1i m\u1ED9t
-      b\u1EA3o t\xE0ng kinh d\u1ECB. Du kh\xE1ch b\u1EAFt \u0111\u1EA7u ho\u1EA3ng
-      lo\u1EA1n khi nh\xECn th\u1EA5y thi th\u1EC3 n\xE0y; nh\u01B0ng nh\xE2n vi\xEAn
-      b\u1EA3o t\xE0ng \u0111\xE3 c\xF3 c\xE1ch x\u1EED l\xFD th\xF4ng minh trong
-      t\xECnh hu\u1ED1ng n\xE0y. Nh\xE2n vi\xEAn b\u1EA3o t\xE0ng \u0111\xE3 l\xE0m
-      g\xEC \u0111\u1EC3 thuy\u1EBFt ph\u1EE5c du kh\xE1ch r\u1EB1ng c\u01A1 th\u1EC3
-      ch\u1EC9 l\xE0 gi\u1EA3 v\xE0 l\xE0m t\u0103ng th\xEAm s\u1EE9c h\xFAt cho b\u1EA3o
-      t\xE0ng?"
-    - "Thi th\u1EC3 \u0111\u01B0\u1EE3c x\xE1c \u0111\u1ECBnh l\xE0 m\u1ED9t nh\xE2n
-      vi\xEAn nam ph\u1EE5 tr\xE1ch khu v\u1EF1c n\xE0y. Anh ta \u0111\u01B0\u1EE3c
-      t\xECm th\u1EA5y kh\xF4ng m\u1EB7c g\xEC ngo\xE0i \u0111\u1ED3 l\xF3t. Tuy nhi\xEAn
-      hi\u1EC7n tr\u01B0\u1EDDng c\xF3 m\u1ED9t th\u1EE9 b\u1ECB b\u1ECF l\u1EA1i
-      kh\xF4ng ph\u1EA3i c\u1EE7a anh ta; \u0111\xF3 l\xE0 gi?"
-    - "\u0110i\u1EC1u tra vi\xEAn nghi ng\u1EDD r\u1EB1ng \u0111\u1ED3ng ph\u1EE5c
-      ph\u1EA3i thu\u1ED9c v\u1EC1 m\u1ED9t trong nh\u1EEFng n\u1EEF nh\xE2n vi\xEAn;
-      c\u1EA3nh s\xE1t \u0111\xE3 th\u1EA9m v\u1EA5n h\u1ECD nh\u01B0ng kh\xF4ng ai
-      t\u1ECF ra \u0111\xE1ng ng\u1EDD. C\xF3 l\u1EBD m\u1ED9t ng\u01B0\u1EDDi ngo\xE0i
-      cu\u1ED9c \u0111\xE3 \u0103n c\u1EAFp \u0111\u1ED3ng ph\u1EE5c c\u1EE7a nh\xE2n
-      vi\xEAn b\u1EA3o t\xE0ng. Ph\u1EA7n n\xE0o trong h\xECnh g\u1EE3i \xFD \u0111i\u1EC1u
-      \u0111\xF3?"
-    - "T\u1EA1i sao k\u1EBB t\u1EA5n c\xF4ng ph\u1EA3i b\u1ECF l\u1EA1i v\xE1y v\xE0
-      thay ra qu\u1EA7n \xE1o c\u1EE7a n\u1EA1n nh\xE2n?"
+    - A body was found in a horror museum. Visitors began to panic, but smart museum
+      staff have this situation. What have museum staff done to convince visitors
+      that the body is only part of the scene?
+    - The body was identified to be a male staff who was in charge of this area. He
+      was found wearing nothing but his underwear. Does this object in the scene belongs
+      to him?
+    - Suspecting that the uniform must belong to one of the female staff members,
+      police questioned them but no one turned out suspicious. Maybe an outsider got
+      a hold of the uniform. Which part in the picture hints at that?
+    - Why should the attacker remove his skirt and cuffs the victim?
     listHint:
-    - "M\xF4 h\xECnh qu\u1EF7 satan"
-    - "Chi\u1EBFc v\xE1y b\xEAn c\u1EA1nh n\u1EA1n nh\xE2n"
-    - "H\u1ED9p gi\u1EB7t kh\xF4"
-    - "N\u1EA1n nh\xE2n ch\u1EA3y qu\xE1 nhi\u1EC1u m\xE1u"
+    - A satan model
+    - 'The dress next to victim '
+    - The dry cleaning box
+    - "The victim was bleeding so much\r"
   - MODE: 2
     LEVEL: 16
     listAnswer:
-    - "V\u1EBFt c\u1EAFt ch\xED m\u1EA1ng cho n\u1EA1n nh\xE2n n\u1EB1m tr\xEAn c\u1ED5;
-      b\u1EB1ng ch\u1EE9ng l\xE0 kho\u1EA3ng c\xE1ch gi\u1EEFa c\xE1c v\u1EBFt m\xE1u."
-    - "C\xE1i v\u1ECF dao r\u1ED7ng tr\xEAn s\xE0n cho th\u1EA5y con dao b\xEAn trong
-      n\xF3 c\xF3 th\u1EC3 \u0111\u01B0\u1EE3c s\u1EED d\u1EE5ng l\xE0m v\u0169 kh\xED
-      gi\u1EBFt ng\u01B0\u1EDDi"
-    - "Chi\u1EBFc v\xE1y tr\u1EAFng m\xE0 ng\u01B0\u1EDDi ph\u1EE5 n\u1EEF m\u1EB7c
-      kh\xF4ng c\xF3 v\u1EBFt b\u1EA9n tr\xEAn \u0111\xF3; trong khi \u0111\xE2y l\xE0
-      m\u1ED9t v\u1EE5 gi\u1EBFt ng\u01B0\u1EDDi man r\u1EE3; khi\u1EBFn c\u1EA3nh
-      s\xE1t ngh\u0129 r\u1EB1ng c\xF4 \u1EA5y kh\xF4ng l\xE0m \u0111i\u1EC1u \u0111\xF3."
-    - "Chi\u1EBFc gi\u01B0\u1EDDng kh\xF4ng c\xF3 t\u1EA5m tr\u1EA3i gi\u01B0\u1EDDng;
-      hung th\u1EE7 \u0111\xE3 qu\u1EA5n m\xECnh tr\xEAn ga tr\u1EA3i gi\u01B0\u1EDDng
-      v\xE0 s\u1EED d\u1EE5ng ch\xFAng nh\u01B0 m\u1ED9t chi\u1EBFc v\xE1y t\u1EA1m
-      th\u1EDDi."
+    - The fatal cut to the victim was on the neck, as evidenced by the distance of
+      the splatters.
+    - The empty amenity wrapper on the floor indicates that simmering that used to
+      be inside of it was used as the murder weapon.
+    - The white dress worn by the woman had no stains on it, making the police think
+      that she didn't do it.
+    - The bed with no sheets on it is the cow to how the woman stayed clean. She wrapped
+      herself in the bedsheets and used them as a makeshift dress.
     listQues:
-    - "\u0110\xE3 c\xF3 m\u1ED9t v\u1EE5 gi\u1EBFt ng\u01B0\u1EDDi g\u1EDBm ghi\u1EBFc
-      t\u1EA1i m\u1ED9t ph\xF2ng kh\xE1ch s\u1EA1n. M\xE1u v\u01B0\u01A1ng v\xE3i
-      kh\u1EAFp n\u01A1i trong ph\xF2ng. V\u1EBFt th\u01B0\u01A1ng ch\xED m\u1EA1ng
-      d\u1EABn \u0111\u1EBFn c\xE1i ch\u1EBFt c\u1EE7a n\u1EA1n nh\xE2n n\u1EB1m \u1EDF
-      \u0111\xE2u?"
-    - "V\u0169 kh\xED gi\u1EBFt ng\u01B0\u1EDDi l\xE0 g\xEC? N\xF3 kh\xF4ng nh\xECn
-      th\u1EA5y \u0111\u01B0\u1EE3c trong c\u1EA3nh; nh\u01B0ng c\xF3 m\u1ED9t manh
-      m\u1ED1i cho bi\u1EBFt hung kh\xED l\xE0 g\xEC."
-    - "K\u1EBB gi\u1EBFt ng\u01B0\u1EDDi l\xE0 ng\u01B0\u1EDDi ph\u1EE5 n\u1EEF \u0111\xE3
-      \u0111\u0103ng k\xFD v\xE0o kh\xE1ch s\u1EA1n v\u1EDBi n\u1EA1n nh\xE2n. Tuy
-      nhi\xEAn; ban \u0111\u1EA7u c\xF4 kh\xF4ng h\u1EC1 b\u1ECB nghi ng\u1EDD. T\u1EA1i
-      sao?"
-    - "L\xE0m th\u1EBF n\xE0o m\xE0 c\xF4 \u1EA5y tho\xE1t kh\u1ECFi hi\u1EC7n tr\u01B0\u1EDDng
-      v\u1EE5 \xE1n kh\xF4ng c\xF3 v\u1EBFt b\u1EA9n? C\xF3 m\u1ED9t \u0111\u1EA7u
-      m\u1ED1i trong h\xECnh."
+    - There has been a hideous murder at a hotel room. Blood is spattered everywhere
+      in the room. Where's the victim's fatal wound?
+    - What was the murder weapon? It's not visible, yet there is a clue.
+    - The murderer was the woman who had checked in to the hotel with the victim.
+      Hoewever, She wasn't suspected at first. Why?
+    - How did she get out of her crime scene stain-free? There's a clue in the picture.
     listHint:
-    - "V\u1EBFt th\u01B0\u01A1ng ch\xED m\u1EA1ng c\u1EE7a n\u1EA1n nh\xE2n n\u1EB1m
-      \u1EDF c\u1ED5"
-    - "V\u1ECF dao r\u1ED7ng tr\xEAn b\xE0n"
-    - "Chi\u1EBFc v\xE1y tr\u1EAFng ng\u01B0\u1EDDi ph\u1EE5 n\u1EEF \u0111ang m\u1EB7c "
-    - "Chi\u1EBFc gi\u01B0\u1EDDng kh\xF4ng c\xF3 ga tr\u1EA3i gi\u01B0\u1EDDng"
+    - The neck
+    - The empty amenity wrapper
+    - The white dress
+    - "The bed with no sheets\r"
   - MODE: 2
     LEVEL: 17
     listAnswer:
-    - "Chi\u1EBFc nh\u1EABn tr\xEAn tay n\u1EA1n nh\xE2n l\xE0 m\u1ED9t \u0111\xF4i
-      v\u1EDBi m\u1ED9t ng\u01B0\u1EDDi trong c\u1EA3nh."
-    - "C\xE2y dao r\u1ECDc gi\u1EA5y \u1EDF g\xF3c b\xE0n l\xE0 hung kh\xED g\xE2y
-      ra c\xE1i ch\u1EBFt c\u1EE7a nh\xE2n. ch\xFAng ta c\xF3 th\u1EC3 nh\xECn th\u1EA5y
-      m\xE1u v\u1EABn c\xF2n tr\xEAn dao."
-    - "\u0110\u1ED3ng h\u1ED3 tr\xEAn tay ng\u01B0\u1EDDi \u0111\xE0n \xF4ng l\xE0
-      \u0111\u1ED3ng h\u1ED3 \u0111\xF4i v\u1EDBi c\xF4 g\xE1i; ch\u1EE9ng t\u1ECF
-      anh ta \u0111\xE3 c\xF3 quan h\u1EC7 th\xE2n thi\u1EBFt v\u1EDBi n\u1EA1n nh\xE2n.
-      Nh\u01B0ng anh ta nh\u1EA5t quy\u1EBFt kh\xF4ng th\u1EEBa nh\u1EADn \u0111i\u1EC1u
-      \u0111\xF3. \u0110i\u1EC1u n\xE0y \u0111\xE3 khi\u1EBFn c\u1EA3nh s\xE1t nghi
-      ng\u1EDD; li\u1EC7u c\xF3 ph\u1EA3i anh ta v\xE0 n\u1EA1n nh\xE2n \u0111\xE3
-      x\u1EA3y ra x\xEDch m\xEDch v\u1EDBi nhau."
-    - "Trang web h\u1EB9n h\xF2 tr\u1EF1c tuy\u1EBFn tr\xEAn m\xE0n h\xECnh m\xE1y
-      t\xEDnh l\xE0 ch\u1EC9 b\xE1o v\u1EC1 \u0111\u1ED9ng c\u01A1 c\u1EE7a k\u1EBB
-      gi\u1EBFt ng\u01B0\u1EDDi. N\u1EA1n nh\xE2n \u0111\xE3 n\xF3i l\u1EDDi chia
-      tay \u0111\u1EA7y b\u1EA5t ng\u1EDD v\u1EDBi hung th\u1EE7 v\xE0 h\u1EB9n h\xF2
-      v\u1EDBi ng\u01B0\u1EDDi \u0111\xE0n \xF4ng kh\xE1c."
+    - The photo on the table proves the victim is dating a new man in the room.
+    - A paper knife in the corner of the desk is a weapon that causes the death of
+      a human We can see the blood is still on the knife
+    - The watch on the hand of man proves. he has a close relationship with the victim.
+      But he was determined not to admit it. This made the police suspicious, whether
+      he and the victim had a conflict with each other.
+    - The online dating website on the computer monitor was the indicator of the motive
+      of killer. She was looking for someone else.
     listQues:
-    - "M\u1ED9t nh\xE2n vi\xEAn v\u0103n ph\xF2ng \u0111\u01B0\u1EE3c t\xECm th\u1EA5y
-      \u0111\xE3 ch\u1EBFt trong ph\xF2ng ng\u1EE7 \u1EDF c\u0103n h\u1ED9 c\u1EE7a
-      c\xF4 \u1EA5y. V\u1EADt ph\u1EA9m n\xE0o trong c\u0103n ph\xF2ng n\xE0y cho
-      th\u1EA5y n\u1EA1n nh\xE2n c\xF3 th\u1EC3 \u0111\xE3 th\xE2n m\u1EADt v\u1EDBi
-      m\u1ED9t trong nh\u1EEFng ng\u01B0\u1EDDi \u0111\xE0n \xF4ng \u1EDF \u0111\xE2y?"
-    - "V\u1EADt d\u1EE5ng n\xE0o trong ph\xF2ng \u0111\u01B0\u1EE3c d\xF9ng \u0111\u1EC3
-      gi\u1EBFt ng\u01B0\u1EDDi ph\u1EE5 n\u1EEF?"
-    - "Sau khi n\xF3i chuy\u1EC7n v\u1EDBi 3 ng\u01B0\u1EDDi \u0111\xE0n \xF4ng bi\u1EBFt
-      r\xF5 n\u1EA1n nh\xE2n; c\u1EA3nh s\xE1t \u0111\xE3 \u0111\u01B0a m\u1ED9t trong
-      s\u1ED1 h\u1ECD \u0111\u1EBFn \u0111\u1ED3n c\u1EA3nh s\xE1t. \u0110i\u1EC1u
-      g\xEC \u0111\xE3 l\xE0m h\u1ECD ch\u1EAFc ch\u1EAFn v\u1EC1 \u0111i\u1EC1u \u0111\xF3?"
-    - "C\u1EA3nh s\xE1t x\xE1c nh\u1EADn ng\u01B0\u1EDDi \u0111\xE0n \xF4ng n\xE0y
-      th\u1EF1c s\u1EF1 l\xE0 k\u1EBB gi\u1EBFt ng\u01B0\u1EDDi. V\u1EADy th\xEC \u0111i\u1EC1u
-      g\xEC c\xF3 th\u1EC3 l\xE0 \u0111\u1ED9ng c\u01A1 gi\u1EBFt b\u1EA1n g\xE1i
-      c\u1EE7a anh ta?"
+    - What item in this room indicates that the victim may have been intimate with
+      one of the men here?
+    - Which item in the room was used to kill the woman?
+    - After talking to 3 men who knew the victim well, police took one of them to
+      the police station. What came to be the clincher?
+    - Let's say this man really was the murderer. Then what could've been his motive
+      of murdering his girlfriend?
     listHint:
-    - "Chi\u1EBFc nh\u1EABn tr\xEAn tay n\u1EA1n nh\xE2n"
-    - "C\xE2y dao r\u1ECDc gi\u1EA5y"
-    - "Chi\u1EBFc nh\u1EABn tr\xEAn tay ng\u01B0\u1EDDi \u0111\xE0n \xF4ng"
-    - "Trang web h\u1EB9n h\xF2 tr\xEAn m\xE0n h\xECnh m\xE1y t\xEDnh"
+    - The ring on the hand of victim
+    - 'A paper knife '
+    - 'The watch on the hand of man '
+    - "The online dating website\r"
   - MODE: 2
     LEVEL: 18
     listAnswer:
-    - "Gi\u1ECDt m\xE1u gi\u1EEFa kh\xF4ng trung trong b\u1EE9c \u1EA3nh cho th\u1EA5y
-      t\u1ED9i \xE1c v\u1EEBa x\u1EA3y ra m\u1ED9t l\xFAc tr\u01B0\u1EDBc. M\xE1u
-      v\u1EABn ch\u1EA3y t\u1EEB c\u01A1 th\u1EC3 c\u1EE7a n\u1EA1n nh\xE2n."
-    - "T\u1EA5t c\u1EA3 nh\u1EEFng \u0111\u1EA1o c\u1EE5 h\xF3a trang tr\xEAn b\xE0n
-      b\u1ECB \u0111\u1EA3o l\u1ED9n; c\xF3 v\u1EBB nh\u01B0 c\xF3 ai \u0111\xF3 \u0111\xE3
-      c\u1ED1 \xFD l\xE0m vi\u1EC7c n\xE0y."
-    - "C\xF4 g\xE1i m\u1EB7c \xE1o kho\xE1c \u0111en n\u1EB7ng n\u1EC1 l\xE0 ng\u01B0\u1EDDi
-      \u0103n m\u1EB7c kh\xE1c th\u01B0\u1EDDng. trong khi m\u1ECDi ng\u01B0\u1EDDi
-      kh\xE1c \u0111ang m\u1EB7c qu\u1EA7n \xE1o m\xF9a h\xE8 v\xE0 qu\u1EA7n \xE1o
-      bi\u1EC3u di\u1EC5n. C\xE2u h\u1ECFi \u0111\u1EB7t ra l\xE0 li\u1EC7u c\xF4
-      \ c\xF3 \u0111ang gi\u1EA5u g\xEC trong l\u01B0\u1EDBp \xE1o kho\xE1c \u0111\xF3?"
-    - "C\xF3 v\u1EBB 1 chi\u1EBFc tr\xE2m c\xE0i \u0111\u01B0\u1EE3c h\u1EDF ra t\u1EEB
-      t\xFAi \xE1o kho\xE1c d\xE0y. \u0110\xF3 l\xE0 hung kh\xED m\xE0 c\xF4 g\xE1i
-      \u0111\xE3 g\xE2y ra c\xE1i ch\u1EBFt cho n\u1EA1n nh\xE2n."
+    - The drop of blood in midair in the picture indicates that the crime just happened
+      a moment ago.
+    - All the costume props on the table were turned upside down, it seems that someone
+      had intentionally done this
+    - The girl in the heavy black jacket is the one who is dressed unusually for the
+      scene. Everyone else is in summer clothes.
+    - The hairpin that the girl was wearing had blood on it. The girl used the tip
+      of the hairpin as a weapon to harm the victim.
     listQues:
-    - "M\u1ED9t th\xE0nh vi\xEAn c\u1EE7a m\u1ED9t nh\xF3m nh\u1EA1c n\u1EEF n\u1ED5i
-      ti\u1EBFng \u0111\u01B0\u1EE3c t\xECm th\u1EA5y \u0111\xE3 ch\u1EBFt \u1EDF
-      h\u1EADu tr\u01B0\u1EDDng. \u0110i\u1EC1u g\xEC ch\u1EC9 ra r\u1EB1ng t\u1ED9i
-      \xE1c \u0111\xE3 di\u1EC5n ra ch\u1EC9 m\u1ED9t l\xFAc tr\u01B0\u1EDBc?"
-    - "Nh\xECn k\u1EF9 h\u01A1n v\xE0o c\u0103n ph\xF2ng n\xE0y cho th\u1EA5y m\u1ED9t
-      c\xE1i g\xEC \u0111\xF3 k\u1EF3 l\u1EA1. \u0110\xF3 l\xE0 c\xE1i g\xEC?"
-    - "M\u1ED9t trong ba ng\u01B0\u1EDDi c\xF3 m\u1EB7t trong c\u0103n ph\xF2ng n\xE0y
-      m\u1EB7c \u0111\u1ED3 k\u1EF3 l\u1EA1. Ch\u1EC9 ra ng\u01B0\u1EDDi \u0111\xF3?"
-    - "N\xF3 n\xF3i r\xF5 r\u1EB1ng k\u1EBB gi\u1EBFt ng\u01B0\u1EDDi hi\u1EC7n \u0111ang
-      c\u1EA7m \u0111\u1ED3 v\u1EADt m\xE0 c\xF4 d\xF9ng l\xE0m v\u0169 kh\xED gi\u1EBFt
-      ng\u01B0\u1EDDi. T\xECm xem \u0111\xF3 l\xE0 g\xEC?"
+    - A member of a popular girl group is found dead backstage. What indicates that
+      the crime took place just a moment ago?
+    - ' A closer look at this room reveals something odd. What is going on here?'
+    - ' One of the three people present in this room is dressed in a weird way. Which
+      one is it and Why?'
+    - After investigating the weapon that caused the death of the victim was a sharp
+      jag. Where did the killer hide the weapon?
     listHint:
-    - "Gi\u1ECDt m\xE1u gi\u1EEFa kh\xF4ng trung "
-    - "\u0110\u1EA1o c\u1EE5 h\xF3a trang tr\xEAn b\xE0n b\u1ECB \u0111\u1EA3o l\u1ED9n"
-    - "C\xF4 g\xE1i m\u1EB7c \xE1o kho\xE1c \u0111en n\u1EB7ng n\u1EC1"
-    - "1 chi\u1EBFc tr\xE2m c\xE0i \u0111\u01B0\u1EE3c h\u1EDF ra t\u1EEB t\xFAi \xE1o
-      kho\xE1c d\xE0y c\u1EE7a c\xF4 g\xE1i."
+    - The drop of blood in midair
+    - All the costume props on the table
+    - The heavy black jacket
+    - "The hairpin\r"
   - MODE: 2
     LEVEL: 19
     listAnswer:
-    - "Chi\u1EBFc m\xE1y t\xEDnh b\u1EA3ng / tivi kh\xF4ng th\u1EA5m n\u01B0\u1EDBc
-      \u1EDF b\xEAn c\u1EA1nh b\u1ED3n t\u1EAFm cho th\u1EA5y ng\u01B0\u1EDDi ph\u1EE5
-      n\u1EEF th\u01B0\u1EDDng c\xF3 th\xF3i quen ng\xE2m m\xECnh trong b\u1ED3n t\u1EAFm
-      v\xE0 th\u01B0\u1EDFng thwusc c\xE1c ch\u01B0\u01A1ng tr\xECnh y\xEAu th\xEDch
-      c\u1EE7a m\xECnh."
-    - "C\xE1c m\u1EA3nh v\u1EE1 c\u1EE7a chai r\u01B0\u1EE3u. C\xF3 th\u1EC3 c\xF4
-      g\xE1i \u0111\xE3 s\u1EED d\u1EE5ng ch\xFAng \u0111\u1EC3 t\u1EF1 c\u1EAFt c\u1ED5
-      tay c\u1EE7a m\xECnh."
-    - "C\xF3 m\u1ED9t d\xE2y bu\u1ED9c t\xF3c b\xEAn c\u1EA1nh ng\u01B0\u1EDDi ph\u1EE5
-      n\u1EEF. T\xF3c c\u1EE7a c\xF4 \u1EA5y kh\xF4ng ho\xE0n to\xE0n \u1EDF trong
-      n\u01B0\u1EDBc cho th\u1EA5y ch\xFAng \u0111\xE3 \u0111\u01B0\u1EE3c bu\u1ED9c
-      v\xE0o tr\u01B0\u1EDBc khi ch\u1EBFt!"
-    - "Nh\u1EEFng b\u1EE9c \u1EA3nh tr\xEAn b\xE0n. Ng\u01B0\u1EDDi ph\u1EE5 n\u1EEF
-      n\xE0y \u0111\xE3 b\u1ECB tr\u1EA7m c\u1EA3m th\u1EDDi gian d\xE0i do ng\u01B0\u1EDDi
-      c\u1ED3ng ngo\u1EA1i t\xECnh. khi nh\xE2n \u0111\u01B0\u1EE3c \u0111\u01A1n
-      ly h\xF4n t\u1EEB ng\u01B0\u1EDDi ch\u1ED3ng Ng\u01B0\u1EDDi ph\u1EE5 n\u1EEF
-      n\xE0y \u0111\xE3 quy\u1EBFt \u0111\u1ECBnh t\xECm \u0111\u1EBFn c\xE1i ch\u1EBFt. "
+    - The tablet'waterproof television on the side of the tub indicates that the woman
+      spent a long time in the bath.
+    - Fragments of wine bottles. Maybe the girl used them to cut her own wrist
+    - There is a hair tie floating next to the woman's hair in the water, indicating
+      that her hair was tied up at the time of death.
+    - Pictures on the table. The husband of victim had an affair and asked for a divorce
+      (pictures of the husband of victim with another woman)
     listQues:
-    - "M\u1ED9t ng\u01B0\u1EDDi ph\u1EE5 n\u1EEF \u0111\xE3 b\u1ECB ch\u1EBFt trong
-      b\u1ED3n t\u1EAFm \u1EDF nh\xE0. C\xF4 \u1EA5y th\u1EF1c s\u1EF1 th\xEDch d\xE0nh
-      th\u1EDDi gian d\xE0i trong b\u1ED3n t\u1EAFm c\u1EE7a m\xECnh. M\xF3n \u0111\u1ED3
-      n\xE0o trong ph\xF2ng t\u1EAFm c\u1EE7a c\xF4 \u1EA5y ch\u1EC9 ra \u0111i\u1EC1u
-      \u0111\xF3?"
-    - "C\xE1i g\xEC c\xF3 th\u1EC3 g\xE2y ra c\xE1i ch\u1EBFt c\u1EE7a c\xF4 g\xE1i?"
-    - "M\u1ED9t n\u1EEF \u0111i\u1EC1u tra vi\xEAn nh\u1EADn th\u1EA5y m\u1ED9t c\xE1i
-      g\xEC \u0111\xF3 nh\u01B0 m\u1ED9t s\u1EF1 ng\u1EE5y t\u1EA1o. C\xF3 m\u1ED9t
-      v\u1EADt ph\u1EA9m trong ph\xF2ng t\u1EAFm l\xE0m cho n\u1EA1n nh\xE2n b\u1ECB
-      bu\u1ED9c t\xF3c v\xE0o l\xFAc ch\u1EBFt?"
-    - "T\xECm nguy\xEAn nh\xE2n trong \u1EA3nh d\u1EABn \u0111\u1EBFn quy\u1EBFt \u0111\u1ECBnh
-      t\u1EF1 t\u1EED c\u1EE7a c\xF4 g\xE1i?"
+    - A woman died in a bath at home. She really likes to spend long time in her bath.
+      What item in her bathroom shows that?
+    - What could be causing the death of a girl?
+    - ' A female investigator notices something which suggests a foul play. There''s
+      an item in the bathroom which indiacates that the victim had her hair tied at
+      the time of her death.'
+    - Find the cause in the photo that led to the suicide decision of girl?
     listHint:
-    - "Chi\u1EBFc m\xE1y t\xEDnh b\u1EA3ng / tivi "
-    - "C\xE1c m\u1EA3nh v\u1EE1 c\u1EE7a chai r\u01B0\u1EE3u"
-    - "S\u1EE3i d\xE2y bu\u1ED9c t\xF3c b\xEAn c\u1EA1nh ng\u01B0\u1EDDi ph\u1EE5
-      n\u1EEF."
-    - "Nh\u1EEFng b\u1EE9c \u1EA3nh tr\xEAn b\xE0n"
+    - The tablet'waterproof television
+    - Fragments of wine bottles
+    - "Hair tie\r\n"
+    - "Pictures on the table\r"
   - MODE: 2
     LEVEL: 20
     listAnswer:
-    - "N\u1EA1n nh\xE2n b\u1ECB \u0111\xE2m \u1EDF b\xEAn m\u1EA1n s\u01B0\u1EDDn;
-      C\xF4 \u0111ang d\xF9ng tay ch\u1EB7n v\u1EBFt th\u01B0\u01A1ng c\u1EE7a m\xECnh
-      v\xE0 c\u1EA7m m\xE1u."
-    - "A kh\xF4ng ph\u1EA3i l\xE0 ng\u01B0\u1EDDi ch\xE9m v\xEC c\u1EA3 hai tay anh
-      ta \u0111\u1EC1u m\u1EDF v\xE0 c\xF3 th\u1EC3 nh\xECn th\u1EA5y kh\xF4ng c\xF3
-      g\xEC trong \u0111\xF3. V\xEC v\u1EADy; anh ta kh\xF4ng th\u1EC3 l\xE0 k\u1EBB
-      t\u1EA5n c\xF4ng."
-    - "B kh\xF4ng ph\u1EA3i l\xE0 ng\u01B0\u1EDDi ch\xE9m v\xEC c\xF4 c\u1EA3 hai
-      tay c\u1EE7a c\xF4 g\xE1i \u0111\u1EC1u \u0111ang x\xE1ch r\u1EA5t nhi\u1EC1u
-      \u0111\u1ED3. C\xF4 kh\xF4ng th\u1EC3 c\u1EA7m hung kh\xED v\xE0 t\u1ED5n th\u01B0\u01A1ng
-      n\u1EA1n nh\xE2n"
-    - "D c\u0169ng kh\xF4ng l\xE0m \u0111i\u1EC1u \u0111\xF3 b\u1EDFi v\xEC anh ta
-      \u0111ang quay l\u1EA1i v\xE0 v\u1EABy tay v\u1EDBi ai \u0111\xF3."
+    - The victim was stabbed in the side, where her hands are grasping the wound and
+      where blood appears.
+    - A is not the slasher because both of his hands are open and visible and nothing
+      is in them. So he could not have been the assailant. Tap on one of his hands.
+    - B was not the one who slashed because she had both hands of the girl carrying
+      a lot of things.
+    - ' D didn''t do it because he is turning around and waving to someone. Tap on
+      his hand. C is the assailant.'
     listQues:
-    - "M\u1ED9t ng\u01B0\u1EDDi ph\u1EE5 n\u1EEF v\u1EEBa b\u1ECB \u0111\xE2m \u1EDF
-      trung t\xE2m th\u01B0\u01A1ng m\u1EA1i. C\xF4 \u1EA5y \u0111\xE3 b\u1ECB \u0111\xE2m
-      \u1EDF \u0111\xE2u?"
-    - "A kh\xF4ng ph\u1EA3i l\xE0 ng\u01B0\u1EDDi ch\xE9m. L\xE0m sao ch\xFAng ta
-      bi\u1EBFt \u0111\u01B0\u1EE3c \u0111i\u1EC1u n\xE0y?"
-    - "B c\u0169ng kh\xF4ng ph\u1EA3i l\xE0 \u0111\xE3 \u0111\xE2m n\u1EA1n nh\xE2n.
-      L\xE0m th\u1EBF n\xE0o ch\xFAng ta c\xF3 th\u1EC3 bi\u1EBFt nh\u01B0 v\u1EADy?"
-    - "D c\u0169ng v\xF4 t\u1ED9i. T\u1EA1i sao c\xF3 th\u1EC3 n\xF3i nh\u01B0 v\u1EADy?"
+    - A woman just got slashed at the mall. Where was she stabbed?
+    - A is not the slasher. How do we know this?
+    - ' B is not the slasher either. How can we tell?'
+    - D is also innocent. What is it?
     listHint:
-    - "N\u1EA1n nh\xE2n b\u1ECB \u0111\xE2m \u1EDF b\xEAn m\u1EA1n s\u01B0\u1EDDn"
-    - "A kh\xF4ng ph\u1EA3i l\xE0 ng\u01B0\u1EDDi ch\xE9m v\xEC c\u1EA3 hai tay anh
-      ta \u0111\u1EC1u m\u1EDF"
-    - "B kh\xF4ng ph\u1EA3i l\xE0 ng\u01B0\u1EDDi ch\xE9m v\xEC c\xF4 c\u1EA3 hai
-      tay c\u1EE7a c\xF4 g\xE1i \u0111\u1EC1u \u0111ang x\xE1ch r\u1EA5t nhi\u1EC1u
-      \u0111\u1ED3"
-    - "D \u0111ang v\u1EABy tay v\u1EDBi ai \u0111\xF3."
+    - the side
+    - 'both of his hands '
+    - she had both hands of the girl carrying a lot of things
+    - "he is turning around and waving to someone\r"
   - MODE: 2
     LEVEL: 21
     listAnswer:
-    - "Nghi ph\u1EA1m \u0111ang s\u1EED d\u1EE5ng London nh\u01B0 ch\u1EE9ng c\u1EE9
-      ngo\u1EA1i ph\u1EA1m c\u1EE7a m\xECnh. \u0110\u1ED3ng h\u1ED3 Big Ben trong
-      n\u1EC1n cho th\u1EA5y b\u1EE9c \u1EA3nh th\u1EF1c s\u1EF1 \u0111\u01B0\u1EE3c
-      ch\u1EE5p \u1EDF London; n\u01A1i n\u1ED5i ti\u1EBFng v\u1EDBi \u0111\u1ED3ng
-      h\u1ED3 Big Ben."
-    - "D\u1EA5u \u1EA5n th\u1EDDi gian tr\xEAn b\u1EE9c tranh l\xE0 b\u1EB1ng ch\u1EE9ng
-      m\xE0 b\u1EE9c \u1EA3nh \u0111\u01B0\u1EE3c ch\u1EE5p \u1EDF London gi\u1ED1ng
-      nh\u01B0 nghi ph\u1EA1m \u0111\xE3 n\xF3i."
-    - "Chi\u1EBFc xe h\u01A1i l\xE0m cho b\u1EE9c \u1EA3nh tr\u1EDF n\xEAn \u0111\xE1ng
-      ng\u1EDD. \u1EDE London \xF4 t\xF4 ph\u1EA3i \u0111i b\xEAn tr\xE1i \u0111\u01B0\u1EDDng.
-      Nh\u01B0ng trong b\u1EE9c \u1EA3nh \xF4 t\xF4 l\u1EA1i \u0111ang di chuy\u1EC3n
-      v\xE0 \u0111\u1ED7 \u1EDF b\xEAn ph\u1EA3i \u0111\u01B0\u1EDDng. Anh ta \u0111\xE3
-      c\u1EAFt gh\xE9p b\u1EE9c \u1EA3nh v\xE0 bi\u1EBFn n\xF3 th\xE0nh b\u1EB1ng
-      ch\u1EE9ng ngo\u1EA1i ph\u1EA1m c\u1EE7a m\xECnh."
-    - 
+    - The suspect is using London as his alibi. The Big Ben clock in the background
+      shows the real photo taken in London, which is famous for the Big Ben clock
+    - The time stamp on the picture is the indicator that the picture was taken in
+      London like the suspect says it was.
+    - The car It makes what makes the image suspicious. In London cars have to go
+      to the left of the road. But in the car picture is going to the right.
+    - ' '
     listQues:
-    - "Nghi ph\u1EA1m c\u1EE7a m\u1ED9t v\u1EE5 \xE1n gi\u1EBFt ng\u01B0\u1EDDi \u0111ang
-      tr\xECnh b\xE0y ch\u1EE9ng c\u1EE9 ngo\u1EA1i ph\u1EA1m v\u1EDBi th\xE1m t\u1EED
-      m\u1ED9t b\u1EE9c \u1EA3nh \u0111\u1EC3 ch\u1EE9ng minh ch\u1EE9ng c\u1EE9 ngo\u1EA1i
-      ph\u1EA1m c\u1EE7a anh ta. \xD4ng n\xF3i r\u1EB1ng \xF4ng \u0111\xE3 c\xF3 m\u1ED9t
-      chuy\u1EBFn \u0111i t\u1EDBi London khi v\u1EE5 \xE1n x\u1EA3y ra . Ph\u1EA7n
-      n\xE0o c\u1EE7a b\u1EE9c \u1EA3nh cho th\u1EA5y n\xF3 \u0111\xE3 \u0111\u01B0\u1EE3c
-      ch\u1EE5p \u1EDF London?"
-    - "N\u1EBFu b\u1EE9c \u1EA3nh l\xE0 th\u1EADt; \u0111i\u1EC1u \u0111\xF3 c\xF3
-      ngh\u0129a l\xE0 nghi ph\u1EA1m \u0111\xE3 \u1EDF London v\xE0o th\u1EDDi \u0111i\u1EC3m
-      t\u1ED9i \xE1c \u0111\u01B0\u1EE3c th\u1EF1c hi\u1EC7n; \u0111i\u1EC1u n\xE0y
-      ch\u1EE9ng minh nghi ph\u1EA1m c\xF3 b\u1EB1ng ch\u1EE9ng ngo\u1EA1i ph\u1EA1m
-      x\xE1c th\u1EF1c. L\xE0m th\u1EBF n\xE0o \u0111\u1EC3 ch\xFAng ta bi\u1EBFt
-      b\u1EE9c \u1EA3nh th\u1EF1c s\u1EF1 \u0111\u01B0\u1EE3c ch\u1EE5p v\xE0o ng\xE0y
-      c\u1EE7a t\u1ED9i \xE1c di\u1EC5n ra?"
-    - "B\u1EE9c \u1EA3nh c\xF3 v\u1EBB \u0111\xE1ng tin; nh\u01B0ng th\xE1m t\u1EED
-      \u0111\u1ED9t nhi\xEAn nh\u1EADn th\u1EA5y \u0111i\u1EC1u g\xEC \u0111\xF3 r\u1EA5t
-      kh\xE1c l\u1EA1 trong b\u1EE9c \u1EA3nh. Th\xE1m t\u1EED \u0111\xE3 th\u1EA5y
-      g\xEC?"
-    - 
+    - The suspect of a murder case is showing the detective a photo to prove his alibi.
+      He says he took this on his trip to London. Which part of the photo shows That
+      it was taken in London
+    - ' If the photograph was authentic, That means the suspect was in London at the
+      time of the crime, making it unable for him to commit the crime. How do we know
+      the photo was actually taken on the day of that crime took place?'
+    - The Photo Seemed Credible, But The Detective Suddenly Notices Something That
+      Brought Back His Suspicion On The Man. What Did The Detective See?
+    - ' '
     listHint:
-    - "\u0110\u1ED3ng h\u1ED3 Big Ben"
-    - "B\u1EE9c \u1EA3ng c\xF3 \u0111\xE1nh d\u1EA5u ng\xE0y ch\u1EE5p \u1EDF g\xF3c"
-    - "Chi\u1EBFc xe h\u01A1i \u0111ang \u0111\u01B0\u1EE3c \u0111\u1ED7 b\xEAn ph\u1EA3i
-      \u0111\u01B0\u1EDDng"
-    - 
+    - The Big Ben clock
+    - 'The time stamp '
+    - The car
+    - "\r"
   - MODE: 2
     LEVEL: 22
     listAnswer:
-    - "C\xF4 \u1EA5y c\xF3 thu\u1ED1c di\u1EC7t c\xF4n tr\xF9ng v\xE0 c\xE0nh c\xE2y
-      trong tay; \u0111i\u1EC1u \u0111\xF3 cho th\u1EA5y r\u1EB1ng c\xF4 \u1EA5y \u0111\xE3
-      chi\u1EBFn \u0111\u1EA5u v\u1EDBi con r\u1EAFn cho \u0111\u1EBFn khi ch\u1EBFt"
-    - "G\xE0 con v\xE0 v\u1ECBt con tr\xEAn b\xE0n l\xE0 th\u1EE9c \u0103n n\u1EA1n
-      nh\xE2n \u0111\xE3 chu\u1EA9n b\u1ECB cho con r\u1EAFn c\u1EE7a c\xF4 \u1EA5y.
-      \u0110i\u1EC1u n\xE0y \u0111\xE3 v\xF4 t\xECnh h\u1EA5p d\u1EABn con r\u1EAFn
-      \u0111\u1EBFn"
-    - "C\xE1i l\u1ED3ng nu\xF4i r\u1EAFn \u0111\u1EC3 m\u1EDF \u1EDF tr\xEAn. C\xF3
-      th\u1EC3 n\u1EA1n nh\xE2n \u0111\xE3 qu\xEAn \u0111\u1EA1y kinsau khi cho con
-      r\u1EAFn c\u1EE7a c\xF4 \xFD \u0103n."
-    - 
+    - She has insecticide and twigs in her hand, which shows that she fought the snake
+      until she died..
+    - The chicks and ducks on the table were the food the victim had prepared for
+      her snake. This inadvertently attracted the snake to.
+    - The snake cage is left open. The victim may have forgotten to kill the kins
+      after feeding her snake.
+    - ' '
     listQues:
-    - "M\u1ED9t ng\u01B0\u1EDDi ph\u1EE5 n\u1EEF \u0111\u01B0\u1EE3c t\xECm th\u1EA5y
-      \u0111\xE3 ch\u1EBFt trong c\u0103n h\u1ED9 c\u1EE7a c\xF4 \u1EA5y. C\u1EA3nh
-      s\xE1t kh\u1EB3ng \u0111\u1ECBnh r\u1EB1ng \u0111\xE2y kh\xF4ng ph\u1EA3i l\xE0
-      m\u1ED9t v\u1EE5 gi\u1EBFt ng\u01B0\u1EDDi tuy nhieen c\u0169ng kh\xF4ng ph\u1EA3i
-      m\u1ED9t v\u1EE5 t\u1EF1 s\xE1t. C\xF4 \u1EA5y m\u1EA5t nh\u01B0 th\u1EBF n\xE0o?"
-    - "C\xF3 g\xEC \u0111\xF3 trong ph\xF2ng c\u1EE7a c\xF4 \u1EA5y gi\u1EA3i th\xEDch
-      l\xFD do t\u1EA1i sao c\xF4 \u1EA5y b\u1ECB c\u1EAFn b\u1EDFi con r\u1EAFn.
-      T\xECm \u0111\u1ED3 v\u1EADt \u0111\xF3?"
-    - "Con r\u1EAFn \u0111\u1EBFn t\u1EEB \u0111\xE2u?"
-    - 
+    - A Woman Was Found Dead In Her Apartment Room. It'e Neither A Murder Nor A Suicide.
+      How Did She Die?
+    - Something in her room explains why she was bitten by a snake. Find that item?
+    - ' Where Did The snake Come From?'
+    - ' '
     listHint:
-    - "C\xF4 \u1EA5y c\xF3 thu\u1ED1c di\u1EC7t c\xF4n tr\xF9ng v\xE0 c\xE0nh c\xE2y
-      trong tay"
-    - "G\xE0 con v\xE0 v\u1ECBt con tr\xEAn b\xE0n l\xE0 th\u1EE9c \u0103n n\u1EA1n
-      nh\xE2n"
-    - "C\xE1i l\u1ED3ng nu\xF4i r\u1EAFn \u0111\u1EC3 m\u1EDF \u1EDF tr\xEAn"
-    - 
+    - Insecticide and twigs
+    - The chicks and ducks
+    - The snake cage is left open
+    - "\r"
   - MODE: 2
     LEVEL: 23
     listAnswer:
-    - "Nguy\xEAn nh\xE2n c\u1EE7a ti\u1EBFng \u1ED3n l\xE0 h\u1ED9p v\u1EBFt n\u1EE9t
-      v\u1EE1 \u1EDF h\u1ED9p tr\u01B0ng b\xE0y ngh\u1EC7 thu\u1EADt; do t\xEAm tr\u1ED9m
-      \u0111\u1EADp v\u1EE1 n\xF3 b\u1EB1ng c\xE2y b\xFAa h\u1EAFn mang \u0111\u1EBFn."
-    - "K\u1EBB tr\u1ED9m \u0111\xE3 \u0111\xE1nh v\u1EE1 h\u1ED9p tr\u01B0ng b\xE0y
-      b\u1EB1ng c\xE1ch s\u1EED d\u1EE5ng c\xE2y b\xFAa m\xE0 h\u1EAFn v\u1EABn c\u1EA7m
-      trong tay ngay c\u1EA3 sau khi ch\u1EBFt."
-    - "Nh\xECn k\u1EF9 v\xE0o ng\u1EF1c c\u1EE7a t\xEAn tr\u1ED9m. C\xF3 m\u1ED9t
-      v\u1EBFt l\xF5m \u1EDF ng\u1EF1c c\u1EE7a anh ta. M\u1EB7t n\u1EA1 c\u1EE7a
-      anh ta c\u0169ng b\u1ECB kh\xF3a; \u0111i\u1EC1u n\xE0y \u0111\xE3 cung c\u1EA5p
-      m\u1ED9t g\u1EE3i \xFD kh\xE1c v\u1EC1 c\xE1i ch\u1EBFt c\u1EE7a t\xEAn tr\u1ED9m."
-    - "C\xE2y d\xF9i cui tr\xEAn th\u1EAFt l\u01B0ng c\u1EE7a b\u1EA3o v\u1EC7 l\xE0
-      th\u1EE9 \u0111\xE3 gi\u1EBFt ch\u1EBFt t\xEAn c\u01B0\u1EDBp. N\u1EBFu m\u1ED9t
-      th\u1EE9 kh\xE1c c\xF3 th\u1EC3 gi\u1EBFt h\u1EAFn th\xEC \u0111\xF3 ch\u1EC9
-      c\xF3 th\u1EC3 l\xE0 c\xE2y b\xFAa; tuy nhi\xEAn \u0111i\u1EC1u \u0111\xF3 l\xE0
-      g\u1EA7n nh\u01B0 kh\xF4ng th\u1EC3 v\xEC h\u1EAFn \u0111ang c\u1EA7m c\xE2y
-      b\xFAa tr\xEAn tay."
+    - The Source Of The Noise Was The Hole In The Jewelry Case, Due To The Timer Smashing
+      It Open With A Hammer.
+    - The Thief Broke Into The Jewelry Case Using The Hammer That Is Still In His
+      Hand Even After He Died.
+    - Look Closely At The Heart Of Thief. There Is A Dent In It. His Ski Mask Is Also
+      Cockeyed, Providing Another Hint.
+    - The billy club on the cop's waistband is what killed the robber. The only other
+      thing it could have been was the hammer, which it wasn't because that is what
+      the robber was holding.
     listQues:
-    - "M\u1ED9t nh\xE2n vi\xEAn b\u1EA3o v\u1EC7 t\u1EA1i m\u1ED9t b\u1EA3o t\xE0ng
-      ngh\u1EC7 thu\u1EADt \u0111\xE3 t\xECm th\u1EA5y m\u1ED9t x\xE1c ch\u1EBFt trong
-      cu\u1ED9c tu\u1EA7n tra ban \u0111\xEAm c\u1EE7a anh ta. Anh ta n\xF3i v\u1EDBi
-      \u0111i\u1EC1u tra vi\xEAn r\u1EB1ng anh ta t\xECm th\u1EA5y x\xE1c sau khi
-      nghe th\u1EA5y m\u1ED9t ti\u1EBFng \u0111\u1ED9ng l\u1EDBn. \u0110i\u1EC1u g\xEC
-      c\xF3 th\u1EC3 l\xE0 ngu\u1ED3n g\u1ED1c c\u1EE7a ti\u1EBFng \u1ED3n?"
-    - "C\u01A1 th\u1EC3 thu\u1ED9c v\u1EC1 m\u1ED9t t\xEAn tr\u1ED9m \u0111\xE3 l\u1EBBn
-      v\xE0o \u0111\u1EC3 \u0111\xE1nh c\u1EAFp c\xE1c t\xE1c ph\u1EA9m ngh\u1EC7
-      thu\u1EADt. L\xE0m th\u1EBF n\xE0o m\xE0 anh \u1EA5y ph\xE1 v\u1EE1 k\xEDnh
-      tr\u01B0ng b\xE0y?"
-    - "K\u1EBB tr\u1ED9m \u0111\xE3 \u0111\xE1nh v\u1EE1 v\xE0o h\u1ED9p tr\u01B0ng
-      b\xE0y b\u1EB1ng c\xE1ch s\u1EED d\u1EE5ng c\xE2y b\xFAa. H\u1EAFn ta v\u1EABn
-      \u0111ang c\u1EA7m c\xE2y b\xFAa trong tay ngay c\u1EA3 sau khi anh ta ch\u1EBFt"
-    - "C\xE1i g\xEC \u0111\xE3 gi\u1EBFt k\u1EBB tr\u1ED9m?"
+    - ' A Security Guard At An Art Museum Has Found A Dead Body During His Night Patrol.
+      He Tells The Investigator He Found The Body After Hearing A Loud Noise. What
+      Could Have Been The Source Of The Noise?'
+    - The Body Belonged To A Thief Who Sneaked In To Steal Art Pieces. How Did He
+      Break The Glass Showcase?
+    - No outside wounds are visible on the body of thief. So what could be the cause
+      of death?
+    - What Killed The Thief?
     listHint:
-    - "V\u1EBFt n\u1EE9t v\u1EE1 \u1EDF h\u1ED9p tr\u01B0ng b\xE0y ngh\u1EC7 thu\u1EADt"
-    - "H\u1EAFn \u0111\xE3 s\u1EED d\u1EE5ng c\xE2y b\xFAa tr\xEAn tay"
-    - "Chi\u1EBFc m\u1EB7t n\u1EA1n anh ta \u0111ang \u0111eo"
-    - "C\xE2y d\xF9i cui tr\xEAn th\u1EAFt l\u01B0ng ng\u01B0\u1EDDi b\u1EA3o v\u1EC7 "
+    - The Hole In The Jewelry Case,
+    - 'The Hammer '
+    - Thief's heart
+    - "The billy club on the cop's waistband\r"
   - MODE: 2
     LEVEL: 24
     listAnswer:
-    - "Chi\u1EBFc \u0111\xE8n l\xE0 v\u0169 kh\xED gi\u1EBFt ng\u01B0\u1EDDi; b\u1EB1ng
-      ch\u1EE9ng l\xE0 n\xF3 b\u1ECB v\u1EE1 v\xE0 c\xF3 v\u1EBFt m\xE1u tr\xEAn c\xE1n
-      \u0111\xE8n."
-    - "B\u1EE9c m\xE0n b\u1ECB k\u1EB9t trong c\u1EEDa s\u1ED5 \u1EDF ph\xEDa b\xEAn
-      tr\xE1i cho th\u1EA5y k\u1EBB t\u1EA5n c\xF4ng \u0111\xE3 ch\u1EA1y qua c\u1EEDa
-      s\u1ED5 v\xE0 v\xF4 t\xECnh l\xE0m v\u01B0\u1EDBng m\xE0n c\u1EEDa v\xE0o \u0111\xF3."
-    - "B l\xE0 ng\u01B0\u1EDDi \u0111\xE1ng ng\u1EDD nh\u1EA5t cho c\xE1i ch\u1EBFt
-      c\u1EE7a n\u1EA1n nh\xE2n v\xEC anh ta \u0111ang m\u1EB7c m\u1ED9t chi\u1EBFc
-      \xE1o cho\xE0ng t\u1EAFm; \u0111i\u1EC1u n\xE0y c\xF3 th\u1EC3 gi\u1EA3i th\xEDch
-      l\xFD do n\u1EA1n nh\xE2n b\u1ECB \u01B0\u1EDBt. Tuy nhi\xEAn; n\u1EA1n nh\xE2n
-      c\u0169ng c\xF3 th\u1EC3 d\xF9ng \xE1o cho\xE0ng t\u1EAFm \u0111\u1EC3 nguy
-      t\u1EA1o cho vi\u1EC7c h\u1EAFn tr\xE8o qua c\u1EEDa s\u1ED5 v\xE0 b\u1ECB \u01B0\u1EDBt
-      m\u01B0a."
-    - "Chi\u1EBFc \u0111\u1ED3ng h\u1ED3 \u0111eo tay B l\xE0 \u0111i\u1EC1u khi\u1EBFn
-      \u0111i\u1EC1u tra vi\xEAn nghi ng\u1EDD. Li\u1EC7u c\xF3 ai l\u1EA1i \u0111eo
-      m\u1ED9t chi\u1EBFc \u0111\u1ED3ng h\u1ED3 tr\xEAn tay khi t\u1EAFm."
+    - The lamp is a deadly weapon, the proof is that it broke and there was blood
+      stains on the lamppost.
+    - The Curtain Being Stuck In The Window On The Left Side Indicates That The Assailant
+      Fled Through The Window.
+    - Suspect that B is suspicious because the cloak allows him to lie about why he
+      is wet. Because he may have climbed through the window, it was wet from the
+      rain.
+    - The Watch On Suspect B'S Arm Is What Makes Him Suspicious. He Couldn'T Have
+      Taken A Bath Or A Shower With The Watch On.
     listQues:
-    - "C\xF3 m\u1ED9t v\u1EE5 gi\u1EBFt ng\u01B0\u1EDDi trong ph\xF2ng kh\xE1ch s\u1EA1n
-      v\xE0o m\u1ED9t \u0111\xEAm m\u01B0a. V\u0169 kh\xED gi\u1EBFt ng\u01B0\u1EDDi
-      l\xE0 g\xEC?"
-    - "K\u1EBB gi\u1EBFt ng\u01B0\u1EDDi ph\u1EA3i \u0111\xE3 tr\xE8o qua c\u1EEDa
-      s\u1ED5. Ph\u1EA7n n\xE0o c\u1EE7a hi\u1EC7n tr\u01B0\u1EDDng v\u1EE5 \xE1n
-      g\u1EE3i \xFD v\u1EC1 \u0111i\u1EC1u \u0111\xF3?"
-    - "C\xF3 3 nghi ph\u1EA1m \u0111\xE3 \u1EDF c\xF9ng kh\xE1ch s\u1EA1n v\u1EDBi
-      n\u1EA1n nh\xE2n. Ai trong s\u1ED1 3 ng\u01B0\u1EDDi \u0111\xE1ng ng\u1EDD nh\u1EA5t
-      cho c\xE1i ch\u1EBFt c\u1EE7a n\u1EA1n nh\xE2n?"
-    - "\u0110i\u1EC1u tra vi\xEAn \u0111\xE3 ph\xE1t hi\u1EC7n ra m\u1ED9t \u0111i\u1EC1u
-      kh\xE1c th\u01B0\u1EDDng \u1EDF c\xE1c nghi ph\u1EA1m. T\xECm xem \u0111\xF3
-      l\xE0 g\xEC?"
+    - There Has Been A Murder In A Hotel Room On A Rainy Night. What Was The Murder
+      Weapon?
+    - The Murderer Must Have Filed Through The Window. Which Part Of The Crime Scene
+      Hints At That?
+    - There Are 3 Suspects Who Were Staying At The Same Hotel. Who Among The 3 Appear
+      Suspicious?
+    - The Investigator Notices Another Thing. What is this?
     listHint:
-    - "Chi\u1EBFc \u0111\xE8n b\xE0n"
-    - "B\u1EE9c m\xE0n b\u1ECB k\u1EB9t trong c\u1EEDa s\u1ED5"
-    - "B \u0111ang m\u1EB7c m\u1ED9t chi\u1EBFc \xE1o cho\xE0ng t\u1EAFm"
-    - "B \u0111ang \u0111eo tr\xEAn tay m\u1ED9t chi\u1EBFc \u0111\u1ED3ng h\u1ED3."
+    - The lamp
+    - 'The Curtain Being Stuck '
+    - ' B is suspicious'
+    - "The Watch\r"
   - MODE: 2
     LEVEL: 25
     listAnswer:
-    - 
-    - 
-    - 
-    - 
+    - ' The Meat Inside Of The Pot Is The Dish That Caused The Husband To Fall Ill'
+    - The Mushroom On The Cutting Board Is The Ingredient That Killed The Husband.
+      Mushrooms Can Often Be Poisonous.
+    - The empty cooler on the side of the husband is evidence that he was the one
+      who brought the mushroom, because he failed to fish.
+    - The Picture In The Jacket Of The Husband Is Him With Another Woman Besides His
+      Wife, Indicating Her Motive For Knocking Him Off.
     listQues:
-    - "C\xF3 m\u1ED9t k\u1EBB gi\u1EBFt ng\u01B0\u1EDDi \u1EDF m\u1ED9t ng\xF4i nh\xE0
-      tr\xEAn s\u01B0\u1EDDn n\xFAi. Ph\u1EA7n n\xE0o c\u1EE7a c\u1EA3nh ch\u1EC9
-      ra nguy\xEAn nh\xE2n c\xE1i ch\u1EBFt c\u1EE7a n\u1EA1n nh\xE2n?"
-    - "C\xF3 3 ng\u01B0\u1EDDi \u0111\xE0n \xF4ng kh\xE1c \u1EDF t\u1EA1i nh\xE0 tranh.
-      Ai trong s\u1ED1 h\u1ECD KH\xD4NG TH\u1EC2 l\xE0 k\u1EBB gi\u1EBFt ng\u01B0\u1EDDi?"
-    - "Ai trong s\u1ED1 hai nghi ph\u1EA1m c\xF2n l\u1EA1i l\xE0 k\u1EBB gi\u1EBFt
-      ng\u01B0\u1EDDi? C\xF3 b\u1EA5t c\u1EE9 \u0111i\u1EC1u g\xEC g\u1EA7n thi th\u1EC3
-      gi\xFAp x\xE1c \u0111\u1ECBnh \u0111i\u1EC1u \u0111\xF3?"
-    - 
+    - On a field trip,The Wife Prepared Dinner Using Ingredients Her Husband Obtained
+      From His Fishing Trip. As Soon As The Husband Started Eating, He Began To Writhe
+      In Agony. Which Item On The Table Paused This?
+    - There are leftover ingredients right next to it. Which component (S) used The
+      husband had a sudden illness?
+    - It Turns Out The Mushrooms Were Brought Home By The Husband. But Didn't He Go
+      Out For Fishing? What Indicates That He's The One Who Brought Home The Mushrooms?
+    - Later Investigation Proved That The Wife Intentionally Used The Poisonous Mushrooms
+      For The Poet Roast To Murder Her Husband. What Was Her Motive?
     listHint:
-    - 
-    - 
-    - 
-    - 
+    - ' The Meat Inside Of The Pot'
+    - The Mushroom
+    - The empty cooler
+    - 'The Picture In The Jacket '

@@ -26,16 +26,32 @@ public class TextmeshScript : MonoBehaviour
     {
         if (LevelDataManager.instance != null)
         {
-            string data = LevelDataManager.instance.GetStringFromDictionaryUI(name);
+            string data = "#$%^#$^";
+            try
+            {
+                data = LevelDataManager.instance.GetStringFromDictionaryUI(name);
+            }
+            catch
+            {
+            }
             if (!data.Equals(" "))
             {
-                string x = "'";
-                char _x = x[0];
-                data = data.Replace(';', ',');
-                data = data.Replace('\\',_x);
+                ReplaceText.replaceText(data);
                 text.text = data;
             }
         }
-        if (FontsManager.instance != null)text.font = FontsManager.instance.GetFontTextMesh(PlayerPrefs.GetInt(KeySave.LANGUAGE).ToString(), type.ToString());
+        if (FontsManager.instance != null) text.font = FontsManager.instance.GetFontTextMesh(PlayerPrefs.GetInt(KeySave.LANGUAGE).ToString(), type.ToString());
     }
 }
+public class ReplaceText
+{
+    public static string replaceText(string data){
+        string x = "'";
+        char _x = x[0];
+        if (data == null) return " ";
+        data = data.Replace(';', ',');
+        data = data.Replace('/', _x);
+        return data;
+    }
+}
+
