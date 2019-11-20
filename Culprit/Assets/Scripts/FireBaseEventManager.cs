@@ -8,15 +8,15 @@ public class FireBaseEventManager : MonoBehaviour
     public static FireBaseEventManager instance;
     void Awake()
     {
-        if (instance == null)
-        {
-            instance = this;
-        }
-        else if (instance != this)
-        {
-            Destroy(gameObject);
-        }
-        DontDestroyOnLoad(gameObject);
+        //if (instance == null)
+        //{
+        //    instance = this;
+        //}
+        //else if (instance != this)
+        //{
+        //    Destroy(gameObject);
+        //}
+        //DontDestroyOnLoad(gameObject);
     }
 
     public void GP_Play_Level(int Level, int Scene)

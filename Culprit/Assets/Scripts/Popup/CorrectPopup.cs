@@ -32,7 +32,8 @@ public class CorrectPopup : BasePopup
         base.ShowPopup();
         if(PlayerPrefs.GetInt(KeySave.HINT,0) == 1)
         {
-            if (AdManager.Ins != null) AdManager.Ins.ShowVideo();
+            //if (AdManager.Ins != null) AdManager.Ins.ShowVideo();
+            if (IronSourceManager.instance != null) IronSourceManager.instance.ShowRewardedVideo();
             PlayerPrefs.SetInt(KeySave.HINT, 0);
         }
         else

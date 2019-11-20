@@ -7,16 +7,25 @@ using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviour
 {
     public Animator ani;
-    private void Awake()
+    private void Start()
     {
-        //if(PlayerPrefs.GetInt(KeySave.MENU_UI_OPEN, 0) == 1)
-        //{
-        //    ani.Play("Open");
-        //}
-        //else
-        //{
-        //    PlayerPrefs.SetInt(KeySave.MENU_UI_OPEN, 1);
-        //}
+        if (IronSourceManager.instance != null) IronSourceManager.instance.ShowBanner();
+        if (PlayerPrefs.GetInt(KeySave.SOUND, 0) == 0)
+        {
+            if (SoundManager.instance != null) SoundManager.instance.UnMuteAllSound();
+        }
+        else
+        {
+            if (SoundManager.instance != null) SoundManager.instance.MuteAllSound();
+        }
+        if (PlayerPrefs.GetInt(KeySave.MUSIC, 0) == 0)
+        {
+            if (MusicManager.instance != null) MusicManager.instance.UnMuteAllMusic();
+        }
+        else
+        {
+            if (MusicManager.instance != null) MusicManager.instance.MuteAllMusic();
+        }
     }
     private void OnValidate()
     {

@@ -16,7 +16,6 @@ public class HintPopup : BasePopup
     }
     public override void ShowPopup()
     {
-        if (SoundManager.instance != null) SoundManager.instance.UI_button_Click();
         unitStage = ButtonStageManager.instance.unitStage;
         if (unitStage != null && unitStage.unit != null && unitStage.unit is UnitMode2)
         {

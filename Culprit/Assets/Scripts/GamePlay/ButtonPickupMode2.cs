@@ -92,10 +92,12 @@ public class ButtonPickupMode2 : MonoBehaviour
     }
     public void QuestionBtn()
     {
+        if (SoundManager.instance != null) SoundManager.instance.UI_button_Click();
         if (PopupFactory.instance != null) PopupFactory.instance.ShowPopup(BasePopup.TypeOfPopup.PO_Question);
     }
     public void HintBtn()
     {
+        if (SoundManager.instance != null) SoundManager.instance.UI_button_Click();
         if (PopupFactory.instance != null)
         {
             PopupFactory.instance.ShowPopup(BasePopup.TypeOfPopup.PO_Hint);

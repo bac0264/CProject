@@ -43,13 +43,14 @@ public class UnitMode2 : Unit
 
         for (int i = 0; i < correctAnswerBtns.Count; i++)
         {
+            int index = i;
             // correctAnswerBtns[i].onClick.RemoveAllListeners();
-            correctAnswerBtns[i].onClick.AddListener(delegate { SetCorrectAnswerButton(); });
+            correctAnswerBtns[i].onClick.AddListener(delegate { SetCorrectAnswerButton(index); });
         }
     }
-    public void SetCorrectAnswerButton()
+    public void SetCorrectAnswerButton(int index)
     {
-        Correct();
+        Correct(index);
     }
 
     // Show popup if incorrect
@@ -62,10 +63,11 @@ public class UnitMode2 : Unit
                 FireBaseEventManager.instance.GP_Lose_Level(indexUnit, CurIndexScene);
             }
             PickupCorrectAns.instance.RunPickup();
+            PickupCorrectAns.instance.ISSHOWFULL = false;
             PickupCorrectAns.instance.ISCORRECT = false;
         }
     }
-    public void Correct()
+    public void Correct(int index)
     {
         // Run animation -> show popup
         if (PickupCorrectAns.instance != null)
@@ -75,6 +77,8 @@ public class UnitMode2 : Unit
                 FireBaseEventManager.instance.GP_Win_Level(indexUnit, CurIndexScene);
             }
             PickupCorrectAns.instance.RunPickup();
+            if (index == 3)
+                PickupCorrectAns.instance.ISSHOWFULL = true;
             PickupCorrectAns.instance.ISCORRECT = true;
         }
     }

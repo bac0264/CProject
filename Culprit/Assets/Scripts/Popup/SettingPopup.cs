@@ -21,22 +21,18 @@ public class SettingPopup : BasePopup
         if (PlayerPrefs.GetInt(KeySave.SOUND, 0) == 0)
         {
             TurnOnSound();
-            if (SoundManager.instance != null) SoundManager.instance.UnMuteAllSound();
         }
         else
         {
             TurnOffSound();
-            if (SoundManager.instance != null) SoundManager.instance.MuteAllSound();
         }
         if (PlayerPrefs.GetInt(KeySave.MUSIC, 0) == 0)
         {
             TurnOnMusic();
-            if (MusicManager.instance != null) MusicManager.instance.UnMuteAllMusic();
         }
         else
         {
             TurnOffMusic();
-            if (MusicManager.instance != null) MusicManager.instance.MuteAllMusic();
         }
     }
     public void RunAniFadeOut()
