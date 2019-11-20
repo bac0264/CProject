@@ -98,6 +98,13 @@ public class PopupFactory : MonoBehaviour
                     return;
                 }
                 break;
+            case BasePopup.TypeOfPopup.PO_LevelCMS:
+                if (LVComingSoonPopup.instance != null)
+                {
+                    LVComingSoonPopup.instance.ShowPopup();
+                    return;
+                }
+                break;
         }
         InitPopup(type);
     }
@@ -152,6 +159,12 @@ public class PopupFactory : MonoBehaviour
                 if (IncorrectPopup.instance != null)
                 {
                     return IncorrectPopup.instance;
+                }
+                break;
+            case BasePopup.TypeOfPopup.PO_LevelCMS:
+                if (LVComingSoonPopup.instance != null)
+                {
+                    return LVComingSoonPopup.instance;
                 }
                 break;
         }

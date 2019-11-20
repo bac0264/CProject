@@ -30,10 +30,7 @@ public class TextScript : MonoBehaviour
                 if (data.Equals(" ")) return;
                 else
                 {
-                    string x = "'";
-                    char _x = x[0];
-                    data = data.Replace(';', ',');
-                    data = data.Replace('\\', _x);
+                    ReplaceText.replaceText(data);
                     text.text = data;
                 }
             }

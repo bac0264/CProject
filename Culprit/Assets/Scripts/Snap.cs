@@ -14,7 +14,7 @@ public class Snap : MonoBehaviour
     public int minButtonNum;
     private bool checkStart;
     private Color pick = new Color(1, 1, 1, 1);
-    private Color noPicking = new Color(1, 1, 1, 100f/255f);
+    private Color noPicking = new Color(1, 1, 1, 50f/255f);
     // Use this for initialization
     private void Awake()
     {

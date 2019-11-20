@@ -44,7 +44,7 @@ public class StageManager : MonoBehaviour
             }
             else
             {
-                ButtonStageManager.instance.TurnOn_MainCam();
+                if (PopupFactory.instance != null) PopupFactory.instance.ShowPopup(BasePopup.TypeOfPopup.PO_LevelCMS);
                 return false;
             }
         }
