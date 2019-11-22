@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id" xmlns:tools="http://schemas.android.com/tools">
-  <string name="firebase_database_url" translatable="false">https://who-is-the-culprit.firebaseio.com</string>
-  <string name="gcm_defaultSenderId" translatable="false">599983292085</string>
-  <string name="google_storage_bucket" translatable="false">who-is-the-culprit.appspot.com</string>
-  <string name="project_id" translatable="false">who-is-the-culprit</string>
-  <string name="google_api_key" translatable="false">AIzaSyCaS2ASgedpaBBGT2DHyrEcalgkMGYQFnU</string>
-  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCaS2ASgedpaBBGT2DHyrEcalgkMGYQFnU</string>
-  <string name="google_app_id" translatable="false">1:599983292085:android:e5b94e783880a63a32c8fc</string>
-  <string name="default_web_client_id" translatable="false">599983292085-37fcrikbild0t6oqpu5rq9nr9a2skde8.apps.googleusercontent.com</string>
+  <string name="firebase_database_url" translatable="false">https://detective-mystery.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">340411486560</string>
+  <string name="google_storage_bucket" translatable="false">detective-mystery.appspot.com</string>
+  <string name="project_id" translatable="false">detective-mystery</string>
+  <string name="google_api_key" translatable="false">AIzaSyATP0__7AQbmS9I2066uE4T8SyCEy5Veqk</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyATP0__7AQbmS9I2066uE4T8SyCEy5Veqk</string>
+  <string name="google_app_id" translatable="false">1:340411486560:android:0eb4194fce9b3d8c53ce05</string>
+  <string name="default_web_client_id" translatable="false">340411486560-vvrtcaka0osefopldcrrvvlvgihvk05e.apps.googleusercontent.com</string>
 </resources>

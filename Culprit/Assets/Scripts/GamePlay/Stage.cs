@@ -62,6 +62,7 @@ public class Stage : CellView, IShowStage, IPointerClickHandler, IHide, IOpen
     public void PickUnitStage(UnitStage unitstage)
     {
 
+        if (SoundManager.instance != null) SoundManager.instance.UI_effect_Pick();
         if (unitstage != null)
         {
             Unit unit = LoadUnitOnvalidate.instance.GetUnitFromResources(index, unitstage._index);

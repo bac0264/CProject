@@ -14,6 +14,7 @@ public class PickupCorrectAns : MonoBehaviour
     public Vector3 pos;
     public bool run;
     private bool isCorrect;
+    private bool isShowFull;
     public bool RUN
     {
         set
@@ -33,6 +34,15 @@ public class PickupCorrectAns : MonoBehaviour
         }
         get
         { return isCorrect; }
+    }
+    public bool ISSHOWFULL
+    {
+        set
+        {
+            isShowFull = value;
+        }
+        get
+        { return isShowFull; }
     }
     public void Update()
     {
@@ -68,6 +78,18 @@ public class PickupCorrectAns : MonoBehaviour
     public void FinishAnima()
     {
         correctPosition.gameObject.SetActive(false);
+    }
+    public void EventShowAds()
+    {
+        if(ISSHOWFULL == false)
+        {
+
+        }
+        else
+        {
+            if (IronSourceManager.instance != null) IronSourceManager.instance.ShowInterstitial();
+            ISSHOWFULL = false;
+        }
     }
     public void EventShowCorrectPopup()
     {

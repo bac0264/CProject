@@ -1,7 +1,7 @@
-﻿using System.Collections;
+﻿using Firebase.Analytics;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Firebase.Analytics;
 
 public class FireBaseEventManager : MonoBehaviour
 {
@@ -22,7 +22,7 @@ public class FireBaseEventManager : MonoBehaviour
     public void GP_Play_Level(int Level, int Scene)
     {
         Debug.Log("Challenge_Play_LV_" + (Level + 1) + "." + (Scene + 1));
-        FirebaseAnalytics.LogEvent("Challenge_Play_LV_"+(Level+1) + "."+(Scene+1));
+        FirebaseAnalytics.LogEvent("Challenge_Play_LV_" + (Level + 1) + "." + (Scene + 1));
     }
     public void GP_Win_Level(int Level, int Scene)
     {
@@ -87,11 +87,11 @@ public class FireBaseEventManager : MonoBehaviour
     public void NAME_MODE(string nameMode)
     {
         Debug.Log("Mode_btt_" + nameMode);
-        FirebaseAnalytics.LogEvent("Mode_btt_"+nameMode);
+        FirebaseAnalytics.LogEvent("Mode_btt_" + nameMode);
     }
     public void LEVEL_SELECT(int level)
     {
         Debug.Log("Level_btt_" + (level + 1));
-        FirebaseAnalytics.LogEvent("Level_btt_" + (level+1));
+        FirebaseAnalytics.LogEvent("Level_btt_" + (level + 1));
     }
 }
