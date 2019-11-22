@@ -18,7 +18,6 @@ public class QuestionPopup : BasePopup
     }
     public override void ShowPopup()
     {
-        if (SoundManager.instance != null) SoundManager.instance.UI_effect_Pick();
         unitStage = ButtonStageManager.instance.unitStage;
 
         if (unitStage != null && unitStage.unit != null && unitStage.unit is UnitMode2)

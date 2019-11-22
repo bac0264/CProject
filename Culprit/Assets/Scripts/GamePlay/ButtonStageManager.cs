@@ -22,7 +22,6 @@ public class ButtonStageManager : MonoBehaviour
     }
     public void TurnOn_MainCam()
     {
-        if (SoundManager.instance != null) SoundManager.instance.UI_button_Click();
         StartCoroutine(_TurnOn_MainCam());
     }
     IEnumerator _TurnOn_MainCam()
@@ -59,7 +58,6 @@ public class ButtonStageManager : MonoBehaviour
     }
     public void TurnOn_Subcam(UnitStage unit)
     {
-        if (SoundManager.instance != null) SoundManager.instance.UI_effect_Pick();
         subCamm_1.gameObject.SetActive(true);
         mainCam.gameObject.SetActive(false);
         unitStage = unit;

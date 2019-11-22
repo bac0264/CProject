@@ -40,10 +40,10 @@ public class MusicManager : MonoBehaviour
     {
         try
         {
-            FadeSoundOff(audioBG[1], 1.5f, 0f, 0.5f);
+            FadeSoundOff(audioBG[1], 1.5f, 0f, 0.8f);
             if (muteBGMusic == false)
             {
-                FadeSoundOn(audioBG[0], 1.5f, 0f, 0.5f);
+                FadeSoundOn(audioBG[0], 1.5f, 0f, 0.8f);
                 audioBG[0].clip = AudioMode2["0"];
                 audioBG[0].PlayDelayed(1f);
                 audioBG[0].loop = true;
@@ -60,10 +60,10 @@ public class MusicManager : MonoBehaviour
         try
         {
             string soundCode = musicMode2.GetMusicMode2((int.Parse(Level) + 1).ToString()).SoundCode;
-            FadeSoundOff(audioBG[0], 1.5f, 0f, 0.5f);
+            FadeSoundOff(audioBG[0], 1.5f, 0f, 0.8f);
             if (muteBGMusic == false)
             {
-                FadeSoundOn(audioBG[1], 1.5f, 0f, 0.5f);
+                FadeSoundOn(audioBG[1], 1.5f, 0f, 0.8f);
                 audioBG[1].clip = AudioMode2[soundCode];
                 audioBG[1].PlayDelayed(1f);
                 audioBG[1].loop = true;
