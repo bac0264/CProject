@@ -18,18 +18,18 @@ public class LevelDataContainer : ScriptableObject
         }
     }
     // load php
-    public void LoadLevelData(string data)
-    {
+    //public void LoadLevelData(string data)
+    //{
 
-        levelList = new List<LevelData>();
-        string[] datas = data.Split('|');
-        for (int i = 0; i < datas.Length; i++)
-        {
-            string[] unitDatas = datas[i].Split(',');
-            LevelData _data = new LevelData(unitDatas);
-            levelList.Add(_data);
-        }
-    }
+    //    levelList = new List<LevelData>();
+    //    string[] datas = data.Split('|');
+    //    for (int i = 0; i < datas.Length; i++)
+    //    {
+    //        string[] unitDatas = datas[i].Split(',');
+    //        LevelData _data = new LevelData(unitDatas);
+    //        levelList.Add(_data);
+    //    }
+    //}
     // load sheet drive
     public void LoadLevelData(ES3Spreadsheet sheet2)
     {
@@ -50,6 +50,7 @@ public class LevelData
 {
     public int MODE;
     public int LEVEL;
+    public int Amount;
     public List<string> listAnswer;
     public List<string> listQues;
     public List<string> listHint;
@@ -62,6 +63,8 @@ public class LevelData
         listHint = new List<string>();
         MODE = int.Parse(data["MODE"]);
         LEVEL = int.Parse(data["LEVEL"]);
+        // Debug.Log(data["AMOUNT"]);
+        int.TryParse(data["AMOUNT"], out Amount);
         listQues.Add(ReplaceText.replaceText(data["QUES_1"]));
         listQues.Add(ReplaceText.replaceText(data["QUES_2"]));
         listQues.Add(ReplaceText.replaceText(data["QUES_3"]));
@@ -92,46 +95,46 @@ public class LevelData
         //    Debug.Log(e);
         //}
     }
-    public LevelData(string[] unitDatas)
-    {
-        listQues = new List<string>();
-        listAnswer = new List<string>();
-        listHint = new List<string>();
-        for (int j = 0; j < unitDatas.Length; j++)
-        {
-            if (j < unitDatas.Length)
-                int.TryParse(unitDatas[j++], out MODE);
-            if (j < unitDatas.Length)
-                int.TryParse(unitDatas[j++], out LEVEL);
-            if (j < unitDatas.Length)
-                listQues.Add(unitDatas[j++]);
-            if (j < unitDatas.Length)
-                listQues.Add(unitDatas[j++]);
-            if (j < unitDatas.Length)
-                listQues.Add(unitDatas[j++]);
-            if (j < unitDatas.Length)
-                listQues.Add(unitDatas[j++]);
-            if (j < unitDatas.Length)
-                listAnswer.Add(unitDatas[j++]);
-            if (j < unitDatas.Length)
-                listAnswer.Add(unitDatas[j++]);
-            if (j < unitDatas.Length)
-                listAnswer.Add(unitDatas[j++]);
-            if (j < unitDatas.Length)
-                listAnswer.Add(unitDatas[j++]);
-            if (j < unitDatas.Length)
-                listHint.Add(unitDatas[j++]);
-            if (j < unitDatas.Length)
-                listHint.Add(unitDatas[j++]);
-            if (j < unitDatas.Length)
-                listHint.Add(unitDatas[j++]);
-            if (j < unitDatas.Length)
-                listHint.Add(unitDatas[j++]);
-            if (j < unitDatas.Length)
-                listHint.Add(unitDatas[j++]);
-            break;
-        }
-    }
+    //public LevelData(string[] unitDatas)
+    //{
+    //    listQues = new List<string>();
+    //    listAnswer = new List<string>();
+    //    listHint = new List<string>();
+    //    for (int j = 0; j < unitDatas.Length; j++)
+    //    {
+    //        if (j < unitDatas.Length)
+    //            int.TryParse(unitDatas[j++], out MODE);
+    //        if (j < unitDatas.Length)
+    //            int.TryParse(unitDatas[j++], out LEVEL);
+    //        if (j < unitDatas.Length)
+    //            listQues.Add(unitDatas[j++]);
+    //        if (j < unitDatas.Length)
+    //            listQues.Add(unitDatas[j++]);
+    //        if (j < unitDatas.Length)
+    //            listQues.Add(unitDatas[j++]);
+    //        if (j < unitDatas.Length)
+    //            listQues.Add(unitDatas[j++]);
+    //        if (j < unitDatas.Length)
+    //            listAnswer.Add(unitDatas[j++]);
+    //        if (j < unitDatas.Length)
+    //            listAnswer.Add(unitDatas[j++]);
+    //        if (j < unitDatas.Length)
+    //            listAnswer.Add(unitDatas[j++]);
+    //        if (j < unitDatas.Length)
+    //            listAnswer.Add(unitDatas[j++]);
+    //        if (j < unitDatas.Length)
+    //            listHint.Add(unitDatas[j++]);
+    //        if (j < unitDatas.Length)
+    //            listHint.Add(unitDatas[j++]);
+    //        if (j < unitDatas.Length)
+    //            listHint.Add(unitDatas[j++]);
+    //        if (j < unitDatas.Length)
+    //            listHint.Add(unitDatas[j++]);
+    //        if (j < unitDatas.Length)
+    //            listHint.Add(unitDatas[j++]);
+    //        break;
+    //    }
+    //}
     public LevelData(ES3Spreadsheet sheet2, int row)
     {
         listQues = new List<string>();
@@ -141,7 +144,6 @@ public class LevelData
         {
             int.TryParse(sheet2.GetCell<string>(col++, row), out MODE);
             int.TryParse(sheet2.GetCell<string>(col++, row), out LEVEL);
-
             listQues.Add(ReplaceText.replaceText(sheet2.GetCell<string>(col++, row)));
             listQues.Add(ReplaceText.replaceText(sheet2.GetCell<string>(col++, row)));
             listQues.Add(ReplaceText.replaceText(sheet2.GetCell<string>(col++, row)));
@@ -156,6 +158,7 @@ public class LevelData
             listHint.Add(ReplaceText.replaceText(sheet2.GetCell<string>(col++, row)));
             listHint.Add(ReplaceText.replaceText(sheet2.GetCell<string>(col++, row)));
             listHint.Add(ReplaceText.replaceText(sheet2.GetCell<string>(col++, row)));
+            int.TryParse(sheet2.GetCell<string>(col, row), out Amount);
             break;
         }
     }

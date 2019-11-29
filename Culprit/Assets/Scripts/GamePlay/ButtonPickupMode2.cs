@@ -30,12 +30,19 @@ public class ButtonPickupMode2 : MonoBehaviour
     }
     public void SetupBtnDelegate(UnitMode2 unitMode2)
     {
-        for (int i = 0; i < btnScenes.Count; i++)
+        int i = 0;
+        Debug.Log(unitMode2.AmountofAsk);
+        for ( ; i < btnScenes.Count && i <= unitMode2.AmountofAsk; i++)
         {
             if (i == 0) SetBtnSceneDisplay(unitMode2, i);
             int z = i;
             btnScenes[z].onClick.RemoveAllListeners();
             btnScenes[z].onClick.AddListener(delegate { SetBtnSceneDisplay(unitMode2, z); });
+            btnScenes[z].gameObject.SetActive(true);
+        }
+        for (; i < btnScenes.Count ; i++)
+        {
+            btnScenes[i].gameObject.SetActive(false);
         }
     }
 
@@ -44,7 +51,8 @@ public class ButtonPickupMode2 : MonoBehaviour
         unitMode2.CurIndexScene = _index;
         if (_index <= unitMode2.MaxIndexScene)
         {
-            for (int i = 0; i < btnScenes.Count; i++)
+            int i = 0;
+            for (; i < btnScenes.Count; i++)
             {
                 if (i == _index)
                 {

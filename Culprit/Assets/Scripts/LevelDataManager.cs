@@ -72,7 +72,17 @@ public class LevelDataManager : MonoBehaviour
         }
         return " ";
     }
-
+    public int GetAmount(int Stage, int UnitStage)
+    {
+        for (int i = 0; i < levelData.levelList.Count; i++)
+        {
+            if (levelData.levelList[i].MODE == (Stage + 1) && levelData.levelList[i].LEVEL == (UnitStage + 1))
+            {
+                return levelData.levelList[i].Amount;
+            }
+        }
+        return 0;
+    }
     public string GetStringFromDictionaryUI(string key)
     {
         if (dictionaryUI == null) return " ";

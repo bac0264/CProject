@@ -51,3 +51,7 @@ MonoBehaviour:
     DATA: Challenge
   - NAME: Popup_Home
     DATA: home
+  - NAME: PopupCorrect_Congratulation
+    DATA: congratulation
+  - NAME: PopupCorrect_ComingSoon
+    DATA: next level coming soon...

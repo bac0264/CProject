@@ -15,215 +15,227 @@ MonoBehaviour:
   levelList:
   - MODE: 1
     LEVEL: 1
+    Amount: 0
     listAnswer:
-    - ' Milk is still on the chest of the culprit. While not careful, the culprit
-      has sticky milk on his shirt'
-    - ' '
-    - ' '
-    - ' '
+    - Milk is still on the chest of the culprit. While not careful, the culprit has
+      sticky milk on his shirt
+    - 
+    - 
+    - 
     listQues:
     - The mother discovered that someone had drank and then spilled milk into the
       refrigerator. Find out who it is?
-    - ' '
-    - ' '
-    - ' '
+    - 
+    - 
+    - 
     listHint:
-    - ' '
-    - ' '
-    - ' '
-    - "\r"
+    - 
+    - 
+    - 
+    - 
   - MODE: 1
     LEVEL: 2
+    Amount: 0
     listAnswer:
     - Crumbs of biscuits and unfinished cookies are still in his hands. This proves
       he is the one who took the cookies in the fridge
-    - ' '
-    - ' '
-    - ' '
+    - 
+    - 
+    - 
     listQues:
     - So who stole the cookies in the fridge?
-    - ' '
-    - ' '
-    - ' '
+    - 
+    - 
+    - 
     listHint:
-    - ' '
-    - ' '
-    - ' '
-    - "\r"
+    - 
+    - 
+    - 
+    - 
   - MODE: 1
     LEVEL: 3
+    Amount: 0
     listAnswer:
     - The bad guy stood on the balcony upstairs drinking and chatting with his friends.
       But it's ridiculous that he doesn't have any bottles of wine
-    - ' '
-    - ' '
-    - ' '
+    - 
+    - 
+    - 
     listQues:
     - A man was walking in an apartment building, he was hit by a bottle in the head.
       Find someone who was causing this problem?
-    - ' '
-    - ' '
-    - ' '
+    - 
+    - 
+    - 
     listHint:
-    - ' '
-    - ' '
-    - ' '
-    - "\r"
+    - 
+    - 
+    - 
+    - 
   - MODE: 1
     LEVEL: 4
+    Amount: 0
     listAnswer:
     - There was a woman drying clothes on a balcony and a young man watering flowers.
       In fact, clothes that have been washed in a washing machine cannot produce such
       a large amount of water, the culprit can only be a person holding a watering
       can.
-    - ' '
-    - ' '
-    - ' '
+    - 
+    - 
+    - 
     listQues:
     - Someone had played a prank, deliberately pouring water on the people walking
       in the apartment complex. Find out who is the culprit of this hoax?
-    - ' '
-    - ' '
-    - ' '
+    - 
+    - 
+    - 
     listHint:
-    - ' '
-    - ' '
-    - ' '
-    - "\r"
+    - 
+    - 
+    - 
+    - 
   - MODE: 1
     LEVEL: 5
+    Amount: 0
     listAnswer:
     - The two people playing baseball nearby were a pitcher and a batter. The pitcher
       was facing away from the broken glass door, and the batter was standing opposite
       it. His polish is perfectly suited when breaking the glass.
-    - ' '
-    - ' '
-    - ' '
+    - 
+    - 
+    - 
     listQues:
     - The glass door of an apartment is broken by a baseball. Find out who caused
       this problem?
-    - ' '
-    - ' '
-    - ' '
+    - 
+    - 
+    - 
     listHint:
-    - ' '
-    - ' '
-    - ' '
-    - "\r"
+    - 
+    - 
+    - 
+    - 
   - MODE: 1
     LEVEL: 6
+    Amount: 0
     listAnswer:
     - The cat jumped on the balcony and dropped the flower pot, accidentally causing
       an accident for pedestrians passing through
-    - ' '
-    - ' '
-    - ' '
+    - 
+    - 
+    - 
     listQues:
     - Find the cause of a flower pot falling into an innocent bystander?
-    - ' '
-    - ' '
-    - ' '
+    - 
+    - 
+    - 
     listHint:
-    - ' '
-    - ' '
-    - ' '
-    - "\r"
+    - 
+    - 
+    - 
+    - 
   - MODE: 1
     LEVEL: 7
+    Amount: 0
     listAnswer:
     - Today he took a classmate to the park, the two of them got along well, he came
       up with an idea to create a romantic confession with her. The flowers in the
       park became his confession tool
-    - ' '
-    - ' '
-    - ' '
+    - 
+    - 
+    - 
     listQues:
     - While on patrol, the guards of the park discovered that the flowers had been
       stolen by someone. Find the culprit who ruined the park's flower garden?
-    - ' '
-    - ' '
-    - ' '
+    - 
+    - 
+    - 
     listHint:
-    - ' '
-    - ' '
-    - ' '
-    - "\r"
+    - 
+    - 
+    - 
+    - 
   - MODE: 1
     LEVEL: 8
+    Amount: 0
     listAnswer:
     - To be able to easily act like that. The culprit is right behind the girl.
-    - ' '
-    - ' '
-    - ' '
+    - 
+    - 
+    - 
     listQues:
     - In a beverage shop, a female customer was harassed by another mean customer.
       Find the culprit?
-    - ' '
-    - ' '
-    - ' '
+    - 
+    - 
+    - 
     listHint:
-    - ' '
-    - ' '
-    - ' '
-    - "\r"
+    - 
+    - 
+    - 
+    - 
   - MODE: 1
     LEVEL: 9
+    Amount: 0
     listAnswer:
     - In her son's hand holding shoes. He himself dirty the floor, then tried to hide
       it with soap
-    - ' '
-    - ' '
-    - ' '
+    - 
+    - 
+    - 
     listQues:
     - The mother spent the whole morning cleaning the house, but one of her two children
       caught the attention of the house. Did your son or daughter play this trick?
-    - ' '
-    - ' '
-    - ' '
+    - 
+    - 
+    - 
     listHint:
-    - ' '
-    - ' '
-    - ' '
-    - "\r"
+    - 
+    - 
+    - 
+    - 
   - MODE: 1
     LEVEL: 10
+    Amount: 0
     listAnswer:
     - The son accidentally kicked the ball into the vase his mother had just bought.
-    - ' '
-    - ' '
-    - ' '
+    - 
+    - 
+    - 
     listQues:
     - Who broke the vase?
-    - ' '
-    - ' '
-    - ' '
+    - 
+    - 
+    - 
     listHint:
-    - ' '
-    - ' '
-    - ' '
-    - "\r"
+    - 
+    - 
+    - 
+    - 
   - MODE: 1
     LEVEL: 11
+    Amount: 0
     listAnswer:
     - The woman is the one standing near and on the same side as the photographer.
       It's easy for her to kick him down!
-    - ' '
-    - ' '
-    - ' '
+    - 
+    - 
+    - 
     listQues:
     - A photographer takes a photo shoot outside on an old bridge. However, while
       he was focusing on taking photos, someone was playing bad and pushing him down
       from the bridge. Find out who played him badly?
-    - ' '
-    - ' '
-    - ' '
+    - 
+    - 
+    - 
     listHint:
-    - ' '
-    - ' '
-    - ' '
-    - "\r"
+    - 
+    - 
+    - 
+    - 
   - MODE: 2
     LEVEL: 1
+    Amount: 3
     listAnswer:
     - There's a gunshot wound the side of the victim's head. This must be it.
     - The window of the car was broken. The bullet shot its way in through this window
@@ -246,9 +258,10 @@ MonoBehaviour:
     - Head
     - The broken window
     - The helicopter
-    - "The gang members in the next car\r"
+    - The gang members in the next car
   - MODE: 2
     LEVEL: 2
+    Amount: 3
     listAnswer:
     - The victim is wearing a jacket which says PARK RANGER, the uniform worn by none
       other than the park's employees.
@@ -274,12 +287,13 @@ MonoBehaviour:
     - Something in the scene tells us about the relationship between the victim and
       the person who accompanied him. Which item is it?
     listHint:
-    - 'A jacket '
-    - ' Keys '
-    - 'Glove '
-    - "A ring box \r"
+    - A jacket
+    - Keys
+    - Glove
+    - A ring box
   - MODE: 2
     LEVEL: 3
+    Amount: 3
     listAnswer:
     - There's a knife stuck in the victim's chest which was visible even from afar.
       He called the police immediately.
@@ -307,9 +321,10 @@ MonoBehaviour:
     - A knife
     - ID boat
     - The bicycle
-    - "The barnacles\r"
+    - The barnacles
   - MODE: 2
     LEVEL: 4
+    Amount: 3
     listAnswer:
     - A bicycle had just passed by the woman, but she's not looking at that direction.
       She is looking at the motobike in front of her.
@@ -335,9 +350,10 @@ MonoBehaviour:
     - The motobike in front of her.
     - An opening event
     - She remembered the license plate
-    - "The answer is B.\r"
+    - The answer is B.
   - MODE: 2
     LEVEL: 5
+    Amount: 3
     listAnswer:
     - There was a towel by the girl's side. Maybe the perpetrator used the same scarf
       to strangle the girl, choking the girl. On the girl's neck there was still a
@@ -361,12 +377,13 @@ MonoBehaviour:
       should police question?
     - Why did Bob murder his girlfriend? There is a clue on his motive in the picture?
     listHint:
-    - ' A towel'
+    - A towel
     - Letters B.O
     - Bob
-    - "The hand of Bob and Beth\r"
+    - The hand of Bob and Beth
   - MODE: 2
     LEVEL: 6
+    Amount: 3
     listAnswer:
     - The lightning shaped marks in the grass show that the golfer was hit by lightning
       and died.
@@ -384,18 +401,19 @@ MonoBehaviour:
       had struck near him?
     - Was the weather bad at the time of the accident? Does anything in the scene
       indiacte that?
-    - ' Although there are many tall trees on the golf course. The lightening specifically
-      struck the golfer. Why?'
+    - Although there are many tall trees on the golf course. The lightening specifically
+      struck the golfer. Why?
     - Police said that this was not a simple lightning accident. Instead, Someone
       immobilized the man earlier and led the light to attack him. What led the police
       to this conclusion?
     listHint:
-    - 'The lightning-shaped marks '
+    - The lightning-shaped marks
     - The puddle of water
     - Golf club planted in the ground
-    - "The bent golf club\r"
+    - The bent golf club
   - MODE: 2
     LEVEL: 7
+    Amount: 3
     listAnswer:
     - On the girl who had no wounds, she died from poison, there was a used needle
       next to the female doctor as evidence..
@@ -406,20 +424,21 @@ MonoBehaviour:
     - She was killed by someone working at the hospital, due to the open book on her
       desk. The book indicates that she was on her break at the time.
     listQues:
-    - ' Police received a call at night from a nurse reporting on a death of a female
+    - Police received a call at night from a nurse reporting on a death of a female
       doctor. upon arriving the hospital, what did the police find to be the cause
-      of her death?'
+      of her death?
     - The Murderer seems to be injured. How did police know that?
     - How did the murderer get injured?
     - She was killed by someone working at the hospital but not by a patient. What
       item in the room prompted the investigator to think so?
     listHint:
     - needle
-    - 'The blood smear '
+    - The blood smear
     - the pen
-    - "the book\r"
+    - the book
   - MODE: 2
     LEVEL: 8
+    Amount: 3
     listAnswer:
     - The fatal wound of women is on her forehead.
     - The artist is the sweating, panting guy in the black jacket. His panting makes
@@ -442,9 +461,10 @@ MonoBehaviour:
     - Forehead
     - The wet black jacket
     - The wet jacket
-    - "The muddy footprints\r"
+    - The muddy footprints
   - MODE: 2
     LEVEL: 9
+    Amount: 3
     listAnswer:
     - The clock said 8 pm, the staff and office security were all gone, only one female
       employee stayed overtime.
@@ -463,12 +483,13 @@ MonoBehaviour:
     - Eventually the chief failed to steal the cash and was arrested, thanks to the
       smart action of woman. What did she do?
     listHint:
-    - 'The clock '
+    - The clock
     - The big safe
     - the paper
-    - "The phone\r"
+    - The phone
   - MODE: 2
     LEVEL: 10
+    Amount: 3
     listAnswer:
     - The fact that she wears slippers indicates that she was brought to the park
       against her will.
@@ -492,9 +513,10 @@ MonoBehaviour:
     - Barefoot
     - A bloody soda
     - The bruises
-    - "The paper in his hand\r"
+    - The paper in his hand
   - MODE: 2
     LEVEL: 11
+    Amount: 3
     listAnswer:
     - The door was locked, the key was left right next to the door. The perpetrator
       has deliberately fabricated no one in the room but the victim.
@@ -507,7 +529,7 @@ MonoBehaviour:
     listQues:
     - A woman was found dead from poisoning in her hotel, this is a murder in a closed
       room, how can we know such things?
-    - ' Police found something out of place. What is it?'
+    - Police found something out of place. What is it?
     - The food doesn't seem to be touched yet. So where did the girl get poisoned
       from?
     - The Woman was killed by the hotel manager whom she had been dating. The handwriting
@@ -517,9 +539,10 @@ MonoBehaviour:
     - The key
     - The ashtray
     - The lipstick mark
-    - "The love letter \r"
+    - The love letter
   - MODE: 2
     LEVEL: 12
+    Amount: 3
     listAnswer:
     - The bathrobe of women indicates that she was intimate with the assailant.
     - The perpetrator might have stood on the table in the window of room just above
@@ -543,9 +566,10 @@ MonoBehaviour:
     - The bathrobe of woman
     - The woman's bathrobe
     - The window that is all the way open
-    - "The rope\r"
+    - The rope
   - MODE: 2
     LEVEL: 13
+    Amount: 3
     listAnswer:
     - The needle with a fork in the forehead of the victim is the clue to what poisoned
       her.
@@ -567,12 +591,13 @@ MonoBehaviour:
     - Why can the perpetrator calculate the correct position and time of the victim
       sitting in the chair when the kettle is boiling and needle on the neck of victim?
     listHint:
-    - 'The needle '
+    - The needle
     - The space heater
     - The teapot
-    - "Tea cup\r"
+    - Tea cup
   - MODE: 2
     LEVEL: 14
+    Amount: 3
     listAnswer:
     - The arrow on the back made the police suspicious of the band members because
       they were all standing behind the singer
@@ -594,10 +619,11 @@ MonoBehaviour:
     listHint:
     - The arrow on the back
     - The harp player
-    - 'The timpanist '
-    - "The lipstick stain on his neck \r"
+    - The timpanist
+    - The lipstick stain on his neck
   - MODE: 2
     LEVEL: 15
+    Amount: 3
     listAnswer:
     - Museum staff set up a satan model to convince visitors that the murder was actually
       part of the scene.
@@ -619,11 +645,12 @@ MonoBehaviour:
     - Why should the attacker remove his skirt and cuffs the victim?
     listHint:
     - A satan model
-    - 'The dress next to victim '
+    - The dress next to victim
     - The dry cleaning box
-    - "The victim was bleeding so much\r"
+    - The victim was bleeding so much
   - MODE: 2
     LEVEL: 16
+    Amount: 3
     listAnswer:
     - The fatal cut to the victim was on the neck, as evidenced by the distance of
       the splatters.
@@ -644,9 +671,10 @@ MonoBehaviour:
     - The neck
     - The empty amenity wrapper
     - The white dress
-    - "The bed with no sheets\r"
+    - The bed with no sheets
   - MODE: 2
     LEVEL: 17
+    Amount: 3
     listAnswer:
     - The photo on the table proves the victim is dating a new man in the room.
     - A paper knife in the corner of the desk is a weapon that causes the death of
@@ -666,11 +694,12 @@ MonoBehaviour:
       of murdering his girlfriend?
     listHint:
     - The ring on the hand of victim
-    - 'A paper knife '
-    - 'The watch on the hand of man '
-    - "The online dating website\r"
+    - A paper knife
+    - The watch on the hand of man
+    - The online dating website
   - MODE: 2
     LEVEL: 18
+    Amount: 3
     listAnswer:
     - The drop of blood in midair in the picture indicates that the crime just happened
       a moment ago.
@@ -683,18 +712,19 @@ MonoBehaviour:
     listQues:
     - A member of a popular girl group is found dead backstage. What indicates that
       the crime took place just a moment ago?
-    - ' A closer look at this room reveals something odd. What is going on here?'
-    - ' One of the three people present in this room is dressed in a weird way. Which
-      one is it and Why?'
+    - A closer look at this room reveals something odd. What is going on here?
+    - One of the three people present in this room is dressed in a weird way. Which
+      one is it and Why?
     - After investigating the weapon that caused the death of the victim was a sharp
       jag. Where did the killer hide the weapon?
     listHint:
     - The drop of blood in midair
     - All the costume props on the table
     - The heavy black jacket
-    - "The hairpin\r"
+    - The hairpin
   - MODE: 2
     LEVEL: 19
+    Amount: 3
     listAnswer:
     - The tablet'waterproof television on the side of the tub indicates that the woman
       spent a long time in the bath.
@@ -707,17 +737,18 @@ MonoBehaviour:
     - A woman died in a bath at home. She really likes to spend long time in her bath.
       What item in her bathroom shows that?
     - What could be causing the death of a girl?
-    - ' A female investigator notices something which suggests a foul play. There''s
+    - A female investigator notices something which suggests a foul play. There's
       an item in the bathroom which indiacates that the victim had her hair tied at
-      the time of her death.'
+      the time of her death.
     - Find the cause in the photo that led to the suicide decision of girl?
     listHint:
     - The tablet'waterproof television
     - Fragments of wine bottles
-    - "Hair tie\r\n"
-    - "Pictures on the table\r"
+    - Hair tie
+    - Pictures on the table
   - MODE: 2
     LEVEL: 20
+    Amount: 3
     listAnswer:
     - The victim was stabbed in the side, where her hands are grasping the wound and
       where blood appears.
@@ -725,20 +756,21 @@ MonoBehaviour:
       is in them. So he could not have been the assailant. Tap on one of his hands.
     - B was not the one who slashed because she had both hands of the girl carrying
       a lot of things.
-    - ' D didn''t do it because he is turning around and waving to someone. Tap on
-      his hand. C is the assailant.'
+    - D didn't do it because he is turning around and waving to someone. Tap on his
+      hand. C is the assailant.
     listQues:
     - A woman just got slashed at the mall. Where was she stabbed?
     - A is not the slasher. How do we know this?
-    - ' B is not the slasher either. How can we tell?'
+    - B is not the slasher either. How can we tell?
     - D is also innocent. What is it?
     listHint:
     - the side
-    - 'both of his hands '
+    - both of his hands
     - she had both hands of the girl carrying a lot of things
-    - "he is turning around and waving to someone\r"
+    - he is turning around and waving to someone
   - MODE: 2
     LEVEL: 21
+    Amount: 2
     listAnswer:
     - The suspect is using London as his alibi. The Big Ben clock in the background
       shows the real photo taken in London, which is famous for the Big Ben clock
@@ -746,116 +778,301 @@ MonoBehaviour:
       London like the suspect says it was.
     - The car It makes what makes the image suspicious. In London cars have to go
       to the left of the road. But in the car picture is going to the right.
-    - ' '
+    - 
     listQues:
     - The suspect of a murder case is showing the detective a photo to prove his alibi.
       He says he took this on his trip to London. Which part of the photo shows That
       it was taken in London
-    - ' If the photograph was authentic, That means the suspect was in London at the
+    - If the photograph was authentic, That means the suspect was in London at the
       time of the crime, making it unable for him to commit the crime. How do we know
-      the photo was actually taken on the day of that crime took place?'
+      the photo was actually taken on the day of that crime took place?
     - The Photo Seemed Credible, But The Detective Suddenly Notices Something That
       Brought Back His Suspicion On The Man. What Did The Detective See?
-    - ' '
+    - 
     listHint:
     - The Big Ben clock
-    - 'The time stamp '
+    - The time stamp
     - The car
-    - "\r"
+    - 
   - MODE: 2
     LEVEL: 22
+    Amount: 2
     listAnswer:
-    - She has insecticide and twigs in her hand, which shows that she fought the snake
-      until she died..
-    - The chicks and ducks on the table were the food the victim had prepared for
-      her snake. This inadvertently attracted the snake to.
-    - The snake cage is left open. The victim may have forgotten to kill the kins
-      after feeding her snake.
-    - ' '
+    - A job security notice board is posted at the door of the store. The guard of
+      the store has just stopped working, so the shop currently has no security guards.
+    - There is an emergency button designed right next to the cashier. The bandit
+      fears he will be discovered.
+    - The staff reached behind to take his cell phone and called the police when the
+      thief did not notice
+    - 
     listQues:
-    - A Woman Was Found Dead In Her Apartment Room. It'e Neither A Murder Nor A Suicide.
-      How Did She Die?
-    - Something in her room explains why she was bitten by a snake. Find that item?
-    - ' Where Did The snake Come From?'
-    - ' '
+    - The robbery took place at a convenience store, why could the robber sneak into
+      the supermarket so easily?
+    - The robber immediately forced the employee to leave the cashier, why?
+    - However, the police arrived and arrested the bandit. Why?
+    - 
     listHint:
-    - Insecticide and twigs
-    - The chicks and ducks
-    - The snake cage is left open
-    - "\r"
+    - A job security notice board
+    - The emergency button
+    - His cell phone
+    - 
   - MODE: 2
     LEVEL: 23
+    Amount: 3
     listAnswer:
-    - The Source Of The Noise Was The Hole In The Jewelry Case, Due To The Timer Smashing
-      It Open With A Hammer.
-    - The Thief Broke Into The Jewelry Case Using The Hammer That Is Still In His
-      Hand Even After He Died.
-    - Look Closely At The Heart Of Thief. There Is A Dent In It. His Ski Mask Is Also
-      Cockeyed, Providing Another Hint.
-    - The billy club on the cop's waistband is what killed the robber. The only other
-      thing it could have been was the hammer, which it wasn't because that is what
-      the robber was holding.
+    - There is a small mp3 player just above the guitar. Music is coming from there.
+      There is definitely a fabrication here.
+    - His clothes were all wet, and there was a water line extending from the window
+      to the victim's body. This proves that the victim has drowned before, the culprit
+      brought the victim's body from the sea to the room.
+    - Photos of the victim and a close friend were crumpled and thrown away at the
+      victim's feet. Could the perpetrator relate to this friend of the victim?
+    - The badge fell under the piano. It is the badge that symbolizes each member
+      of the music composition society. Further investigating, the police discovered
+      that the work that brought fame to the victim was a joint work of the victim
+      and close friends. The victim stole and published under his name, which led
+      to his death.
     listQues:
-    - ' A Security Guard At An Art Museum Has Found A Dead Body During His Night Patrol.
-      He Tells The Investigator He Found The Body After Hearing A Loud Noise. What
-      Could Have Been The Source Of The Noise?'
-    - The Body Belonged To A Thief Who Sneaked In To Steal Art Pieces. How Did He
-      Break The Glass Showcase?
-    - No outside wounds are visible on the body of thief. So what could be the cause
-      of death?
-    - What Killed The Thief?
+    - A famous composer was found dead next to his piano in a beach house on a small
+      island. When he found the body of the music that brought him fame, he was also
+      playing. Where does the music come from, will he die while playing his own music?
+    - On his body there was no open wound but there was a strange point, finding the
+      cause of his death?
+    - There is a hint in the photo that the victim's death may be related to the victim's
+      relatives. Find out what it is?
+    - In a hurry, the perpetrator accidentally dropped an object on the scene, which
+      could prove who the culprit was. What is the object left behind?
     listHint:
-    - The Hole In The Jewelry Case,
-    - 'The Hammer '
-    - Thief's heart
-    - "The billy club on the cop's waistband\r"
+    - A small mp3 player
+    - His clothes
+    - Photos
+    - The badge
   - MODE: 2
     LEVEL: 24
+    Amount: 3
     listAnswer:
-    - The lamp is a deadly weapon, the proof is that it broke and there was blood
-      stains on the lamppost.
-    - The Curtain Being Stuck In The Window On The Left Side Indicates That The Assailant
-      Fled Through The Window.
-    - Suspect that B is suspicious because the cloak allows him to lie about why he
-      is wet. Because he may have climbed through the window, it was wet from the
-      rain.
-    - The Watch On Suspect B'S Arm Is What Makes Him Suspicious. He Couldn'T Have
-      Taken A Bath Or A Shower With The Watch On.
+    - The boy's room was very messy, even his favorite teddy bear was thrown in a
+      corner. It seems the boy struggled before he was taken away.
+    - There was a letter of help with the boy's handwriting placed neatly on the table.
+      On the letter, there is the words ""save me
+    - Although the kidnapper deliberately created the chaotic scene as if there had
+      been a great struggle here, there was no trace of an intrusion here on the door.
+      He must have a key for this house.
+    - A picture of the player's family with his best friend on his football club hanging
+      on the wall. The truth is that during training he accidentally injured his best
+      friend, leaving him unable to play in the upcoming important match. This is
+      why his best friend abducted his son.
     listQues:
-    - There Has Been A Murder In A Hotel Room On A Rainy Night. What Was The Murder
-      Weapon?
-    - The Murderer Must Have Filed Through The Window. Which Part Of The Crime Scene
-      Hints At That?
-    - There Are 3 Suspects Who Were Staying At The Same Hotel. Who Among The 3 Appear
-      Suspicious?
-    - The Investigator Notices Another Thing. What is this?
+    - The son of a well-known player has been kidnapped, the kidnapper threatens him
+      to intentionally lose in the upcoming important match. Otherwise he will kill
+      his son. What proves that?
+    - The perpetrator has proved that the boy is in his hands by leaving one to stay
+      in his room. What is that thing?
+    - The detective suspected this was a kidnapping attempt by someone who knew the
+      player's family. What led to that detective's speculation?
+    - After thoroughly investigating all the relationships of the victim, the detective
+      found out the identity of the kidnapper, what in the scene helps the detective
+      find that out?
     listHint:
-    - The lamp
-    - 'The Curtain Being Stuck '
-    - ' B is suspicious'
-    - "The Watch\r"
+    - The teddy bear
+    - A letter
+    - The door
+    - A picture
   - MODE: 2
     LEVEL: 25
+    Amount: 3
     listAnswer:
-    - ' The Meat Inside Of The Pot Is The Dish That Caused The Husband To Fall Ill'
-    - The Mushroom On The Cutting Board Is The Ingredient That Killed The Husband.
-      Mushrooms Can Often Be Poisonous.
-    - The empty cooler on the side of the husband is evidence that he was the one
-      who brought the mushroom, because he failed to fish.
-    - The Picture In The Jacket Of The Husband Is Him With Another Woman Besides His
-      Wife, Indicating Her Motive For Knocking Him Off.
+    - His fatal wound is in his chest. Blood is flowing from his chest
+    - According to witnesses, the victim was holding a knife in the hand of the victim
+      as well as costume props. but unbelievably, it was exchanged with a real one.
+      The tip of the knife was covered with blood of the victim.
+    - DJ is playing music on stage. The victim was killed during the opening party,
+      when the DJ was playing exciting music and everyone was paying attention to
+      the stage.
+    - The cuffs of the man behind the victim were covered in blood. He is the culprit.
+      After investigating, the perpetrator claimed that he was the victim's assistant,
+      he misappropriated funds and was discovered by the victim.
     listQues:
-    - On a field trip,The Wife Prepared Dinner Using Ingredients Her Husband Obtained
-      From His Fishing Trip. As Soon As The Husband Started Eating, He Began To Writhe
-      In Agony. Which Item On The Table Paused This?
-    - There are leftover ingredients right next to it. Which component (S) used The
-      husband had a sudden illness?
-    - It Turns Out The Mushrooms Were Brought Home By The Husband. But Didn't He Go
-      Out For Fishing? What Indicates That He's The One Who Brought Home The Mushrooms?
-    - Later Investigation Proved That The Wife Intentionally Used The Poisonous Mushrooms
-      For The Poet Roast To Murder Her Husband. What Was Her Motive?
+    - A Halloween costume party is being held at a famous resort. However, unfortunately,
+      the party organizer was found dead on the dining table while disguised in a
+      Satan demon mask .Find out the cause of his death?
+    - The victim was stabbed by a sharp object. Found a deadly weapon for the victim?
+    - The perpetrator stabbed the victim into a fatal wound, why everyone at the dinner
+      could not hear the screams of the victim. Find the cause?
+    - The perpetrator was one of the guests attending the party. Find out who it is?
     listHint:
-    - ' The Meat Inside Of The Pot'
-    - The Mushroom
-    - The empty cooler
-    - 'The Picture In The Jacket '
+    - His chest
+    - A knife
+    - DJ is playing music on stage
+    - The cuffs of the man
+  - MODE: 2
+    LEVEL: 26
+    Amount: 0
+    listAnswer:
+    - There was a fruit knife near his body, which was covered in blood. It completely
+      coincides with the stab wound on the victim.
+    - There are many stab wounds on the father's body, the killer must have deep hatred
+      for this man.
+    - There was a bloody cloth stuck on the bookshelf. He gripped the knife there
+    - ' then stabbed himself in the back of his back'
+    listQues:
+    - The police were told that a famous diamond trader was murdered in their own
+      apartment, only their son was lucky enough to escape, he only got a single stab
+      in the back, and located near the bookcase. What is the weapon that caused his
+      death?
+    - The son of the surviving family declares that his family has been killed by
+      bandits, this is a robbery of murder, his father was robbed of 26 diamonds.
+      However, the police suspect that he is falsifying the testimony, what made the
+      police suspicious about this?
+    - Upon further investigation, the police discovered that his son's IT company
+      has been in business for 3 years was on the verge of bankruptcy, he had borrowed
+      his father's money but he did not agree. The police suspect the son himself
+      caused the murder, but what makes the police anxious is not able to accuse him
+      of that wound is behind his back, how did he creat his wound in the back?
+    - However, There is not enough evidence for the police to convict the culprit,
+      find where the lost diamonds were hidden. The perpetrator was incapable of taking
+      the diamond out of the crime scene because he was seriously injured.
+    listHint:
+    - ' then tossed the knife close to his father''s body and fabricated it by someone
+      else.'
+    - There was a flash of light from the fish tank when the sun accidentally hit,
+      the diamonds must have been hidden in it.
+    - The fruit knife
+    - Many stab
+  - MODE: 2
+    LEVEL: 27
+    Amount: 3
+    listAnswer:
+    - There is a knife stuck behind the victim. It must be a fatal wound. After the
+      autopsy, the police concluded that the victim had lost a lot of blood leading
+      to death, and that the victim had died about 1-2 days ago
+    - In the hand of the victim holding a key card of the actress's apartment. Why
+      does the victim have a house key when not familiar with the owner of that house?
+    - The suitcase and the actress's passport are still at the door. This proves that
+      she just came home from a tour abroad.
+    - Everything in the house was disturbed, only the chair behind the victim was
+      neat. The victim used a chair to heal himself. He fixed the knife by freezing
+      it in ice cubes and then jumped down from the chair. He tried to create a fake
+      scene into a murder in order to lose the actress's reputation to avenge her.
+    listQues:
+    - On a winter day, police received notice from a famous actor that she came home
+      after a tour when she discovered the body of an unknown man in her apartment.
+      Where is the critical wound?
+    - The girl insisted that she did not know the victim, but one detail in the scene
+      showed her lying. Which is the detail?
+    - The actress's lie has led to police suspicion that the victim's death is related
+      to the case. But what details of the scene prove the actress has nothing to
+      do with the victim's death?
+    - After investigating, the actress admitted, the victim was her ex-boyfriend.
+      they had broken up nearly a year before her popularity, but recently he used
+      to watch her and often use death to threaten her back. Is this really a suicide,
+      which details prove it?
+    listHint:
+    - A knife stuck behind the victim
+    - A key card
+    - The suitcase and the actress's passport
+    - the chair behind the victim was neat
+  - MODE: 2
+    LEVEL: 28
+    Amount: 3
+    listAnswer:
+    - The glass window of the office was broken, the thief broke in from there.
+    - The fire extinguisher was lying on the floor, he must have used it to break
+      the glass door.
+    - The company's tablet and phone are still on the table. The thief did not take
+      away the valuable property of the office.
+    - The man stands right next to the desk. He was injured on one hand. Why is there
+      such a coincidence, he was injured while trying to break the glass to break
+      into the office?
+    listQues:
+    - One morning when people came to the office, they found out that their company
+      had stolen important bidding documents. Where can the perpetrator break in?
+    - What did the culprit use to break an office glass door?
+    - People suspect the thief has the purpose of stealing papers in an important
+      project of the company without the purpose of stealing property. Why do they
+      think that?
+    - The culprit must be an employee of the company because he can know where all
+      the important documents of the company are and easily access inside. Who is
+      the most suspicious of the employees present at the office?
+    listHint:
+    - The glass window of the office was broken
+    - The fire extinguisher
+    - The company's tablet and phone
+    - The man stands right next to the desk
+  - MODE: 2
+    LEVEL: 29
+    Amount: 3
+    listAnswer:
+    - A child 's shoe was dropped next to a tree near the wall, the culprit hugged
+      the baby and climbed over the wall and fled
+    - The tree next to the wall on the right, the culprit broke into the house through
+      the wall on the right and climbed over the tree to escape.
+    - According to witnesses, the girl played alone in the yard while the servants
+      were cooking rice. However, apart from the girl's screams, they heard no other
+      sounds. Naturally, does the dog have to cry when a stranger sneaks into the
+      house?
+    - The butler was the one closest to the girl when she was kidnapped, he was hiding
+      the hairpin she liked most. The police question is, if he's not a kidnapper
+      why should he hide it?
+    listQues:
+    - Police received reports that the daughter of the president of a real estate
+      company was kidnapped in her own house while playing in the yard. The large
+      door of the house was locked, how did he take the victim?
+    - The mansion is strictly guarded but has a single security hole, what is it?
+    - There's a contradictory point here, an investigator found that the kidnapper
+      could hardly climb over a tree, why would he say that?
+    - Police suspect the kidnapper of her is a man in the mansion, among those present
+      at the scene who is the most suspicious?
+    listHint:
+    - A child 's shoe
+    - The tree next to the wall
+    - A dog
+    - The man who was hiding the hairpin
+  - MODE: 2
+    LEVEL: 30
+    Amount: 2
+    listAnswer:
+    - On the road there is a one-way street sign, very easy to identify where the
+      car is going in the wrong lane.
+    - In the red car with a bottle of wine being spilled on the passenger seat, the
+      owner of the car was drinking while driving, he was in a state of unconsciousness.
+    - In the distance, there was an ambulance disappearing. The pedestrians discovered
+      the accident, so they promptly called an ambulance and took them to the hospital.
+    - 
+    listQues:
+    - A traffic accident happened on a national highway on a rainy night, unfortunately
+      the highway did not have a security camera, how did the police determine where
+      the car was going wrong?
+    - Why is there a sign but the owner of the red car is still on the one way road?
+    - Traffic police to the scene confirm the incident but did not detect the victim,
+      where are they?
+    - 
+    listHint:
+    - A one-way street sign
+    - A bottle of wine being spilled
+    - An ambulance
+    - 
+  - MODE: 2
+    LEVEL: 31
+    Amount: 3
+    listAnswer:
+    - The flowers she had picked earlier were left on the path to the forest.
+    - The balloon she held before she was caught was still flying in the air, maybe
+      it had just been released by her a few minutes earlier.
+    - 'She left a line on the touring car: ""I will be right back"".'
+    - The leash that tied this family dog has broken. She ran to find the dog back.
+    listQues:
+    - On a weekend picnic in a family, their 10-year-old daughter was missing. Are
+      there any signs for her direction?
+    - A hint in the picture shows that she was only missing a few minutes ago, what
+      was it?
+    - She went missing when her parents were busy preparing the car for the picnic,
+      but they didn't hear her scream. Trace the girl she left to prove she was not
+      kidnapped?
+    - About an hour later, they found her lost in the forest. Find out why she ran
+      into it?
+    listHint:
+    - The flowers
+    - The balloon
+    - 'A line on the touring car: ""I will be right back"".'
+    - The leash

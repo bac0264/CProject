@@ -37,10 +37,8 @@ public class UIData
     public string DATA;
     public UIData(Dictionary<string, string> data)
     {
-        Debug.Log("run");
         NAME = data["NAME"];
         DATA = data["DATA"];
-        Debug.Log("run");
     }
     public UIData(ES3Spreadsheet sheet2, int row)
     {

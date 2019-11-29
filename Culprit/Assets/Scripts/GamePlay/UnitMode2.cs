@@ -10,6 +10,7 @@ public class UnitMode2 : Unit
     //  public bool[] checks;
     public int MaxIndexScene;
     public int CurIndexScene;
+    public int AmountofAsk;
     public override void OnValidate()
     {
         base.OnValidate();
@@ -40,12 +41,18 @@ public class UnitMode2 : Unit
     }
     private void Awake()
     {
-
-        for (int i = 0; i < correctAnswerBtns.Count; i++)
+        int i = 0;
+        if (LevelDataManager.instance != null) AmountofAsk = LevelDataManager.instance.GetAmount(indexStage, indexUnit);
+        for (; i < correctAnswerBtns.Count && i <= AmountofAsk; i++)
         {
             int index = i;
-            // correctAnswerBtns[i].onClick.RemoveAllListeners();
+            correctAnswerBtns[i].onClick.RemoveAllListeners();
             correctAnswerBtns[i].onClick.AddListener(delegate { SetCorrectAnswerButton(index); });
+        }
+        for(; i < correctAnswerBtns.Count; i++)
+        {
+            correctAnswerBtns[i].onClick.RemoveAllListeners();
+            correctAnswerBtns[i].gameObject.SetActive(false);
         }
     }
     public void SetCorrectAnswerButton(int index)
@@ -84,10 +91,10 @@ public class UnitMode2 : Unit
     }
     public void OpenScene()
     {
-        if (MaxIndexScene > correctAnswerBtns.Count - 1)
+        if (MaxIndexScene > AmountofAsk)
         {
             int temp = MaxIndexScene;
-            MaxIndexScene = correctAnswerBtns.Count - 1;
+            MaxIndexScene = AmountofAsk;
             if (CurIndexScene == temp) CurIndexScene = MaxIndexScene;
             ButtonPickupMode2.instance.CloseBtn(MaxIndexScene);
             isWin = true;
