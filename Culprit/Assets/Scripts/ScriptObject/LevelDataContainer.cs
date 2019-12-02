@@ -63,8 +63,7 @@ public class LevelData
         listHint = new List<string>();
         MODE = int.Parse(data["MODE"]);
         LEVEL = int.Parse(data["LEVEL"]);
-        // Debug.Log(data["AMOUNT"]);
-        int.TryParse(data["AMOUNT"], out Amount);
+        Amount = int.Parse(data["AMOUNT"]);
         listQues.Add(ReplaceText.replaceText(data["QUES_1"]));
         listQues.Add(ReplaceText.replaceText(data["QUES_2"]));
         listQues.Add(ReplaceText.replaceText(data["QUES_3"]));

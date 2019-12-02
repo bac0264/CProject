@@ -30,6 +30,8 @@ public class UnitEnhance : SimpleDemo
     {
         _dataList.Clear();
         int temp = amount / KeySave.SIZE_OF_BLOCK;
+        Debug.Log(amount);
+        Debug.Log("temp: " + temp);
         // set up some simple data
         if (temp != 0)
         {

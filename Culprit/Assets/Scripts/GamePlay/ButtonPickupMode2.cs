@@ -31,7 +31,6 @@ public class ButtonPickupMode2 : MonoBehaviour
     public void SetupBtnDelegate(UnitMode2 unitMode2)
     {
         int i = 0;
-        Debug.Log(unitMode2.AmountofAsk);
         for ( ; i < btnScenes.Count && i <= unitMode2.AmountofAsk; i++)
         {
             if (i == 0) SetBtnSceneDisplay(unitMode2, i);

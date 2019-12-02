@@ -28,6 +28,7 @@ public class KeySave
     public static int Get_Index_Block(int indexUnitStage)
     {
         int i = indexUnitStage / SIZE_OF_BLOCK;
+        i = i % 2;
         return i;
     }
     public static int Get_Index_UnitStage(int indexUnitStage)

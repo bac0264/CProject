@@ -24,7 +24,6 @@ public class ConnectServerManager : MonoBehaviour
     {
         var dataQues = CSVReader.Read(backupLevelEnglish);
         var dataQues_2 = CSVReader.Read(backupUIEnglish);
-        Debug.Log("run");
         PlayerPrefs.SetInt(KeySave.LANGUAGE, 1);
         if (Application.systemLanguage == SystemLanguage.Vietnamese)
         {
@@ -40,7 +39,6 @@ public class ConnectServerManager : MonoBehaviour
         }
         else
         {
-
         }
         LevelDataManager.instance.levelData.LoadLevelData(dataQues);
         LevelDataManager.instance.languageUIContainer.LoadUIData(dataQues_2);

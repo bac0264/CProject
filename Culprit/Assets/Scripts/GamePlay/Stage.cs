@@ -47,11 +47,13 @@ public class Stage : CellView, IShowStage, IPointerClickHandler, IHide, IOpen
     public UnitStage GetNextUnitStage(int indexUnitStage)
     {
         int next = indexUnitStage + 1;
+        int indexBlock = KeySave.Get_Index_Block(next);
+
         if (next < amountOfUnitStage)
         {
-            UnitStage unitStage = _blockList[KeySave.Get_Index_Block(next)]
+            UnitStage unitStage = _blockList[indexBlock]
       .unitstageList[KeySave.Get_Index_UnitStage(next)];
-            unitStage.unit = LoadUnitOnvalidate.instance.GetUnitFromResources(index, unitStage._index);
+            unitStage.unit = LoadUnitOnvalidate.instance.GetUnitFromResources(index, next);
             if (unitStage.unit != null) return unitStage;
             return null;
         }
