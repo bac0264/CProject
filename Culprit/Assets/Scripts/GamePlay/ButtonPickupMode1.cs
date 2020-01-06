@@ -13,6 +13,10 @@ public class ButtonPickupMode1 : MonoBehaviour
     {
         if (objPooling == null) objPooling = GetComponent<ObjectPooling>();
     }
+    private void Start()
+    {
+        SetupInstance();
+    }
     public void SetupInstance()
     {
         if(Instance == null)
@@ -52,11 +56,9 @@ public class ButtonPickupMode1 : MonoBehaviour
         if (unitStage != null && unitStage.unit != null && unitStage.unit is UnitMode1)
         {
             if (QuestionMode1Popup.instance != null) QuestionMode1Popup.instance.HidePopup();
-            Debug.Log("run");
             UnitMode1 unit = unitStage.unit as UnitMode1;
             if (unit.IsWin(result))
             {
-                Debug.Log("run");
             }
         }
         UnactiveBtn();
@@ -73,6 +75,7 @@ public class ButtonPickupMode1 : MonoBehaviour
     {
         foreach (Button btn in btns)
         {
+            Debug.Log("run");
             btn.gameObject.SetActive(false);
         }
     }

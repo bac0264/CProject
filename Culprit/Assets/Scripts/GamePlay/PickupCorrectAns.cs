@@ -87,7 +87,10 @@ public class PickupCorrectAns : MonoBehaviour
         }
         else
         {
-            if (IronSourceManager.instance != null) IronSourceManager.instance.ShowInterstitial();
+            if (PlayerPrefs.GetInt(KeySave.HINT) == 0)
+            {
+                if (IronSourceManager.instance != null) IronSourceManager.instance.ShowInterstitial();
+            }
             ISSHOWFULL = false;
         }
     }

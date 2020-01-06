@@ -18,8 +18,8 @@ public class KeySave
     public const string LANGUAGE = "LANGUAGE"; // 1 is English, 0 is Vietnamese
     public const string TUTORIAL = "TUTORIAL";
     public const string TUTORIAL_PICKUP = "TUTORIAL_PICKUP";
-    public const int SCEME_MENU = 0;
-    public const int SCENE_STAGE = 1;
+    public const int SCEME_MENU = 1;
+    public const int SCENE_STAGE = 2;
     public const int STAGE_AMOUNT = 6;
     public const int SIZE_OF_BLOCK = 12;
     public const float TIME_BACK = 0.3f;

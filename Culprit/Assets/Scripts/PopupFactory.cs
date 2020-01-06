@@ -7,7 +7,6 @@ public class PopupFactory : MonoBehaviour
 {
     public static PopupFactory instance;
     private Transform container;
-    private Dictionary<string, BasePopup> popupDictionaries;
 
     private void Awake()
     {
@@ -20,17 +19,8 @@ public class PopupFactory : MonoBehaviour
         {
             Destroy(this);
         }
-        SetPopupDictionary();
     }
-    private void SetPopupDictionary()
-    {
-        BasePopup[] listPopup = Resources.LoadAll<BasePopup>("Popup");
-        popupDictionaries = new Dictionary<string, BasePopup>();
-        foreach (BasePopup _popup in listPopup)
-        {
-            popupDictionaries.Add(_popup.type.ToString(), _popup);
-        }
-    }
+    
 
     public void UpdateContainer()
     {
@@ -173,7 +163,8 @@ public class PopupFactory : MonoBehaviour
     public void InitPopup(BasePopup.TypeOfPopup type)
     {
         UpdateContainer();
-        BasePopup popupNeed = popupDictionaries[type.ToString()];
+        string link = "Popup/" + type.ToString();
+        BasePopup popupNeed = Resources.Load<BasePopup>(link);
         if (popupNeed == null) return;
         GameObject obj = Instantiate(popupNeed.gameObject, container);
         BasePopup popup = obj.GetComponent<BasePopup>();

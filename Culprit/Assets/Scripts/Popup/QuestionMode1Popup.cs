@@ -39,4 +39,15 @@ public class QuestionMode1Popup : BasePopup
         yield return new WaitForSeconds(KeySave.TIME_BACK);
         base.HidePopup();
     }
+    public override void Try()
+    {
+        if (SoundManager.instance != null) SoundManager.instance.UI_button_Click();
+        unitStage = ButtonStageManager.instance.unitStage;
+        if (unitStage.unit != null)
+        {
+            unitStage.unit.Try();
+        }
+        if (ButtonPickupMode1.Instance != null) ButtonPickupMode1.Instance.UnactiveBtn();
+        HidePopup();
+    }
 }

@@ -25,101 +25,101 @@ public class IronSourceManager : MonoBehaviour
     void Start()
     {
 
-        //Debug.Log("unity-script: MyAppStart Start called");
+        Debug.Log("unity-script: MyAppStart Start called");
 
-        ////IronSourceConfig.Instance.setClientSideCallbacks(true);
+        //IronSourceConfig.Instance.setClientSideCallbacks(true);
 
-        //string id = IronSource.Agent.getAdvertiserId();
-        //Debug.Log("unity-script: IronSource.Agent.getAdvertiserId : " + id);
+        string id = IronSource.Agent.getAdvertiserId();
+        Debug.Log("unity-script: IronSource.Agent.getAdvertiserId : " + id);
 
-        //Debug.Log("unity-script: IronSource.Agent.validateIntegration");
-        //IronSource.Agent.validateIntegration();
+        Debug.Log("unity-script: IronSource.Agent.validateIntegration");
+        IronSource.Agent.validateIntegration();
 
-        //Debug.Log("unity-script: unity version" + IronSource.unityVersion());
+        Debug.Log("unity-script: unity version" + IronSource.unityVersion());
 
-        //// Add Banner Events
-        //IronSourceEvents.onBannerAdLoadedEvent += BannerAdLoadedEvent;
-        //IronSourceEvents.onBannerAdLoadFailedEvent += BannerAdLoadFailedEvent;
-        //IronSourceEvents.onBannerAdClickedEvent += BannerAdClickedEvent;
-        //IronSourceEvents.onBannerAdScreenPresentedEvent += BannerAdScreenPresentedEvent;
-        //IronSourceEvents.onBannerAdScreenDismissedEvent += BannerAdScreenDismissedEvent;
-        //IronSourceEvents.onBannerAdLeftApplicationEvent += BannerAdLeftApplicationEvent;
+        // Add Banner Events
+        IronSourceEvents.onBannerAdLoadedEvent += BannerAdLoadedEvent;
+        IronSourceEvents.onBannerAdLoadFailedEvent += BannerAdLoadFailedEvent;
+        IronSourceEvents.onBannerAdClickedEvent += BannerAdClickedEvent;
+        IronSourceEvents.onBannerAdScreenPresentedEvent += BannerAdScreenPresentedEvent;
+        IronSourceEvents.onBannerAdScreenDismissedEvent += BannerAdScreenDismissedEvent;
+        IronSourceEvents.onBannerAdLeftApplicationEvent += BannerAdLeftApplicationEvent;
 
-        //// Add Interstitial Events
-        //IronSourceEvents.onInterstitialAdReadyEvent += InterstitialAdReadyEvent;
-        //IronSourceEvents.onInterstitialAdLoadFailedEvent += InterstitialAdLoadFailedEvent;
-        //IronSourceEvents.onInterstitialAdShowSucceededEvent += InterstitialAdShowSucceededEvent;
-        //IronSourceEvents.onInterstitialAdShowFailedEvent += InterstitialAdShowFailedEvent;
-        //IronSourceEvents.onInterstitialAdClickedEvent += InterstitialAdClickedEvent;
-        //IronSourceEvents.onInterstitialAdOpenedEvent += InterstitialAdOpenedEvent;
-        //IronSourceEvents.onInterstitialAdClosedEvent += InterstitialAdClosedEvent;
+        // Add Interstitial Events
+        IronSourceEvents.onInterstitialAdReadyEvent += InterstitialAdReadyEvent;
+        IronSourceEvents.onInterstitialAdLoadFailedEvent += InterstitialAdLoadFailedEvent;
+        IronSourceEvents.onInterstitialAdShowSucceededEvent += InterstitialAdShowSucceededEvent;
+        IronSourceEvents.onInterstitialAdShowFailedEvent += InterstitialAdShowFailedEvent;
+        IronSourceEvents.onInterstitialAdClickedEvent += InterstitialAdClickedEvent;
+        IronSourceEvents.onInterstitialAdOpenedEvent += InterstitialAdOpenedEvent;
+        IronSourceEvents.onInterstitialAdClosedEvent += InterstitialAdClosedEvent;
 
-        //// Add Interstitial DemandOnly Events
-        //IronSourceEvents.onInterstitialAdReadyDemandOnlyEvent += InterstitialAdReadyDemandOnlyEvent;
-        //IronSourceEvents.onInterstitialAdLoadFailedDemandOnlyEvent += InterstitialAdLoadFailedDemandOnlyEvent;
-        //IronSourceEvents.onInterstitialAdShowFailedDemandOnlyEvent += InterstitialAdShowFailedDemandOnlyEvent;
-        //IronSourceEvents.onInterstitialAdClickedDemandOnlyEvent += InterstitialAdClickedDemandOnlyEvent;
-        //IronSourceEvents.onInterstitialAdOpenedDemandOnlyEvent += InterstitialAdOpenedDemandOnlyEvent;
-        //IronSourceEvents.onInterstitialAdClosedDemandOnlyEvent += InterstitialAdClosedDemandOnlyEvent;
+        // Add Interstitial DemandOnly Events
+        IronSourceEvents.onInterstitialAdReadyDemandOnlyEvent += InterstitialAdReadyDemandOnlyEvent;
+        IronSourceEvents.onInterstitialAdLoadFailedDemandOnlyEvent += InterstitialAdLoadFailedDemandOnlyEvent;
+        IronSourceEvents.onInterstitialAdShowFailedDemandOnlyEvent += InterstitialAdShowFailedDemandOnlyEvent;
+        IronSourceEvents.onInterstitialAdClickedDemandOnlyEvent += InterstitialAdClickedDemandOnlyEvent;
+        IronSourceEvents.onInterstitialAdOpenedDemandOnlyEvent += InterstitialAdOpenedDemandOnlyEvent;
+        IronSourceEvents.onInterstitialAdClosedDemandOnlyEvent += InterstitialAdClosedDemandOnlyEvent;
 
-        //// Add Rewarded Interstitial Events
-        //IronSourceEvents.onInterstitialAdRewardedEvent += InterstitialAdRewardedEvent;
+        // Add Rewarded Interstitial Events
+        IronSourceEvents.onInterstitialAdRewardedEvent += InterstitialAdRewardedEvent;
 
-        ////Add Rewarded Video Events
-        //IronSourceEvents.onRewardedVideoAdOpenedEvent += RewardedVideoAdOpenedEvent;
-        //IronSourceEvents.onRewardedVideoAdClosedEvent += RewardedVideoAdClosedEvent;
-        //IronSourceEvents.onRewardedVideoAvailabilityChangedEvent += RewardedVideoAvailabilityChangedEvent;
-        //IronSourceEvents.onRewardedVideoAdStartedEvent += RewardedVideoAdStartedEvent;
-        //IronSourceEvents.onRewardedVideoAdEndedEvent += RewardedVideoAdEndedEvent;
-        //IronSourceEvents.onRewardedVideoAdRewardedEvent += RewardedVideoAdRewardedEvent;
-        //IronSourceEvents.onRewardedVideoAdShowFailedEvent += RewardedVideoAdShowFailedEvent;
-        //IronSourceEvents.onRewardedVideoAdClickedEvent += RewardedVideoAdClickedEvent;
+        //Add Rewarded Video Events
+        IronSourceEvents.onRewardedVideoAdOpenedEvent += RewardedVideoAdOpenedEvent;
+        IronSourceEvents.onRewardedVideoAdClosedEvent += RewardedVideoAdClosedEvent;
+        IronSourceEvents.onRewardedVideoAvailabilityChangedEvent += RewardedVideoAvailabilityChangedEvent;
+        IronSourceEvents.onRewardedVideoAdStartedEvent += RewardedVideoAdStartedEvent;
+        IronSourceEvents.onRewardedVideoAdEndedEvent += RewardedVideoAdEndedEvent;
+        IronSourceEvents.onRewardedVideoAdRewardedEvent += RewardedVideoAdRewardedEvent;
+        IronSourceEvents.onRewardedVideoAdShowFailedEvent += RewardedVideoAdShowFailedEvent;
+        IronSourceEvents.onRewardedVideoAdClickedEvent += RewardedVideoAdClickedEvent;
 
-        ////Add Rewarded Video DemandOnly Events
-        //IronSourceEvents.onRewardedVideoAdOpenedDemandOnlyEvent += RewardedVideoAdOpenedDemandOnlyEvent;
-        //IronSourceEvents.onRewardedVideoAdClosedDemandOnlyEvent += RewardedVideoAdClosedDemandOnlyEvent;
-        //IronSourceEvents.onRewardedVideoAdLoadedDemandOnlyEvent += this.RewardedVideoAdLoadedDemandOnlyEvent;
-        //IronSourceEvents.onRewardedVideoAdRewardedDemandOnlyEvent += RewardedVideoAdRewardedDemandOnlyEvent;
-        //IronSourceEvents.onRewardedVideoAdShowFailedDemandOnlyEvent += RewardedVideoAdShowFailedDemandOnlyEvent;
-        //IronSourceEvents.onRewardedVideoAdClickedDemandOnlyEvent += RewardedVideoAdClickedDemandOnlyEvent;
-        //IronSourceEvents.onRewardedVideoAdLoadFailedDemandOnlyEvent += this.RewardedVideoAdLoadFailedDemandOnlyEvent;
+        //Add Rewarded Video DemandOnly Events
+        IronSourceEvents.onRewardedVideoAdOpenedDemandOnlyEvent += RewardedVideoAdOpenedDemandOnlyEvent;
+        IronSourceEvents.onRewardedVideoAdClosedDemandOnlyEvent += RewardedVideoAdClosedDemandOnlyEvent;
+        IronSourceEvents.onRewardedVideoAdLoadedDemandOnlyEvent += this.RewardedVideoAdLoadedDemandOnlyEvent;
+        IronSourceEvents.onRewardedVideoAdRewardedDemandOnlyEvent += RewardedVideoAdRewardedDemandOnlyEvent;
+        IronSourceEvents.onRewardedVideoAdShowFailedDemandOnlyEvent += RewardedVideoAdShowFailedDemandOnlyEvent;
+        IronSourceEvents.onRewardedVideoAdClickedDemandOnlyEvent += RewardedVideoAdClickedDemandOnlyEvent;
+        IronSourceEvents.onRewardedVideoAdLoadFailedDemandOnlyEvent += this.RewardedVideoAdLoadFailedDemandOnlyEvent;
 
-        //// SDK init
-        //Debug.Log("unity-script: IronSource.Agent.init");
-        ////IronSource.Agent.init (appKey, IronSourceAdUnits.REWARDED_VIDEO, IronSourceAdUnits.INTERSTITIAL, IronSourceAdUnits.OFFERWALL, IronSourceAdUnits.BANNER);
-        ////IronSource.Agent.initISDemandOnly (appKey, IronSourceAdUnits.REWARDED_VIDEO, IronSourceAdUnits.INTERSTITIAL);
+        // SDK init
+        Debug.Log("unity-script: IronSource.Agent.init");
+        //IronSource.Agent.init (appKey, IronSourceAdUnits.REWARDED_VIDEO, IronSourceAdUnits.INTERSTITIAL, IronSourceAdUnits.OFFERWALL, IronSourceAdUnits.BANNER);
+        //IronSource.Agent.initISDemandOnly (appKey, IronSourceAdUnits.REWARDED_VIDEO, IronSourceAdUnits.INTERSTITIAL);
 
-        ////Set User ID For Server To Server Integration
-        ////// IronSource.Agent.setUserId ("UserId");
+        //Set User ID For Server To Server Integration
+        //// IronSource.Agent.setUserId ("UserId");
 
-        //// Load Banner example
-        //IronSource.Agent.loadBanner(IronSourceBannerSize.BANNER, IronSourceBannerPosition.TOP);
-        //IronSource.Agent.init(appKey);
-        //IronSource.Agent.loadBanner(IronSourceBannerSize.BANNER, IronSourceBannerPosition.TOP);
-        //LoadInterstitial();
-        //ShowBanner();
+        // Load Banner example
+        IronSource.Agent.loadBanner(IronSourceBannerSize.BANNER, IronSourceBannerPosition.TOP);
+        IronSource.Agent.init(appKey);
+        IronSource.Agent.loadBanner(IronSourceBannerSize.BANNER, IronSourceBannerPosition.TOP);
+        LoadInterstitial();
+        ShowBanner();
     }
 
     void OnApplicationPause(bool isPaused)
     {
         Debug.Log("unity-script: OnApplicationPause = " + isPaused);
-       // IronSource.Agent.onApplicationPause(isPaused);
+        IronSource.Agent.onApplicationPause(isPaused);
     }
 
     public void ShowBanner()
     {
         Debug.Log("Show Banner");
-       // IronSource.Agent.displayBanner();
+        IronSource.Agent.displayBanner();
     }
 
     public void HideBanner()
     {
-      //  IronSource.Agent.hideBanner();
+        IronSource.Agent.hideBanner();
     }
 
     public void DestroyBanner()
     {
-       // IronSource.Agent.destroyBanner();
+        IronSource.Agent.destroyBanner();
     }
 
     //Banner Events
@@ -128,10 +128,10 @@ public class IronSourceManager : MonoBehaviour
         Debug.Log("unity-script: I got BannerAdLoadedEvent");
     }
 
-    //void BannerAdLoadFailedEvent(IronSourceError error)
-    //{
-    //    Debug.Log("unity-script: I got BannerAdLoadFailedEvent, code: " + error.getCode() + ", description : " + error.getDescription());
-    //}
+    void BannerAdLoadFailedEvent(IronSourceError error)
+    {
+        Debug.Log("unity-script: I got BannerAdLoadFailedEvent, code: " + error.getCode() + ", description : " + error.getDescription());
+    }
 
     void BannerAdClickedEvent()
     {
@@ -157,27 +157,27 @@ public class IronSourceManager : MonoBehaviour
     public void LoadInterstitial()
     {
         Debug.Log("unity-script: LoadInterstitial");
-     //   IronSource.Agent.loadInterstitial();
+        IronSource.Agent.loadInterstitial();
 
-        //DemandOnly
-        // LoadDemandOnlyInterstitial ();
+      //  DemandOnly
+       //  LoadDemandOnlyInterstitial();
     }
 
     public void ShowInterstitial()
     {
-       // Debug.Log("unity-script: ShowInterstitialButtonClicked");
-       //// if (IronSource.Agent.isInterstitialReady())
-       // {
-       ////     IronSource.Agent.showInterstitial();
-       // }
-       // else
-       // {
-       //     Debug.Log("unity-script: IronSource.Agent.isInterstitialReady - False");
-       //     LoadInterstitial();
-       // }
+        Debug.Log("unity-script: ShowInterstitialButtonClicked");
+         if (IronSource.Agent.isInterstitialReady())
+        {
+                 IronSource.Agent.showInterstitial();
+        }
+        else
+        {
+            Debug.Log("unity-script: IronSource.Agent.isInterstitialReady - False");
+            LoadInterstitial();
+        }
 
-        // DemandOnly
-        // ShowDemandOnlyInterstitial ();
+       // DemandOnly
+        // ShowDemandOnlyInterstitial();
     }
 
 
@@ -187,20 +187,20 @@ public class IronSourceManager : MonoBehaviour
         Debug.Log("unity-script: I got InterstitialAdReadyEvent");
     }
 
-    //void InterstitialAdLoadFailedEvent(IronSourceError error)
-    //{
-    //    Debug.Log("unity-script: I got InterstitialAdLoadFailedEvent, code: " + error.getCode() + ", description : " + error.getDescription());
-    //}
+    void InterstitialAdLoadFailedEvent(IronSourceError error)
+    {
+        Debug.Log("unity-script: I got InterstitialAdLoadFailedEvent, code: " + error.getCode() + ", description : " + error.getDescription());
+    }
 
     void InterstitialAdShowSucceededEvent()
     {
         Debug.Log("unity-script: I got InterstitialAdShowSucceededEvent");
     }
 
-    //void InterstitialAdShowFailedEvent(IronSourceError error)
-    //{
-    //    Debug.Log("unity-script: I got InterstitialAdShowFailedEvent, code :  " + error.getCode() + ", description : " + error.getDescription());
-    //}
+    void InterstitialAdShowFailedEvent(IronSourceError error)
+    {
+        Debug.Log("unity-script: I got InterstitialAdShowFailedEvent, code :  " + error.getCode() + ", description : " + error.getDescription());
+    }
 
     void InterstitialAdClickedEvent()
     {
@@ -228,15 +228,15 @@ public class IronSourceManager : MonoBehaviour
         Debug.Log("unity-script: I got InterstitialAdReadyDemandOnlyEvent for instance: " + instanceId);
     }
 
-    //void InterstitialAdLoadFailedDemandOnlyEvent(string instanceId, IronSourceError error)
-    //{
-    //    Debug.Log("unity-script: I got InterstitialAdLoadFailedDemandOnlyEvent for instance: " + instanceId + ", error code: " + error.getCode() + ",error description : " + error.getDescription());
-    //}
+    void InterstitialAdLoadFailedDemandOnlyEvent(string instanceId, IronSourceError error)
+    {
+        Debug.Log("unity-script: I got InterstitialAdLoadFailedDemandOnlyEvent for instance: " + instanceId + ", error code: " + error.getCode() + ",error description : " + error.getDescription());
+    }
 
-    //void InterstitialAdShowFailedDemandOnlyEvent(string instanceId, IronSourceError error)
-    //{
-    //    Debug.Log("unity-script: I got InterstitialAdShowFailedDemandOnlyEvent for instance: " + instanceId + ", error code :  " + error.getCode() + ",error description : " + error.getDescription());
-    //}
+    void InterstitialAdShowFailedDemandOnlyEvent(string instanceId, IronSourceError error)
+    {
+        Debug.Log("unity-script: I got InterstitialAdShowFailedDemandOnlyEvent for instance: " + instanceId + ", error code :  " + error.getCode() + ",error description : " + error.getDescription());
+    }
 
     void InterstitialAdClickedDemandOnlyEvent(string instanceId)
     {
@@ -262,19 +262,19 @@ public class IronSourceManager : MonoBehaviour
     /************* RewardedVideo API *************/
     public void ShowRewardedVideo()
     {
-        // callback = cb;
-        //Debug.Log("unity-script: ShowRewardedVideo");
-        //if (IronSource.Agent.isRewardedVideoAvailable())
-        //{
-        //    IronSource.Agent.showRewardedVideo();
-        //}
-        //else
-        //{
-        //    Debug.Log("unity-script: IronSource.Agent.isRewardedVideoAvailable - False");
-        //}
+       // callback = cb;
+        Debug.Log("unity-script: ShowRewardedVideo");
+        if (IronSource.Agent.isRewardedVideoAvailable())
+        {
+            IronSource.Agent.showRewardedVideo();
+        }
+        else
+        {
+            Debug.Log("unity-script: IronSource.Agent.isRewardedVideoAvailable - False");
+        }
 
-        // DemandOnly
-        // ShowDemandOnlyRewardedVideo ();
+        //DemandOnly
+         //ShowDemandOnlyRewardedVideo();
     }
 
     #region/************* RewardedVideo Delegates *************/
@@ -296,13 +296,13 @@ public class IronSourceManager : MonoBehaviour
         Debug.Log("unity-script: I got RewardedVideoAdOpenedEvent");
     }
 
-    //void RewardedVideoAdRewardedEvent(IronSourcePlacement ssp)
-    //{
-    //    Debug.Log("unity-script: I got RewardedVideoAdRewardedEvent, amount = " + ssp.getRewardAmount() + " name = " + ssp.getRewardName());
-    //    // callback.Invoke();
-    //    Debug.Log("run");
-    //    //  TestData.instance.CreateText();
-    //}
+    void RewardedVideoAdRewardedEvent(IronSourcePlacement ssp)
+    {
+        Debug.Log("unity-script: I got RewardedVideoAdRewardedEvent, amount = " + ssp.getRewardAmount() + " name = " + ssp.getRewardName());
+        // callback.Invoke();
+        Debug.Log("run");
+        //  TestData.instance.CreateText();
+    }
 
     void RewardedVideoAdClosedEvent()
     {
@@ -319,15 +319,15 @@ public class IronSourceManager : MonoBehaviour
         Debug.Log("unity-script: I got RewardedVideoAdEndedEvent");
     }
 
-    //void RewardedVideoAdShowFailedEvent(IronSourceError error)
-    //{
-    //    Debug.Log("unity-script: I got RewardedVideoAdShowFailedEvent, code :  " + error.getCode() + ", description : " + error.getDescription());
-    //}
+    void RewardedVideoAdShowFailedEvent(IronSourceError error)
+    {
+        Debug.Log("unity-script: I got RewardedVideoAdShowFailedEvent, code :  " + error.getCode() + ", description : " + error.getDescription());
+    }
 
-    //void RewardedVideoAdClickedEvent(IronSourcePlacement ssp)
-    //{
-    //    Debug.Log("unity-script: I got RewardedVideoAdClickedEvent, name = " + ssp.getRewardName());
-    //}
+    void RewardedVideoAdClickedEvent(IronSourcePlacement ssp)
+    {
+        Debug.Log("unity-script: I got RewardedVideoAdClickedEvent, name = " + ssp.getRewardName());
+    }
 
     /************* RewardedVideo DemandOnly Delegates *************/
 
@@ -336,10 +336,10 @@ public class IronSourceManager : MonoBehaviour
         Debug.Log("unity-script: I got RewardedVideoAdLoadedDemandOnlyEvent for instance: " + instanceId);
     }
 
-    //void RewardedVideoAdLoadFailedDemandOnlyEvent(string instanceId, IronSourceError error)
-    //{
-    //    Debug.Log("unity-script: I got RewardedVideoAdLoadFailedDemandOnlyEvent for instance: " + instanceId + ", code :  " + error.getCode() + ", description : " + error.getDescription());
-    //}
+    void RewardedVideoAdLoadFailedDemandOnlyEvent(string instanceId, IronSourceError error)
+    {
+        Debug.Log("unity-script: I got RewardedVideoAdLoadFailedDemandOnlyEvent for instance: " + instanceId + ", code :  " + error.getCode() + ", description : " + error.getDescription());
+    }
 
     void RewardedVideoAdOpenedDemandOnlyEvent(string instanceId)
     {
@@ -356,10 +356,10 @@ public class IronSourceManager : MonoBehaviour
         Debug.Log("unity-script: I got RewardedVideoAdClosedDemandOnlyEvent for instance: " + instanceId);
     }
 
-    //void RewardedVideoAdShowFailedDemandOnlyEvent(string instanceId, IronSourceError error)
-    //{
-    //    Debug.Log("unity-script: I got RewardedVideoAdShowFailedDemandOnlyEvent for instance: " + instanceId + ", code :  " + error.getCode() + ", description : " + error.getDescription());
-    //}
+    void RewardedVideoAdShowFailedDemandOnlyEvent(string instanceId, IronSourceError error)
+    {
+        Debug.Log("unity-script: I got RewardedVideoAdShowFailedDemandOnlyEvent for instance: " + instanceId + ", code :  " + error.getCode() + ", description : " + error.getDescription());
+    }
 
     void RewardedVideoAdClickedDemandOnlyEvent(string instanceId)
     {

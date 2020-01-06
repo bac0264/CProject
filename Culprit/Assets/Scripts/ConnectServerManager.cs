@@ -42,7 +42,6 @@ public class ConnectServerManager : MonoBehaviour
         }
         LevelDataManager.instance.levelData.LoadLevelData(dataQues);
         LevelDataManager.instance.languageUIContainer.LoadUIData(dataQues_2);
-        LevelDataManager.instance.SetDictionaryUI();
         LevelDataManager.instance.UpdateAllTextUI();
     }
     IEnumerator LevelLanguageConnectServer()
@@ -119,7 +118,6 @@ public class ConnectServerManager : MonoBehaviour
                     dataQues = CSVReader.Read(backupUIVietnamese);
                 }
                 LevelDataManager.instance.languageUIContainer.LoadUIData(dataQues);
-                LevelDataManager.instance.SetDictionaryUI();
                 LevelDataManager.instance.UpdateAllTextUI();
             }
             else
@@ -128,7 +126,6 @@ public class ConnectServerManager : MonoBehaviour
                 ES3Spreadsheet sheet = ReadFileCSV.ReadFileCsv("UILanguage");
                 ReadFileCSV.HandleDataCSV(sheet);
                 LevelDataManager.instance.languageUIContainer.LoadUIData(sheet);
-                LevelDataManager.instance.SetDictionaryUI();
                 LevelDataManager.instance.UpdateAllTextUI();
             }
         }

@@ -16,6 +16,15 @@ public class IncorrectPopup : BasePopup
     {
         if (SoundManager.instance != null) SoundManager.instance.UI_effect_Wrong();
         base.ShowPopup();
+        if (PlayerPrefs.GetInt(KeySave.HINT, 0) == 1)
+        {
+            if (IronSourceManager.instance != null) IronSourceManager.instance.ShowRewardedVideo();
+            PlayerPrefs.SetInt(KeySave.HINT, 0);
+        }
+        else
+        {
+
+        }
     }
     public override void HidePopup()
     {

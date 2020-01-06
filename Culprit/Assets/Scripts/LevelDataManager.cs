@@ -6,7 +6,6 @@ using System.Collections.Generic;
 public class LevelDataManager : MonoBehaviour
 {
     public static LevelDataManager instance;
-    private Dictionary<string, string> dictionaryUI;
 
     public ConnectServerManager connect;
     public TextScript[] textScripts;
@@ -85,16 +84,11 @@ public class LevelDataManager : MonoBehaviour
     }
     public string GetStringFromDictionaryUI(string key)
     {
-        if (dictionaryUI == null) return " ";
-        return dictionaryUI[key];
-    }
-    public void SetDictionaryUI()
-    {
-        dictionaryUI = new Dictionary<string, string>();
         foreach (UIData data in languageUIContainer.dataList)
         {
-            dictionaryUI.Add(data.NAME, data.DATA);
+            if (key == data.NAME) return data.DATA;
         }
+        return "";
     }
     public void UpdateAllTextUI()
     {
