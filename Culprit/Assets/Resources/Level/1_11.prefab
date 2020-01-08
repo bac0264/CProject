@@ -33,10 +33,10 @@ RectTransform:
   m_Father: {fileID: 1823958388067806203}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.38900003, y: 0.20132324}
-  m_AnchorMax: {x: 0.44361326, y: 0.6463384}
-  m_AnchoredPosition: {x: -0.8999996, y: -1.5}
-  m_SizeDelta: {x: 2.5, y: 0.8999939}
+  m_AnchorMin: {x: 0.36027536, y: 0.14125715}
+  m_AnchorMax: {x: 0.4595435, y: 1}
+  m_AnchoredPosition: {x: 0.119999886, y: 0.6089554}
+  m_SizeDelta: {x: 0.85999966, y: -0.009994507}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &116501412729434313
 CanvasRenderer:
@@ -152,7 +152,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.26427254, y: 0.6463384}
   m_AnchorMax: {x: 0.47872743, y: 0.83400005}
-  m_AnchoredPosition: {x: -0.1499939, y: 0.39999962}
+  m_AnchoredPosition: {x: -0.1499939, y: 0.40000916}
   m_SizeDelta: {x: 0, y: 1.1000004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1257967505414419325
@@ -411,6 +411,7 @@ MonoBehaviour:
   containerCorrectAnswersBtn: {fileID: 1823958388067806203}
   MaxIndexScene: 0
   CurIndexScene: 0
+  AmountofAsk: 0
 --- !u!1 &7534007612935743058
 GameObject:
   m_ObjectHideFlags: 0
@@ -446,7 +447,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -14.4140005}
   m_AnchorMin: {x: 0.185, y: 0.034}
   m_AnchorMax: {x: 0.49218172, y: 0.2166465}
-  m_AnchoredPosition: {x: -0.07700348, y: 0.70000076}
+  m_AnchoredPosition: {x: -0.07700348, y: 0.7000122}
   m_SizeDelta: {x: -1.550003, y: 0.69999695}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8736308476872859142

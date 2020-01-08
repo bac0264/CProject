@@ -46,6 +46,9 @@ public class UnitMode2 : Unit
         for (; i < correctAnswerBtns.Count && i <= AmountofAsk; i++)
         {
             int index = i;
+            //test
+            correctAnswerBtns[i].GetComponent<Image>().color = new Color(1, 1, 1, 1);
+            //
             correctAnswerBtns[i].onClick.RemoveAllListeners();
             correctAnswerBtns[i].onClick.AddListener(delegate { SetCorrectAnswerButton(index); });
         }
