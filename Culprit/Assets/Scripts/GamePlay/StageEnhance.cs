@@ -32,6 +32,7 @@ public class StageEnhance : SimpleDemo
             int _amountUnitStage = LoadUnitOnvalidate.instance.GetAmountUnitStage(i);
             _data.Add(new DataStage() { indexStage = i, amountUnitStage = _amountUnitStage });
         }
+        
         // tell the scroller to reload now that we have the data
         scroller.ReloadData();
         StageManager.instance.SetupEvent();

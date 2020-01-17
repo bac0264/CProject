@@ -116,18 +116,18 @@ public class SettingPopup : BasePopup
         turnOnMusic.SetActive(false);
         turnOffMusic.SetActive(true);
     }
-    public void Language()
-    {
-        if (PlayerPrefs.GetInt(KeySave.LANGUAGE) == 0)
-        {
-            PlayerPrefs.SetInt(KeySave.LANGUAGE, 1);
-        }
-        else
-        {
-            PlayerPrefs.SetInt(KeySave.LANGUAGE, 0);
-        }
-        if (LevelDataManager.instance != null) LevelDataManager.instance.GetDataFromServer();
-    }
+    //public void Language()
+    //{
+    //    if (PlayerPrefs.GetInt(KeySave.LANGUAGE) == 0)
+    //    {
+    //        PlayerPrefs.SetInt(KeySave.LANGUAGE, 1);
+    //    }
+    //    else
+    //    {
+    //        PlayerPrefs.SetInt(KeySave.LANGUAGE, 0);
+    //    }
+    //    if (LevelDataManager.instance != null) LevelDataManager.instance.GetDataFromServer();
+    //}
     public void Vietnamese()
     {
         if (FireBaseEventManager.instance != null)
@@ -136,7 +136,14 @@ public class SettingPopup : BasePopup
         }
         if (SoundManager.instance != null) SoundManager.instance.UI_effect_Pick();
         PlayerPrefs.SetInt(KeySave.LANGUAGE, 0);
-        if (LevelDataManager.instance != null) LevelDataManager.instance.GetDataFromServer();
+        if (LevelDataManager.instance != null)
+        {
+#if UNITY_ANDROID
+            LevelDataManager.instance.GetDataFromServer();
+#elif UNITY_IOS
+            LevelDataManager.instance.connect.SetupIOS();
+#endif
+        }
         snap.UpdateBtn();
 
     }
@@ -148,7 +155,14 @@ public class SettingPopup : BasePopup
         }
         if (SoundManager.instance != null) SoundManager.instance.UI_effect_Pick();
         PlayerPrefs.SetInt(KeySave.LANGUAGE, 1);
-        if (LevelDataManager.instance != null) LevelDataManager.instance.GetDataFromServer();
+        if (LevelDataManager.instance != null)
+        {
+#if UNITY_ANDROID
+            LevelDataManager.instance.GetDataFromServer();
+#elif UNITY_IOS
+            LevelDataManager.instance.connect.SetupIOS();
+#endif
+        }
         snap.UpdateBtn();
     }
 }

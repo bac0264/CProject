@@ -6,8 +6,11 @@ using UnityEngine;
 public class IronSourceManager : MonoBehaviour
 {
     public static IronSourceManager instance;
+#if UNITY_ANDROID
     public static string appKey = "a98a6255";
-
+#elif UNITY_IOS
+    public static string appKey = "af7cb705";
+#endif
     public Action callback;
 
     private void Awake()
@@ -156,7 +159,7 @@ public class IronSourceManager : MonoBehaviour
     /************* Interstitial API *************/
     public void LoadInterstitial()
     {
-        Debug.Log("unity-script: LoadInterstitial");
+
         IronSource.Agent.loadInterstitial();
 
       //  DemandOnly
@@ -181,7 +184,7 @@ public class IronSourceManager : MonoBehaviour
     }
 
 
-    #region /************* Interstitial Delegates *************/
+#region /************* Interstitial Delegates *************/
     void InterstitialAdReadyEvent()
     {
         Debug.Log("unity-script: I got InterstitialAdReadyEvent");
@@ -257,7 +260,7 @@ public class IronSourceManager : MonoBehaviour
     {
         Debug.Log("unity-script: I got InterstitialAdRewardedDemandOnlyEvent for instance: " + instanceId);
     }
-    #endregion
+#endregion
 
     /************* RewardedVideo API *************/
     public void ShowRewardedVideo()
@@ -277,7 +280,7 @@ public class IronSourceManager : MonoBehaviour
          //ShowDemandOnlyRewardedVideo();
     }
 
-    #region/************* RewardedVideo Delegates *************/
+#region/************* RewardedVideo Delegates *************/
     void RewardedVideoAvailabilityChangedEvent(bool canShowAd)
     {
         Debug.Log("unity-script: I got RewardedVideoAvailabilityChangedEvent, value = " + canShowAd);
@@ -365,6 +368,6 @@ public class IronSourceManager : MonoBehaviour
     {
         Debug.Log("unity-script: I got RewardedVideoAdClickedDemandOnlyEvent for instance: " + instanceId);
     }
-    #endregion
+#endregion
 
 }

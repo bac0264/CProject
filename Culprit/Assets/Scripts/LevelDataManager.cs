@@ -26,6 +26,8 @@ public class LevelDataManager : MonoBehaviour
             DontDestroyOnLoad(this);
         }
         else { Destroy(this); }
+#if UNITY_ANDROID
+        Debug.Log("run android");
         if (PlayerPrefs.GetInt(KeySave.LANGUAGE_IS_THE_FIRST_TIME, 0) == 0)
         {
             connect.SetupForTheFirst();
@@ -33,6 +35,16 @@ public class LevelDataManager : MonoBehaviour
         }
         else
             GetDataFromServer();
+#elif UNITY_IOS
+        Debug.Log("run ios");
+        if (PlayerPrefs.GetInt(KeySave.LANGUAGE_IS_THE_FIRST_TIME, 0) == 0)
+        {
+            connect.SetupForTheFirst();
+            PlayerPrefs.SetInt(KeySave.LANGUAGE_IS_THE_FIRST_TIME, 1);
+        }
+        else
+            connect.SetupIOS();
+#endif
     }
     public void GetDataFromServer()
     {

@@ -17,7 +17,7 @@ public class Stage : CellView, IShowStage, IPointerClickHandler, IHide, IOpen
     //  public UnitStage[] _unitList;
     public BlockUnitStage[] _blockList;
     public Image stageImage;
-
+    public GameObject prevent;
     public Text type;
     public int index;
     public int amountOfUnitStage;
@@ -30,6 +30,21 @@ public class Stage : CellView, IShowStage, IPointerClickHandler, IHide, IOpen
             DataStage dataStage = data as DataStage;
             index = dataStage.indexStage;
             amountOfUnitStage = dataStage.amountUnitStage;
+            if(index == 0)
+            {
+                if(PlayerPrefs.GetInt("ConditionToOpenMode1") >= 5)
+                {
+                    if (prevent != null) prevent.SetActive(false);
+                }
+                else
+                {
+                    if (prevent != null) prevent.SetActive(true);
+                }
+            }
+            else
+            {
+                if (prevent != null) prevent.SetActive(false);
+            }
         }
     }
     public UnitStage GetUnitStage(int indexUnitStage)

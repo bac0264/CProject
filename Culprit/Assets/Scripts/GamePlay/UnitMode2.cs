@@ -52,7 +52,7 @@ public class UnitMode2 : Unit
             correctAnswerBtns[i].onClick.RemoveAllListeners();
             correctAnswerBtns[i].onClick.AddListener(delegate { SetCorrectAnswerButton(index); });
         }
-        for(; i < correctAnswerBtns.Count; i++)
+        for (; i < correctAnswerBtns.Count; i++)
         {
             correctAnswerBtns[i].onClick.RemoveAllListeners();
             correctAnswerBtns[i].gameObject.SetActive(false);
@@ -88,7 +88,19 @@ public class UnitMode2 : Unit
             }
             PickupCorrectAns.instance.RunPickup();
             if (index == 3)
+            {
                 PickupCorrectAns.instance.ISSHOWFULL = true;
+                int curIndexUnit = SaveLoadData.LoadDataStage(indexStage);
+                if (curIndexUnit <= indexUnit)
+                {
+                    SaveLoadData.SaveDataStage(indexStage, indexUnit + 1);
+                    PlayerPrefs.SetInt("ConditionToOpenMode1", indexUnit);
+                    if (PlayerPrefs.GetInt("ConditionToOpenMode1") >= 4)
+                    {
+                        if (StageManager.instance._stageList[1].prevent != null) StageManager.instance._stageList[1].prevent.SetActive(false);
+                    }
+                }
+            }
             PickupCorrectAns.instance.ISCORRECT = true;
         }
     }
@@ -145,6 +157,11 @@ public class UnitMode2 : Unit
                 if (ButtonStageManager.instance != null && StageManager.instance != null)
                 {
                     StageManager.instance.NextLevel(unitStage, curStage);
+                }
+                PlayerPrefs.SetInt("ConditionToOpenMode1", curIndexUnit);
+                if (PlayerPrefs.GetInt("ConditionToOpenMode1") >= 4)
+                {
+                    if (StageManager.instance._stageList[1].prevent != null) StageManager.instance._stageList[1].prevent.SetActive(false);
                 }
             }
             else

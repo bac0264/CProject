@@ -26,6 +26,7 @@ public class StageManager : MonoBehaviour
             titles[0] = LevelDataManager.instance.GetStringFromDictionaryUI("Basic");
             titles[1] = LevelDataManager.instance.GetStringFromDictionaryUI("Challenge");
         }
+
     }
     public bool NextLevel(UnitStage cur, Stage curStage)
     {
@@ -59,6 +60,14 @@ public class StageManager : MonoBehaviour
             FireBaseEventManager.instance.NAME_MODE(titles[Stage.index]);
         }
         if (SoundManager.instance != null) SoundManager.instance.UI_effect_Pick();
+        if (Stage.index == 0)
+        {
+
+            if(PlayerPrefs.GetInt("ConditionToOpenMode1") < 4)
+            {
+                return;
+            }
+        }
         imageOfUnitStageManager.enabled = true;
         curStage = Stage;
         Stage.LoadUnit();

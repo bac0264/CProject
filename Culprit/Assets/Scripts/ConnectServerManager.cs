@@ -17,28 +17,65 @@ public class ConnectServerManager : MonoBehaviour
 
     public void GetDataFromServer()
     {
+        Debug.Log("ios server");
         StartCoroutine(LevelLanguageConnectServer());
         StartCoroutine(UILanguageConnectServer());
     }
     public void SetupForTheFirst()
-    {
+    {     
         var dataQues = CSVReader.Read(backupLevelEnglish);
         var dataQues_2 = CSVReader.Read(backupUIEnglish);
+        Debug.Log("ios run 1 the first");
         PlayerPrefs.SetInt(KeySave.LANGUAGE, 1);
         if (Application.systemLanguage == SystemLanguage.Vietnamese)
         {
             dataQues = CSVReader.Read(backupLevelVietnamese);
             dataQues_2 = CSVReader.Read(backupUIVietnamese);
             PlayerPrefs.SetInt(KeySave.LANGUAGE, 0);
+            Debug.Log("ios run 2 the first");
         }
         else if(Application.systemLanguage == SystemLanguage.English)
         {
             dataQues = CSVReader.Read(backupLevelEnglish);
             dataQues_2 = CSVReader.Read(backupUIEnglish);
             PlayerPrefs.SetInt(KeySave.LANGUAGE, 1);
+            Debug.Log("ios run 3 the first");
         }
         else
         {
+            dataQues = CSVReader.Read(backupLevelEnglish);
+            dataQues_2 = CSVReader.Read(backupUIEnglish);
+            PlayerPrefs.SetInt(KeySave.LANGUAGE, 1);
+            Debug.Log("ios run 4 the first");
+        }
+        Debug.Log("ios dataquest: " + dataQues);
+        Debug.Log("ios dataquest: " + backupUIEnglish);
+        LevelDataManager.instance.levelData.LoadLevelData(dataQues);
+        LevelDataManager.instance.languageUIContainer.LoadUIData(dataQues_2);
+        LevelDataManager.instance.UpdateAllTextUI();
+        Debug.Log("ios run 5 the first");
+    }
+    public void SetupIOS()
+    {
+        var dataQues = CSVReader.Read(backupLevelEnglish);
+        var dataQues_2 = CSVReader.Read(backupUIEnglish);
+        if (PlayerPrefs.GetInt(KeySave.LANGUAGE, 1) == 1)
+        {
+            Debug.Log("ios run 1");
+            dataQues = CSVReader.Read(backupLevelEnglish);
+            dataQues_2 = CSVReader.Read(backupUIEnglish);
+        }
+        else if (PlayerPrefs.GetInt(KeySave.LANGUAGE, 1) == 0)
+        {
+            Debug.Log("ios run 2 ");
+            dataQues = CSVReader.Read(backupLevelVietnamese);
+            dataQues_2 = CSVReader.Read(backupUIVietnamese);
+        }
+        else
+        {
+            dataQues = CSVReader.Read(backupLevelEnglish);
+            dataQues_2 = CSVReader.Read(backupUIEnglish);
+            Debug.Log("ios run 3");
         }
         LevelDataManager.instance.levelData.LoadLevelData(dataQues);
         LevelDataManager.instance.languageUIContainer.LoadUIData(dataQues_2);

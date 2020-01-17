@@ -51,6 +51,8 @@ public class ReplaceText
         if (data == null) return " ";
         data = data.Replace(';', ',');
         data = data.Replace('/', _x);
+        data = data.Replace("AAA", "-");
+        data = data.Replace("BBB", "'");
         return data;
     }
 }

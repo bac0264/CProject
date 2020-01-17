@@ -1,40 +1,37 @@
 {
-  "project_info": {
-    "project_number": "340411486560",
-    "firebase_url": "https://detective-mystery.firebaseio.com",
-    "project_id": "detective-mystery",
-    "storage_bucket": "detective-mystery.appspot.com"
-  },
   "client": [
     {
+      "services": {
+        "appinvite_service": {
+          "status": 1
+        }, 
+        "analytics_service": {
+          "status": 0
+        }
+      }, 
+      "oauth_client": [
+        {
+          "client_id": "914234219904-bnsrjpee7im709i3tbg8jvvr18765qfr.apps.googleusercontent.com"
+        }
+      ], 
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgbFq072eWCADe1CKGQGGvGJ-dYlIjDKs"
+        }
+      ], 
       "client_info": {
-        "mobilesdk_app_id": "1:340411486560:android:0eb4194fce9b3d8c53ce05",
+        "mobilesdk_app_id": "1:914234219904:ios:16cda0cd3987ceb4bdf565", 
         "android_client_info": {
           "package_name": "detective.mystery.whisper.death.com"
         }
-      },
-      "oauth_client": [
-        {
-          "client_id": "340411486560-vvrtcaka0osefopldcrrvvlvgihvk05e.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyATP0__7AQbmS9I2066uE4T8SyCEy5Veqk"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "340411486560-vvrtcaka0osefopldcrrvvlvgihvk05e.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
       }
     }
-  ],
-  "configuration_version": "1"
+  ], 
+  "configuration_version": "1", 
+  "project_info": {
+    "storage_bucket": "detective-mystery-2d365.appspot.com", 
+    "project_id": "detective-mystery-2d365", 
+    "firebase_url": "https://detective-mystery-2d365.firebaseio.com", 
+    "project_number": "914234219904"
+  }
 }
